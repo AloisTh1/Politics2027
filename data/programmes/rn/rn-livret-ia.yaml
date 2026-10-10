@@ -1,0 +1,35 @@
+doc: rn-livret-ia
+pages:
+  - {n: 1, summary: "Couverture : « Les enjeux de l'intelligence artificielle pour une France souveraine dans une Europe des nations »."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Présentation des députés auteurs (Alexandre Sabatou, Aurélien Lopez-Liguori)."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Diagnostic : domination américaine et chinoise, Europe à 6 % des puces ; atouts français (nucléaire, ingénieurs, entreprises)."}
+  - {n: 6, summary: "Intercalaire de la partie I."}
+  - {n: 7, summary: "Pôles régionaux d'excellence en IA (modèle néerlandais)."}
+  - {n: 8, summary: "Zones franches technologiques, filière des semi-conducteurs, guichet unique « à l'image de Notre-Dame »."}
+  - {n: 9, summary: "Impôt sur la fortune financière au barème de l'IFI, modulé : taux plein sur les actifs extra-européens, demi-taux en France et en Europe, exonération des secteurs stratégiques."}
+  - {n: 10, summary: "Fonds souverain dont une partie dédiée à l'IA."}
+  - {n: 11, summary: "Priorité aux entreprises françaises puis européennes dans la commande publique ; blocage des investissements étrangers menaçant un intérêt stratégique."}
+  - {n: 12, summary: "Intercalaire de la partie II."}
+  - {n: 13, summary: "Charte mondiale de l'IA sous l'égide de l'ONU, abolition partielle de l'AI Act."}
+  - {n: 14, summary: "Dérogations au RGPD pour l'entraînement des modèles des entreprises européennes, sans consentement individuel sur les données publiques."}
+  - {n: 15, summary: "Page de transition (sans contenu propre)."}
+  - {n: 16, summary: "Intercalaire de la partie III."}
+  - {n: 17, summary: "Formation des adultes et des salariés, incitations fiscales pour l'équipement des PME (modèle finlandais)."}
+  - {n: 18, summary: "IA à l'école primaire (« exemple israélien »), au lycée et dans toutes les disciplines du supérieur."}
+  - {n: 19, summary: "Page de transition (sans contenu propre)."}
+  - {n: 20, summary: "Quatrième de couverture : adresse du groupe RN à l'Assemblée nationale."}
+
+measures:
+  - {id: RNIA-01, page: 7, themes: [entreprises-industrie, education], text: "Doter la France de pôles régionaux d'excellence en IA, basés sur les liens entre entreprises, universités et acteurs publics."}
+  - {id: RNIA-02, page: 8, themes: [entreprises-industrie, fiscalite], text: "Allier la valorisation de nos ressources naturelles, l'implantation de zones franches technologiques et l'allègement des formalités administratives pour réindustrialiser la France."}
+  - {id: RNIA-03, page: 9, themes: [fiscalite], text: "Le Rassemblement National (RN) propose de remplacer l'actuel Impôt sur la Fortune Immobilière (IFI) par un Impôt sur la Fortune Financière (IFF). Cette mesure inclut les actifs financiers dans l'assiette taxable et exclut la résidence principale et les actifs professionnels. Son barème serait le même que celui de l'actuel IFI.", detail: "Modulation : taux maximal sur les actifs d'entreprises extra-européennes, taux réduit de 50 % en France et en Europe, exonération totale des secteurs stratégiques."}
+  - {id: RNIA-04, page: 11, themes: [entreprises-industrie, europe-international], text: "Permettre à l'Etat de bloquer tout investissement étranger, tout rachat d'entreprise française dès lors qu'il menace un intérêt stratégique du pays."}
+  - {id: RNIA-05, page: 13, themes: [europe-international, libertes-laicite], text: "Mettre en place une Charte mondiale sur l'IA instaurant un juste équilibre entre innovation et régulation. Abolir partiellement l'IA Act."}
+  - {id: RNIA-06, page: 14, themes: [libertes-laicite, entreprises-industrie], text: "Mettre en place, pour les entreprises d'IA européennes, un régime dérogatoire pour l'entraînement des modèles, avec des garanties adaptées plutôt qu'une application stricte du RGPD. […] Autoriser pour les entreprises européennes l'entraînement des modèles sur des bases de données publiques ou accessibles librement, sans obligation de recueillir un consentement individuel."}
+  - {id: RNIA-07, page: 17, themes: [travail, education], text: "Création de modules spécifiques pour les salariés, avec un accompagnement des entreprises pour la montée en compétences et la reconversion des métiers menacés par l'automatisation."}
+  - {id: RNIA-08, page: 18, themes: [education], text: "Dès l'école primaire, introduction de cours d'une sensibilisation au numérique et à l'IA (exemple israélien)"}
+
+claims:
+  - {page: 14, text: "Le RGPD, dans sa version actuelle, impose des contraintes excessives […] telles que l'obligation de consentement explicite pour l'utilisation des données personnelles ou encore le principe de minimisation des données."}

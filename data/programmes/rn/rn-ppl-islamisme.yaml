@@ -1,0 +1,48 @@
+doc: rn-ppl-islamisme
+# Proposition de loi « visant à combattre les idéologies islamistes » (Marine Le Pen et les parlementaires RN,
+# janvier 2021), mise en avant dans la mesure 2 des « 22 mesures » et dans le programme de 2024 (p. 11).
+pages:
+  - {n: 1, summary: "Couverture : « Proposition de loi — Combattre les idéologies islamistes »."}
+  - {n: 2, summary: "Introduction : contre-projet au projet de loi « séparatisme » de 2020 ; viser une « minorité » et non les musulmans ; caractérisation des idéologies islamistes."}
+  - {n: 3, summary: "Contenu : financement, fonction publique, entreprises, expulsions, dissolutions, fermeture de lieux de culte, tenues, inéligibilité, indignité nationale ; sommaire."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Intercalaire « Exposé des motifs »."}
+  - {n: 6, summary: "Exposé des motifs : offensive islamiste « orchestrée de pays étrangers » ; discours présidentiel du 2 octobre 2020."}
+  - {n: 7, summary: "Critique de la loi « confortant le respect des principes de la République » (avis du Conseil d'État) ; plan de la proposition."}
+  - {n: 8, summary: "Plan suite : fonction publique, entreprises, étrangers, dissolutions, tenues, élections, Code pénal, état d'urgence, délégation parlementaire."}
+  - {n: 9, summary: "Intercalaire « Proposition de loi »."}
+  - {n: 10, summary: "Article 1er : interdiction de la pratique, de la manifestation et de la diffusion publique des « idéologies islamistes », définies par six critères."}
+  - {n: 11, summary: "Articles 2 à 4 : obligation d'agir des autorités, refus d'avantages, interdiction des écrits et supports."}
+  - {n: 12, summary: "Articles 5 à 7 : interdiction de financement (gel des avoirs), refus d'accès ou révocation dans la fonction publique, expulsion des étrangers « quels que soient les éléments de [leur] situation personnelle ou familiale »."}
+  - {n: 13, summary: "Articles 8 à 11 : dissolution des groupements, interdiction de rassemblements même préventive, interdiction des « signes ou tenues » dans l'espace public, noms des espaces publics."}
+  - {n: 14, summary: "Article 12 : enseignement des « sentiments patriotiques », contrôle des manuels ; article 13 : aspect extérieur des lieux de culte."}
+  - {n: 15, summary: "Article 13 (suite) ; article 14 : suspension possible par le Gouvernement d'un service audiovisuel jusqu'à trois mois."}
+  - {n: 16, summary: "Articles 15 à 18 : refus de visa d'exploitation des films, publications pour la jeunesse, interdiction de la presse en langue étrangère, retrait d'ouvrages des bibliothèques publiques."}
+  - {n: 17, summary: "Article 19 : enseignes et œuvres dans l'espace public ; article 20 : suspension et révocation des agents publics."}
+  - {n: 18, summary: "Article 20 (suite) : interdiction des signes religieux ou politiques ostensibles pour les agents et salariés chargés d'une mission de service public, et pour les collaborateurs occasionnels."}
+  - {n: 19, summary: "Article 21 : licenciement pour faute grave des salariés du privé ; articles 22-23 : dissolutions administrative et judiciaire."}
+  - {n: 20, summary: "Article 24 : inéligibilité et démission d'office des élus concernés."}
+  - {n: 21, summary: "Article 25 : élections professionnelles et syndicales ; article 26 : retrait de la nationalité acquise."}
+  - {n: 22, summary: "Articles 27-28 : expulsions et interdiction de séjour de cinq ans ; interdiction d'entrée des ressortissants d'États hostiles sauf preuve de non-solidarité."}
+  - {n: 23, summary: "Articles 29-30 : peine d'indignité nationale (privation du droit de vote, interdiction de s'exprimer publiquement), circonstance aggravante."}
+  - {n: 24, summary: "Article 30 (suite) : quantum des peines relevé, sursis exclu, période de sûreté de plein droit."}
+  - {n: 25, summary: "Articles 31-32 : discriminations inspirées par ces idéologies, rôle du Haut Conseil à l'égalité, associations parties civiles."}
+  - {n: 26, summary: "Article 33 : mesures de l'état d'urgence applicables localement ; article 34 : recours des électeurs et contribuables."}
+  - {n: 27, summary: "Article 35 : substitution du préfet aux collectivités ; article 36 : délégation parlementaire."}
+  - {n: 28, summary: "Article 36 (suite) : composition et pouvoirs de la délégation."}
+  - {n: 29, summary: "Article 36 (fin) ; article 37 : pétitions locales."}
+  - {n: 30, summary: "Article 38 : fermeture de tout lieu recevant du public, y compris de culte ; article 39 : application."}
+  - {n: 31, summary: "Page sans texte propre."}
+  - {n: 32, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNPPL-01, page: 10, themes: [libertes-laicite, securite-justice], text: "Sont interdites sur tout le territoire de la République ou à destination de ce dernier, sous toute forme et par quelque moyen que ce soit, la pratique, la manifestation ainsi que la diffusion publique des idéologies islamistes"}
+  - {id: RNPPL-02, page: 12, themes: [immigration, libertes-laicite], text: "Tout étranger qui, de façon habituelle, manifeste ou diffuse des idéologies visées à l'article 1er peut, pour ce seul motif, et, quels que soient les éléments de sa situation personnelle ou familiale, faire l'objet d'une décision d'expulsion du territoire national"}
+  - {id: RNPPL-03, page: 13, themes: [libertes-laicite, feminisme], text: "Sont interdits, dans l'espace public, les signes ou tenues constituant par eux-mêmes une affirmation sans équivoque et ostentatoire des idéologies visées à l'article 1er."}
+  - {id: RNPPL-04, page: 16, themes: [libertes-laicite], text: "Aucun ouvrage écrit, ni aucun support enregistré […] témoignant d'une quelconque complaisance dans son évocation, ne peut être présenté aux usagers de bibliothèques […] Il est procédé, sans délai, à la mise en conformité des fonds de ces bibliothèques"}
+  - {id: RNPPL-05, page: 18, themes: [libertes-laicite, services-publics, feminisme], text: "Est interdit à tout agent public ou tout salarié d'une personne morale exerçant une mission de service public le port de signes ou tenues de nature à manifester ostensiblement une conviction religieuse ou politique. […] applicables […] aux collaborateurs occasionnels du service public."}
+  - {id: RNPPL-06, page: 19, themes: [travail, libertes-laicite], text: "Le salarié de droit privé dont il apparaît qu'il a, de manière habituelle, manifesté ou diffusé des idéologies visées à l'article 1er […] peut faire l'objet, pour ce seul motif, d'une mesure de mise à pied immédiate, et, de licenciement pour faute grave."}
+  - {id: RNPPL-07, page: 20, themes: [institutions, libertes-laicite], text: "Nul ne peut être candidat à une quelconque élection […] s'il a, de manière habituelle, manifesté ou diffusé des idéologies visées à l'article 1er"}
+  - {id: RNPPL-08, page: 21, themes: [immigration, libertes-laicite], text: "la personne qui a acquis la qualité de Français peut se voir retirer la nationalité française par décret dès lors qu'elle aura, de façon habituelle, manifesté ou diffusé des idéologies visées à l'article 1er."}
+  - {id: RNPPL-09, page: 23, themes: [securite-justice, libertes-laicite], text: "la peine complémentaire d'indignité nationale […] emporte […] 1° La privation du droit de vote et d'éligibilité ; 2° L'interdiction d'adhérer à une association ; 3° L'interdiction d'assister à une réunion publique ou de s'exprimer publiquement par quelque moyen que ce soit"}
+  - {id: RNPPL-10, page: 30, themes: [libertes-laicite], text: "le ministre chargé de l'intérieur ou le représentant de l'État […] peut ordonner la fermeture sans délai, définitive ou pour un temps limité, de tout lieu recevant du public, y compris tout lieu de culte"}

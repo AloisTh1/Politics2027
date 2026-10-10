@@ -1,0 +1,39 @@
+doc: rn-europeennes-2024
+pages:
+  - {n: 1, summary: "Couverture : « Élections européennes du 9 juin 2024 — Notre projet pour une Europe des nations »."}
+  - {n: 2, summary: "Éditorial de Marine Le Pen et Jordan Bardella : « Europe des nations », protéger, produire, respecter la voix des peuples."}
+  - {n: 3, summary: "« Stratégie tricolore » : coopérations soutenues (IA, Erasmus), acceptables sous conditions (Schengen, Frontex, marché unique avec priorité nationale), refusées (défense européenne, élargissement)."}
+  - {n: 4, summary: "Bilan des députés RN 2019-2024 au Parlement européen : opposition au pacte migratoire, au Pacte vert, à la fin des moteurs thermiques en 2035."}
+  - {n: 5, summary: "L'Europe qui protège : moratoire sur les accords de libre-échange, taxe carbone aux frontières sur les produits finis, fin du travail détaché, refus de l'élargissement (Balkans, Turquie, Ukraine) ; double frontière, asile en ambassade, référendum sur la primauté de la Constitution."}
+  - {n: 6, summary: "L'Europe qui produit : contre le Pacte vert, abrogation de la fin du thermique en 2035, des directives CSRD et devoir de vigilance ; facture d'électricité « -30 à 40 % » ; priorité nationale dans les marchés publics ; BCE et chômage."}
+  - {n: 7, summary: "L'Europe qui respecte : baisse de la contribution nette à l'UE pour financer la TVA à 5,5 % sur l'énergie, refus d'impôts européens et de nouveaux emprunts communs, Commission transformée en secrétariat du Conseil, unanimité étendue au commerce."}
+  - {n: 8, summary: "Climat (dérèglement reconnu, juste-échange, nucléaire, forêts) et guerre (« la Russie viole le droit international », préférence européenne en armement)."}
+  - {n: 9, summary: "Intelligence artificielle : cloud souverain européen, PIIEC, règles de concurrence assouplies."}
+  - {n: 10, summary: "Appel au vote du 9 juin."}
+
+measures:
+  - {id: RNEU-01, page: 5, themes: [europe-international, agriculture], text: "Instaurer un moratoire sur la négociation de nouveaux accords de libre-échange par l'UE."}
+  - {id: RNEU-02, page: 5, themes: [europe-international, ecologie], text: "Mettre en place une véritable taxe carbone aux frontières européennes, instrument de protectionnisme intelligent en taxant les produits finis et semi-finis, plutôt que les matières premières comme imposé par l'UE."}
+  - {id: RNEU-03, page: 5, themes: [travail, europe-international], text: "Mettre fin aux règles injustes du travail détaché"}
+  - {id: RNEU-04, page: 5, themes: [europe-international, agriculture], text: "Refuser l'élargissement de l'UE aux Balkans, à la Turquie et à l'Ukraine, qui ruinerait notre agriculture et exercerait une pression à la baisse sur le salaire des Français."}
+  - {id: RNEU-05, page: 5, themes: [immigration, europe-international], text: "Restreindre la libre-circulation de l'Espace Schengen aux seuls ressortissants des pays membres."}
+  - {id: RNEU-06, page: 5, themes: [immigration, libertes-laicite], text: "Supprimer les subventions publiques aux ONG pro-migrants et lutter contre les trafics d'êtres humains, judiciariser l'aide à l'immigration illégale"}
+  - {id: RNEU-07, page: 5, themes: [immigration, europe-international], text: "Conditionner les aides au développement versées à des États tiers : maintien des populations dans leur pays d'origine, lutte contre les passeurs, reprise effective de leurs ressortissants expulsés."}
+  - {id: RNEU-08, page: 5, themes: [institutions, immigration, europe-international], text: "Organiser un référendum en France pour réaffirmer la primauté de la Constitution française sur les décisions des juges européens en matière d'immigration."}
+  - {id: RNEU-09, page: 6, themes: [ecologie, europe-international], text: "Défendre les automobilistes et notre industrie, en abrogeant les normes européennes absurdes comme l'interdiction de la vente des voitures à moteur thermique en 2035"}
+  - {id: RNEU-10, page: 6, themes: [entreprises-industrie, ecologie], text: "Décréter une pause réglementaire et engager le chantier de la simplification : tests PME obligatoires, abrogation des directives CSRD et devoir de vigilance..."}
+  - {id: RNEU-11, page: 6, themes: [energie, classes-populaires, europe-international], text: "Baisser de 30 à 40% la facture d'électricité en rétablissant un prix français de l'électricité, par la fin des règles absurdes du marché européen de l'énergie."}
+  - {id: RNEU-12, page: 6, themes: [energie, europe-international], text: "nous nous opposons notamment à la libéralisation des concessions de nos barrages hydroélectriques et au développement des énergies intermittentes (éoliennes) imposés par l'UE."}
+  - {id: RNEU-13, page: 6, themes: [entreprises-industrie, europe-international], text: "Autoriser la priorité nationale dans les marchés publics pour défendre nos emplois et l'environnement, de même que la préférence communautaire avec un accord-cadre « Acheter français ou européen »."}
+  - {id: RNEU-14, page: 7, themes: [europe-international, finances-publiques, energie], text: "Baisser la contribution française nette (surplus) versée à l'UE pour participer au financement de la baisse de la TVA de 20 à 5,5% sur les énergies : électricité, gaz, fioul et carburants."}
+  - {id: RNEU-15, page: 7, themes: [europe-international, fiscalite], text: "Refuser tout impôt prélevé par l'Union européenne"}
+  - {id: RNEU-16, page: 7, themes: [europe-international, finances-publiques], text: "Arrêter les nouvelles souscriptions d'emprunts réalisées par la Commission européenne"}
+  - {id: RNEU-17, page: 7, themes: [europe-international, institutions], text: "Transformer la Commission en un Secrétariat général du Conseil sans pouvoir décisionnaire ni initiative législative."}
+  - {id: RNEU-18, page: 7, themes: [europe-international, institutions], text: "Garantir le droit de veto des États (règle de l'unanimité) et l'élargir à la compétence du commerce."}
+  - {id: RNEU-19, page: 8, themes: [europe-international], text: "Favoriser et privilégier l'acquisition d'équipements et d'armements européens."}
+  - {id: RNEU-20, page: 9, themes: [entreprises-industrie, europe-international], text: "Défendre la constitution d'un cloud souverain européen, et non d'un simple « cloud de confiance »"}
+
+claims:
+  - {page: 7, text: "Entre 2017 et 2027, la contribution française au budget de l'UE a augmenté de 73,7%. Chaque année d'ici 2027, les Français versent en moyenne 27 milliards d'euros de leurs impôts à l'Union européenne, dont près de 10 milliards d'euros en perte sèche"}
+  - {page: 8, text: "Aux portes orientales de l'Europe, la Russie viole le droit international et provoque une révision de l'ordre international."}
+  - {page: 6, text: "Baisser de 30 à 40% la facture d'électricité en rétablissant un prix français de l'électricité"}

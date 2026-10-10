@@ -1,0 +1,68 @@
+doc: rn-livret-entreprise
+# « La France entreprend — Projet de Marine Le Pen » (septembre 2024). Le livret se présente lui-même
+# comme « la version 2022 du programme présidentiel de Marine Le Pen mis à jour [qui] servira de base
+# de travail en vue des prochaines échéances électorales nationales » (p. 2).
+pages:
+  - {n: 1, summary: "Couverture : « Projet de Marine Le Pen »."}
+  - {n: 2, summary: "« Ce livret est la version 2022 du programme présidentiel de Marine Le Pen mis à jour et servira de base de travail en vue des prochaines échéances électorales nationales. »"}
+  - {n: 3, summary: "Agenda économique « 3P » : produire, protéger, permettre."}
+  - {n: 4, summary: "Intercalaire : discours de Marine Le Pen à la REF du Medef, 22 février 2022."}
+  - {n: 5, summary: "Intercalaire « Préambule »."}
+  - {n: 6, summary: "Vision « ni libérale ni socialiste » ; bilan Macron : industrie à 9 % du PIB, productivité -3 %, déficit commercial de 164 Md€, 400 000 normes, prélèvements à 46 % du PIB."}
+  - {n: 7, summary: "Objectif : croissance structurelle élevée et comptes publics assainis."}
+  - {n: 8, summary: "Intercalaire de la partie 1 : économie de production et productivité."}
+  - {n: 9, summary: "Causes du recul de productivité (école, formation, recherche, emplois peu productifs, normes) ; « paradis énergétique »."}
+  - {n: 10, summary: "EDF réunifiée avec RTE et Enedis, prix de l'électricité baissé « immédiatement » de 30 % ; plan Marie Curie (20 EPR2 d'ici 2045, SMR) ; abandon de l'éolien ; industrie à 20 % du PIB en 2045-2050 ; hydrogène ; suppression de la CFE."}
+  - {n: 11, summary: "Impôts de production ramenés à la moyenne européenne dès le premier quinquennat."}
+  - {n: 12, summary: "École et apprentissage (chèque de 5 700 € ou 8 000 €), assises de la formation professionnelle ; fonds souverain garanti en capital."}
+  - {n: 13, summary: "Suramortissement robotique élargi aux ETI ; simplification des normes soumise au Parlement ; délai de carence de 5 ans pour tous les seuils sociaux ; recherche."}
+  - {n: 14, summary: "Crédit d'impôt recherche pérennisé ; suppression des « dispositions dogmatiques » de la Charte de l'environnement ; plan pour les laboratoires."}
+  - {n: 15, summary: "Intercalaire de la partie 2 : enraciner l'économie."}
+  - {n: 16, summary: "Exonération d'impôt sur le revenu avant 30 ans ; IFI remplacé par un impôt sur la fortune financière (résidence principale, biens professionnels et œuvres d'art exclus)."}
+  - {n: 17, summary: "Priorité nationale dans la commande publique ; exonération d'IS pour les entreprises de moins de 30 ans ; transmissions d'entreprises défiscalisées."}
+  - {n: 18, summary: "Citation de Marine Le Pen sur le patriotisme économique."}
+  - {n: 19, summary: "« Marque France » : luxe, patrimoine, tourisme haut de gamme."}
+  - {n: 20, summary: "Intercalaire de la partie 3 : la valeur travail."}
+  - {n: 21, summary: "Hausse de salaire de 10 % exonérée de cotisations patronales pendant 3 à 5 ans (économie de 2 100 € pour un salarié à 24 000 € nets, 1 600 € au SMIC), maintien de la prime d'activité ; complément de revenu pour les étudiants salariés."}
+  - {n: 22, summary: "Interdiction des minima de branche inférieurs au SMIC ; priorité nationale « à compétence égale, pour l'ensemble des postes à pourvoir en France » ; 35 heures strictement appliquées dans la fonction publique ; priorité nationale au logement social."}
+  - {n: 23, summary: "Conférence sociale sur les accidents du travail ; candidatures syndicales libres ; retraites : âge et durée indexés sur l'âge d'entrée dans l'emploi stable, 62 ans et 168 trimestres pour une entrée à 25 ans, 60 ans et 160 trimestres pour les carrières longues."}
+  - {n: 24, summary: "Intercalaire de la partie 4 : l'État au service de la prospérité."}
+  - {n: 25, summary: "Suppression d'une large partie des agences ; prélèvements obligatoires ramenés de 46 à 40 % du PIB « à moyen terme » (un tiers des économies au déficit, un tiers aux ménages, un tiers aux entreprises) ; priorité nationale dans les prestations ; postes administratifs réduits."}
+  - {n: 26, summary: "Sécurité et attractivité ; ministère de la lutte contre les fraudes ; contrôle des importations ; aménagement du territoire."}
+  - {n: 27, summary: "Exonération de C3S dans des territoires ciblés ; investissements dans le numérique et les transports ; outre-mer ; taxe de 33 % sur les profits exceptionnels en cas de crise."}
+  - {n: 28, summary: "Défiscalisation outre-mer pérennisée et évaluée."}
+  - {n: 29, summary: "Contrôle des investissements étrangers, lutte contre l'extraterritorialité ; Commission européenne remplacée par un secrétariat général ; « exception agriculturelle »."}
+  - {n: 30, summary: "Mandat de la BCE (plein emploi, productivité) ; impôt minimal mondial sur les sociétés porté de 15 à 25 %."}
+  - {n: 31, summary: "Intercalaire « Annexes »."}
+  - {n: 32, summary: "Annexes 1-2 : part de l'industrie dans le PIB (Banque mondiale), productivité horaire (OCDE)."}
+  - {n: 33, summary: "Annexes 3-4 : dette publique (Insee), impôts de production."}
+  - {n: 34, summary: "Annexe 5 : la réforme des retraites de Marine Le Pen (proposition de loi n° 1212, XVIe législature)."}
+  - {n: 35, summary: "Quatrième de couverture : adresse du groupe RN à l'Assemblée nationale."}
+
+measures:
+  - {id: RNENT-01, page: 10, themes: [energie, classes-populaires, entreprises-industrie], text: "EDF sera reformée comme une entité unique de production et de distribution d'électricité en réintégrant RTE et Enedis. Nous baisserons immédiatement le prix de l'électricité de 30 %, en alignant les prix facturés sur les coûts réels de production du parc électrique financé par les Français."}
+  - {id: RNENT-02, page: 10, themes: [energie], text: "Ce plan prévoit notamment la prolongation des réacteurs actuels et leur optimisation (« power up »), le développement de 20 EPR2 d'ici 2045, ainsi que le lancement sans délai d'une filière de SMR et de réacteurs de 4e génération."}
+  - {id: RNENT-03, page: 10, themes: [energie, ecologie], text: "Le développement de l'énergie éolienne sera abandonné. Les parcs actuels iront à leur terme dans des conditions commerciales identiques à l'électricité nucléaire et hydraulique. Certains parcs mettant en cause le patrimoine naturel ou historique seront démantelés. Le développement de l'énergie solaire sera limité aux zones géographiques pertinentes"}
+  - {id: RNENT-04, page: 10, themes: [entreprises-industrie], text: "Le parc électrogène français sera dimensionné pour atteindre une industrie manufacturière revenue à 20 % du PIB entre 2045 et 2050."}
+  - {id: RNENT-05, page: 11, themes: [entreprises-industrie, fiscalite], text: "Notre objectif consistera à ramener les impôts de production au niveau moyen européen, dès le premier quinquennat de Marine Le Pen."}
+  - {id: RNENT-06, page: 12, themes: [entreprises-industrie, finances-publiques], text: "L'État proposera un rendement minimum aux souscripteurs, ainsi qu'une garantie en capital [du fonds souverain]."}
+  - {id: RNENT-07, page: 13, themes: [entreprises-industrie, travail], text: "les contraintes réglementaires liées au franchissement d'un seuil (nombre de salariés, chiffre d'affaires) seront désormais toutes soumises à un délai de carence de 5 ans."}
+  - {id: RNENT-08, page: 14, themes: [ecologie, institutions], text: "Nous supprimerons les dispositions dogmatiques de la Charte de l'environnement, reverrons certaines législations limitant la recherche fondamentale dans le respect de nos valeurs"}
+  - {id: RNENT-09, page: 16, themes: [fiscalite], text: "Pour financer des politiques fondamentales pour notre pays, dont notamment la politique familiale, nous rétablirons une contribution assise sur le patrimoine financier. […] la résidence principale ou unique sera exclue de son assiette, tout comme les biens professionnels ou les œuvres d'art acquises depuis au moins dix ans."}
+  - {id: RNENT-10, page: 17, themes: [entreprises-industrie, immigration], text: "La localisation de l'activité d'une entreprise sur le territoire national devra être retenue parmi les critères de sélection pour toute commande passée par l'État, les collectivités locales ou les hôpitaux."}
+  - {id: RNENT-11, page: 21, themes: [travail, classes-populaires], text: "Permettre aux entreprises d'augmenter les salaires de 10 % en les exonérant de l'augmentation des cotisations sociales pendant trois à cinq ans […] les salariés touchant des dispositifs de soutien aux bas salaires, dont notamment la prime d'activité, en conserveront le bénéfice pendant la durée de l'exonération", detail: "Exemple chiffré : « pour un salarié à 24 000 € nets annuels, l'entreprise réalisera une économie de 2 100 € de cotisations patronales ; pour un salarié au SMIC, 1 600 € »."}
+  - {id: RNENT-12, page: 22, themes: [travail, classes-populaires], text: "La fixation de salaires minimum par branche inférieurs au SMIC sera interdite."}
+  - {id: RNENT-13, page: 22, themes: [immigration, travail], text: "Appliquer la priorité nationale, à compétence égale, pour l'ensemble des postes à pourvoir en France […] Il sera nécessaire d'inscrire la nationalité parmi les critères de choix d'un candidat"}
+  - {id: RNENT-14, page: 22, themes: [services-publics, travail], text: "les 35 heures hebdomadaires seront strictement appliquées dans la fonction publique concernée par ce cadre horaire"}
+  - {id: RNENT-15, page: 23, themes: [travail], text: "la création de nouveaux syndicats sera facilitée et les candidatures libres autorisées. Les syndicats seront également soumis aux règles et aux modalités de contrôle financier qui s'appliquent aujourd'hui aux partis politiques."}
+  - {id: RNENT-16, page: 23, themes: [retraites, travail], text: "notre réforme indexera les deux paramètres de notre système de retraite (âge d'ouverture des droits et durée de cotisation) sur l'âge d'entrée dans un emploi stable. Les deux paramètres augmenteront ensuite progressivement, pour atteindre 62 ans et 168 trimestres à partir d'une entrée sur le marché du travail à 25 ans", detail: "Encadré : « Les salariés ayant commencé à travailler avant 20 ans […] pourront partir à la retraite à 60 ans avec 160 trimestres cotisés. »"}
+  - {id: RNENT-17, page: 25, themes: [finances-publiques, fiscalite], text: "Le programme du Rassemblement national prévoit un grand plan de réduction de la dépense publique afin de faire baisser le taux de prélèvements obligatoires de 46 à 40 % du PIB à moyen terme. […] un tiers des économies ira à la réduction des déficits, un tiers aux baisses d'impôts pour les ménages, un tiers aux baisses des prélèvements sur les entreprises."}
+  - {id: RNENT-18, page: 25, themes: [immigration, classes-populaires, famille], text: "Les prestations familiales seront réservées aux familles dont au moins un parent est français, et les prestations non contributives (comme le RSA) seront conditionnées à l'exercice d'une activité à temps plein pendant cinq ans."}
+  - {id: RNENT-19, page: 25, themes: [services-publics, education, sante], text: "Dans le domaine de l'éducation nationale, l'objectif de court terme sera de passer, dans un premier temps, de 23 % à 18 % de personnels non enseignants."}
+  - {id: RNENT-20, page: 27, themes: [fiscalite, entreprises-industrie], text: "l'État pourra décider de taxer à 33 % les profits exorbitants dégagés dans de telles circonstances [de crise]"}
+  - {id: RNENT-21, page: 30, themes: [fiscalite, europe-international], text: "nous plaiderons pour que le taux minimal d'impôt sur les sociétés passe de 15 % à 25 %."}
+
+claims:
+  - {page: 6, text: "La part de valeur ajoutée industrielle de la France est aujourd'hui à un plus bas historique, à 9 % du PIB"}
+  - {page: 6, text: "Entre 2017 et 2022, la productivité française a baissé de 3%, quand dans le même temps celle de l'OCDE augmentait de 5%"}
+  - {page: 23, text: "les augmentations successives de l'âge légal et de la durée de cotisation se sont traduites par des pertes sociales et fiscales pour l'État, 5 milliards d'euros pour la seule réforme Fillon (passage de l'âge légal de 60 à 62 ans)."}
