@@ -1668,6 +1668,58 @@
   ],
   "retrieved_at": "2026-10-10T08:30:24+00:00"
  },
+ "lfi-nfp-2024": {
+  "files": [
+   {
+    "url": "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf",
+    "final_url": "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf",
+    "path": "sources/raw/lfi-nfp-2024/PROGRAMME-FRONT-POPULAIRE.pdf",
+    "bytes": 199854,
+    "sha256": "e6dd6fbd6c4315fbee86c2fcf4d7d008dfd2783d5a5ec1052fd0240c217a6cd3",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:52:50+00:00"
+ },
+ "lfi-plan-btp-logement": {
+  "files": [
+   {
+    "url": "https://melenchon2027.fr/wp-content/uploads/2026/09/M-27-PLAN-BTP-LOGEMENT.pdf",
+    "final_url": "https://melenchon2027.fr/wp-content/uploads/2026/09/M-27-PLAN-BTP-LOGEMENT.pdf",
+    "path": "sources/raw/lfi-plan-btp-logement/M-27-PLAN-BTP-LOGEMENT.pdf",
+    "bytes": 23550511,
+    "sha256": "39c0f0e8207a9aebc966cdfa9cbac99ed6e0217c987e13f59c24798474fd7874",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:52:50+00:00"
+ },
+ "lfi-plan-ruralite": {
+  "files": [
+   {
+    "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf",
+    "final_url": "https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf",
+    "path": "sources/raw/lfi-plan-ruralite/plan_RURALITE_web.pdf",
+    "bytes": 1481395,
+    "sha256": "5d386999f86677578f5432d9bb13e25bdaefacfff17b870597234ab230703beb",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:52:49+00:00"
+ },
+ "lfi-synthese-contributions": {
+  "files": [
+   {
+    "url": "https://melenchon2027.fr/synthese-des-contributions/",
+    "final_url": "https://melenchon2027.fr/synthese-des-contributions/",
+    "path": "sources/raw/lfi-synthese-contributions/synthese-des-contributions",
+    "bytes": 810069,
+    "sha256": "f6cc3bc82696ece4c931381458a167d559bf5262a442de5dda01a4b127a6c863",
+    "content_type": "text/html; charset=UTF-8"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:53:55+00:00"
+ },
  "rn-22-mesures": {
   "files": [
    {

@@ -1,0 +1,208 @@
+doc: lfi-plan-btp-logement
+pages:
+- n: 1
+  summary: 'Couverture : « Plan d''investissement productif BTP/Logement, édition 2027 ».'
+- n: 2
+  summary: Page sans texte.
+- n: 3
+  summary: 'Sommaire : bilan, besoins et objectifs, investissements, mesures de L''Avenir en commun.'
+- n: 4
+  summary: 'Présentation des plans d''investissement : investissement public net < 0,5 % du PIB, rôle du pôle public bancaire.'
+- n: 5
+  summary: 'Bilan : 350 000 sans-domicile, 2,8 millions de ménages en attente d''un logement social, 24 556 expulsions en 2024, 3 millions de logements vacants.'
+- n: 6
+  summary: Critique du « dispositif Jeanbrun » ; prix immobiliers deux fois plus rapides que les salaires ; 3 millions de passoires, MaPrimeRénov'.
+- n: 7
+  summary: Le logement pèse 15 % des émissions ; refus de tout recul sur les normes.
+- n: 8
+  summary: 'Objectif : 400 000 logements abordables par an dont 200 000 publics (140 000 PLAI) ; 150 000 par mobilisation du parc existant.'
+- n: 9
+  summary: Logements seniors, jeunes, urgence ; loi SRU durcie ; accession non spéculative (bail réel solidaire, pôle public bancaire).
+- n: 10
+  summary: Matériaux biosourcés (50 % de la commande publique en 2032) ; 700 000 isolations par an, aide de 100 % pour les plus modestes.
+- n: 11
+  summary: Rénovation des bâtiments publics, associatifs et tertiaires.
+- n: 12
+  summary: 'Canicules : plan d''urgence dès 2027, droit opposable au confort thermique ; sortie du chauffage fossile.'
+- n: 13
+  summary: 400 000 chaudières fioul et 350 000 chaudières gaz remplacées par an ; déchets du BTP.
+- n: 14
+  summary: Réemploi (+75 % par an), formation de 250 000 salariés d'ici 2030, budget du patrimoine doublé, foncier.
+- n: 15
+  summary: Maîtrise publique du foncier et encadrement de son prix.
+- n: 16
+  summary: 'Tableau des investissements supplémentaires : 12 Md€ par an pour l''État ; plus de 300 000 emplois annoncés.'
+- n: 17
+  summary: 'Mesures de L''Avenir en commun liées au plan (1/2) : 200 000 logements publics, permis de louer, SRU à 30 %, réquisitions.'
+- n: 18
+  summary: 'Mesures de L''Avenir en commun liées au plan (2/2) : Airbnb limités à 60 jours, plafond de cinq logements transmissibles par héritage, taxe foncière progressive.'
+- n: 19
+  summary: Page sans texte.
+- n: 20
+  summary: 'Quatrième de couverture : présentation des plans d''investissement productif.'
+measures:
+- id: LFIB-16
+  page: 8
+  themes:
+  - logement
+  - classes-populaires
+  text: Atteindre 400 000 nouveaux logements abordables par an dans les 5 prochaines années, dont 200 000 logements publics, par le biais d’une planification pluriannuelle et territorialisée
+  params:
+    logements_par_an: 400000
+    dont_publics: 200000
+    dont_tres_sociaux_PLAI: 140000
+- id: LFIB-17
+  page: 8
+  themes:
+  - logement
+  text: Plus de 35 % de ces logements seront créés par la mobilisation du parc existant (réquisition de logements vacants par la loi, renforcement de la taxation sur les logements vacants, changement d’usage, limitation des Airbnb, conventionnement de logements dans le parc ancien), soit 150 000 logements par an.
+- id: LFIB-18
+  page: 9
+  themes:
+  - logement
+  - famille
+  text: Nous prévoirons des logements adaptés aux séniors (40 000 par an), aux jeunes étudiant·es et jeunes actifs (30 000 par an) et des logements destinés à l’hébergement d’urgence (10 000 par an).
+- id: LFIB-19
+  page: 10
+  themes:
+  - logement
+  - classes-populaires
+  - ecologie
+  text: nous mettrons en place un dispositif d’appui public de 100 % du montant des travaux pour les plus modestes, puis dégressif en fonction du niveau de revenus, en excluant les multipropriétaires qui détiennent plus de 5 logements.
+- id: LFIB-20
+  page: 10
+  themes:
+  - ecologie
+  - entreprises-industrie
+  text: relèverons la part des rénovations lourdes ou constructions dans la commande publique faisant intervenir un matériau biosourcé ou géosourcé à 50 % d’ici 2032
+- id: LFIB-21
+  page: 12
+  themes:
+  - logement
+  - sante
+  text: Nous instaurerons également pour les locataires un droit opposable aux travaux en matière de confort thermique.
+- id: LFIB-22
+  page: 13
+  themes:
+  - energie
+  - logement
+  text: Nous viserons le remplacement de 400 000 chaudières au fioul par an (quatre fois plus qu’aujourd’hui) pour quasiment les faire disparaître en 2032, et de 350 000 chaudières à gaz par an
+- id: LFIB-23
+  page: 14
+  themes:
+  - travail
+  - entreprises-industrie
+  text: Nous nous fixerons comme priorité de structurer des filières de formation (initiale et continue) avec pour objectif la formation de 250 000 salarié·es d’ici 2030.
+- id: LFIB-24
+  page: 14
+  themes:
+  - services-publics
+  text: Nous nous donnerons l’objectif de doubler le nombre annuel de monuments dont l’état s’améliore, en multipliant par deux le budget public dédié.
+- id: LFIB-25
+  page: 16
+  themes:
+  - finances-publiques
+  - logement
+  text: 'Investissements supplémentaires du plan BTP/logement : 12 milliards d’euros par an pour l’État ; colonne « pôle public bancaire et autres acteurs » non totalisée dans le document (36,4 Md€ par an selon notre addition des lignes).'
+  montant:
+    etat_md_par_an: 12
+    autres_acteurs_md_par_an: 36.4
+    note: 36,4 = somme des lignes calculée par nous
+- id: LFIB-01
+  page: 17
+  themes:
+  - logement
+  text: Produire 200 000 logements publics par an et 30 000 logements jeunes pendant cinq ans aux normes écologiques les plus ambitieuses
+  aec: true
+- id: LFIB-02
+  page: 17
+  themes:
+  - logement
+  text: Refaire l’isolation d’au moins 700 000 logements par an
+  aec: true
+- id: LFIB-03
+  page: 17
+  themes:
+  - logement
+  - classes-populaires
+  - energie
+  text: 'Mettre fin aux situations de précarité énergétique : privilégier les rénovations complètes, interdire réellement la location des passoires thermiques, renforcer les programmes de détection des passoires énergétiques, cibler les aides à la rénovation en fonction des revenus des ménages'
+  aec: true
+- id: LFIB-04
+  page: 17
+  themes:
+  - logement
+  - energie
+  text: Conditionner l’obtention de labels écologiques à des résultats énergétiques concrets et vérifiés pour les bâtiments neufs comme pour les rénovations thermiques
+  aec: true
+- id: LFIB-05
+  page: 17
+  themes:
+  - logement
+  text: Mettre en place un « guichet unique » public pour les propriétaires devant faire une rénovation thermique
+  aec: true
+- id: LFIB-06
+  page: 17
+  themes:
+  - logement
+  text: Créer un droit opposable à la protection contre les fortes chaleurs obligeant les bailleurs à équiper les logements présentant des risques de surchauffe pour rendre le logement habitable (volets, stores, brasseurs d’air, films solaires…)
+  aec: true
+- id: LFIB-07
+  page: 17
+  themes:
+  - logement
+  - energie
+  text: Remplacer progressivement tous les chauffages au fioul et au gaz fossile par des systèmes n’émettant pas de gaz à effet de serre comme des pompes à chaleur
+  aec: true
+- id: LFIB-08
+  page: 17
+  themes:
+  - logement
+  text: 'Lutter contre l’habitat indigne, insalubre et les passoires thermiques : conditionner toute mise en location à l’obtention d’un permis de louer dans toute la France et lancer un grand plan de rénovation des logements'
+  aec: true
+- id: LFIB-09
+  page: 17
+  themes:
+  - logement
+  text: Encadrer les prix du foncier pour endiguer la spéculation immobilière
+  aec: true
+- id: LFIB-10
+  page: 17
+  themes:
+  - logement
+  text: Rehausser le seuil de logements sociaux dans les villes (loi SRU) à 30 %, le calculer par arrondissement pour les grandes métropoles, et aggraver les sanctions contre les communes hors la loi
+  aec: true
+- id: LFIB-11
+  page: 17
+  themes:
+  - logement
+  text: Utiliser la loi de réquisition des logements vides et les remettre sur le marché dans des conditions qui respectent les critères du logement décent
+  aec: true
+- id: LFIB-12
+  page: 17
+  themes:
+  - logement
+  - fiscalite
+  text: Augmenter le nombre de logements disponibles par une taxe unique sur les logements vacants, progressive selon le nombre de logements vacants détenus
+  aec: true
+- id: LFIB-13
+  page: 18
+  themes:
+  - logement
+  - fiscalite
+  text: Lutter contre la spéculation sur le logement en limitant les locations des meublés touristiques de type AirBnB à 60 jours par an, fixer un quota de locations touristiques dans les zones en tension, interdire la location de meublés touristiques dans l’hypercentre des grandes métropoles, et supprimer leur niche fiscale
+  aec: true
+- id: LFIB-14
+  page: 18
+  themes:
+  - logement
+  text: Limiter la concentration immobilière en instaurant un plafond de cinq logements transmissibles par héritage ; au-delà, les biens sont réquisitionnés par l’État et redistribués entre le parc social et des dispositifs d’accès à la propriété par des organismes de foncier solidaire
+  aec: true
+- id: LFIB-15
+  page: 18
+  themes:
+  - logement
+  - fiscalite
+  text: Refonder la taxe foncière pour la rendre progressive et que chacun paie à hauteur de son patrimoine total réel
+  aec: true
+claims: []

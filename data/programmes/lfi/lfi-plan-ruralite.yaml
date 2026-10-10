@@ -1,0 +1,585 @@
+doc: lfi-plan-ruralite
+pages:
+- n: 1
+  summary: Couverture (image sans texte extractible).
+- n: 2
+  summary: Page sans texte.
+- n: 3
+  summary: 'Sommaire : I. diagnostic (p. 4), II. stratégie (p. 8), III. mesures (p. 12-29).'
+- n: 4
+  summary: Intercalaire de la partie I.
+- n: 5
+  summary: '« 10 ans de macronisme » : réformes territoriales, baisse des dotations ; déserts médicaux (70 % des ruraux ont renoncé à consulter), logement.'
+- n: 6
+  summary: Étalement urbain, ~70 000 défaillances d'entreprises en 2025, 62 % des communes rurales sans commerce (2021), dépendance à la voiture.
+- n: 7
+  summary: Changement climatique dans les ruralités ; limites de l'Agenda rural et de l'ANCT ; « offensive réactionnaire » de l'extrême droite (banquets du Canon français, écosystème Stérin).
+- n: 8
+  summary: Intercalaire de la partie II.
+- n: 9
+  summary: 'La « Nouvelle France rurale » : luttes locales, Gilets jaunes, initiatives ; trois leviers.'
+- n: 10
+  summary: 'Leviers : communes, bifurcation écologique, proximité et relocalisation de l''emploi.'
+- n: 11
+  summary: Page sans texte (photo ou page blanche).
+- n: 12
+  summary: Intercalaire de la partie III.
+- n: 13
+  summary: '1.1 Communes : abrogation des lois créant les métropoles, refus des fusions forcées, moins de pouvoir aux préfets.'
+- n: 14
+  summary: DGF rééquilibrée et indexée, fonds de soutien communal, ingénierie publique gratuite, taxe progressive sur les logements vacants.
+- n: 15
+  summary: Statut de l'élu au-delà de la loi du 22 décembre 2025, indemnités, parité des exécutifs locaux.
+- n: 16
+  summary: 1.2 Planification écologique par des « éco-régions » ; préemption communale, défenseurs de la nature, ingénierie publique.
+- n: 17
+  summary: 'Ressources : ZAN, gestion publique de l''eau, forêts ; habitat : 700 000 isolations par an, sortie du fioul et du gaz fossile, guichet unique.'
+- n: 18
+  summary: '1.3 Isolement : espaces de gratuité, plan contre l''isolement des personnes âgées, écoute des agriculteurs, cafés associatifs.'
+- n: 19
+  summary: Associations (conventions pluriannuelles), espaces jeunesse, lieux culturels, équipements sportifs, petit patrimoine, fêtes populaires.
+- n: 20
+  summary: '2.1 Services publics : rôle du département, guichets physiques, états généraux des espaces ruraux, arrêt des fermetures, services itinérants ; petite enfance.'
+- n: 21
+  summary: 'École : 15 minutes de transport scolaire maximum, classes uniques, transports scolaires gratuits, lycées professionnels, internats gratuits.'
+- n: 22
+  summary: 'Santé : urgences/maternités à moins de 30 minutes, régulation de l''installation des médecins, service public de la dépendance ; zone tampon contre les pesticides.'
+- n: 23
+  summary: '2.2 Discriminations : violences faites aux femmes, brigades de gendarmerie de proximité, IVG itinérante, PMA, Planning familial, mobilité des personnes handicapées.'
+- n: 24
+  summary: '2.3 Transports : pôle public, renationalisation de la SNCF, réouverture des lignes, transport à la demande, leasing social, fret.'
+- n: 25
+  summary: 'Numérique : fibre et couverture mobile sous contrôle public, Wi-Fi public, maintien des guichets et formulaires papier.'
+- n: 26
+  summary: '2.4 Emploi : aides aux commerces de village, multiservices, encadrement des grandes surfaces, tiers-lieux, garantie d''emploi.'
+- n: 27
+  summary: 'Industrie rurale : relocalisation, commande publique locale, aides conditionnées, ESS, reprises en coopératives.'
+- n: 28
+  summary: 'Agriculture paysanne : circuits courts, marchés, petites unités de transformation, filières lin/chanvre.'
+- n: 29
+  summary: '2.5 Tourisme : offices mutualisés, logement des saisonniers, quotas de meublés touristiques en zone tendue, auberges de jeunesse, mobilités douces.'
+- n: 30
+  summary: Page sans texte (photo ou page blanche).
+- n: 31
+  summary: Crédits photographiques.
+- n: 32
+  summary: 'Quatrième de couverture : présentation des plans thématiques (coordination C. Guetté, H. Clouet).'
+measures:
+- id: LFIR-01
+  page: 13
+  themes:
+  - institutions
+  text: Supprimer les métropoles technocratiques en abrogeant les lois ayant organisé la concentration des pouvoirs locaux, et restituer aux communes leur libre choix d’association
+- id: LFIR-02
+  page: 13
+  themes:
+  - institutions
+  text: Refuser les fusions forcées de communes
+- id: LFIR-03
+  page: 13
+  themes:
+  - institutions
+  text: Mettre fin à la concentration excessive des pouvoirs dans les mains des préfets et redonner les moyens de leur action autonome aux administrations déconcentrées
+- id: LFIR-04
+  page: 14
+  themes:
+  - institutions
+  - fiscalite
+  text: Rééquilibrer la dotation globale de fonctionnement (DGF) versée aux communes pour lutter contre les inégalités territoriales et l’indexer sur l’inflation
+- id: LFIR-05
+  page: 14
+  themes:
+  - institutions
+  - fiscalite
+  text: Préserver et augmenter l’enveloppe de dotation aux équipements des territoires ruraux
+- id: LFIR-06
+  page: 14
+  themes:
+  - institutions
+  - fiscalite
+  text: Augmenter l’enveloppe budgétaire des communes rurales par la création d’un fonds de soutien communal notamment pour recruter et revaloriser les agent•es
+- id: LFIR-07
+  page: 14
+  themes:
+  - institutions
+  - fiscalite
+  - logement
+  text: Rétablir une taxation locale selon un barème tenant compte des revenus et des commodités des logements
+- id: LFIR-08
+  page: 14
+  themes:
+  - institutions
+  - fiscalite
+  text: Revenir à une ingénierie publique gratuite pour les petites communes, notamment en préservant les Conseils d’architecture, d’urbanisme et de l’environnement (CAUE) de la logique marchande et en rétablissant l’instruction gratuite des permis de construire
+- id: LFIR-09
+  page: 14
+  themes:
+  - institutions
+  - fiscalite
+  - logement
+  text: Réformer la fiscalité sur les logements vacants par une taxe unique et progressive selon le nombre de logements vacants détenus
+- id: LFIR-10
+  page: 15
+  themes:
+  - institutions
+  - retraites
+  text: Aller plus loin que la loi du 22 décembre 2025 portant la création d’un statut de l’élu local, en garantissant le plein maintien des droits sociaux, des trimestres pour le calcul de la retraite et une formation continue réellement accessible. Et bien sûr, il s’agit de garantir aussi une protection effective contre les violences, les menaces et les pressions liées à l’exercice du mandat
+- id: LFIR-11
+  page: 15
+  themes:
+  - institutions
+  text: Garantir que les indemnités des élu·es locaux·ales tiennent compte du temps de travail réel et des responsabilités exercées
+- id: LFIR-12
+  page: 15
+  themes:
+  - institutions
+  - feminisme
+  text: Imposer la parité dans les exécutifs municipaux et communautaires, maire et premier·ère adjoint·e, présidence et vice-présidences, sans exception
+- id: LFIR-13
+  page: 15
+  themes:
+  - institutions
+  text: Augmenter l’implication citoyenne dans le développement et la mise en œuvre des politiques locales, en étant attentif au nombre de participant·es et à leur diversité
+- id: LFIR-14
+  page: 16
+  themes:
+  - ecologie
+  - institutions
+  - energie
+  text: Instaurant un droit de préemption des communes sur les zones stratégiques pour la planification écologique dans les plans locaux d’urbanisme (carrières, énergies renouvelables, protection des forêts)
+- id: LFIR-15
+  page: 16
+  themes:
+  - ecologie
+  - institutions
+  text: Mettant en place des défenseurs de la nature, chargés de la protection de l’eau, l’air, la forêt, la végétalisation et la perméabilité des sols
+- id: LFIR-16
+  page: 16
+  themes:
+  - ecologie
+  - institutions
+  - energie
+  text: Renforçant les moyens humains et financiers de l’ingénierie publique pour appuyer les collectivités dans une planification écologique régénérative (restauration des trames vertes et bleues, et développement des énergies renouvelables)
+- id: LFIR-17
+  page: 17
+  themes:
+  - ecologie
+  text: Adaptant les zones habitées au changement climatique notamment en désimperméabilisant les sols et en créant des îlots et corridors de fraîcheur
+- id: LFIR-18
+  page: 17
+  themes:
+  - ecologie
+  text: Mettant en place un plan de protection généralisée du foncier agricole, forestier et naturel en vue de mettre en œuvre le zéro artificialisation nette (ZAN) des sols en Hexagone
+- id: LFIR-19
+  page: 17
+  themes:
+  - ecologie
+  text: Garantissant une gestion publique et démocratique de l’eau et en priorisant les usages domestiques et agricoles nourriciers en cas de tension sur la ressource
+- id: LFIR-20
+  page: 17
+  themes:
+  - ecologie
+  - logement
+  text: 'Sanctuarisant les forêts face aux pressions de surexploitation et de privatisation des forêts publiques et en soutenant une gestion forestière à couvert continu et diversifié associant les communes forestières et les propriétaires Enfin, une politique de l’habitat est primordiale pour permettre à toutes celles et ceux qui le souhaitent de bien vivre en ruralités : planifier la réhabilitation de logements vacants, mettre en œuvre un plan de financement massif des projets de rénovation écologique de l’habitat, construire massivement des logements publics. Nous prendrons donc les mesures suivantes :'
+- id: LFIR-21
+  page: 17
+  themes:
+  - ecologie
+  - logement
+  text: Refaire l’isolation d’au moins 700 000 logements par an
+- id: LFIR-22
+  page: 17
+  themes:
+  - ecologie
+  - classes-populaires
+  - energie
+  text: Se doter d’un service public ambitieux en charge de la planification, du financement, de l’organisation de la rénovation énergétique pour mettre fin prioritairement aux situations de précarité énergétique
+- id: LFIR-23
+  page: 17
+  themes:
+  - ecologie
+  - energie
+  text: Remplacer progressivement tous les chauffages au fioul et au gaz fossile par des systèmes n’émettant pas de gaz à effet de serre comme des pompes à chaleur et la géothermie
+- id: LFIR-24
+  page: 17
+  themes:
+  - ecologie
+  - energie
+  text: Se donner les moyens de la rénovation énergétique. Pour cela nous mettrons en place un « guichet unique » public pour les propriétaires et nous développerons les formations aux métiers de la rénovation et de l’adaptation des bâtiments en créant une filière globale du CAP à la licence professionnelle
+- id: LFIR-25
+  page: 18
+  themes:
+  - services-publics
+  text: Mettre en œuvre un vaste plan de redéploiement des espaces de gratuité au service des liens sociaux et affectifs
+- id: LFIR-26
+  page: 18
+  themes:
+  - services-publics
+  text: Créer un plan national de lutte contre l’isolement des personnes âgées ou dépendantes en zone rurale, en développant les visites à domicile et en soutenant les réseaux de veille et de solidarité de voisinage
+- id: LFIR-27
+  page: 18
+  themes:
+  - services-publics
+  text: Renforcer les dispositifs d’écoute et de prévention destinés aux agriculteur·rices, en s’appuyant sur les associations dans le domaine, et développer les visites de convivialité entre pairs pour les exploitant·es isolé·es
+- id: LFIR-28
+  page: 18
+  themes:
+  - services-publics
+  text: Soutenir les associations locales. Assurer le développement des lieux intergénérationnels et des cafés associatifs. Mais aussi organiser des dispositifs itinérants, dans les communes dépourvues de lieu de sociabilité, pour recréer des espaces de rencontre, notamment pour les jeunes
+- id: LFIR-29
+  page: 19
+  themes:
+  - services-publics
+  text: Entretenir le développement et la pérennité du réseau associatif local en garantissant les subventions, en généralisant les conventions pluriannuelles. Il est temps de sortir de la logique bureaucratique des appels à projets
+- id: LFIR-30
+  page: 19
+  themes:
+  - services-publics
+  text: Créer ou rénover des espaces jeunesse de proximité (maisons des jeunes, foyers ruraux, auberges de jeunesse, espaces ados), avec des animateur·rices dédié·es et des horaires adaptés aux week-ends et vacances scolaires
+- id: LFIR-31
+  page: 19
+  themes:
+  - services-publics
+  text: Favoriser l’accès des jeunes aux responsabilités au sein des associations en mobilisant le Fonds national de développement de la vie associative. L’objectif est de soutenir le renouvellement de l’engagement bénévole par la formation et la valorisation des compétences acquises
+- id: LFIR-32
+  page: 19
+  themes:
+  - services-publics
+  text: Encourager le déploiement dans le pays de lieux physiques (librairies indépendantes, cinémas avec un ou quelques écrans, scènes de spectacle vivant, salles de concerts, etc.) et accompagner la rénovation des lieux existants
+- id: LFIR-33
+  page: 19
+  themes:
+  - services-publics
+  text: Mettre en place un plan national d’urgence pour la construction et la rénovation des équipements sportifs, notamment des équipements publics de proximité favorables aux pratiques libres (piscines, salles d’escalade, salles de remise en forme, pistes de skate, etc.) et développer les transports pour y accéder
+- id: LFIR-34
+  page: 19
+  themes:
+  - services-publics
+  text: Développer une politique de la création artistique fondée sur le temps long, via un plan d’implantation et d’itinérance des artistes partout dans le pays, en s’appuyant notamment sur des médiathèques et bibliobus itinérants pour les communes dépourvues d’équipement fixe
+- id: LFIR-35
+  page: 19
+  themes:
+  - services-publics
+  text: Créer un fonds dédié à la sauvegarde du petit patrimoine rural et soutenir les chantiers participatifs associant habitant·es et associations de sauvegarde
+- id: LFIR-36
+  page: 19
+  themes:
+  - services-publics
+  text: Soutenir les fêtes populaires et événements locaux qui font vivre le lien social rural (comices agricoles, fêtes de village), en résistance aux tentatives de récupération identitaire de ces moments par l’extrême droite
+- id: LFIR-37
+  page: 20
+  themes:
+  - services-publics
+  text: Réaffirmer le rôle du département comme organisateur central de l’égalité territoriale en lui donnant les moyens nécessaires pour assurer le maillage des services publics essentiels
+- id: LFIR-38
+  page: 20
+  themes:
+  - services-publics
+  text: Rouvrir des guichets physiques dans les services publics et refuser le tout numérique qui prive de droits de nombreuses personnes, notamment les plus âgées
+- id: LFIR-39
+  page: 20
+  themes:
+  - services-publics
+  text: Organiser des états généraux des espaces ruraux pour proposer les moyens d’une véritable égalité territoriale notamment dans les services publics
+- id: LFIR-40
+  page: 20
+  themes:
+  - services-publics
+  - sante
+  - securite-justice
+  text: 'Stopper les fermetures de services publics et mettre en place un plan de redéploiement pour les populations rurales et périurbaines : bureaux de poste, gares de proximité, hôpitaux et services de santé, écoles, palais de justice, Trésor public'
+- id: LFIR-41
+  page: 20
+  themes:
+  - services-publics
+  - famille
+  text: 'Développer des services publics itinérants pour desservir les populations les plus isolées, comme le bus des services publics, qui regroupe le Trésor Public, la caisse primaire d’assurance maladie ou France Travail, en veillant à la confidentialité et à la qualité de l’accueil L’égalité d’accès aux services publics doit se faire dès l’enfance. Pour les plus petits, nous souhaitons créer un service public de la petite enfance. En ruralités, celui-ci doit s’adapter aux contraintes et horaires des travailleur·euses. L’éloignement des crèches, écoles et solutions de garde frappe tout particulièrement les mères qui assurent 75 % des trajets d’accompagnement des enfants. Nous garantirons l’accès à une école publique laïque de proximité à toutes les familles. Nous redonnerons à l’école de la République la place qu’elle mérite, partout et pour toutes et tous en :'
+- id: LFIR-42
+  page: 20
+  themes:
+  - services-publics
+  - famille
+  text: Créer un service public de la petite enfance ; en ruralités, celui-ci doit s’adapter aux contraintes et horaires des travailleur·euses
+- id: LFIR-43
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Densifiant le maillage des établissements en zones rurales afin de limiter à 15 minutes les temps de transport scolaire
+- id: LFIR-44
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Maintenant les écoles à classe unique
+- id: LFIR-45
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Abrogeant les « conventions ruralité » qui conduisent à la fermeture ou au regroupement d’écoles de proximité éloignées des lieux de vie des enfants
+- id: LFIR-46
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Rendant les transports scolaires gratuits et accessibles à tous et toutes
+- id: LFIR-47
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Garantissant une offre éducative diversifiée dans les lycées ruraux, notamment via des options rares, enseignements spécifiques répartis sur plusieurs classes pour éviter toute ségrégation interne et favorisant les jumelages d’établissements entre urbains et ruraux pour élargir l’horizon social, culturel et géographique des élèves
+- id: LFIR-48
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Construisant des lycées professionnels dotés d’équipements de qualité et en implantant des centres polytechniques professionnels dans les zones dépourvues d’offre diversifiée pour garantir un maillage de proximité et offrir de véritables choix d’orientation aux élèves
+- id: LFIR-49
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Rétablissant l’encadrement public de la création de centres de formation des apprentis (CFA)
+- id: LFIR-50
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Réinstaurant un service public national de l’orientation pour permettre à chaque jeune d’avoir l’information nécessaire pour choisir son avenir et en développant des forums métiers itinérants pour rapprocher les jeunes ruraux des filières et des entreprises locales
+- id: LFIR-51
+  page: 21
+  themes:
+  - education
+  - services-publics
+  text: Ouvrant des places d’internat gratuites pour les élèves de la voie professionnelle et les apprenti·es sous statut scolaire, en donnant la priorité aux jeunes les plus éloigné·es de leurs établissements ou lieux d’apprentissage
+- id: LFIR-52
+  page: 22
+  themes:
+  - sante
+  - services-publics
+  text: Garantir un service public de santé de proximité en rouvrant progressivement des services d’urgences, de maternités et des EHPAD publics assurant un service de santé public de proximité à moins de trente minutes de chaque Français·e
+- id: LFIR-53
+  page: 22
+  themes:
+  - sante
+  - services-publics
+  text: 'Actionner tous les leviers pour combattre les déserts médicaux : régulation de l’installation des médecins, recrutement de médecins publics, maillage du pays de centres de santé publics en exercice salarié et de maisons de santé pluriprofessionnelles, réouverture de pharmacies, etc.'
+- id: LFIR-54
+  page: 22
+  themes:
+  - sante
+  - services-publics
+  text: Engager un plan pluriannuel de recrutement des professionnels du soin et du médico-social, revaloriser les métiers et les revenus
+- id: LFIR-55
+  page: 22
+  themes:
+  - sante
+  - services-publics
+  text: Construire un service public de la dépendance au service des personnes âgées, qu’elles vivent chez elles ou non et mettre en place un réseau d’équipes soignantes du soin à domicile
+- id: LFIR-56
+  page: 22
+  themes:
+  - sante
+  - services-publics
+  - famille
+  text: 'Renforcer le maillage territorial et les moyens des centres médicopsychologiques y compris spécialisés pour les enfants Les habitant·es des ruralités sont par ailleurs particulièrement exposé•es aux pollutions qui touchent l’eau, l’air et les sols et qui sont la cause de maladies écologiques : 40 % des cancers sont évitables en agissant sur l’environnement. Nous instaurerons une zone tampon pour protéger les enfants des pesticides et polluants autour des habitations, des crèches, des écoles et des hôpitaux et adopterons un plan d’éradication des maladies chroniques liées à l’exposition aux pollutions (pesticides, radioactivité, amiante, produits chimiques, etc.).'
+- id: LFIR-57
+  page: 22
+  themes:
+  - sante
+  - services-publics
+  - famille
+  text: Nous instaurerons une zone tampon pour protéger les enfants des pesticides et polluants autour des habitations, des crèches, des écoles et des hôpitaux
+- id: LFIR-58
+  page: 23
+  themes:
+  - feminisme
+  text: Nous développerons des lieux de permanence et des solutions itinérantes pour les associations d’aide aux victimes [de violences faites aux femmes]
+- id: LFIR-59
+  page: 23
+  themes:
+  - feminisme
+  - securite-justice
+  text: Nous tiendrons également l’engagement de création des nouvelles brigades de gendarmerie de proximité en zone rurale
+- id: LFIR-60
+  page: 23
+  themes:
+  - feminisme
+  text: Nous permettrons à chaque personne d’avoir un accès effectif à l’IVG à proximité de son domicile, y compris via des consultations itinérantes
+- id: LFIR-61
+  page: 23
+  themes:
+  - feminisme
+  - sante
+  text: Nous renforcerons le réseau des Centres d’étude et de conservation des œufs et du sperme humains […] et développerons les consultations [de PMA] dans les hôpitaux de proximité
+- id: LFIR-62
+  page: 23
+  themes:
+  - feminisme
+  - famille
+  text: Nous sanctuariserons et renforcerons le financement public des centres de planification et d’éducation familiale (CPEF) et des antennes du Planning familial en milieu rural
+- id: LFIR-63
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: La renationalisation de la SNCF et la fin de la mise en concurrence des lignes ferroviaires
+- id: LFIR-64
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: La réouverture des lignes du quotidien en lien avec les éco-régions
+- id: LFIR-65
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: L’augmentation du nombre et de la fréquence des trains, la mise en œuvre des tarifs accessibles, ainsi que le maintien et la réimplantation des guichets physiques dans les gares
+- id: LFIR-66
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: Le développement des usages partagés de la voiture (autopartage, covoiturage)
+- id: LFIR-67
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: Le développement des transports publics à la demande hors des zones bien desservies
+- id: LFIR-68
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: L’ouverture des transports scolaires à d’autres usager·es, y compris hors périodes scolaires, afin d’assurer une continuité de services publics de transport
+- id: LFIR-69
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: L’utilisation de la commande publique et le leasing social (location longue durée et/ou avec option d’achat) pour diffuser les voitures électriques légères et à prix modeste
+- id: LFIR-70
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: Le soutien aux garages solidaires ainsi qu’une aide suffisante à la réparation dans le cadre du contrôle technique
+- id: LFIR-71
+  page: 24
+  themes:
+  - services-publics
+  - ecologie
+  text: La redynamisation du fret ferroviaire, fluvial et maritime pour diminuer le nombre de camions sur les routes qui transportent les marchandises
+- id: LFIR-72
+  page: 25
+  themes:
+  - services-publics
+  text: Achever la couverture numérique de tout le pays en fibre et garantir une couverture mobile de qualité dans toutes les ruralités, en déployant des réseaux de télécommunication sous contrôle public
+- id: LFIR-73
+  page: 25
+  themes:
+  - services-publics
+  text: Faire de l’accès à Internet un véritable service d’intérêt général en développant des infrastructures publiques d’accès (Wi-Fi gratuit dans les mairies, bibliothèques, gares, équipements publics, maisons France services) et des postes informatiques accessibles à toutes et tous
+- id: LFIR-74
+  page: 25
+  themes:
+  - services-publics
+  text: Garantir le maintien de l’accès aux guichets et à des formulaires papier en parallèle de la dématérialisation des services publics
+- id: LFIR-75
+  page: 26
+  themes:
+  - entreprises-industrie
+  - travail
+  text: Encouragera l’installation des commerces de proximité dans les villages par un dispositif d’aides à l’installation, subventions d’investissement et de fonctionnement. Cela sera articulé avec le renforcement des prérogatives de la commission départementale d’aménagement commercial, et le prêt de locaux
+- id: LFIR-76
+  page: 26
+  themes:
+  - entreprises-industrie
+  - travail
+  text: Soutiendra le développement des commerces ambulants et des points multiservices (épicerie, poste, point relais, café) dans les communes dépourvues de commerce fixe
+- id: LFIR-77
+  page: 26
+  themes:
+  - entreprises-industrie
+  - travail
+  text: Refondera les critères permettant le développement de nouvelles grandes et moyennes surfaces (GMS) pour les soumettre aux objectifs de zéro artificialisation nette des sols et de préservation des petits commerces, tout en prenant en compte les GMS déjà existantes
+- id: LFIR-78
+  page: 26
+  themes:
+  - entreprises-industrie
+  - travail
+  text: Développera des lieux et espaces de travail partagés équipés des services nécessaires, pour mutualiser les outils de travail et rompre l’isolement des indépendant•es, créateur•rices d’entreprises, personnes en télétravail, etc.
+- id: LFIR-79
+  page: 26
+  themes:
+  - entreprises-industrie
+  - travail
+  - classes-populaires
+  text: 'Mettra en place une garantie d’emploi : tout·e chômeur·se de longue durée pourra se voir proposer d’être embauché·e au moins au SMIC – revalorisé – dans un secteur utile'
+- id: LFIR-80
+  page: 26
+  themes:
+  - entreprises-industrie
+  - travail
+  text: Accompagnera et favorisera l’installation d’activités économiques locales via des structures publiques
+- id: LFIR-81
+  page: 27
+  themes:
+  - entreprises-industrie
+  text: La relocalisation et la reconquête de la maîtrise de secteurs industriels stratégiques pour la bifurcation écologique en sanctuarisant nos industries et nos savoir-faire
+- id: LFIR-82
+  page: 27
+  themes:
+  - entreprises-industrie
+  text: L’encouragement de la commande publique au niveau local en modifiant le code des marchés publics pour que les collectivités puissent émettre des appels d’offres adaptés aux filières locales
+- id: LFIR-83
+  page: 27
+  themes:
+  - entreprises-industrie
+  text: Le conditionnement des aides aux entreprises à des critères de localisation dans les territoires fragiles et de maintien des emplois
+- id: LFIR-84
+  page: 27
+  themes:
+  - entreprises-industrie
+  text: Le soutien actif aux entreprises de l’économie sociale et solidaire, afin de répondre aux besoins de commerces et de services marchands de proximité
+- id: LFIR-85
+  page: 27
+  themes:
+  - entreprises-industrie
+  text: Le soutien à la création et la reprise d’entreprises en coopératives (sociétés coopératives d’intérêt collectif et sociétés coopératives et participatives) pour sauver des emplois menacés par des fermetures ou des défaillances d’entreprises
+- id: LFIR-86
+  page: 28
+  themes:
+  - agriculture
+  text: Appuyer le développement des circuits courts de transformation et de distribution, des coopérations et des échanges entre villes et communes rurales, pour une plus grande autonomie alimentaire des bassins de vie, en favorisant les regroupements de producteur•rices locaux sous forme de coopératives à taille humaine
+- id: LFIR-87
+  page: 28
+  themes:
+  - agriculture
+  text: Encourager la création de marchés dans les ruralités et octroyer des places en priorité aux agriculteur•rices et aux artisan•es locaux dans ces marchés
+- id: LFIR-88
+  page: 28
+  themes:
+  - agriculture
+  text: Développer des petites structures de transformation alimentaire de proximité permettant la valorisation des produits agricoles locaux
+- id: LFIR-89
+  page: 28
+  themes:
+  - agriculture
+  text: Structurer les filières d’avenir qui permettent le déploiement local d’emplois écologiques (lin, chanvre, miscanthus, etc.)
+- id: LFIR-90
+  page: 29
+  themes:
+  - entreprises-industrie
+  text: Dans les zones en tension, nous régulerons les meublés touristiques, en y fixant un quota maximal de locations
+- id: LFIR-91
+  page: 29
+  themes:
+  - entreprises-industrie
+  - logement
+  text: Garantir un accès digne au logement pour les travailleur·ses saisonnier·es et renforcer leurs droits et leurs conditions de travail
+claims: []

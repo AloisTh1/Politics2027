@@ -1,0 +1,1112 @@
+doc: lfi-nfp-2024
+pages:
+- n: 1
+  summary: 'Couverture : « Contrat de législature ».'
+- n: 2
+  summary: 'Préambule : rupture avec la politique d''E. Macron, contre « le projet raciste et de casse sociale de l''extrême droite » ; vote les 30 juin et 7 juillet 2024.'
+- n: 3
+  summary: 'Partie 1, « 15 premiers jours » : 20 actes de rupture.'
+- n: 4
+  summary: 'Urgence sociale : blocage des prix, abrogation des décrets de la réforme des retraites, SMIC à 1 600 € net, point d''indice +10 %, APL +10 % ; logement ; climat.'
+- n: 5
+  summary: Services publics (hôpital, école), apaisement (police de proximité, interdiction des LBD), Nouvelle-Calédonie, Europe.
+- n: 6
+  summary: 'Paix : diplomatie des biens communs, Afrique, APD à 0,7 % ; Ukraine : livraison d''armes, saisie des avoirs d''oligarques.'
+- n: 7
+  summary: 'Gaza : cessez-le-feu, otages, CPI, reconnaissance de la Palestine, embargo sur les armes, sanctions.'
+- n: 8
+  summary: 'Partie 2, « 100 premiers jours » : cinq paquets législatifs.'
+- n: 9
+  summary: Pouvoir d'achat (indexation des salaires, AAH au SMIC, énergie), santé (régulation de l'installation, pôle public du médicament, PFAS).
+- n: 10
+  summary: Éducation (mixité sociale, fin de Parcoursup), garantie d'autonomie, recherche ; planification écologique.
+- n: 11
+  summary: Énergies renouvelables, énergies marines, ASN/IRSN, barrages, Fret SNCF, adaptation au changement climatique.
+- n: 12
+  summary: Lutte contre le racisme, l'antisémitisme et l'islamophobie ; Commissariat à l'égalité.
+- n: 13
+  summary: 'Loi de finances rectificative : IR à 14 tranches, CSG progressive, ISF climatique, fin de la flat tax, héritage maximum, impôt Zucman sur les multinationales.'
+- n: 14
+  summary: 'Partie 3, « Les mois suivants » : les transformations.'
+- n: 15
+  summary: Services publics (30 minutes d'un accueil physique), 500 000 places de crèche, protection de l'enfance, handicap, grand âge.
+- n: 16
+  summary: Accessibilité ; logement (200 000 logements publics par an, encadrement des loyers, garantie universelle des loyers) ; retraites (objectif 60 ans).
+- n: 17
+  summary: 6e République (proportionnelle, RIC, constituante), fin de vie ; sûreté, police de proximité, suppression de l'IGPN, justice.
+- n: 18
+  summary: Récépissés de contrôle ; réindustrialisation, aides conditionnées, pôle public bancaire, un tiers des sièges des CA aux salariés.
+- n: 19
+  summary: Aides aux PME-TPE, 35 h effectives et 32 h dans les métiers pénibles, « zéro mort au travail », transports (TVA à 5,5 %).
+- n: 20
+  summary: Biodiversité, eau en régie, agriculture (CETA, Mercosur, foncier, bio).
+- n: 21
+  summary: Glyphosate et néonicotinoïdes, jeunesse (fin du SNU), droits des femmes et des personnes LGBTQI.
+- n: 22
+  summary: Bien-être animal, culture et médias (1 % du PIB, anti-concentration), laïcité (pas de financement public de nouveaux édifices religieux).
+- n: 23
+  summary: Sport, numérique, Outre-mer (chlordécone, eau, plan quinquennal).
+- n: 24
+  summary: 'Outre-mer (Mayotte) ; accueil des exilés : abrogation des lois asile-immigration, régularisations, AME.'
+- n: 25
+  summary: 'Droit du sol, libertés publiques (reconnaissance faciale interdite, lanceurs d''alerte) ; Europe : refus du pacte de stabilité, fin des traités de libre-échange.'
+- n: 26
+  summary: Vote à la majorité qualifiée sur la fiscalité ; refus du pacte budgétaire et du droit de la concurrence quand il remet en cause les services publics.
+measures:
+- id: NFP-01
+  page: 4
+  themes:
+  - classes-populaires
+  - energie
+  text: Bloquer les prix des biens de première nécessité dans l’alimentation, l’énergie et les carburants par décret, et renforcer le bouclier qualité-prix pour les outre-mer
+- id: NFP-02
+  page: 4
+  themes:
+  - retraites
+  text: Abroger immédiatement les décrets d’application de la réforme d’Emmanuel Macron passant l’âge de départ à la retraite à 64 ans, ainsi que les réformes de l’assurance-chômage
+- id: NFP-03
+  page: 4
+  themes:
+  - classes-populaires
+  - retraites
+  text: Augmenter le minimum contributif (pension de retraite pour une carrière complète) au niveau du SMIC et le minimum vieillesse au niveau du seuil de pauvreté
+- id: NFP-04
+  page: 4
+  themes:
+  - classes-populaires
+  text: Augmenter les salaires par le passage du SMIC à 1600€ net, par la hausse de 10% du point d’indice des fonctionnaires (intégralement compensée pour les collectivités territoriales), augmenter les indemnités des stagiaires, le salaire des apprentis et des alternants
+- id: NFP-05
+  page: 4
+  themes: []
+  text: Engager les négociations commerciales en garantissant un prix plancher et rémunérateur aux agriculteurs et en taxant les superprofits des agro-industriels et de la grande distribution
+- id: NFP-06
+  page: 4
+  themes:
+  - classes-populaires
+  - logement
+  text: Revaloriser les APL de 10 %
+- id: NFP-07
+  page: 4
+  themes: []
+  text: Décréter un moratoire sur les grands projets d’infrastructures autoroutières
+- id: NFP-08
+  page: 4
+  themes: []
+  text: Adopter un moratoire sur les méga-bassines
+- id: NFP-09
+  page: 4
+  themes: []
+  text: Mettre en place des règles précises de partage de l’eau sur l’ensemble des activités
+- id: NFP-10
+  page: 4
+  themes:
+  - logement
+  text: Relancer la construction du logement social en revenant sur les coupes de Macron pour les organismes HLM de 1,3 milliard d’euros annuels
+- id: NFP-11
+  page: 4
+  themes:
+  - classes-populaires
+  - logement
+  text: Créer les places d’accueil d’hébergement d’urgence permettant un accueil inconditionnel et procéder dans les situations d’urgence à la réquisition des logements vides nécessaires pour loger les sans-abris
+- id: NFP-12
+  page: 5
+  themes:
+  - sante
+  text: Organiser une conférence de sauvetage de l’hôpital public afin d’éviter la saturation pendant l’été, proposer la revalorisation du travail de nuit et du week-end pour ses personnels
+- id: NFP-13
+  page: 5
+  themes: []
+  text: Redonner à l’école publique son objectif d’émancipation en abrogeant le « choc des savoirs » de Macron, et préserver la liberté pédagogique
+- id: NFP-14
+  page: 5
+  themes: []
+  text: 'Faire les premiers pas pour la gratuité intégrale à l’école : cantine scolaire, fournitures, transports, activités périscolaires'
+- id: NFP-15
+  page: 5
+  themes: []
+  text: Augmenter le montant du Pass’Sport à 150 euros et étendre son utilisation au sport scolaire en vue de la rentrée
+- id: NFP-16
+  page: 5
+  themes: []
+  text: Relancer la création d’emplois aidés pour les associations, notamment sportives et d’éducation populaire
+- id: NFP-17
+  page: 5
+  themes:
+  - logement
+  - securite-justice
+  text: Déployer de premières équipes de police de proximité, interdire les LBD et les grenades mutilantes, et démanteler les BRAV-M
+- id: NFP-18
+  page: 5
+  themes: []
+  text: Abandonner le processus de réforme constitutionnelle visant au dégel immédiat du corps électoral. C’est un geste fort d’apaisement qui permettra de retrouver le chemin du dialogue et de la recherche du consensus. À travers la mission de dialogue, renouer avec la promesse du « destin commun », dans l’esprit des accords de Matignon et de Nouméa et d’impartialité de l’État, en soutenant la recherche d’un projet d’accord global qui engage un véritable processus d’émancipation et de décolonisation.
+- id: NFP-19
+  page: 5
+  themes: []
+  text: Refuser les contraintes austéritaires du pacte budgétaire
+- id: NFP-20
+  page: 5
+  themes: []
+  text: Proposer une réforme de la Politique agricole commune (PAC)
+- id: NFP-21
+  page: 6
+  themes:
+  - europe-international
+  - securite-justice
+  text: 'Faire des propositions en vue d’une diplomatie de promotion des biens communs planétaires : […] reconnaissance du crime d’écocide, protection des fonds marins, défense de la gestion des pôles comme bien communs de l’humanité, soutenir la création d’un tribunal international de justice climatique et environnementale'
+- id: NFP-22
+  page: 6
+  themes:
+  - europe-international
+  - sante
+  text: 'Une diplomatie au service de la santé : défendre la levée des brevets sur les vaccins et les moyens médicaux de lutte contre les pandémies'
+- id: NFP-23
+  page: 6
+  themes:
+  - europe-international
+  text: Une diplomatie qui garantit la démilitarisation et la dépollution de l’espace
+- id: NFP-24
+  page: 6
+  themes:
+  - europe-international
+  text: Adopter une diplomatie avec l’Afrique basée sur la souveraineté et la coopération entre les peuples, notamment via l’annulation des dettes « odieuse » de certains pays et la révision si nécessaire des accords de défense
+- id: NFP-25
+  page: 6
+  themes:
+  - europe-international
+  text: Faire respecter l’engagement de la France d’attribuer 0,7% de son RNB à l’aide publique au développement
+- id: NFP-26
+  page: 6
+  themes:
+  - europe-international
+  text: Interdire l’exportation de déchets ainsi que la production et l’exportation de pesticides dont l’usage est interdit en Europe
+- id: NFP-27
+  page: 6
+  themes:
+  - europe-international
+  - energie
+  text: 'Pour faire échec à la guerre d’agression de Vladimir Poutine […] : défendre indéfectiblement la souveraineté et la liberté du peuple ukrainien ainsi que l’intégrité de ses frontières, par la livraison d’armes nécessaires, l’annulation de sa dette extérieure, la saisie des avoirs des oligarques qui contribuent à l’effort de guerre russe dans le cadre permis par le droit international, l’envoi de casques bleus pour sécuriser les centrales nucléaires'
+- id: NFP-28
+  page: 6
+  themes:
+  - europe-international
+  text: Abolir la réforme Macron du corps diplomatique
+- id: NFP-29
+  page: 7
+  themes:
+  - europe-international
+  - securite-justice
+  text: Rompre avec le soutien coupable du gouvernement français au gouvernement suprémaciste d’extrême droite de Netanyahu pour imposer un cessez-le-feu immédiat à Gaza et faire respecter l’ordonnance de la Cour Internationale de Justice (CIJ) qui évoque, sans ambiguïtés, un risque de génocide
+- id: NFP-30
+  page: 7
+  themes:
+  - europe-international
+  - securite-justice
+  text: Agir pour la libération des otages détenus depuis les massacres terroristes du Hamas, dont nous rejetons le projet théocratique, et pour la libération des prisonniers politiques palestiniens
+- id: NFP-31
+  page: 7
+  themes:
+  - europe-international
+  - securite-justice
+  text: Soutenir la Cour Pénale Internationale (CPI) dans ses poursuites contre les dirigeants du Hamas et le gouvernement de Netanyahu
+- id: NFP-32
+  page: 7
+  themes:
+  - europe-international
+  text: Reconnaitre immédiatement l’État de Palestine aux côtés de l’État d’Israël sur la base des résolutions de l’ONU
+- id: NFP-33
+  page: 7
+  themes:
+  - europe-international
+  text: Décréter un embargo sur les livraisons d’armes à Israël
+- id: NFP-34
+  page: 7
+  themes:
+  - europe-international
+  text: Infliger des sanctions contre le gouvernement d’extrême droite de Netanyahu tant que celui-ci ne respecte pas le droit international à Gaza et en Cisjordanie
+- id: NFP-35
+  page: 7
+  themes:
+  - europe-international
+  text: Permettre l’organisation d’élections libres sous contrôle international pour permettre aux Palestiniens de décider de leur destin
+- id: NFP-36
+  page: 7
+  themes:
+  - europe-international
+  text: Faire respecter la souveraineté du Liban et la protection des 700 Français engagés sous casque bleu pour le droit international
+- id: NFP-37
+  page: 7
+  themes:
+  - europe-international
+  - retraites
+  text: Demander la suspension de l’accord d‘association Union européenne - Israël, conditionné au respect des droits humains
+- id: NFP-38
+  page: 9
+  themes: []
+  text: Organiser une grande conférence sociale sur les salaires, l’emploi et la qualification
+- id: NFP-39
+  page: 9
+  themes:
+  - classes-populaires
+  text: Indexer les salaires sur l’inflation et porter l’Allocation aux adultes handicapés (AAH) au niveau du SMIC
+- id: NFP-40
+  page: 9
+  themes:
+  - classes-populaires
+  - fiscalite
+  - energie
+  text: Abolir la taxe Macron de 10% sur les factures d’énergie, annuler la hausse programmée du prix du gaz au 1er juillet, plafonner les frais bancaires, faire la gratuité des premiers KwH, abolir les coupures d’électricité, de chaleur et de gaz (hors trêve hivernale), annuler les réformes Macron sur le revenu de solidarité active (RSA)
+- id: NFP-41
+  page: 9
+  themes:
+  - classes-populaires
+  - retraites
+  - fiscalite
+  - famille
+  text: Lutter contre la précarité des familles monoparentales, notamment en déconjugalisant l’allocation de soutien familial, l’indexer sur l’inflation et défiscaliser la pension alimentaire
+- id: NFP-42
+  page: 9
+  themes:
+  - sante
+  text: Réguler l’installation des médecins dans les déserts médicaux et rétablir des permanences de soin des soignants libéraux dans les centres de santé
+- id: NFP-43
+  page: 9
+  themes:
+  - sante
+  text: Engager un plan pluriannuel de recrutement des professionnels du soin et du médico-social (médecins, infirmiers, aidessoignants, personnels administratifs) et de revalorisation des métiers et des salaires
+- id: NFP-44
+  page: 9
+  themes:
+  - sante
+  text: Faire un grand plan pour la santé mentale, notamment en augmentant les moyens de la psychiatrie publique et en accroissant le nombre de places dédiées en faculté de médecine
+- id: NFP-45
+  page: 9
+  themes: []
+  text: Créer un pôle public du médicament avec renforcement des obligations de stocks
+- id: NFP-46
+  page: 9
+  themes: []
+  text: Interdire tous les polluants éternels (PFAS) pour toutes les utilisations, notamment les ustensiles de cuisine
+- id: NFP-47
+  page: 9
+  themes: []
+  text: Réduire les effectifs par classe pour faire mieux que la moyenne européenne de 19 élèves
+- id: NFP-48
+  page: 9
+  themes:
+  - sante
+  text: Conditionner l’ouverture des cliniques privées à la participation à la permanence des soins et à la garantie d’un reste à charge zéro
+- id: NFP-49
+  page: 10
+  themes: []
+  text: Moduler les dotations des établissements scolaires - y compris privés - en fonction de leur respect d’objectifs de mixité sociale
+- id: NFP-50
+  page: 10
+  themes: []
+  text: Démocratiser l’université en abolissant Parcoursup et la sélection dans l’université publique, instaurer le repas à 1 euro dans les Crous
+- id: NFP-51
+  page: 10
+  themes: []
+  text: Rétablir le baccalauréat professionnel en 4 ans, abroger la réforme de la voie professionnelle et élargir l’implantation des filières pros des lycées publics sur l’ensemble de territoire
+- id: NFP-52
+  page: 10
+  themes: []
+  text: Investir dans l’Éducation nationale à hauteur des besoins en engageant la revalorisation des grilles de salaires, en réinvestissant dans les locaux scolaires, en renforçant les effectifs de la médecine scolaire - en garantissant le nombre de personnels par établissement - et de la vie scolaire en reconnaissant leur rôle pédagogique
+- id: NFP-53
+  page: 10
+  themes:
+  - classes-populaires
+  - fiscalite
+  text: Mettre en place une garantie d’autonomie qui complète les revenus des ménages situés sous le seuil de pauvreté (accessible dès 18 ans pour les personnes indépendantes fiscalement et dès 16 ans pour les élèves de l’enseignement professionnel)
+- id: NFP-54
+  page: 10
+  themes: []
+  text: Créer un statut du jeune chercheur
+- id: NFP-55
+  page: 10
+  themes: []
+  text: Rehausser le niveau d’investissement public dans la recherche
+- id: NFP-56
+  page: 10
+  themes:
+  - energie
+  text: Faire voter une loi énergie-climat
+- id: NFP-57
+  page: 10
+  themes: []
+  text: Inscrire le principe de la règle verte
+- id: NFP-58
+  page: 10
+  themes: []
+  text: Mettre en place un plan climat visant la neutralité carbone en
+- id: NFP-59
+  page: 10
+  themes:
+  - classes-populaires
+  - logement
+  text: Assurer l’isolation complète des logements, en renforçant les aides pour tous les ménages et garantissant leur prise en charge complète pour les ménages modestes
+- id: NFP-60
+  page: 10
+  themes:
+  - sante
+  text: Accélérer la rénovation des bâtiments publics (écoles, hôpitaux, etc)
+- id: NFP-61
+  page: 10
+  themes:
+  - immigration
+  - famille
+  text: Faire respecter la Convention internationale des droits de l’enfant concernant la protection de l’enfance, les enfants étrangers, l’interdiction des violences dites éducatives, le soutien à la parentalité
+- id: NFP-62
+  page: 11
+  themes:
+  - energie
+  text: Renforcer la structuration de filières françaises et européennes de production d’énergies renouvelables (de la fabrication à la production)
+- id: NFP-63
+  page: 11
+  themes:
+  - energie
+  text: Faire de la France le leader européen des énergies marines avec l’éolien en mer et le développement des énergies hydroliennes
+- id: NFP-64
+  page: 11
+  themes:
+  - energie
+  text: Revenir sur la fusion entre l’Agence de sûreté nucléaire (ASN) et l’Institut de Radioprotection et de Sûreté Nucléaire (IRSN)
+- id: NFP-65
+  page: 11
+  themes: []
+  text: Refuser la privatisation des barrages hydroélectriques et de Fret SNCF
+- id: NFP-66
+  page: 11
+  themes: []
+  text: Adopter un plan national d’adaptation au changement climatique notamment pour les infrastructures et les protections des personnes et de leurs biens (prise en charge facilitée des dommages liés au retrait-gonflement des argiles, droit à l’assurance). Définir les seuils maximaux de températures pour les travailleurs et travailleuses en cas de fortes chaleurs
+- id: NFP-67
+  page: 12
+  themes:
+  - securite-justice
+  text: Donner à la justice les moyens de poursuivre et de sanctionner les auteurs de propos ou actes racistes, islamophobes et antisémites
+- id: NFP-68
+  page: 12
+  themes: []
+  text: Instaurer un Commissariat à l’égalité doté d’un Observatoire des discriminations et de pôles spécialisés au sein des services publics et des cours d’appel
+- id: NFP-69
+  page: 12
+  themes:
+  - logement
+  - sante
+  text: Adopter et mettre en œuvre un plan de lutte contre les discriminations, notamment à l’embauche, à la santé et au logement, et le renforcement des sanctions
+- id: NFP-70
+  page: 13
+  themes:
+  - fiscalite
+  text: Accroître la progressivité de l’impôt sur le revenu à 14 tranches
+- id: NFP-71
+  page: 13
+  themes:
+  - fiscalite
+  text: Rendre la CSG progressive
+- id: NFP-72
+  page: 13
+  themes:
+  - fiscalite
+  text: Rétablir un impôt de solidarité sur la fortune (ISF) renforcé avec un volet climatique
+- id: NFP-73
+  page: 13
+  themes:
+  - fiscalite
+  text: Supprimer la flat tax et rétablir l’exit tax
+- id: NFP-74
+  page: 13
+  themes:
+  - fiscalite
+  text: Supprimer les niches fiscales inefficaces, injustes et polluantes
+- id: NFP-75
+  page: 13
+  themes:
+  - fiscalite
+  text: Réformer l’impôt sur l’héritage pour le rendre plus progressif en ciblant les plus hauts patrimoines et instaurer un héritage maximum
+- id: NFP-76
+  page: 13
+  themes:
+  - fiscalite
+  text: Instaurer une taxe kilométrique sur les produits importés
+- id: NFP-77
+  page: 13
+  themes:
+  - fiscalite
+  text: 'Faire de la lutte contre la fraude et l’évasion fiscales une priorité : débloquer les moyens humains et financiers nécessaires, prendre des initiatives en lien avec tous les pays décidés à mener cette lutte'
+- id: NFP-78
+  page: 13
+  themes:
+  - fiscalite
+  text: Instaurer l’impôt Zucman sur les bénéfices des multinationales
+- id: NFP-79
+  page: 15
+  themes:
+  - sante
+  - securite-justice
+  text: Lancer le rattrapage des postes manquants de fonctionnaires à l’hôpital public, dans le soin et le médico-social, à l’école publique, dans la justice, dans les services et les agences de l’État, en revalorisant les métiers et les salaires
+- id: NFP-80
+  page: 15
+  themes: []
+  text: Lancer une conférence sur les moyens financiers et les compétences des collectivités territoriales
+- id: NFP-81
+  page: 15
+  themes:
+  - immigration
+  text: 'Garantir l’accès aux services publics à toutes et tous sans condition de nationalité et sur tout le territoire par un plan d’investissement : personne ne doit habiter à plus de trente minutes d’un accueil physique des services publics'
+- id: NFP-82
+  page: 15
+  themes: []
+  text: Garantir le maintien de guichets, de personnels, et de formulaires papier dans l’administration
+- id: NFP-83
+  page: 15
+  themes:
+  - famille
+  text: Garantir l’accès à chaque famille à un mode de garde adapté grâce à un service public de la petite enfance ouvrant 500 000 places en crèches ou autre solution de garde
+- id: NFP-84
+  page: 15
+  themes:
+  - classes-populaires
+  text: Organiser des états généraux des quartiers populaires et des états généraux des espaces ruraux pour construire une véritable égalité territoriale, notamment dans les services publics
+- id: NFP-85
+  page: 15
+  themes: []
+  text: Augmenter les moyens financiers et humains de la protection de l’enfance, interdire des placements hôteliers dans le cadre de l’Aide Sociale à l’Enfance et interdire les sorties sèches à 18 ans
+- id: NFP-86
+  page: 15
+  themes: []
+  text: Faire une loi de programmation de la recherche plus ambitieuse
+- id: NFP-87
+  page: 15
+  themes: []
+  text: Abroger la récente réforme d’annualisation du temps de travail dans la fonction publique territoriale qui oblige à travailler davantage pour ne pas gagner mieux
+- id: NFP-88
+  page: 15
+  themes: []
+  text: Créer un service public d’accompagnement des élèves en situation de handicap, en formant et titularisant les actuelles accompagnantes d’élèves en situation de handicap (AESH)
+- id: NFP-89
+  page: 15
+  themes: []
+  text: Mettre en place un plan Handicap qui intègre le remboursement intégral des fauteuils
+- id: NFP-90
+  page: 15
+  themes: []
+  text: Lancer un plan Grand âge en rénovant les EHPAD, en augmentant et en formant les professionnels du grand âge
+- id: NFP-91
+  page: 16
+  themes: []
+  text: 'Organiser l’accessibilité universelle : tolérance zéro contre les entraves au déplacement ou à la vie quotidienne, imposer un plan de mise en accessibilité des transports, généraliser les traductions en français « facile à lire et à comprendre » (FALC)'
+- id: NFP-92
+  page: 16
+  themes:
+  - logement
+  text: Construire 200 000 logements publics par an pendant cinq ans aux normes écologiques les plus ambitieuses
+- id: NFP-93
+  page: 16
+  themes:
+  - logement
+  text: 'Adopter une grande loi pour garantir le droit au logement effectif comprenant notamment :'
+- id: NFP-94
+  page: 16
+  themes:
+  - logement
+  text: L’abrogation de la loi Kasbarian qui criminalise les locataires et l’interdiction des expulsions locatives pour impayés sans proposition de relogement
+- id: NFP-95
+  page: 16
+  themes:
+  - logement
+  text: L’encadrement des loyers de manière obligatoire dans les zones tendues ainsi que des prix du foncier
+- id: NFP-96
+  page: 16
+  themes:
+  - logement
+  text: La garantie universelle des loyers pour sécuriser les propriétaires et les locataires
+- id: NFP-97
+  page: 16
+  themes: []
+  text: Aucune remise en cause de la loi SRU et l’aggravation des sanctions contre les communes hors la loi
+- id: NFP-98
+  page: 16
+  themes: []
+  text: L’ouverture du prêt à taux zéro à tous les ménages primoaccédants sans distinction géographique ou entre neuf ou ancien
+- id: NFP-99
+  page: 16
+  themes: []
+  text: Rétablir les facteurs de pénibilité supprimés par Emmanuel Macron
+- id: NFP-100
+  page: 16
+  themes:
+  - classes-populaires
+  - retraites
+  text: Prendre en compte le RSA pour valider des trimestres en vue de la retraite
+- id: NFP-101
+  page: 16
+  themes:
+  - retraites
+  text: Indexer le montant des retraites sur les salaires
+- id: NFP-102
+  page: 16
+  themes: []
+  text: Soumettre à cotisation les dividendes, la participation, l’épargne salariale, les rachats d’action, les heures supplémentaires
+- id: NFP-103
+  page: 16
+  themes: []
+  text: Augmenter de 0,25 point par an pendant 5 ans les cotisations vieillesse et moduler les cotisations sociales patronales
+- id: NFP-104
+  page: 16
+  themes: []
+  text: Créer une surcotisation sur les hauts salaires
+- id: NFP-105
+  page: 16
+  themes: []
+  text: Renforcer les obligations des bailleurs et des ascensoristes en cas de panne d’ascenseur
+- id: NFP-106
+  page: 17
+  themes: []
+  text: 'Abolir la monarchie présidentielle dans la pratique des institutions :'
+- id: NFP-107
+  page: 17
+  themes: []
+  text: Instaurer la proportionnelle
+- id: NFP-108
+  page: 17
+  themes: []
+  text: Revitaliser le parlement
+- id: NFP-109
+  page: 17
+  themes: []
+  text: Abroger le 49.3
+- id: NFP-110
+  page: 17
+  themes: []
+  text: Défendre la décentralisation effective en renforçant la démocratie locale dans l’unité de la République
+- id: NFP-111
+  page: 17
+  themes: []
+  text: Instaurer le référendum d’initiative citoyenne (RIC) et renforcer le référendum d’initiative partagée en abaissant notamment le seuil de signatures citoyennes pour son déclenchement
+- id: NFP-112
+  page: 17
+  themes:
+  - immigration
+  text: Instituer le droit de vote des résidents étrangers aux élections locales
+- id: NFP-113
+  page: 17
+  themes: []
+  text: Passer à une 6e République par la convocation d’une assemblée constituante citoyenne élue
+- id: NFP-114
+  page: 17
+  themes: []
+  text: Reprendre les discussions autour du projet de loi relatif à l’accompagnement des malades et de la fin de vie, pour instaurer un droit à mourir dans la dignité dans notre pays
+- id: NFP-115
+  page: 17
+  themes:
+  - securite-justice
+  text: Assurer la sécurité de la population par le rétablissement de la police de proximité, la suppression de la réforme Darmanin qui a affaibli la police judiciaire, le maintien de l’ensemble des gendarmeries, l’augmentation des effectifs de police judiciaire, technique, scientifique, du renseignement, des unités en charge du narcotrafic, de la délinquance financière, du trafic d’êtres humains et du démantèlement des réseaux mafieux
+- id: NFP-116
+  page: 17
+  themes:
+  - securite-justice
+  text: Revoir et allonger la formation des policiers
+- id: NFP-117
+  page: 17
+  themes: []
+  text: Mettre en place un nouveau code de déontologie, supprimer l’IGPN et l’IGGN et les remplacer par un nouvel organisme indépendant, rattaché à la Défenseure des droits
+- id: NFP-118
+  page: 17
+  themes:
+  - securite-justice
+  text: Augmenter les moyens de la justice pour garantir un traitement juste et dans un délai raisonnable de l’ensemble des procédures, notamment par l’embauche de magistrats, greffiers, agents de la protection judiciaire de la jeunesse
+- id: NFP-119
+  page: 17
+  themes:
+  - securite-justice
+  text: Agir contre la surpopulation carcérale, assurer des conditions dignes de détention et donner les moyens à l’administration pénitentiaire et judiciaire de réaliser sa mission en toute
+- id: NFP-120
+  page: 18
+  themes:
+  - securite-justice
+  text: Mettre en place les récipissés pour les contrôles d’identité
+- id: NFP-121
+  page: 18
+  themes: []
+  text: Engager un plan de reconstruction industrielle pour mettre fin à la dépendance de la France et de l’Europe dans les domaines stratégiques (semi-conducteurs, médicaments, technologies de pointe, voitures électriques, panneaux solaires, etc)
+- id: NFP-122
+  page: 18
+  themes: []
+  text: Réaliser un diagnostic préalable des ressources naturelles avant implantation industrielle
+- id: NFP-123
+  page: 18
+  themes: []
+  text: Encadrer la sous-traitance, garantir la responsabilité du donneur d’ordre et mettre en place des quotas de sous-traitants issus du tissu de TPE/PME et de l’artisanat local
+- id: NFP-124
+  page: 18
+  themes: []
+  text: Conditionner les aides aux entreprises au respect de critères environnementaux, sociaux et de lutte contre les discriminations, notamment liées au genre au sein de l’entreprise. Les inscrire dans une stratégie industrielle publique. Exiger le remboursement des aides en cas de nonrespect des contreparties
+- id: NFP-125
+  page: 18
+  themes: []
+  text: 'Réglementer la banque et la finance pour éviter de nouvelles crises et financer l’économie réelle :'
+- id: NFP-126
+  page: 18
+  themes: []
+  text: Augmenter les réserves des banques pour faire face aux risques climatiques
+- id: NFP-127
+  page: 18
+  themes:
+  - energie
+  text: Zero financement des banques pour les énergies fossiles en commençant par les nouveaux projets
+- id: NFP-128
+  page: 18
+  themes: []
+  text: Taxation renforcée des transactions financières
+- id: NFP-129
+  page: 18
+  themes: []
+  text: Créer un droit de préemption pour permettre aux salariés de reprendre leur entreprise sous la forme d’une coopérative
+- id: NFP-130
+  page: 18
+  themes: []
+  text: Accompagner les reprises des entreprises en SCOP par les salariés
+- id: NFP-131
+  page: 18
+  themes: []
+  text: Créer un pôle public bancaire s’appuyant sur la caisse des dépôts et des consignations et la banque publique d’investissement qui aura notamment pour tâche d’affecter la collecte de l’épargne réglementée vers les besoins sociaux et écologiques
+- id: NFP-132
+  page: 18
+  themes: []
+  text: Faire des salariés de véritables acteurs de la vie économique, en leur réservant au moins un tiers des sièges dans les Conseils d’Administration et en élargissant leur droit d’intervention dans l’entreprise
+- id: NFP-133
+  page: 19
+  themes: []
+  text: Des avances à 0 % sur 1 ou 2 ans, par le pôle public bancaire, pour les PME-TPE dont la situation financière est difficile
+- id: NFP-134
+  page: 19
+  themes: []
+  text: Un fonds de solidarité pour le développement des PMETPE pour la reprise à 0 % de leurs charges financières
+- id: NFP-135
+  page: 19
+  themes: []
+  text: 'Un dispositif de crédit bonifié pour les PME-TPE souhaitant se développer : financement à 0 %, voire à taux négatif, de leurs investissements, le taux étant d’autant plus abaissé que ceux-ci sont utiles socialement et écologiquement'
+- id: NFP-136
+  page: 19
+  themes: []
+  text: Des mesures d’accompagnement financier dégressif et temporaire pour les petites entreprises qui en ont besoin
+- id: NFP-137
+  page: 19
+  themes: []
+  text: Organiser une conférence nationale sur le travail et la pénibilité visant au rétablissement de la durée effective hebdomadaire du travail à 35 heures, au passage aux 32 heures dans les métiers pénibles ou de nuit immédiatement et son extension par la négociation collective
+- id: NFP-138
+  page: 19
+  themes: []
+  text: Améliorer rapidement les conditions de travail en abrogeant les lois travail, en rétablissant le « principe de faveur » selon lequel un accord d’entreprise doit être plus favorable qu’un accord de branche, lui-même plus favorable que la loi et en transposant au plus vite la directive européenne sur la présomption de salariat pour les travailleurs des plates-formes
+- id: NFP-139
+  page: 19
+  themes: []
+  text: Abroger l’annualisation du temps de travail des fonctionnaires
+- id: NFP-140
+  page: 19
+  themes:
+  - fiscalite
+  text: Garantir des tarifs accessibles et des mesures de gratuité ciblée (jeunes, précaires, etc) dans les transports publics et baisser la TVA sur la tarification des transports en commun à 5,5 %
+- id: NFP-141
+  page: 19
+  themes: []
+  text: Mettre en place un plan rail et fret, créer des services express régionaux, adopter un moratoire sur la fermeture des petites lignes et les rouvrir dès que possible
+- id: NFP-142
+  page: 19
+  themes:
+  - sante
+  text: Adopter un plan d’action « zéro mort au travail » par le rétablissement des comités d’hygiène, de sécurité et des conditions de travail (CHSCT) avec un nombre accru de représentants du personnel, l’embauche d’inspecteurs du travail et de médecins du travail, la mise à jour du tableau des maladies professionnelles en intégrant notamment le burn-out
+- id: NFP-143
+  page: 20
+  themes: []
+  text: Défendre les zones agricoles, naturelles et les zones humides, Doubler et améliorer la protection des aires maritimes protégées. Protéger strictement 10% des terres et des mers
+- id: NFP-144
+  page: 20
+  themes: []
+  text: Protéger la forêt en garantissant la diversité des essences, avec une filière sylvicole respectueuse de la biodiversité et des sols, garantissant les qualifications et les emplois des forestiers
+- id: NFP-145
+  page: 20
+  themes: []
+  text: 'Rétablir les milliers de postes supprimés dans le service public de suivi et de protection de la nature : à l’Office national des forêts, à l’Office français de la biodiversité, à Météo France, au Cerema'
+- id: NFP-146
+  page: 20
+  themes: []
+  text: 'Aller vers la gestion 100% publique de l’eau en régies locales: pour la gratuité des premiers mètres-cubes indispensables à la vie et la tarification progressive et différentielle selon les usages'
+- id: NFP-147
+  page: 20
+  themes: []
+  text: Atteindre durant le mandat le très bon état écologique et chimique de tous les cours d’eau (fleuves, rivières, ruisseaux) et réserves souterraines et faire contribuer les industriels à la dépollution des nappes et des sols
+- id: NFP-148
+  page: 20
+  themes: []
+  text: Annuler l’accord économique et commercial global entre le Canada et l’Union européenne (CETA) ; renoncer à l’accord du Mercosur et protéger nos agriculteurs de la concurrence déloyale
+- id: NFP-149
+  page: 20
+  themes: []
+  text: Interdire l’importation de toute production agricole ne respectant pas nos normes sociales et environnementales
+- id: NFP-150
+  page: 20
+  themes:
+  - famille
+  text: Lutter contre l’accaparement des terres et permettre à chaque agriculteur qui souhaite s’installer d’accéder à une exploitation pour préserver le modèle agricole familial
+- id: NFP-151
+  page: 20
+  themes: []
+  text: Soutenir la filière du bio et l’agroécologie, encourager la conversion en bio des exploitations en reprenant leur dette dans une caisse nationale et garantir un débouché aux produits bio dans la restauration collective
+- id: NFP-152
+  page: 20
+  themes: []
+  text: Mailler le territoire de fontaines à eau, de douches et de sanitaires publics et gratuits
+- id: NFP-153
+  page: 21
+  themes: []
+  text: Rétablir le plan Ecophyto, interdire le glyphosate et les néonicotinoïdes avec accompagnement financier des paysans concernés
+- id: NFP-154
+  page: 21
+  themes: []
+  text: Arrêter le Service National Universel (SNU) pour soutenir à nouveau les associations de jeunesse et d’éducation populaire
+- id: NFP-155
+  page: 21
+  themes: []
+  text: Créer un dispositif de billet unique ouvert aux jeunes permettant d’accéder à l’ensemble des trains, transports en commun ainsi qu’aux vélos et voitures en libre service du territoire français
+- id: NFP-156
+  page: 21
+  themes:
+  - feminisme
+  text: Adopter une loi intégrale pour lutter contre les violences sexistes et sexuelles en portant le budget à 2,6 milliards d’euros comme demandé par les associations et créer une coordination nationale de la lutte contre les violences faites aux femmes sous l’égide de Matignon
+- id: NFP-157
+  page: 21
+  themes:
+  - feminisme
+  text: Garantir l’égal accès et l’effectivité du droit à l’interruption volontaire de grossesse (IVG), ainsi que le choix de la méthode
+- id: NFP-158
+  page: 21
+  themes:
+  - feminisme
+  text: Adopter une loi pour l’émancipation économique des femmes, qui revient sur les mécanismes juridiques et fiscaux qui les précarisent
+- id: NFP-159
+  page: 21
+  themes:
+  - feminisme
+  text: Instaurer l’égalité salariale et créer un arrêt menstruel dans les entreprises et administrations
+- id: NFP-160
+  page: 21
+  themes:
+  - feminisme
+  text: Prendre en charge par la Sécurité sociale les protections menstruelles et sanctionner les fabricants qui ne respectent pas le contrôle sanitaire et la régulation des prix
+- id: NFP-161
+  page: 21
+  themes: []
+  text: Établir la filiation par reconnaissance comme principe par défaut, rembourser la procréation médicalement assistée (PMA), la rendre accessible aux personnes trans
+- id: NFP-162
+  page: 21
+  themes: []
+  text: Mettre en œuvre un plan d’éradication des violences à l’encontre des personnes LGBTQI
+- id: NFP-163
+  page: 21
+  themes: []
+  text: Autoriser le changement d’état-civil libre et gratuit devant un officier d’état civil
+- id: NFP-164
+  page: 21
+  themes:
+  - sante
+  text: 'Faire face à l’offensive transphobe : lutter contre la transphobie et augmenter les moyens dans la santé pour les transitions'
+- id: NFP-165
+  page: 21
+  themes:
+  - feminisme
+  - famille
+  text: Rendre identique pour les deux parents le congé d’accueil de l’enfant
+- id: NFP-166
+  page: 22
+  themes: []
+  text: Sortir des fermes-usines, améliorer le bien-être animal et interdire l’élevage en cages d’ici la fin de mandature
+- id: NFP-167
+  page: 22
+  themes: []
+  text: Renforcer le budget public consacré à l’art, la culture et la création pour le porter à 1% du PIB par an
+- id: NFP-168
+  page: 22
+  themes: []
+  text: Limiter strictement la concentration dans les industries culturelles et les médias dans les mains de quelques propriétaires et exclure des aides publiques les médias condamnés pour incitation à la haine ou atteinte à la dignité des personnes
+- id: NFP-169
+  page: 22
+  themes: []
+  text: Défendre l’indépendance des rédactions face à leurs propriétaires
+- id: NFP-170
+  page: 22
+  themes: []
+  text: Garantir la pérennité d’un service public de l’audiovisuel en instaurant un financement durable, lisible, socialement juste et en garantissant son indépendance
+- id: NFP-171
+  page: 22
+  themes: []
+  text: Étendre la gratuité dans tous les musées nationaux, garantir une tarification abordable dans les institutions publiques et encadrer les tarifs abusifs des lieux privés
+- id: NFP-172
+  page: 22
+  themes: []
+  text: Défendre et améliorer le régime des intermittents et aller vers la création d’un nouveau régime pour les artistes-auteurs
+- id: NFP-173
+  page: 22
+  themes: []
+  text: Organiser des états-généraux de la culture interdisciplinaires et décentralisés
+- id: NFP-174
+  page: 22
+  themes: []
+  text: Engager un vaste plan de formation des fonctionnaires à la laïcité, aux principes juridiques de la loi de 1905, renforcer la pédagogie de la laïcité dans l’Éducation nationale pour accompagner les professeurs
+- id: NFP-175
+  page: 22
+  themes:
+  - sante
+  text: Augmenter les moyens de la Mission interministérielle de vigilance et de lutte contre les dérives sectaires (Miviludes) et élargir son domaine d’intervention au domaine de la formation professionnelle et de la santé publique
+- id: NFP-176
+  page: 22
+  themes: []
+  text: Refuser les financements publics pour la construction de nouveaux édifices religieux, dédiés aux activités cultuelles ou d’établissements confessionnels
+- id: NFP-177
+  page: 22
+  themes: []
+  text: Créer un centre national du jeu vidéo et développer une filière publique de formation dans ce domaine
+- id: NFP-178
+  page: 23
+  themes: []
+  text: Fixer la pratique de l’EPS à quatre heures hebdomadaires tout au long de la scolarité, avec une attention particulière à l’apprentissage de la natation, et créer une association sportive dans tous les établissements scolaires du premier degré
+- id: NFP-179
+  page: 23
+  themes: []
+  text: Porter un plan de 10 000 équipements sportifs supplémentaires, pensé pour favoriser la pratique du sport féminin et du parasport.
+- id: NFP-180
+  page: 23
+  themes: []
+  text: Rénover les équipements sportifs existants, notamment dans les universités
+- id: NFP-181
+  page: 23
+  themes:
+  - fiscalite
+  text: Porter les moyens du ministère des sports à 1% du budget de l’État et déplafonner les taxes affectées au sport amateur
+- id: NFP-182
+  page: 23
+  themes:
+  - sante
+  text: Développer des maisons de Sport-Santé dans tout le pays et rembourser le sport sur ordonnance
+- id: NFP-183
+  page: 23
+  themes: []
+  text: Mieux réguler les infrastructures du numérique et des télécommunications et garantir la neutralité du Net
+- id: NFP-184
+  page: 23
+  themes: []
+  text: Créer une mission nationale de maîtrise de l’intelligence artificielle et une agence publique des logiciels libres
+- id: NFP-185
+  page: 23
+  themes:
+  - sante
+  text: Adopter un plan interministériel sur l’impact du numérique sur la santé, l’enfance et l’éducation
+- id: NFP-186
+  page: 23
+  themes: []
+  text: Réglementer les tarifs de desserte aérienne
+- id: NFP-187
+  page: 23
+  themes: []
+  text: Mettre en place un taux maximal de sucre dans les aliments transformés
+- id: NFP-188
+  page: 23
+  themes: []
+  text: Organiser un congrès général des territoires éloignés et insulaires pour établir un plan d’action partagé pour l’égalité et l’autonomie dans les Outre-mer sur la base des cahiers de revendications et des « plans pays » et la mise en place d’un plan quinquennal d’investissement
+- id: NFP-189
+  page: 23
+  themes: []
+  text: Organiser la distribution de bouteilles d’eau et plafonner le prix de l’eau partout où le service d’eau potable est défaillant via modification du plan ORSEC-eau, et mettre en place de grands travaux de rénovation des canalisations
+- id: NFP-190
+  page: 23
+  themes: []
+  text: Créer un fonds d’indemnisation et de prévention contre les pollutions pour indemniser et assurer la prise en charge
+- id: NFP-191
+  page: 24
+  themes:
+  - immigration
+  text: Abroger les lois asile et immigration de Macron
+- id: NFP-192
+  page: 24
+  themes:
+  - immigration
+  text: Mettre en place une agence de sauvetage en mer et sur terre, dans l’attente de sa création au niveau européen et en appui de l’agence de l’Union européenne pour l’asile
+- id: NFP-193
+  page: 24
+  themes:
+  - immigration
+  text: Assurer un accompagnement social et une autorisation de travailler pour les demandeurs d’asile
+- id: NFP-194
+  page: 24
+  themes:
+  - immigration
+  text: Faciliter l’accès aux visas, régulariser les travailleurs, étudiants, parents d’enfants scolarisés et instituer la carte de séjour de dix ans comme titre de séjour de référence
+- id: NFP-195
+  page: 24
+  themes: []
+  text: Créer un statut de déplacé climatique
+- id: NFP-196
+  page: 24
+  themes:
+  - immigration
+  text: Améliorer les conditions d’accueil des exilés à Mayotte et supprimer les conditions empêchant le déplacement entre Mayotte et le reste du territoire
+- id: NFP-197
+  page: 24
+  themes:
+  - immigration
+  text: Créer des voies légales et sécurisées d’immigration
+- id: NFP-198
+  page: 24
+  themes:
+  - immigration
+  text: Réviser le pacte asile immigration européen pour un accueil digne des migrants
+- id: NFP-199
+  page: 24
+  themes:
+  - immigration
+  text: Mettre fin aux mesures dérogatoires sur l’étude de la demande d’asile
+- id: NFP-200
+  page: 24
+  themes: []
+  text: Renforcer les politiques de co-développement aux services des populations
+- id: NFP-201
+  page: 24
+  themes:
+  - immigration
+  text: Garantir l’accès à l’aide médicale d’État
+- id: NFP-202
+  page: 24
+  themes:
+  - energie
+  text: Créer un fonds d’indemnisation et de prévention contre les pollutions pour indemniser et assurer la prise en charge médicale des victimes du chlordécone et des sargasses et investir dans la dépollution et la décontamination des sols et des eaux (chlordécone et glyphosate aux Antilles, mercure en Guyane, essais nucléaires en Polynésie…)
+- id: NFP-203
+  page: 24
+  themes:
+  - classes-populaires
+  - immigration
+  text: Cesser de faire de Mayotte un territoire de seconde zone de la République. Étendre l’aide médicale d’État, aligner les niveaux du RSA et du SMIC sur le reste du pays et scolariser systématiquement tous les enfants
+- id: NFP-204
+  page: 24
+  themes: []
+  text: Prendre systématiquement en compte les Outre-mers dans chaque texte législatif
+- id: NFP-205
+  page: 24
+  themes: []
+  text: Lutter contre les situations de monopole dans les Outre-mer
+- id: NFP-206
+  page: 24
+  themes: []
+  text: Proposer un principe de faveur des ultra-marins sur les postes à responsabilité et favoriser le retour des fonctionnaires d’État
+- id: NFP-207
+  page: 24
+  themes: []
+  text: Favoriser l’enseignement des langues régionales en outre-mer
+- id: NFP-208
+  page: 24
+  themes: []
+  text: Lancer un plan spécifique de rattrapage en matière de désenclavement routier et ferroviaire en Guyane
+- id: NFP-209
+  page: 25
+  themes:
+  - europe-international
+  - immigration
+  text: Garantir le droit du sol intégral pour les enfants nés en France et faciliter l’obtention de la nationalité française
+- id: NFP-210
+  page: 25
+  themes:
+  - europe-international
+  text: Abroger le contrat d’engagement républicain liberticide pour les associations
+- id: NFP-211
+  page: 25
+  themes:
+  - europe-international
+  text: Organiser des États généraux sur les libertés publiques
+- id: NFP-212
+  page: 25
+  themes:
+  - europe-international
+  text: Abroger les dispositions liberticides des lois sécurité globale, séparatisme, et les lois qui instaurent un état d’urgence permanent et portent atteinte à nos libertés individuelles et collectives, et réviser la loi et la doctrine sur l’ouverture du feu pour que cessent les morts pour refus d’obtempérer
+- id: NFP-213
+  page: 25
+  themes:
+  - europe-international
+  text: Interdire la reconnaissance faciale et évaluer de manière indépendante les dispositifs de vidéosurveillance en lien avec le défenseur des droits
+- id: NFP-214
+  page: 25
+  themes:
+  - europe-international
+  text: Protéger les lanceurs d’alerte
+- id: NFP-215
+  page: 25
+  themes:
+  - europe-international
+  text: Défendre et renforcer les libertés syndicales et associatives et en finir avec leur répression
+- id: NFP-216
+  page: 25
+  themes:
+  - europe-international
+  text: Refuser le pacte de stabilité budgétaire
+- id: NFP-217
+  page: 25
+  themes:
+  - europe-international
+  text: Proposer un pacte européen pour le climat et l’urgence sociale
+- id: NFP-218
+  page: 25
+  themes:
+  - europe-international
+  text: Proposer une réforme de la Politique agricole commune (PAC)
+- id: NFP-219
+  page: 25
+  themes:
+  - europe-international
+  text: Mettre fin aux traités de libre-échange
+- id: NFP-220
+  page: 25
+  themes:
+  - europe-international
+  text: Instaurer un protectionnisme écologique et social aux frontières de l’Europe
+- id: NFP-221
+  page: 25
+  themes:
+  - europe-international
+  - fiscalite
+  text: Adopter un mécanisme d’harmonisation sociale par le haut entre les États pour mettre fin aux politiques de dumping social et fiscal
+- id: NFP-222
+  page: 25
+  themes:
+  - europe-international
+  - energie
+  text: 'Réindustrialiser l’Europe : numérique, industrie du médicament, énergie, etc.'
+- id: NFP-223
+  page: 25
+  themes:
+  - europe-international
+  text: Instaurer une règle verte pour prioriser des investissements verts
+- id: NFP-224
+  page: 25
+  themes:
+  - europe-international
+  text: Taxer les plus riches au niveau européen pour augmenter les ressources propres du budget de l’Union européenne
+- id: NFP-225
+  page: 25
+  themes:
+  - europe-international
+  text: Généraliser de la taxation des superprofits au niveau européen
+- id: NFP-226
+  page: 25
+  themes:
+  - europe-international
+  text: Modifier le droit de la concurrence en Europe pour garantir le droit de monopole public au niveau national
+- id: NFP-227
+  page: 26
+  themes:
+  - europe-international
+  - fiscalite
+  text: Passer au vote à la majorité qualifiée au conseil pour les questions fiscales
+- id: NFP-228
+  page: 26
+  themes:
+  - europe-international
+  text: Conformément à ce que nos groupes ont voté à l’Assemblée nationale, nous refuserons, pour l’application de notre contrat de législature, le pacte budgétaire, le droit de la concurrence lorsqu’il remet en cause les services publics et nous rejetterons les traités de libre-échange.
+claims: []

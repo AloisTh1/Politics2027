@@ -1,0 +1,255 @@
+doc: lfi-synthese-contributions
+note: 'Reconstitution partielle du chapitre 7 de L''Avenir en commun 2025 (« La force de l''entraide ») : mesures que la campagne présente comme « déjà présentes dans le programme actuel ». Formulations de la synthèse, pas le texte du programme.'
+pages:
+- n: 1
+  summary: 'Synthèse des ~24 000 contributions citoyennes (20 mai-20 juin 2025), chapitre par chapitre : nombre de contributions, propositions déjà présentes dans le programme, propositions nouvelles.'
+measures:
+- id: LFI-07-S01
+  page: 1
+  section: L’égalité des populations par la démocratie et les services publics
+  verbatim: false
+  themes:
+  - services-publics
+  text: La réouverture des accueils physiques dans les services publics
+- id: LFI-07-S02
+  page: 1
+  section: L’égalité des populations par la démocratie et les services publics
+  verbatim: false
+  themes:
+  - services-publics
+  - sante
+  text: La lutte contre les déserts médicaux
+- id: LFI-07-S03
+  page: 1
+  section: L’égalité des populations par la démocratie et les services publics
+  verbatim: false
+  themes:
+  - services-publics
+  text: Le soutien au tissu associatif local, notamment grâce à davantage de subventions publiques
+- id: LFI-07-S04
+  page: 1
+  section: En finir avec l’abandon des Outre-mer
+  verbatim: false
+  themes:
+  - services-publics
+  text: Permettre l’accès aux services publics (renforcement des guichets physiques)
+- id: LFI-07-S05
+  page: 1
+  section: En finir avec l’abandon des Outre-mer
+  verbatim: false
+  themes:
+  - services-publics
+  text: Garantir la continuité territoriale
+- id: LFI-07-S06
+  page: 1
+  section: 'Faire la société de l’entraide : généraliser l’économie sociale, solidaire et coopérative'
+  verbatim: false
+  themes:
+  - entreprises-industrie
+  text: Rendre la Sécurité sociale aux travailleurs et travailleuses
+- id: LFI-07-S07
+  page: 1
+  section: 'Faire la société de l’entraide : généraliser l’économie sociale, solidaire et coopérative'
+  verbatim: false
+  themes:
+  - entreprises-industrie
+  text: Améliorer l’accès de l’ESS aux financements et marchés publics
+- id: LFI-07-S08
+  page: 1
+  section: 'Faire la société de l’entraide : généraliser l’économie sociale, solidaire et coopérative'
+  verbatim: false
+  themes:
+  - entreprises-industrie
+  text: Revaloriser les métiers de l’animation socio-culturelle et de l’éducation spécialisée
+- id: LFI-07-S09
+  page: 1
+  section: 'Faire la société de l’entraide : généraliser l’économie sociale, solidaire et coopérative'
+  verbatim: false
+  themes:
+  - entreprises-industrie
+  text: Faciliter les conventions pluriannuelles pour lutter contre les appels à projet perpétuels
+- id: LFI-07-S10
+  page: 1
+  section: 'Faire la société de l’entraide : généraliser l’économie sociale, solidaire et coopérative'
+  verbatim: false
+  themes:
+  - entreprises-industrie
+  text: Créer un service public de pompes funèbres
+- id: LFI-07-S11
+  page: 1
+  section: Éradiquer la pauvreté
+  verbatim: false
+  themes:
+  - classes-populaires
+  text: L’augmentation de l’allocation adulte handicapé et l’automatisation de son attribution
+- id: LFI-07-S12
+  page: 1
+  section: Éradiquer la pauvreté
+  verbatim: false
+  themes:
+  - classes-populaires
+  text: La gratuité de la cantine et du périscolaire
+- id: LFI-07-S13
+  page: 1
+  section: Éradiquer la pauvreté
+  verbatim: false
+  themes:
+  - classes-populaires
+  text: La sécurité sociale intégrale
+- id: LFI-07-S14
+  page: 1
+  section: Éradiquer la pauvreté
+  verbatim: false
+  themes:
+  - classes-populaires
+  text: Le plafonnement des frais bancaires
+- id: LFI-07-S15
+  page: 1
+  section: Éradiquer la pauvreté
+  verbatim: false
+  themes:
+  - classes-populaires
+  text: La sécurité sociale de l’alimentation
+- id: LFI-07-S16
+  page: 1
+  section: Garantir le droit au logement
+  verbatim: false
+  themes:
+  - logement
+  - classes-populaires
+  text: Aller vers l’objectif zéro-sans-abri
+- id: LFI-07-S17
+  page: 1
+  section: Garantir le droit au logement
+  verbatim: false
+  themes:
+  - logement
+  - classes-populaires
+  text: Étendre et pérenniser l’encadrement des loyers sur tout le territoire
+- id: LFI-07-S18
+  page: 1
+  section: Garantir le droit au logement
+  verbatim: false
+  themes:
+  - logement
+  - classes-populaires
+  text: Limiter la concentration immobilière en instaurant un plafond de logement transmis dans le cas de l’héritage ou achat direct
+- id: LFI-07-S19
+  page: 1
+  section: Garantir le droit au logement
+  verbatim: false
+  themes:
+  - logement
+  - classes-populaires
+  text: Rénover les logements
+- id: LFI-07-S20
+  page: 1
+  section: Garantir le droit au logement
+  verbatim: false
+  themes:
+  - logement
+  - classes-populaires
+  text: Abroger la loi Kasbarian
+- id: LFI-07-S21
+  page: 1
+  section: Garantir le droit au logement
+  verbatim: false
+  themes:
+  - logement
+  - classes-populaires
+  - immigration
+  text: Rétablir les aides personnalisées au logement (APL) pour les étudiants étrangers
+- id: LFI-07-S22
+  page: 1
+  section: La justice au nom du peuple
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Recréer un maillage de tribunaux de proximité sur le territoire
+- id: LFI-07-S23
+  page: 1
+  section: La justice au nom du peuple
+  verbatim: false
+  themes:
+  - securite-justice
+  - feminisme
+  text: Former les magistrats à la prise en charge des violences sexistes et sexuelles et des violences faites aux enfants
+- id: LFI-07-S24
+  page: 1
+  section: Une politique de justice efficace
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Respecter la dignité et les droits des personnes privées de liberté
+- id: LFI-07-S25
+  page: 1
+  section: Une politique de justice efficace
+  verbatim: false
+  themes:
+  - securite-justice
+  text: En finir avec la surpopulation carcérale
+- id: LFI-07-S26
+  page: 1
+  section: Une politique de justice efficace
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Lutter contre la délinquance financière
+- id: LFI-07-S27
+  page: 1
+  section: Une police de proximité au service de la sûreté des citoyens
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Rétablir une police de proximité
+- id: LFI-07-S28
+  page: 1
+  section: Une police de proximité au service de la sûreté des citoyens
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Interdire certaines pratiques dangereuses en premier lieu les LBD
+- id: LFI-07-S29
+  page: 1
+  section: Une police de proximité au service de la sûreté des citoyens
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Former les policiers
+- id: LFI-07-S30
+  page: 1
+  section: Une police de proximité au service de la sûreté des citoyens
+  verbatim: false
+  themes:
+  - securite-justice
+  text: Interdire la reconnaissance faciale
+- id: LFI-07-S31
+  page: 1
+  section: Protéger les enfants
+  verbatim: false
+  themes:
+  - famille
+  text: Renforcer la formation des professionnels du secteur de l’enfance et revaloriser leurs salaires
+- id: LFI-07-S32
+  page: 1
+  section: Protéger les enfants
+  verbatim: false
+  themes:
+  - famille
+  text: Augmenter les moyens dédiés au secteur de l’enfance
+- id: LFI-07-S33
+  page: 1
+  section: Protéger les enfants
+  verbatim: false
+  themes:
+  - famille
+  - securite-justice
+  text: Dédier davantage d’effectifs de police aux problématiques de cyberpédocriminalité
+- id: LFI-07-S34
+  page: 1
+  section: Protéger les enfants
+  verbatim: false
+  themes:
+  - famille
+  text: Améliorer les politiques d’accompagnement et de soutien à la parentalité (formation, assistance psychologique)
+claims: []

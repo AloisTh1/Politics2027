@@ -22,6 +22,51 @@ documents:
       l'approche de la 5e édition (livre, La Dispute, annoncé pour le 6 novembre 2026) :
       le texte est récupéré dans l'archive Common Crawl de mai 2026.
 
+  # Documents complémentaires publiés par la campagne en 2026 (menu « Programme » de
+  # melenchon2027.fr au 10 octobre 2026 : un plan thématique et un plan d'investissement
+  # sont en ligne, les autres sont annoncés).
+  - id: lfi-plan-ruralite
+    party: lfi
+    role: complement
+    title: "Plan thématique — « Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre ? » (octobre 2026)"
+    publisher: "La France insoumise / campagne Mélenchon 2027"
+    kind: pdf
+    url: https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf
+    page: https://melenchon2027.fr/programme/plans-thematiques/ruralite/
+
+  - id: lfi-plan-btp-logement
+    party: lfi
+    role: complement
+    title: "Plan d'investissement productif — BTP et logement (septembre 2026)"
+    publisher: "La France insoumise / campagne Mélenchon 2027"
+    kind: pdf
+    url: https://melenchon2027.fr/wp-content/uploads/2026/09/M-27-PLAN-BTP-LOGEMENT.pdf
+    page: https://melenchon2027.fr/programme/plans-investissement/btp-logement/
+
+  - id: lfi-nfp-2024
+    party: lfi
+    role: contexte
+    title: "Programme du Nouveau Front populaire (législatives de juin 2024)"
+    publisher: "Nouveau Front populaire (PS, LFI, PCF, Écologistes…), mis en ligne par la campagne Mélenchon 2027"
+    kind: pdf
+    url: https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf
+    note: >-
+      Programme de coalition, non propre à LFI ; listé par la campagne dans « Le corpus de la
+      France insoumise ». Pendant du programme RN des législatives 2024.
+
+  - id: lfi-synthese-contributions
+    party: lfi
+    role: contexte
+    title: "Synthèse des contributions citoyennes à L'Avenir en commun (mai-juin 2025)"
+    publisher: "Campagne Mélenchon 2027"
+    kind: html
+    url: https://melenchon2027.fr/synthese-des-contributions/
+    note: >-
+      Pour chaque section de l'édition 2025, la campagne cite des mesures « déjà présentes dans
+      le programme actuel ». Seule trace officielle accessible du chapitre 7 (« La force de
+      l'entraide »), absent de toutes les archives consultées : ces mentions sont des résumés,
+      pas le texte du programme.
+
   # ------------------------------------------------------------------ RN
   # Le RN n'a pas publié de programme présidentiel complet au 10 octobre 2026 : son site
   # présente comme « programme » celui des législatives de juin 2024, complété par les

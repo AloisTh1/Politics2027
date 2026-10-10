@@ -50,8 +50,15 @@ def main_node(soup: BeautifulSoup):
     for tag in soup(["script", "style", "noscript", "form", "header", "footer", "aside", "svg"]):
         tag.decompose()
     for selector in ("main.section", "article", "main", ".entry-content", "#content", "body"):
-        node = soup.select_one(selector)
-        if node and len(node.get_text(strip=True)) > 150:
+        nodes = soup.select(selector)
+        if not nodes:
+            continue
+        node = nodes[0]
+        # une page découpée en plusieurs <article> (un par chapitre) : on prend leur parent commun
+        if len(nodes) > 1:
+            shared = [p for p in nodes[0].parents if all(p in n.parents for n in nodes[1:])]
+            node = shared[0] if shared else node
+        if len(node.get_text(strip=True)) > 150:
             return node
     return soup
 
