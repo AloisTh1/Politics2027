@@ -1,0 +1,31 @@
+doc: rn-livret-patrimoine
+pages:
+  - {n: 1, summary: "Quatrième de couverture insérée : photo et citation de la candidate."}
+  - {n: 2, summary: "Couverture « M la France — Le patrimoine » (campagne présidentielle 2022)."}
+  - {n: 3, summary: "Titre (logo)."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Le patrimoine « histoire pétrifiée », facteur de cohésion nationale."}
+  - {n: 6, summary: "45 000 monuments historiques (44 % privés) ; 500 000 emplois dans la filière."}
+  - {n: 7, summary: "Patrimoine menacé (désengagement de l'État, éoliennes) ; sites UNESCO en danger."}
+  - {n: 8, summary: "Responsabilité partagée État-collectivités-propriétaires ; critique de l'implantation des éoliennes."}
+  - {n: 9, summary: "Filière économique non délocalisable, moteur du tourisme."}
+  - {n: 10, summary: "Page sans texte."}
+  - {n: 11, summary: "Politique nationale du patrimoine ; livre blanc et inventaire de l'état sanitaire en deux ans."}
+  - {n: 12, summary: "Refonte de la loi de 1913 : avis conforme de l'architecte des bâtiments de France, zones d'exclusion autour des sites UNESCO, retour du périmètre de 500 m, moratoire puis démantèlement des éoliennes."}
+  - {n: 13, summary: "Protection des biens mobiliers attachés aux monuments ; statut de « chef d'entreprise du patrimoine »."}
+  - {n: 14, summary: "Charte du propriétaire ; réforme du droit de visite ; « journées nationales » du patrimoine ; service national du patrimoine (18-24 ans)."}
+  - {n: 15, summary: "Métiers d'art, ABF, vérificateurs des monuments ; budget porté de 330 M€ à 1 Md€."}
+  - {n: 16, summary: "Financement : 1 % culturel partagé, Loto du patrimoine exonéré, mécénat ; fiscalité des propriétaires."}
+  - {n: 17, summary: "Avantages fiscaux élargis, monuments exclus de l'impôt sur la fortune financière, retour au dispositif Malraux ; loi de programmation du patrimoine."}
+  - {n: 18, summary: "Contenu de la loi de programmation : taux d'intervention, plans « châteaux forts », « abbayes », « cathédrales », plan musées."}
+  - {n: 19, summary: "Page sans texte."}
+  - {n: 20, summary: "Page sans texte."}
+
+measures:
+  - {id: RNPAT-01, page: 12, themes: [ecologie, energie], text: "le patrimoine bénéficiera du moratoire sur les éoliennes puis de leur démantèlement progressif"}
+  - {id: RNPAT-02, page: 12, themes: [services-publics], text: "Le renforcement de la place centrale de l'Architecte des Bâtiments de France (ABF) pour avis conforme dans tout secteur protégé"}
+  - {id: RNPAT-03, page: 14, themes: [education, services-publics], text: "un service national du patrimoine de six mois renouvelables, ouvert aux jeunes de 18 à 24 ans sur la base du volontariat"}
+  - {id: RNPAT-04, page: 15, themes: [services-publics, finances-publiques], text: "Le budget annuel pour l'entretien et la restauration des monuments historiques, de l'ordre de 330 millions d'euros en moyenne depuis des années, est insuffisant. Il devra être porté à un milliard d'euros"}
+  - {id: RNPAT-05, page: 17, themes: [fiscalite], text: "Non-intégration à l'assiette de l'Impôt sur la Fortune Financière, impôt qui remplacera l'IFI […] les monuments historiques et ceux inscrits à l'Inventaire supplémentaire des monuments historiques"}
+  - {id: RNPAT-06, page: 17, themes: [fiscalite, logement], text: "Le retour au dispositif Malraux qui permet d'imputer des déficits à ses revenus et non de bénéficier d'une réduction d'impôts"}
+  - {id: RNPAT-07, page: 17, themes: [services-publics], text: "Après le Livre blanc sur le Patrimoine, il conviendra de bâtir une Loi de Programmation du Patrimoine."}

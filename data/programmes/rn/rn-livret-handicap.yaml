@@ -1,0 +1,28 @@
+doc: rn-livret-handicap
+pages:
+  - {n: 1, summary: "Couverture « M la France — Les porteurs de handicap » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Titre (logo)."}
+  - {n: 3, summary: "Page sans texte."}
+  - {n: 4, summary: "Quatrième de couverture insérée : photo et citation de la candidate."}
+  - {n: 5, summary: "Bilan : délais des MDPH de quatre à six mois, critères de l'AAH variables, dépistage de l'autisme en retard."}
+  - {n: 6, summary: "Hausse de l'AAH jugée en trompe-l'œil, 14 000 places manquantes, familles contraintes d'aller en Belgique, 20 000 enfants non scolarisés faute d'AESH."}
+  - {n: 7, summary: "Emploi : chômage doublé, obligation de 6 % non atteinte ; pauvreté des personnes handicapées de 15,8 % à 19 % ; « grande cause » du quinquennat."}
+  - {n: 8, summary: "Page sans texte."}
+  - {n: 9, summary: "Proposition 1 : non-discrimination liée au handicap érigée en principe constitutionnel (prêts, assurances, accès)."}
+  - {n: 10, summary: "Par le projet de loi référendaire : ajout à l'article 1er de la Constitution de « sexe, orientation sexuelle, handicap » ; proposition 2 : protection contre les violences."}
+  - {n: 11, summary: "Réquisitions plus sévères pour les violences envers les personnes handicapées ; proposition 3 : accessibilité des lieux et transports publics."}
+  - {n: 12, summary: "Accessibilité numérique ; proposition 4 : AAH déconjugalisée, revalorisée et indexée sur l'inflation."}
+  - {n: 13, summary: "Proposition 5 : emploi (apprentissage, entreprises adaptées, obligation de 6 % respectée par l'État, crédit d'impôt de trois ans)."}
+  - {n: 14, summary: "Proposition 6 : scolarisation (AESH revalorisés, ULIS, PIAL) ; aides aux aidants augmentées."}
+  - {n: 15, summary: "IME, 10 000 places en établissements spécialisés 2022-2027, centre de dépistage de l'autisme par département ; proposition 7 : congé de proche aidant de 12 mois, indemnité de 300 €."}
+  - {n: 16, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNHAN-01, page: 10, themes: [libertes-laicite, institutions, feminisme], text: "Sa rédaction actuelle […] sera amendée pour insérer après « sans distinction », les mots : « de sexe, d'orientation sexuelle, de handicap, »."}
+  - {id: RNHAN-02, page: 11, themes: [securite-justice, libertes-laicite], text: "le ministre de la Justice donnera des instructions aux Procureurs de la République pour que leurs réquisitions lors des audiences pénales soient plus sévères lorsqu'est jugé un individu ayant commis des violences physiques ou verbales à l'encontre d'une personne en situation de handicap"}
+  - {id: RNHAN-03, page: 11, themes: [services-publics], text: "Tous les établissements publics accueillant du public seront accessibles aux personnes en situation de handicap."}
+  - {id: RNHAN-04, page: 12, themes: [classes-populaires], text: "le barème permettant d'établir les droits au titre de l'allocation adulte handicapé (AAH) ne prendra plus en compte les revenus du conjoint. […] Le montant minimal de l'AAH sera en outre indexé sur l'inflation. […] les montants de l'AAH et de la MVA seront revalorisés."}
+  - {id: RNHAN-05, page: 13, themes: [travail, services-publics], text: "L'État respectera strictement l'obligation d'emploi de 6% de personnes en situation de handicap […] Un crédit d'impôt de trois années sera accordé aux entreprises qui iront au-delà de leurs obligations légales"}
+  - {id: RNHAN-06, page: 14, themes: [education, services-publics], text: "le nombre d'accompagnants des élèves en situation de handicap sera adapté aux besoins. Ces nouveaux recrutements seront facilités grâce à la revalorisation de leur statut."}
+  - {id: RNHAN-07, page: 15, themes: [sante, services-publics], text: "Au cours de la période 2022-2027, 10 000 places d'accueil seront créées dans des établissements spécialisés en France"}
+  - {id: RNHAN-08, page: 15, themes: [sante], text: "chaque département sera doté d'un centre de dépistage des jeunes autistes"}

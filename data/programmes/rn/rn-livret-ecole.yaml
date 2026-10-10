@@ -1,0 +1,40 @@
+doc: rn-livret-ecole
+pages:
+  - {n: 1, summary: "Couverture « M la France — L'école » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Quatrième de couverture insérée : photo et citation de la candidate."}
+  - {n: 3, summary: "Titre : « L'école »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "« Déconstruction de l'école » ; missions de transmission, d'insertion et d'« assimilation des élèves étrangers ou immigrés »."}
+  - {n: 6, summary: "Baisse des résultats (PIRLS 2016 : 511 points ; PISA 2019 ; TIMSS : élèves de 4e « avant-derniers en Europe »), illettrisme aux Journées défense et citoyenneté."}
+  - {n: 7, summary: "90 000 jeunes sans diplôme par an ; échec en première année d'université ; chômage des moins de 25 ans à 20 % contre 6 % en Allemagne."}
+  - {n: 8, summary: "Bilan du quinquennat Macron : dédoublements en éducation prioritaire, réforme du bac, loi Blanquer ; 6 690 € par élève du primaire."}
+  - {n: 9, summary: "Éducation prioritaire : « fracture culturelle », absence de la laïcité parmi les priorités."}
+  - {n: 10, summary: "Trois principes : efficacité (méthodes, histoire de France), autorité du maître (salaires, protection), sérénité (fin de l'« école ouverte »)."}
+  - {n: 11, summary: "Le Parlement fixe les attendus de fin de cycle ; programmes nationaux ; plus d'heures de cours en primaire."}
+  - {n: 12, summary: "Priorité au français, aux mathématiques et à l'histoire ; 20 élèves maximum en grande section et CP, 30 dans le secondaire ; brevet transformé en examen d'orientation post-3e (fin du « collège unique »)."}
+  - {n: 13, summary: "Abrogation de la réforme Blanquer du bac ; suppression des ELCO ; uniforme ; fin de la « discrimination positive » ; suspension des allocations familiales en cas d'absentéisme (loi Ciotti), sanctions planchers en conseil de discipline."}
+  - {n: 14, summary: "Plainte systématique pour outrage, vidéoprotection dans tous les établissements secondaires, interdiction du voile pour les accompagnatrices de sorties scolaires ; salaires des enseignants +3 % par an pendant cinq ans."}
+  - {n: 15, summary: "Suppression des INSPE, recrutement à bac+5, formation par des pairs, carrières au mérite."}
+  - {n: 16, summary: "Page sans texte."}
+
+measures:
+  - {id: RNECOL-01, page: 11, themes: [education, institutions], text: "Le Parlement fixera, de manière concise et limitative, ce qui est attendu des élèves à la fin de chaque cycle."}
+  - {id: RNECOL-02, page: 11, themes: [education], text: "Le nombre d'heures de cours des élèves du primaire sera significativement accru."}
+  - {id: RNECOL-03, page: 12, themes: [education], text: "L'enseignement dans le primaire donnera une priorité absolue au français, aux mathématiques et à l'histoire de France."}
+  - {id: RNECOL-04, page: 12, themes: [education, services-publics], text: "Dédoublement programmé des classes de grande section et de cours préparatoire : l'effectif maximal ne devra plus dépasser 20 élèves par classe. Dans le secondaire, un plafond de trente élèves sera également fixé."}
+  - {id: RNECOL-05, page: 12, themes: [education, travail], text: "le diplôme national du brevet deviendra donc un examen d'orientation post-3e : en fonction des résultats de l'élève et de ses bulletins scolaires, celui-ci sera orienté vers l'enseignement général et technologique, vers l'enseignement professionnel ou vers l'enseignement des métiers par l'apprentissage."}
+  - {id: RNECOL-06, page: 13, themes: [education], text: "La réforme Blanquer du baccalauréat sera abrogée. Cet examen […] retrouvera son statut d'examen terminal national"}
+  - {id: RNECOL-07, page: 13, themes: [education, services-publics], text: "Plan d'urgence éducative pour l'Outre-mer, notamment pour la Guyane et Mayotte."}
+  - {id: RNECOL-08, page: 13, themes: [education, immigration], text: "Suppression des enseignements de langue et de culture d'origine (ELCO) qui nuisent à l'assimilation des élèves"}
+  - {id: RNECOL-09, page: 13, themes: [education], text: "Port d'un uniforme à l'école primaire et au collège."}
+  - {id: RNECOL-10, page: 13, themes: [education, libertes-laicite], text: "Dans le cadre de la réforme constitutionnelle, toute forme de « discrimination positive » en vigueur dans l'enseignement secondaire et supérieur sera supprimée."}
+  - {id: RNECOL-11, page: 13, themes: [education, famille, classes-populaires], text: "retour aux principes de la loi Ciotti (2010), qui prévoit la suspension des allocations familiales et des bourses scolaires en cas d'absentéisme avéré et de perturbations graves et répétées"}
+  - {id: RNECOL-12, page: 13, themes: [education, securite-justice], text: "Instauration de sanctions-plancher qui devront être appliquées lors des conseils de discipline sous peine de sanctions contre l'encadrement des établissements."}
+  - {id: RNECOL-13, page: 14, themes: [education, securite-justice], text: "Généralisation de la vidéoprotection dans tous les établissements du secondaire, en priorisant les réseaux d'éducation prioritaire."}
+  - {id: RNECOL-14, page: 14, themes: [education, libertes-laicite, feminisme], text: "Interdiction par la loi du port du voile islamique pour les accompagnantes de sorties scolaires"}
+  - {id: RNECOL-15, page: 14, themes: [education, services-publics, travail], text: "les salaires des enseignants du primaire au lycée seront revalorisés de 3 % par an pendant 5 ans, soit une augmentation de plus de 15 % sur le quinquennat", params: {hausse_annuelle: 0.03, annees: 5}}
+  - {id: RNECOL-16, page: 15, themes: [education], text: "Suppression des Instituts nationaux supérieurs du professorat et de l'éducation créés en 2019"}
+
+claims:
+  - {page: 6, text: "En mathématiques, par exemple, les élèves français de 4e sont avant-derniers en Europe : symptôme de notre déclassement, seule l'Albanie fait moins bien."}
+  - {page: 7, text: "le taux de chômage des moins de 25 ans est de 20 % en France alors qu'il n'est que de 6 % en Allemagne"}

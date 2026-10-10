@@ -1746,6 +1746,19 @@
   ],
   "retrieved_at": "2026-10-10T08:28:13+00:00"
  },
+ "rn-livret-defense": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-defense.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-defense.pdf",
+    "path": "sources/raw/rn-livret-defense/projet-la-defense.pdf",
+    "bytes": 2399058,
+    "sha256": "2deab29659334f54ff55c7ce3cac0bdcd0ffc627669e1644aeda7014c5a725c4",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:38:25+00:00"
+ },
  "rn-livret-ecole": {
   "files": [
    {

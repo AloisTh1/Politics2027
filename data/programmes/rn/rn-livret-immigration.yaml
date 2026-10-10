@@ -1,0 +1,92 @@
+doc: rn-livret-immigration
+# Livret « Contrôler l'immigration » (janvier 2022) : exposé politique (p. 5-18) puis projet de loi
+# référendaire « Citoyenneté, identité, immigration » (p. 21-44), présenté par le RN comme toujours d'actualité.
+pages:
+  - {n: 1, summary: "Couverture (sans texte extractible)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « Contrôler l'immigration »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Diagnostic : assimilation « devenue impossible », communautarisme ; pression démographique africaine (1,3 milliard d'habitants, +1 milliard d'ici 2050)."}
+  - {n: 6, summary: "Facteurs de migration : conflits, niveau de vie, mauvaise gouvernance, changement climatique."}
+  - {n: 7, summary: "Historique : fin de l'immigration de travail (1974), regroupement familial (1976), arrêt du Conseil d'État de 1978, loi de 2018 ; quatre formes d'immigration illégale."}
+  - {n: 8, summary: "« Ce sont bien les immigrés qui décident de la politique migratoire » ; abrogation du délit de séjour irrégulier (2012) ; référendum présenté comme « seule solution »."}
+  - {n: 9, summary: "Affirmation : limiter l'immigration fera monter les salaires, exemple du Royaume-Uni après le Brexit."}
+  - {n: 10, summary: "Le droit des étrangers dépend de la CEDH et des juges ; un référendum révisera la Constitution et les lois sur les étrangers, la nationalité, la priorité nationale."}
+  - {n: 11, summary: "Le projet « respecte pleinement l'État de droit » et n'implique pas de dénoncer la CEDH (exemples : Danemark, Hongrie, Russie)."}
+  - {n: 12, summary: "La Constitution doit primer sur le droit international (exemples allemand et polonais) ; une loi référendaire échappe au contrôle du Conseil constitutionnel."}
+  - {n: 13, summary: "Mesures du titre I : principes fixés par la loi, levée des obstacles à l'expulsion des condamnés, rétablissement du délit de séjour irrégulier."}
+  - {n: 14, summary: "Régularisations seulement à titre exceptionnel en Conseil des ministres ; priorité nationale (emploi, logement) ; prestations non contributives réservées aux Français ou après 5 ans de travail ; asile déposé dans les ambassades."}
+  - {n: 15, summary: "Réexamen périodique du statut de réfugié ; renégociation de Schengen."}
+  - {n: 16, summary: "Nationalité : suppression du droit du sol, nationalité par filiation, fin de l'acquisition par mariage, naturalisation sous conditions strictes."}
+  - {n: 17, summary: "Retrait et déchéance de nationalité fixés par la Constitution."}
+  - {n: 18, summary: "Nouvel article 3-1 (« pas d'autre communauté reconnue que la communauté nationale ») ; sauvegarde de l'identité et du patrimoine ; crèches de Noël, éoliennes, fin de l'enseignement des langues d'origine."}
+  - {n: 19, summary: "Page sans texte."}
+  - {n: 20, summary: "Page sans texte."}
+  - {n: 21, summary: "Projet de loi référendaire, exposé des motifs : recours à l'article 11 de la Constitution pour adopter des dispositions constitutionnelles (précédents de 1962 et 1969)."}
+  - {n: 22, summary: "« Bouclier constitutionnel » contre le droit international et européen ; refus de dénoncer la CEDH « alors qu'il suffit de rendre inapplicables les stipulations qui concernent l'immigration »."}
+  - {n: 23, summary: "Critique de la jurisprudence (article 8 de la CEDH, intérêt de l'enfant, directives européennes)."}
+  - {n: 24, summary: "Pourquoi ne pas dénoncer la CEDH ; citation de Georges Vedel sur le pouvoir du constituant."}
+  - {n: 25, summary: "Renégociation du droit dérivé européen ; titre I : expulsions sans contrôle de « nécessité » ou de « proportionnalité », régularisation interdite par principe."}
+  - {n: 26, summary: "Priorité nationale pour l'emploi et le logement social ; pénalisation de toute aide aux étrangers en situation irrégulière, « aucune exemption […] au nom d'un concept détourné de fraternité » ; dérogation au droit d'asile du préambule de 1946."}
+  - {n: 27, summary: "Titre II : suppression du droit du sol, vote et éligibilité réservés aux nationaux, accès aux emplois publics fermé aux binationaux."}
+  - {n: 28, summary: "Titre III : supériorité de la Constitution sur toute norme internationale, autorité des traités renvoyée à des lois organiques."}
+  - {n: 29, summary: "Condition constitutionnelle à l'appartenance à l'UE ; titre IV : adaptation outre-mer, référendum obligatoire pour modifier le texte."}
+  - {n: 30, summary: "Page sans texte."}
+  - {n: 31, summary: "Article 1er du projet : nouvel article 4-1 de la Constitution (accès au territoire, régularisation par décret en Conseil des ministres, regroupement familial interdit ou limité, prestations de solidarité)."}
+  - {n: 32, summary: "Priorité nationale constitutionnalisée ; article 34 : peines pour toute aide « pour quelque motif que ce soit » ; asile traité hors du territoire."}
+  - {n: 33, summary: "Principes directeurs (nouvel article L. 107-2 du CESEDA) : pas de droit absolu au séjour, immigration ne devant pas « modifier la composition et l'identité du peuple français », immigration de travail limitée aux emplois non pourvus par des nationaux."}
+  - {n: 34, summary: "Les étrangers doivent prouver qu'ils ne coûtent rien à la protection sociale ; étudiants tenus de partir ; régularisation pour « actes de bravoure » ; délit de séjour irrégulier ; habilitation à légiférer par ordonnances."}
+  - {n: 35, summary: "Ordonnances : réduction de la durée des titres de séjour en cours, application des nouvelles règles d'éloignement à des actes antérieurs, priorité nationale assortie de sanctions."}
+  - {n: 36, summary: "Nouvel article 2-1 (nationalité par filiation), vote et éligibilité réservés aux nationaux, article 3-1 contre le communautarisme."}
+  - {n: 37, summary: "Ajout à l'article 1er de la Constitution de l'égalité « sans distinction de sexe, d'orientation sexuelle, de handicap » ; langue française et patrimoine ; ordonnances sur le code civil."}
+  - {n: 38, summary: "Article 12 : la Constitution, « norme suprême », prime sur tout engagement international ; aucun traité contraire ne peut être conclu."}
+  - {n: 39, summary: "Contrôle des traités par le Conseil constitutionnel, saisines nouvelles (articles 61-2 et 61-3)."}
+  - {n: 40, summary: "Nouvel article 55 : l'autorité des traités fixée par des lois organiques, sous réserve de réciprocité."}
+  - {n: 41, summary: "Pouvoirs accrus du Parlement sur les traités ; conditions aux accords de libre circulation."}
+  - {n: 42, summary: "Conditions à l'appartenance à l'UE (article 88-1) : les actes de l'Union ne peuvent limiter le contrôle de l'immigration ; libre circulation des Européens conditionnée."}
+  - {n: 43, summary: "Interdiction d'invoquer la CEDH, la Convention de Genève, les pactes de l'ONU et la Convention des droits de l'enfant devant les juges dans le contentieux des étrangers, y compris pour les procédures en cours."}
+  - {n: 44, summary: "Adaptation outre-mer ; caducité des ordonnances non ratifiées dans les deux ans."}
+  - {n: 45, summary: "Page sans texte."}
+  - {n: 46, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNIMM-01, page: 10, themes: [immigration, institutions], text: "un référendum soumettra aux Français une réforme de la Constitution et des modifications des lois relatives à la situation des étrangers, à la nationalité et à l'identité françaises"}
+  - {id: RNIMM-02, page: 21, themes: [immigration, institutions], text: "Dans la Constitution de la Vème République, l'article 11 permet au président de la République de soumettre au référendum « tout projet de loi portant sur l'organisation des pouvoirs publics […] ». C'est le cas du projet de loi présenté ici, qui contient des dispositions de nature constitutionnelle et législative"}
+  - {id: RNIMM-03, page: 13, themes: [immigration, securite-justice], text: "Seront levés tous les obstacles limitant ou interdisant l'éloignement des étrangers condamnés pour des crimes ou des délits graves ou de ceux qui font peser un risque sur l'ordre public"}
+  - {id: RNIMM-04, page: 13, themes: [immigration, securite-justice], text: "Le fait d'entrer ou de se maintenir illégalement sur le territoire redeviendra un délit."}
+  - {id: RNIMM-05, page: 14, themes: [immigration], text: "La régularisation d'un étranger en situation irrégulière ne sera pas possible, sauf dans des cas exceptionnels. […] La décision sera prise en Conseil des ministres"}
+  - {id: RNIMM-06, page: 14, themes: [immigration, travail, logement], text: "La loi permettra d'instaurer la priorité nationale dans certains domaines, notamment pour l'accès à l'emploi et au logement."}
+  - {id: RNIMM-07, page: 14, themes: [immigration, classes-populaires, famille], text: "Les prestations de solidarité qui ne relèvent pas d'un régime d'assurance seront soit réservées aux Français, soit soumises à des conditions fixées par loi, notamment en termes de durée de travail. Il faudra avoir travaillé durant cinq années en France pour pouvoir prétendre au bénéfice de ces prestations. Les allocations familiales […] seront réservées aux Français."}
+  - {id: RNIMM-08, page: 14, themes: [immigration], text: "Le regroupement familial sera encadré par la loi. Il pourra être interdit ou limité selon des critères stricts."}
+  - {id: RNIMM-09, page: 14, themes: [immigration], text: "Les modalités de présentation d'une demande d'asile seront fixées par la loi. Elle pourra instaurer l'obligation de les déposer dans les services des ambassades et consulats français à l'étranger."}
+  - {id: RNIMM-10, page: 15, themes: [immigration], text: "la situation des réfugiés sera réexaminée périodiquement"}
+  - {id: RNIMM-11, page: 15, themes: [immigration, europe-international], text: "Les accords de Schengen […] devront être renégociés avec pour ambition de substituer à l'absence de tout contrôle aux frontières des procédures de franchissement simplifié pour les citoyens des États de l'Union européenne."}
+  - {id: RNIMM-12, page: 16, themes: [immigration], text: "Le droit du sol sera supprimé."}
+  - {id: RNIMM-13, page: 16, themes: [immigration], text: "La transmission de la nationalité française ne sera, pour l'essentiel, possible que par filiation."}
+  - {id: RNIMM-14, page: 16, themes: [immigration, famille], text: "Il sera mis fin à l'acquisition automatique de la nationalité par le mariage."}
+  - {id: RNIMM-15, page: 16, themes: [immigration], text: "La naturalisation sera encadrée par des conditions très strictes et devra faire l'objet d'une demande motivée des intéressés."}
+  - {id: RNIMM-16, page: 18, themes: [libertes-laicite, institutions], text: "« Il n'y a en France d'autre communauté reconnue que la communauté nationale. […] nul individu, nul groupe ne peut se prévaloir de son origine, de sa culture, de sa langue ou de sa religion pour s'en exonérer ou en être exonéré. »"}
+  - {id: RNIMM-17, page: 18, themes: [libertes-laicite, education, ecologie], text: "Cette modification de la Constitution empêchera d'interdire la célébration de Noël en installant des crèches ou des sapins dans les lieux publics, évitera que des sites soient défigurés par des installations telles que des éoliennes, mettra un terme à l'enseignement de la langue et de la culture d'origine"}
+  - {id: RNIMM-18, page: 26, themes: [immigration, securite-justice, libertes-laicite], text: "La loi pourra désormais réprimer pénalement toute personne qui aura, par son aide directe ou indirecte et pour quelque motif que ce soit, facilité ou tenté de faciliter l'entrée, la circulation, le séjour ou le travail irréguliers d'un étranger […]. Aucune exemption de peine ne pourra ainsi être accordée, au nom d'un concept détourné de « fraternité », en cas d'aide aux clandestins."}
+  - {id: RNIMM-19, page: 26, themes: [immigration], text: "il est prévu […] de déroger par voie constitutionnelle aux dispositions de l'alinéa 4 et de la première phrase de l'alinéa 14 du Préambule de 1946 pour mettre fin au droit absolu de toute personne d'accéder au territoire français pour y déposer une demande du statut de réfugié"}
+  - {id: RNIMM-20, page: 27, themes: [immigration, services-publics], text: "La loi pourra également interdire l'accès à des emplois dans l'administration, des entreprises publiques et des personnes morales chargées d'une mission de service public aux personnes qui possèdent la nationalité d'un autre État."}
+  - {id: RNIMM-21, page: 33, themes: [immigration], text: "La politique conduite en matière d'immigration ne peut avoir pour conséquence l'installation d'un nombre d'étrangers sur le territoire national de nature à modifier la composition et l'identité du peuple français."}
+  - {id: RNIMM-22, page: 33, themes: [immigration, travail], text: "seuls peuvent être admis à entrer sur le territoire, à y séjourner durablement et à y exercer une activité professionnelle les étrangers possédant les qualifications nécessaires pour exercer des fonctions, des emplois ou des missions qui ne peuvent être exercées par des nationaux."}
+  - {id: RNIMM-23, page: 34, themes: [immigration, sante], text: "Les étrangers ne peuvent être admis à l'entrée en France que s'ils justifient ne pas constituer un coût pour le système de protection sociale et pour les finances publiques."}
+  - {id: RNIMM-24, page: 34, themes: [immigration, education], text: "Un étudiant étranger admis sur le territoire pour y suivre des études scolaires ou universitaires doit le quitter à la fin de celles-ci."}
+  - {id: RNIMM-25, page: 34, themes: [immigration], text: "La régularisation de la situation d'un étranger présent sur le territoire national est subordonnée […] à des services éminents rendus à la Nation suite à une action directe et personnelle telle qu'un acte de bravoure ayant permis de sauver des vies humaines"}
+  - {id: RNIMM-26, page: 35, themes: [immigration, securite-justice], text: "Réduire la durée de validité des titres de séjour en vigueur à la date de la promulgation de la présente loi ; Rendre applicables les nouvelles dispositions relatives à l'éloignement en se fondant sur des actes commis antérieurement à cette promulgation"}
+  - {id: RNIMM-27, page: 36, themes: [institutions, immigration], text: "« Sont seuls électeurs et éligibles » […] « Les fonctions inséparables de l'exercice de la souveraineté nationale ne peuvent être confiées à des personnes de nationalité étrangère ou représentant une institution internationale. »"}
+  - {id: RNIMM-28, page: 37, themes: [feminisme, libertes-laicite, institutions], text: "Au premier alinéa de l'article 1er de la Constitution, après les mots : « sans distinction », sont insérés les mots : « de sexe, d'orientation sexuelle, de handicap, »."}
+  - {id: RNIMM-29, page: 37, themes: [education, libertes-laicite], text: "Elément fondamental de l'identité et du patrimoine de la France, elle [la langue française] est la langue de l'enseignement, du travail, des échanges et des services publics."}
+  - {id: RNIMM-30, page: 38, themes: [institutions, europe-international], text: "« Aucun engagement international de la France, aucune règle du droit international public ou de la coutume internationale ni aucune décision d'une juridiction internationale ne peut avoir pour effet de remettre en cause la Constitution. Toute juridiction doit, le cas échéant, laisser inappliquées de telles stipulations, règles ou décisions. »"}
+  - {id: RNIMM-31, page: 40, themes: [institutions, europe-international], text: "« Art. 55. - Des lois organiques déterminent les conditions dans lesquelles les traités ou accords régulièrement ratifiés ou approuvés prennent effet, ainsi que leur autorité en droit interne »"}
+  - {id: RNIMM-32, page: 42, themes: [europe-international, immigration], text: "« Les actes de l'Union européenne ne peuvent avoir pour effet de limiter la portée des mesures prises par les pouvoirs publics constitutionnels en application des dispositions des articles 4-1 et 53-1 »"}
+  - {id: RNIMM-33, page: 43, themes: [immigration, institutions, europe-international], text: "aucune stipulation des engagements internationaux mentionnés ci-après ne peut être invoquée devant une juridiction française pour contester un acte réglementaire ou une décision individuelle pris sur le fondement du présent code […] : 1° La convention européenne de sauvegarde des droits de l'Homme […] 2° La convention relative au statut des réfugiés […] 5° La convention internationale relative aux droits de l'enfant"}
+
+claims:
+  - {page: 9, text: "Dès lors que l'immigration sera strictement limitée, les employeurs n'auront d'autre choix que d'offrir des salaires plus élevés pour recruter des Français. C'est exactement ce qui est en train de se produire au Royaume-Uni du fait de la réduction drastique de l'immigration après le Brexit."}
+  - {page: 11, text: "Ainsi, la nouvelle politique migratoire que les Français seront appelés à décider n'implique pas la dénonciation de la Convention européenne des droits de l'homme."}
+  - {page: 12, text: "L'Allemagne, depuis que la Cour constitutionnelle allemande a posé en 2019 le principe que le droit allemand pouvait prévaloir sur le droit de l'Union européenne."}
+  - {page: 12, text: "le Conseil constitutionnel ne peut examiner une loi adoptée par référendum. Elle est donc entièrement applicable, sans restriction."}
+  - {page: 22, text: "Il permet d'éviter la dénonciation pure et simple de la Convention européenne […] alors qu'il suffit de rendre inapplicables les stipulations qui concernent l'immigration."}

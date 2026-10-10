@@ -1,0 +1,45 @@
+doc: rn-livret-agriculture
+pages:
+  - {n: 1, summary: "Couverture « M la France — L'agriculture » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Titre « L'agriculture » (logo)."}
+  - {n: 3, summary: "Page sans texte."}
+  - {n: 4, summary: "Diagnostic : « agribashing », stratégie européenne « De la ferme à la fourchette », libre-échange, normes européennes."}
+  - {n: 5, summary: "Souveraineté alimentaire : balance commerciale agricole en recul (hors vins et spiritueux) ; plans stratégiques nationaux de la PAC."}
+  - {n: 6, summary: "Prix : réforme des lois Egalim, l'État intervenant dans les indices de prix minimums."}
+  - {n: 7, summary: "Artificialisation : fin des projets éoliens et solaires au sol (sauf outre-mer), terres agricoles réservées ; installation des jeunes agriculteurs."}
+  - {n: 8, summary: "Opposition à « De la ferme à la fourchette » ; balance agricole (excédent de 6 Md€, déficit de 4 Md€ hors vins) ; aides nationales en complément de la PAC."}
+  - {n: 9, summary: "Comparaison des subventions agricoles par habitant (OCDE) ; plan de cinq ans pour l'agriculture biologique, bio des cantines réservé aux produits français ; suicides d'agriculteurs."}
+  - {n: 10, summary: "Prévention des suicides ; exclusion de l'agriculture des traités de libre-échange : non-ratification du CETA, refus des accords avec l'Australie, la Nouvelle-Zélande et le Mercosur."}
+  - {n: 11, summary: "Accords seulement sectoriels ; fraude à l'importation (« 25 % » des produits importés selon le Sénat), sanctions des pays fraudeurs."}
+  - {n: 12, summary: "Clauses miroirs ; interdiction d'importer des matières premières agricoles hors UE destinées à l'énergie."}
+  - {n: 13, summary: "Réorganisation de l'assurance récolte."}
+  - {n: 14, summary: "Pas d'interdiction de produits phytosanitaires sans alternative ; zones de non-traitement indemnisées ; stockage de l'eau et irrigation."}
+  - {n: 15, summary: "Abattoirs : conditions de travail, bien-être animal, abattage sans étourdissement."}
+  - {n: 16, summary: "Abattoirs de proximité et unités mobiles ; étourdissement réversible généralisé pour l'abattage rituel ; étiquetage obligatoire de l'origine."}
+  - {n: 17, summary: "80 % de produits français dans les cantines « au titre de la priorité nationale » ; hausse de l'aide alimentaire."}
+  - {n: 18, summary: "Quatrième de couverture : photo et citation de la candidate."}
+  - {n: 19, summary: "Page sans texte."}
+  - {n: 20, summary: "Page sans texte."}
+
+measures:
+  - {id: RNAGR-01, page: 6, themes: [agriculture], text: "les dispositifs des lois Egalim seront modifiés. D'une part pour permettre l'intervention de l'État dans l'élaboration des indices utilisés pour fixer des prix minimums tenant compte des variations des prix des matières premières agricoles."}
+  - {id: RNAGR-02, page: 7, themes: [agriculture, energie, ecologie], text: "Afin de préserver l'avenir de nos terres agricoles, l'État mettra fin aux projets éoliens et solaires au sol, à l'exception de l'outre-mer."}
+  - {id: RNAGR-03, page: 7, themes: [agriculture, ecologie], text: "L'utilisation de terres agricoles pour des projets d'urbanisation sera également interdite, sauf dérogations accordées par les préfets"}
+  - {id: RNAGR-04, page: 7, themes: [agriculture], text: "L'État doit renforcer l'aide à l'installation des jeunes agriculteurs […] réserver l'accès aux terres agricoles aux agriculteurs et s'opposer à l'accaparement de celles-ci par des groupes étrangers"}
+  - {id: RNAGR-05, page: 8, themes: [agriculture, europe-international, ecologie], text: "Je m'opposerai résolument à cette folle stratégie [« De la ferme à la fourchette »] pour éviter ce désastre. Les aides européennes seront complétées par des dispositifs nationaux."}
+  - {id: RNAGR-06, page: 9, themes: [agriculture, ecologie], text: "l'État mettra en place un plan de soutien de cinq ans propre à l'agriculture biologique. Par ailleurs, l'accès au bio dans les cantines scolaires sera réservé aux produits français."}
+  - {id: RNAGR-07, page: 10, themes: [agriculture, europe-international], text: "j'exclurai l'agriculture du champ des traités de libre-échange. En vertu de ce principe, la France ne ratifiera pas le traité CETA […] Quant aux trois projets de traités en cours de négociation […] l'Australie, la Nouvelle-Zélande et le MERCOSUR […] je m'opposerai à la poursuite des négociations"}
+  - {id: RNAGR-08, page: 11, themes: [agriculture, europe-international], text: "En cas de manquements répétés, les pays à l'origine de ces fraudes doivent être sanctionnés durablement et l'accès à notre marché doit leur être interdit."}
+  - {id: RNAGR-09, page: 12, themes: [agriculture, europe-international], text: "La France se battra donc auprès de ses partenaires européens afin d'obtenir l'adjonction de « clauses miroir » dans les traités commerciaux"}
+  - {id: RNAGR-10, page: 12, themes: [agriculture, energie, ecologie], text: "l'importation en France de matières premières agricoles issues de pays hors UE et destinées à produire de l'énergie sera prohibée."}
+  - {id: RNAGR-11, page: 13, themes: [agriculture], text: "l'État réorganisera le système d'assurance afin de le rendre réellement accessible aux agriculteurs"}
+  - {id: RNAGR-12, page: 14, themes: [agriculture, ecologie, sante], text: "Il n'y aura désormais plus d'interdiction de substances actives sans solution équivalente et économiquement soutenable. Par ailleurs, l'éventuelle mise en place de Zones de non traitement (ZNT) à proximité des habitations devra être indemnisée intégralement."}
+  - {id: RNAGR-13, page: 14, themes: [agriculture, ecologie], text: "La création de réserves d'eau et la mise en place de systèmes d'irrigation adaptés […] L'État veillera à faciliter la mise en place et le financement de ces infrastructures."}
+  - {id: RNAGR-14, page: 16, themes: [agriculture, libertes-laicite], text: "Concernant l'abattage rituel, l'État mettra en place un nouveau cadre juridique en généralisant progressivement l'étourdissement réversible."}
+  - {id: RNAGR-15, page: 16, themes: [agriculture, sante], text: "la mention de l'origine des produits distribués dans notre pays sera rendue obligatoire."}
+  - {id: RNAGR-16, page: 17, themes: [agriculture, services-publics], text: "Au titre de la priorité nationale, pour atteindre 80% de produits français, il convient de modifier le cadre réglementaire afin de promouvoir le localisme."}
+  - {id: RNAGR-17, page: 17, themes: [agriculture, classes-populaires], text: "notre pays mènera une politique plus généreuse en faveur des plus démunis [aide alimentaire]."}
+
+claims:
+  - {page: 11, text: "Selon un récent rapport du Sénat, 25% des produits alimentaires d'importation seraient frauduleux."}
+  - {page: 14, text: "La France, avec une réglementation nationale souvent plus restrictive que la réglementation européenne, est un pays exemplaire en termes d'utilisation de produits phytosanitaires."}

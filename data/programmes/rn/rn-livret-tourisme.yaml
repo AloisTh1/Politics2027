@@ -1,0 +1,33 @@
+doc: rn-livret-tourisme
+pages:
+  - {n: 1, summary: "Couverture « M la France — Le tourisme » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Titre (logo)."}
+  - {n: 3, summary: "Page sans texte."}
+  - {n: 4, summary: "Quatrième de couverture insérée : photo et citation de la candidate."}
+  - {n: 5, summary: "Le tourisme : 7 à 8 % du PIB, deux millions d'emplois ; crise du Covid ; pilotage éclaté."}
+  - {n: 6, summary: "Le tourisme « priorité nationale », État stratège, évaluation des retombées."}
+  - {n: 7, summary: "Plan de relance et place du tourisme dans le débat présidentiel."}
+  - {n: 8, summary: "Page sans texte."}
+  - {n: 9, summary: "Constat : pertes mondiales de 2 000 Md€, France -120 à -130 Md€ de chiffre d'affaires, fréquentation revenue au niveau de 1990."}
+  - {n: 10, summary: "Chute du tourisme lointain et du trafic aérien."}
+  - {n: 11, summary: "« Démétropolisation » touristique, tourisme de proximité."}
+  - {n: 12, summary: "Le « surtourisme » présenté comme un problème de gestion des flux."}
+  - {n: 13, summary: "Adapter l'offre : flexibilité, hygiène."}
+  - {n: 14, summary: "Technologie, évaluation par les retombées plutôt que par le nombre de visiteurs ; sécurité des touristes."}
+  - {n: 15, summary: "Image sécuritaire (attentats, émeutes), pertes de 2016."}
+  - {n: 16, summary: "Lutte contre les vendeurs à la sauvette et les escroqueries aux touristes."}
+  - {n: 17, summary: "Policiers bilingues, numéro d'urgence 24 h/24 pour les touristes ; mise à niveau de l'hébergement."}
+  - {n: 18, summary: "Page sans texte."}
+  - {n: 19, summary: "Propositions : grand ministère du tourisme, chèques-vacances, primes d'aménagement du territoire, baisse des impôts de production."}
+  - {n: 20, summary: "Allègement des normes, protection des biens personnels des exploitants ; hausse de 10 % des salaires exonérée de cotisations patronales (exemple chiffré)."}
+  - {n: 21, summary: "Concertation sur les contrats de travail (CD2I), plan de formation de 50 000 personnes par an, travail étudiant."}
+  - {n: 22, summary: "Vacances des jeunes, trains gratuits aux heures creuses, mobilités douces."}
+  - {n: 23, summary: "Quatrième de couverture : photo et citation de la candidate."}
+  - {n: 24, summary: "Page sans texte."}
+
+measures:
+  - {id: RNTOU-01, page: 19, themes: [institutions, entreprises-industrie], text: "Redéfinir l'instance de pilotage public en récréant un grand ministère du tourisme en lien avec celui en charge de l'aménagement du territoire"}
+  - {id: RNTOU-02, page: 19, themes: [classes-populaires], text: "Elargir la demande touristique française en renforçant le développement des « Chèques Vacances » au niveau national comme au niveau régional"}
+  - {id: RNTOU-03, page: 20, themes: [travail, classes-populaires, entreprises-industrie], text: "Grâce à un contrat d'entreprise, toute augmentation de 10% de l'ensemble des salaires sera exonérée du supplément de charges patronales, conséquence de cette augmentation.", detail: "Exemple chiffré du livret : « pour un salarié touchant aujourd'hui 24 000 € bruts annuels, dans le système actuel, l'entreprise devrait payer 2 100 € de cotisations patronales supplémentaires par an (pour l'augmentation de 10 % d'un salarié au SMIC, ce sont 1 600 € de cotisations supplémentaires) »."}
+  - {id: RNTOU-04, page: 21, themes: [travail, education], text: "Lancer un grand plan de formation initiale et de retour à l'emploi dans l'hébergement et la restauration avec un objectif raisonnable de 50 000 personnes formées par an sur 5 ans, soit 250 000 emplois créés sur le quinquennat."}
+  - {id: RNTOU-05, page: 20, themes: [entreprises-industrie], text: "Protéger les entrepreneurs du secteur en établissant un dispositif juridique épargnant les biens personnels des exploitants en cas de faillite due au covid ou aux interdictions administratives d'exercer."}

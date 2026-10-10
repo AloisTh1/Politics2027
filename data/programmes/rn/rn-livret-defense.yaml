@@ -1,0 +1,25 @@
+doc: rn-livret-defense
+# Livret daté de janvier 2022, antérieur à l'invasion de l'Ukraine (24 février 2022). Il est encore
+# servi par le site du RN mais ne figure plus dans la page « Livrets thématiques ».
+pages:
+  - {n: 1, summary: "Couverture « M la France — La défense » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Titre : « La défense — Réarmer la France-puissance »."}
+  - {n: 3, summary: "Diagnostic : LPM jugées insuffisantes, critique de la gestion de la défense par Emmanuel Macron."}
+  - {n: 4, summary: "Trois propositions : diplomatie souveraine (retrait du commandement intégré de l'OTAN, dialogue avec la Russie, fin des coopérations structurantes avec l'Allemagne) ; LPM à 55 Md€ par an ; R&T à 1,5 Md€ par an et fonds souverain de défense."}
+  - {n: 5, summary: "« Politique des mains libres » : puissance maritime, nucléaire, spatiale, diplomatique ; zones d'intérêt (Méditerranée orientale, Indo-Pacifique)."}
+  - {n: 6, summary: "Retrait du commandement intégré de l'OTAN « dès 2022 », renégociation avec les États-Unis, « alliance avec la Russie sur certains sujets de fond », fin des coopérations avec l'Allemagne et du soutien à son siège au Conseil de sécurité."}
+  - {n: 7, summary: "Partenariats stratégiques (dont Hongrie, Serbie, Égypte, Golfe) ; doctrine des opérations extérieures fondée sur la « realpolitik »."}
+  - {n: 8, summary: "Réarmement : dissuasion modernisée, renforts outre-mer, espace, cloud souverain."}
+  - {n: 9, summary: "Haute intensité : format matériel, entraînement, maintenance, effectifs, munitions, infrastructures."}
+  - {n: 10, summary: "« Gouvernance morale » : expression des militaires, traditions, condition militaire."}
+  - {n: 11, summary: "Budget : comparaison avec le Royaume-Uni et l'Allemagne, objectif de 55 Md€ par an en moyenne de 2023 à 2027 hors OPEX ; renforcement de la DGA."}
+  - {n: 12, summary: "Protection de l'industrie (article 346), R&T à 1,5 Md€, soutien aux exportations d'armement « contre les tentatives des ONG », secrétaire d'État à l'exportation."}
+  - {n: 13, summary: "Quatrième de couverture : photo et citation de la candidate."}
+
+measures:
+  - {id: RNDEF-01, page: 6, themes: [europe-international], text: "La priorité sera de quitter le commandement intégré de l'OTAN […] le retrait de la France du commandement militaire intégré de l'OTAN dès 2022 se justifie ainsi par les mêmes raisons passées qui avaient poussé le général de Gaulle à s'en retirer"}
+  - {id: RNDEF-02, page: 6, themes: [europe-international], text: "Parallèlement et sans crainte des sanctions américaines, il sera recherché une alliance avec la Russie sur certains sujets de fond : la sécurité européenne qui ne peut exister sans elle, la lutte contre le terrorisme"}
+  - {id: RNDEF-03, page: 6, themes: [europe-international, entreprises-industrie], text: "Paris mettra fin aux coopérations structurantes engagées depuis 2017 [avec l'Allemagne] qui ne correspondent pas à sa vision d'une défense souveraine et retirera son soutien à la revendication allemande d'un siège permanent au Conseil de Sécurité des Nations-Unies."}
+  - {id: RNDEF-04, page: 11, themes: [europe-international, finances-publiques], text: "De 2023 à 2027, la LPM se fixera comme objectif un budget de défense de 55 milliards € en moyenne annuelle avec : - L'exclusion des budgets des OPEX"}
+  - {id: RNDEF-05, page: 12, themes: [europe-international, entreprises-industrie], text: "le budget des « études amont » (R&T) […] sera porté à 1,5 milliard € par an sur la durée de la LPM"}
+  - {id: RNDEF-06, page: 12, themes: [europe-international, entreprises-industrie], text: "l'exportation d'armement, composante majeure de la diplomatie de Défense française, sera soutenue contre les tentatives des ONG de l'empêcher"}

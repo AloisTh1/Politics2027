@@ -1,0 +1,34 @@
+doc: rn-livret-enfance
+pages:
+  - {n: 1, summary: "Couverture « M la France — La protection de l'enfance » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Titre (logo)."}
+  - {n: 3, summary: "Page sans texte."}
+  - {n: 4, summary: "Quatrième de couverture insérée : photo et citation de la candidate."}
+  - {n: 5, summary: "Chiffres : 80 000 enfants victimes de violences par an, deux enfants tués chaque semaine dans leur famille, 300 000 enfants à l'ASE, 70 % des enfants placés sans diplôme ; exposition à la pornographie."}
+  - {n: 6, summary: "Réticence à retirer les enfants aux parents maltraitants ; cas d'enfants morts malgré des signalements ; ASE départementale et PJJ d'État mal coordonnées."}
+  - {n: 7, summary: "Exemples de dossiers classés sans suite ; maltraitance peu connue du public."}
+  - {n: 8, summary: "Violences dans tous les milieux (54 % des violences sexuelles dans la famille selon Ipsos) ; prédateurs en ligne ; mineurs isolés étrangers présentés comme une « filière d'immigration illégale »."}
+  - {n: 9, summary: "Propositions 1-2 : référentiel d'évaluation de la HAS obligatoire ; équipe d'évaluation indépendante dans chaque département."}
+  - {n: 10, summary: "Propositions 3-4 : examens de santé complets à l'entrée à l'ASE ; réseau de soins psychiatriques par département."}
+  - {n: 11, summary: "Propositions 5-6 : enregistrement des témoignages, salles adaptées aux confrontations ; placement temporaire pendant l'enquête."}
+  - {n: 12, summary: "Propositions 7-8 : avocat pour l'enfant victime ; attractivité des familles d'accueil."}
+  - {n: 13, summary: "Propositions 9-10 : stabilité des lieux d'accueil ; placement chez un membre de la famille."}
+  - {n: 14, summary: "Propositions 11-12 : décision de placement collégiale ; adoption simple, tutelle, délégation d'autorité parentale."}
+  - {n: 15, summary: "Propositions 13-14 : contrôle des foyers et familles d'accueil ; enquête administrative après chaque décès."}
+  - {n: 16, summary: "Propositions 15-16 : prise en charge obligatoire des jeunes majeurs ; recentralisation de l'aide sociale à l'enfance."}
+  - {n: 17, summary: "Proposition 17 : âge européen du consentement à 15 ans ; viol irréfragable sous 13 ans, présomption de non-consentement entre 13 et 15 ans."}
+  - {n: 18, summary: "Proposition 18 : fin de la correctionnalisation des viols (abrogation de la disposition de la loi Perben II)."}
+  - {n: 19, summary: "Proposition 19 : contrôle parental par défaut, interdiction des comptes de réseaux sociaux avant 15 ans, vérification d'âge."}
+  - {n: 20, summary: "Page sans texte."}
+
+measures:
+  - {id: RNENF-01, page: 9, themes: [famille, services-publics], text: "Il convient donc de rendre obligatoire le recours à ce référentiel [d'évaluation des situations d'enfant en danger de la Haute Autorité de santé]"}
+  - {id: RNENF-02, page: 10, themes: [famille, sante], text: "il est impératif que chaque département dispose d'un réseau de professionnels pour apporter à ces enfants les soins de nature psychiatrique et le soutien psychologique dont ils ont besoin"}
+  - {id: RNENF-03, page: 11, themes: [famille, securite-justice], text: "Il est donc impératif que les procureurs de la République prennent, dans ces cas de figure, une ordonnance de placement temporaire."}
+  - {id: RNENF-04, page: 12, themes: [famille, securite-justice], text: "que l'enfant victime bénéficie de l'assistance d'un avocat, pris en charge par la puissance publique"}
+  - {id: RNENF-05, page: 14, themes: [famille, securite-justice], text: "il est préférable qu'elle [la décision de placement] soit prise non pas par un seul juge des enfants comme aujourd'hui, mais par une formation collégiale"}
+  - {id: RNENF-06, page: 16, themes: [famille, classes-populaires], text: "il est donc indispensable de rendre obligatoire la poursuite de la prise en charge par les départements des jeunes majeurs qui en expriment le besoin et qui en ont réellement besoin"}
+  - {id: RNENF-07, page: 17, themes: [famille, institutions, services-publics], text: "il est indispensable de reconfier à l'État la compétence en matière d'aide sociale à l'enfance"}
+  - {id: RNENF-08, page: 17, themes: [feminisme, securite-justice, europe-international], text: "Nous proposons donc de fixer un âge européen du consentement sexuel à quinze ans […] et d'abaisser à quatre ans la différence d'âge prévue par la loi n°2021-478 du 21 avril 2021. Une relation sexuelle avec un mineur de moins de treize ans sera considérée par la loi comme un viol, cette qualification étant irréfragable."}
+  - {id: RNENF-09, page: 18, themes: [feminisme, securite-justice], text: "Cette loi [Perben II, sur la correctionnalisation] doit donc être abrogée, et le ministre de la Justice doit envoyer des instructions aux procureurs de la République pour que la qualification pénale réelle soit systématiquement retenue."}
+  - {id: RNENF-10, page: 19, themes: [famille, libertes-laicite], text: "empêcher les mineurs de moins de quinze ans de posséder des comptes sur les réseaux sociaux […] imposer aux fournisseurs de systèmes d'exploitation […] d'intégrer par défaut un contrôle actif des contenus explicites"}

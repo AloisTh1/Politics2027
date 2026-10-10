@@ -1,0 +1,27 @@
+doc: rn-livret-numerique
+pages:
+  - {n: 1, summary: "Couverture « M la France — Le numérique » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Titre (logo)."}
+  - {n: 3, summary: "Page sans texte."}
+  - {n: 4, summary: "Le numérique : 5,5 % du PIB, 800 000 emplois ; dépendance envers les entreprises américaines et chinoises."}
+  - {n: 5, summary: "Quatre menaces pour la souveraineté : données personnelles, défense, fiscalité des géants du numérique, cybercriminalité."}
+  - {n: 6, summary: "Souveraineté numérique : fournisseurs français exclusifs pour la commande publique militaire, priorité européenne ailleurs."}
+  - {n: 7, summary: "Contrôle des rachats d'entreprises stratégiques, fiscalité des géants du numérique, fonds souverain ; fracture numérique (13 millions de Français)."}
+  - {n: 8, summary: "Couverture des zones blanches, lutte contre l'illectronisme, maintien d'un accueil physique ou téléphonique dans les services publics."}
+  - {n: 9, summary: "Obligations des plateformes : coopération judiciaire, respect du RGPD, retrait de contenus fondé sur le seul droit national."}
+  - {n: 10, summary: "Réseau social public si nécessaire ; statut de salarié pour les chauffeurs et livreurs des plateformes ; cryptoactifs ; démantèlement possible des entreprises étrangères."}
+  - {n: 11, summary: "Hébergement obligatoire des données en France ou dans l'UE par des opérateurs européens ; publicité ciblée désactivée par défaut et interdite pour les mineurs."}
+  - {n: 12, summary: "Cybersécurité : rançongiciels, espionnage, y compris par des alliés."}
+  - {n: 13, summary: "ANSSI, DGSE et capacités militaires renforcées, « commandos numériques »."}
+  - {n: 14, summary: "Page sans texte."}
+  - {n: 15, summary: "Quatrième de couverture : photo et citation de la candidate."}
+  - {n: 16, summary: "Page sans texte."}
+
+measures:
+  - {id: RNNUM-01, page: 6, themes: [entreprises-industrie, europe-international], text: "Un recours exclusif à des fournisseurs français pour la commande publique dans les domaines militaires et de sécurité nationale, et pour le reste de la commande publique, une priorité accordée à des fournisseurs européens."}
+  - {id: RNNUM-02, page: 8, themes: [services-publics], text: "Il importe donc de maintenir des présences physiques de fonctionnaires ou agents des services publics, ou, à tout le moins, qu'un numéro de téléphone permette de les contacter."}
+  - {id: RNNUM-03, page: 10, themes: [libertes-laicite], text: "Je n'hésiterai pas à faire établir et gérer un réseau social public, libre et gratuit si les réseaux sociaux privés devaient persévérer dans leurs pratiques"}
+  - {id: RNNUM-04, page: 10, themes: [travail, classes-populaires], text: "Accorder le statut de salariés aux chauffeurs et livreurs des plateformes numériques"}
+  - {id: RNNUM-05, page: 11, themes: [entreprises-industrie, libertes-laicite], text: "Rendre obligatoire l'hébergement des données des Français, des entreprises françaises et des services publics en France ou dans l'Union européenne, par des opérateurs français ou européens."}
+  - {id: RNNUM-06, page: 11, themes: [libertes-laicite, famille], text: "[cookies] ainsi qu'à la publicité ciblée, la règle étant leur désactivation par défaut, et leur interdiction totale lorsque l'usager est mineur"}
+  - {id: RNNUM-07, page: 13, themes: [securite-justice, europe-international], text: "je créerai des « commandos numériques » chargés à la fois de réagir à des attaques contre des services informatiques (neutralisation et contre-attaque) et de mener des simulations d'offensives numériques"}

@@ -1,0 +1,44 @@
+doc: rn-livret-ecologie
+pages:
+  - {n: 1, summary: "Couverture (sans texte extractible)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre « L'environnement — Pour une écologie française » et liste d'intentions (« localisme », préférence pour les entreprises locales)."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "« Écologie nationale » contre « écologie punitive » et « terrorisme climatique » ; la France « dans les cinq pays où l'environnement est le moins dégradé » ; sortie du « Green Deal »."}
+  - {n: 6, summary: "Transition financée « par le fonds souverain » sans dette ni impôt ; « protéger, projeter, transmettre » ; concertation."}
+  - {n: 7, summary: "Critique de la « préférence irrationnelle pour les énergies renouvelables » ; trajectoire climatique fixée « en fonction des trajectoires des autres pays » ; défense de la voiture, du bain chaud, du feu de bois."}
+  - {n: 8, summary: "La famille et l'enracinement comme fondements de la responsabilité écologique ; migrations de masse présentées comme destructrices des liens avec la nature."}
+  - {n: 9, summary: "Programme : Accord de Paris « par les moyens qu'elle aura choisis » ; moratoire sur l'éolien et le solaire, démantèlement progressif de l'éolien, fin des subventions ; nucléaire et hydrogène ; pesticides autorisés selon l'évolution d'« espèces témoins »."}
+  - {n: 10, summary: "Haies, zones humides, contrôle des élevages industriels, agriculture urbaine ; eau (rénovation du réseau, dessalement), conseil des industries extractives, compensation de l'artificialisation."}
+  - {n: 11, summary: "Aménagement du territoire (« démétropolisation », primes), préférence pour les acteurs locaux dans la commande publique."}
+  - {n: 12, summary: "TVA sur les carburants ramenée de 20 % à 5,5 %, limites de vitesse harmonisées (90, 110, 130, 50) ; autonomie stratégique ; aucune dépense de fonctionnement sans économie équivalente."}
+  - {n: 13, summary: "Économie circulaire : biens réparables, affichage de la durée de vie, fiscalité réduite pour l'occasion et la réparation."}
+  - {n: 14, summary: "Information du consommateur (traçabilité intégrale par QR code, publicité limitée pour la malbouffe) ; éducation à l'environnement."}
+  - {n: 15, summary: "Formations aux métiers de la transition, formation écologique des fonctionnaires ; service national du patrimoine de six mois."}
+  - {n: 16, summary: "« Nos convictions » : pas de transition « par la peur » ; critique du libre-échange."}
+  - {n: 17, summary: "« L'écologie est incompatible avec le libre-échange […] avec l'ouverture des frontières » ; transition « sans endettement public accru et sans hausse d'impôt »."}
+  - {n: 18, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNECO-01, page: 5, themes: [ecologie, europe-international], text: "Nous sortirons du « Green deal » et de l'enfer administratif qu'il impose aux petites entreprises sous le nom de « taxonomie »"}
+  - {id: RNECO-02, page: 9, themes: [ecologie, europe-international], text: "La France répondra aux engagements de l'Accord de Paris, par les moyens qu'elle aura choisis, au rythme et selon les étapes dont elle aura décidé. Elle appréciera chaque année sa trajectoire de réduction carbone, en fonction des trajectoires des autres pays et de la volonté des Français et de leur qualité de vie."}
+  - {id: RNECO-03, page: 9, themes: [energie, ecologie], text: "Nous prononcerons un moratoire sur l'éolien et le solaire ; pour l'éolien, nous lancerons le démantèlement progressif des sites en commençant par ceux qui arrivent en fin de vie. Toutes les subventions dédiées à promouvoir ces procédés seront suspendues"}
+  - {id: RNECO-04, page: 9, themes: [energie], text: "nous procéderons au développement des énergies renouvelables, hydroélectricité et géothermie et à la relance du nucléaire (mise en chantier de réacteurs de 4e génération et microcentrales), et de la filière hydrogène"}
+  - {id: RNECO-05, page: 9, themes: [ecologie, agriculture, sante], text: "Les autorisations d'emploi par produit et par quantité des engrais, pesticides, herbicides, etc. seront subordonnées à cette évolution annuelle des espèces témoin (abeilles, oiseaux insectivores, chauve-souris, etc.)"}
+  - {id: RNECO-06, page: 10, themes: [ecologie, agriculture], text: "Nous développerons une aide spécifique au maintien de la biodiversité et des paysages ruraux par prime à l'exploitation pour maintien ou restauration des haies, des surfaces humides, des bois et bocages comme des autres puits de carbone."}
+  - {id: RNECO-07, page: 10, themes: [agriculture, ecologie], text: "un revenu écologique pour tout exploitant respectant un engagement « Nature Environnement »"}
+  - {id: RNECO-08, page: 10, themes: [ecologie], text: "Nous ferons étudier la construction de centrales de désalinisation dans les zones les plus exposées à la sécheresse."}
+  - {id: RNECO-09, page: 10, themes: [ecologie, entreprises-industrie], text: "Entreprises industrielles, logistiques et de distribution comme exploitations diverses devront réaliser dans la mesure du possible la compensation de toute artificialisation des terres, et les collectivités auront l'obligation de réhabilitation des friches industrielles"}
+  - {id: RNECO-10, page: 11, themes: [services-publics, entreprises-industrie], text: "les Primes à l'Aménagement du Territoire seront rétablies afin d'inciter entreprises, services et commerces à s'installer dans les zones rurales désertées"}
+  - {id: RNECO-11, page: 12, themes: [classes-populaires, energie, fiscalite], text: "Par la détaxation partielle de l'impôt sur les carburants ( TVA réduite de 20 % à 5.5 %), nous engagerons la baisse du prix de l'énergie."}
+  - {id: RNECO-12, page: 12, themes: [securite-justice], text: "nous déciderons de l'harmonisation nationale des limitations de vitesse (90, 110, 130 ) et en agglomération (50)"}
+  - {id: RNECO-13, page: 12, themes: [finances-publiques], text: "l'État ne devra engager aucune dépense de fonctionnement qui ne soit couverte par une économie équivalente, et fera porter la totalité de ses investissements par le fonds souverain volontairement abondé par les Français."}
+  - {id: RNECO-14, page: 13, themes: [ecologie, entreprises-industrie], text: "Plus aucun bien d'usage en vente qui ne soit réparable, plus de vente sans indication sur la durée de vie du produit !"}
+  - {id: RNECO-15, page: 14, themes: [sante, agriculture], text: "La publicité pour les produits alimentaires vides de vitamines, saturés de graisses et de sucres ajoutés, ou faisant appel à des procédés exclus en France, sera limitée."}
+  - {id: RNECO-16, page: 15, themes: [education, ecologie], text: "nous créerons un service national du patrimoine, qui permettra à de jeunes volontaires, pour six mois aménageables, de participer à des travaux d'intérêt patrimonial divers"}
+  - {id: RNECO-17, page: 17, themes: [ecologie, finances-publiques], text: "nous proposons une transition sans endettement public accru et sans hausse d'impôt sur la base d'investissements fléchés et de transferts fiscaux qui s'équilibrent."}
+
+claims:
+  - {page: 5, text: "La France figure dans les cinq pays où l'environnement est le moins dégradé, aucune ville française ne figure dans les cinq cents villes les plus polluées au monde (classement IQ Air – 2020 World air quality summary)"}
+  - {page: 5, text: "L'urgence est de rompre avec une écologie dévoyée par un terrorisme climatique"}
+  - {page: 7, text: "L'impasse énergétique provoquée par la préférence irrationnelle pour les énergies renouvelables provoque la précarité énergétique de millions de ménages"}

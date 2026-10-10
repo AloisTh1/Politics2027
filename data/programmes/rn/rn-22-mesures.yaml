@@ -1,0 +1,42 @@
+doc: rn-22-mesures
+# Page web unique (rassemblementnational.fr/22-mesures), reprise des « 22 mesures pour 2022 ».
+pages:
+  - {n: 1, summary: "Les 22 mesures de la campagne présidentielle de 2022 : immigration par référendum, islamisme, sécurité, TVA sur l'énergie, salaires, autoroutes, jeunes, familles, retraites, handicap, RIC et proportionnelle, énergie, agriculture, santé, école, IFF, logement, patriotisme économique, fonds souverain, défense, outre-mer, fraude."}
+
+measures:
+  - {id: RN22-01, page: 1, themes: [immigration, institutions], text: "Arrêter l'immigration incontrôlée en donnant la parole aux Français par référendum."}
+  - {id: RN22-02, page: 1, themes: [immigration, famille], text: "Mettre fin à l'immigration de peuplement et au regroupement familial."}
+  - {id: RN22-03, page: 1, themes: [immigration], text: "Traiter les demandes de droit d'asile uniquement à l'étranger."}
+  - {id: RN22-04, page: 1, themes: [immigration, classes-populaires], text: "Réserver les aides sociales aux Français, et conditionner à 5 années de travail en France l'accès aux prestations de solidarité."}
+  - {id: RN22-05, page: 1, themes: [immigration, logement, travail], text: "Assurer la priorité nationale d'accès au logement social et à l'emploi."}
+  - {id: RN22-06, page: 1, themes: [immigration, travail], text: "Supprimer l'autorisation de séjour pour tout étranger n'ayant pas travaillé depuis un an en France."}
+  - {id: RN22-07, page: 1, themes: [immigration, securite-justice], text: "Expulser systématiquement les clandestins, délinquants et criminels étrangers."}
+  - {id: RN22-08, page: 1, themes: [immigration], text: "Supprimer le droit du sol et limiter l'accès à la nationalité à la seule naturalisation sur des critères de mérite et d'assimilation."}
+  - {id: RN22-09, page: 1, themes: [libertes-laicite, securite-justice], text: "Éradiquer les idéologies islamistes et l'ensemble de leurs réseaux du territoire national."}
+  - {id: RN22-10, page: 1, themes: [securite-justice], text: "Rétablir les peines planchers pour que tout criminel et délinquant aient une sanction."}
+  - {id: RN22-11, page: 1, themes: [securite-justice], text: "Supprimer toute possibilité de réduction et d'aménagements de peine, en particulier pour les violences contre les personnes."}
+  - {id: RN22-12, page: 1, themes: [securite-justice], text: "Accélérer les procédures judiciaires en engageant le doublement du nombre de magistrats."}
+  - {id: RN22-13, page: 1, themes: [securite-justice], text: "Atteindre 85 000 places de prison en 2027."}
+  - {id: RN22-14, page: 1, themes: [securite-justice], text: "Établir une perpétuité réelle."}
+  - {id: RN22-15, page: 1, themes: [classes-populaires, energie, fiscalite], text: "Baisser la TVA de 20% à 5.5% sur les produits énergétiques (carburants, fioul, gaz et électricité) en tant que biens de première nécessité."}
+  - {id: RN22-16, page: 1, themes: [travail, classes-populaires], text: "Permettre aux entreprises une hausse des salaires de 10% (jusqu'à 3 smic) en exonérant cette augmentation de cotisations patronales."}
+  - {id: RN22-17, page: 1, themes: [classes-populaires, services-publics], text: "Renationaliser les autoroutes pour baisser de 15% les péages et privatiser l'audiovisuel public pour supprimer les 138€ de redevance."}
+  - {id: RN22-18, page: 1, themes: [education, travail], text: "Créer un chèque-formation mensuel de 200 à 300€ pour les apprentis, les alternants et leurs employeurs."}
+  - {id: RN22-19, page: 1, themes: [fiscalite, education], text: "Exonérer d'impôt sur le revenu tous les jeunes actifs jusqu'à 30 ans pour qu'ils restent en France et fondent leur famille chez nous."}
+  - {id: RN22-20, page: 1, themes: [feminisme, famille, classes-populaires], text: "Doubler le soutien aux mères isolées élevant des enfants tout en renforçant les contrôles pour éviter les fraudes."}
+  - {id: RN22-21, page: 1, themes: [retraites, classes-populaires], text: "Réindexer les retraites sur l'inflation pour un pouvoir d'achat respectueux d'une vie de travail."}
+  - {id: RN22-22, page: 1, themes: [retraites, classes-populaires], text: "Revaloriser le minimum vieillesse à 1 000 € par mois et augmenter les petites retraites.", params: {aspa_cible: 1000}}
+  - {id: RN22-23, page: 1, themes: [retraites], text: "Refuser tout allongement de l'âge de départ à la retraite."}
+  - {id: RN22-24, page: 1, themes: [retraites, travail], text: "Permettre à ceux qui ont commencé à travailler avant 20 ans pendant 40 annuités de prendre leur retraite à 60 ans."}
+  - {id: RN22-25, page: 1, themes: [institutions], text: "Instaurer le Référendum d'Initiative Citoyenne et mettre en place la proportionnelle."}
+  - {id: RN22-26, page: 1, themes: [energie, ecologie], text: "Rendre aux ménages les 5 milliards de subventions versées notamment aux éoliennes."}
+  - {id: RN22-27, page: 1, themes: [energie, ecologie], text: "Arrêter les projets éoliens et dé- manteler progressivement les parcs existants."}
+  - {id: RN22-28, page: 1, themes: [energie, europe-international], text: "Sortir du marché européen de l'électricité pour retrouver des prix décents."}
+  - {id: RN22-29, page: 1, themes: [sante, finances-publiques], text: "Lancer un plan de soutien d'urgence pour la santé de 20 milliards d'euros."}
+  - {id: RN22-30, page: 1, themes: [sante, services-publics, feminisme], text: "Arrêter les fermetures des lits à l'hôpital public et des maternités."}
+  - {id: RN22-31, page: 1, themes: [fiscalite], text: "Supprimer l'IFI qui taxe l'enracinement et créer un IFF, impôt sur la fortune financière, pour taxer la spéculation."}
+  - {id: RN22-32, page: 1, themes: [logement], text: "Construire 100 000 logements sociaux par an dont 20 000 en faveur des étudiants et jeunes travailleurs."}
+  - {id: RN22-33, page: 1, themes: [logement], text: "Créer un Fonds de Garantie des Loyers pour protéger les propriétaires."}
+  - {id: RN22-34, page: 1, themes: [entreprises-industrie, fiscalite], text: "Supprimer la Cotisation Foncière des Entreprises (CFE) qui pénalise les PME-TPE locales et les impôts de production qui nuisent à la relocalisation."}
+  - {id: RN22-35, page: 1, themes: [europe-international, finances-publiques], text: "Porter le budget de la défense à 55 milliards d'euros à l'horizon 2027."}
+  - {id: RN22-36, page: 1, themes: [finances-publiques, institutions], text: "Créer un ministère de la lutte contre les fraudes (fiscales, aux cotisations et prestations sociales, aux importations, ententes, etc.)."}

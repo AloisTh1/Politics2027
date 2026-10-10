@@ -1,0 +1,37 @@
+doc: rn-livret-outre-mer
+pages:
+  - {n: 1, summary: "Couverture « M la France — L'outre-mer » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « L'outre-mer — Respect, traditions et modernité »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "L'outre-mer « France abandonnée » ; insécurité, immigration, vie chère, chômage."}
+  - {n: 6, summary: "Frontières (Guyane, Mayotte), crises sanitaires, pillage halieutique ; Conseil de l'outre-mer présidé par le chef de l'État ; ministère d'État de la France d'outre-mer et de la politique maritime."}
+  - {n: 7, summary: "Loi-programme sur 15 ans ; souveraineté maritime."}
+  - {n: 8, summary: "Un navire de « souveraineté » par territoire ; Mayotte (« près d'un habitant sur deux est étranger ») ; mesures du référendum sur l'immigration."}
+  - {n: 9, summary: "Droit du sol, priorité nationale, AME ; loi de programmation sécurité de 7,5 Md€ : police aux frontières, OFAST, visas conditionnés aux réadmissions ; écoles de sécurité outre-mer."}
+  - {n: 10, summary: "Développement économique : rétablissement des défiscalisations Pons, Girardin, Perben ; agence pour les investissements."}
+  - {n: 11, summary: "Réforme de l'octroi de mer (exonération des produits français et européens, compensation par la DGF) ; baisse de la TVA sur l'énergie ; économie bleue."}
+  - {n: 12, summary: "Ports, Mayotte « base arrière du projet gazier du canal du Mozambique », prospection des terres rares ; tourisme haut de gamme ; consultation sur l'or en Guyane."}
+  - {n: 13, summary: "Taxe sur l'exploitation minière ou fossile au profit des collectivités ; fonds européens (FEDER, POSEI) ; école."}
+  - {n: 14, summary: "Internats, garantie d'hébergement des étudiants ultramarins, Guyane et Mayotte (effectifs, recrutements locaux, retour des mineurs non accompagnés) ; santé."}
+  - {n: 15, summary: "Loi santé de 20 Md€, suppression des ARS, télémédecine ; comité sur le chlordécone, plan sargasses, accès à l'eau (un tiers des habitants des Antilles et de Mayotte privés d'eau au logement)."}
+  - {n: 16, summary: "Service militaire adapté étendu ; Nouvelle-Calédonie : évolution du statut ; essais nucléaires en Polynésie ; écosystèmes."}
+  - {n: 17, summary: "Culture : réseau « La Première » exclu de la privatisation de l'audiovisuel public ; service national du patrimoine ; loi de programme sur 15 ans."}
+  - {n: 18, summary: "Slogan : « une présidente Marine »."}
+  - {n: 19, summary: "Quatrième de couverture : photo et citation de la candidate."}
+  - {n: 20, summary: "Page sans texte."}
+
+measures:
+  - {id: RNOM-01, page: 6, themes: [institutions, services-publics], text: "Un grand ministère d'État de la France d'Outre-mer et de la politique maritime"}
+  - {id: RNOM-02, page: 7, themes: [services-publics, finances-publiques], text: "Le développement de l'Outre-mer nécessite une vision et une visibilité à court, moyen et long termes incarnées par le vote d'une grande loi-programme pour 15 ans"}
+  - {id: RNOM-03, page: 9, themes: [immigration, europe-international], text: "La délivrance des visas pour se rendre dans les territoires ultramarins sera conditionnée à l'acceptation par les pays tiers de la reprise de leurs ressortissants en situation irrégulière."}
+  - {id: RNOM-04, page: 10, themes: [fiscalite, entreprises-industrie], text: "Les dispositifs qui ont fait leur preuve par le passé, comme ceux instaurés par les lois Pons et Girardin de 1986 et 2003 et Perben de 1994 seront rétablis."}
+  - {id: RNOM-05, page: 11, themes: [classes-populaires, fiscalite], text: "Une réforme de l'octroi de mer exonérant les produits français et de l'Union européenne permettrait de redonner du pouvoir d'achat aux habitants d'Outre-mer. La perte de recettes pour les collectivités locales […] sera compensée à l'euro près par une augmentation de leur dotation globale de fonctionnement."}
+  - {id: RNOM-06, page: 12, themes: [energie, ecologie], text: "De faire de Mayotte la base arrière du projet gazier du Canal du Mozambique porté par TotalEnergies et d'autres entreprises gazières et pétrolières."}
+  - {id: RNOM-07, page: 13, themes: [ecologie, fiscalite], text: "L'instauration d'une taxe sur l'exploitation des ressources minières ou fossiles Outre-mer dont le produit sera affecté aux collectivités locales."}
+  - {id: RNOM-08, page: 15, themes: [sante, finances-publiques], text: "Les Français d'Outre-mer bénéficieront de la grande loi santé dotée de 20 milliards d'euros que propose Marine Le Pen."}
+  - {id: RNOM-09, page: 15, themes: [sante, ecologie], text: "S'agissant du chlordécone, un comité médical et scientifique sera chargé de dresser le bilan des pathologies provoquées par ce produit"}
+  - {id: RNOM-10, page: 16, themes: [institutions], text: "Marine Le Pen, dès son élection à la Présidence de la République, leur proposera l'ouverture de discussions pour faire évoluer le statut de la Nouvelle-Calédonie afin de renforcer l'unité."}
+
+claims:
+  - {page: 8, text: "La population de Mayotte a été multipliée par cinq en moins de quarante ans. Selon l'INSEE, près d'un habitant sur deux est étranger et plus des trois quarts sont en situation irrégulière."}

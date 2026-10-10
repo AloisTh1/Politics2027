@@ -1,0 +1,41 @@
+doc: rn-livret-famille
+pages:
+  - {n: 1, summary: "Couverture (sans texte extractible)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « La famille »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Éditorial de Marine Le Pen : la famille, « première communauté humaine », au cœur du projet « protéger, projeter, transmettre »."}
+  - {n: 6, summary: "Natalité contre immigration (référence à une note du Haut-Commissariat au Plan) ; mesures présentées « chronologiquement »."}
+  - {n: 7, summary: "Allocations familiales réservées aux familles dont un parent au moins est Français (par référendum) ; part fiscale pleine pour le deuxième enfant."}
+  - {n: 8, summary: "Gain annoncé de 560 € par an pour un ménage de classe moyenne avec deux enfants ; prêt public à taux zéro jusqu'à 100 000 € pour les couples de moins de 30 ans, transformé en don au troisième enfant."}
+  - {n: 9, summary: "Allocation de soutien familial doublée (de 116 à 230 €) pour les parents isolés français ; priorité nationale dans le logement social (« 620 000 logements sociaux occupés par des étrangers »)."}
+  - {n: 10, summary: "Priorité nationale dans le logement étudiant (« 90 000 » places) ; école : transmission, autorité, liberté de l'instruction en famille."}
+  - {n: 11, summary: "Pouvoir d'achat : objectif de 150 à 200 € par mois ; TVA réduite sur l'énergie, péages (renationalisation des autoroutes), trains gratuits aux heures creuses pour les 18-25 ans."}
+  - {n: 12, summary: "Donations : abattement de 100 000 € tous les dix ans, alignement grands-parents/parents ; succession : résidence exclue jusqu'à 300 000 €."}
+  - {n: 13, summary: "Demi-part fiscale des veuves et veufs rétablie (« moins d'un milliard ») ; 8 à 11 millions d'aidants."}
+  - {n: 14, summary: "Congé de proche aidant porté à 12 mois et indemnisé selon le revenu ; indemnité de 300 € par mois ; droit opposable aux visites en hôpital et en Ehpad."}
+  - {n: 15, summary: "Moratoire de trois ans sur les « sujets sociétaux » (débat seulement par RIC) ; renforcement de l'interdiction de la GPA et refus de reconnaître la filiation des enfants nés par GPA à l'étranger."}
+  - {n: 16, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNFAM-01, page: 7, themes: [famille, immigration, classes-populaires], text: "toutes les allocations et primes de politique familiale seront réservées, exclusivement, aux familles dont au moins l'un des deux parents est Français", detail: "« un principe simple qui sera validé par les Français au travers d'un referendum »."}
+  - {id: RNFAM-02, page: 7, themes: [famille, fiscalite], text: "instaurer une part fiscale pleine, contre une demi-part actuellement, pour le deuxième enfant", detail: "p. 8 : « pour un ménage appartenant à la classe moyenne et ayant deux enfants, cette mesure permettra d'économiser 560 euros chaque année »."}
+  - {id: RNFAM-03, page: 8, themes: [famille, logement], text: "Un prêt public à taux zéro sur dix ans, pouvant aller jusqu'à 100 000 euros, viendra compléter tout prêt immobilier souscrit auprès d'une banque par les couples dont la moyenne d'âge est inférieure à trente ans, et dont au moins l'un des deux membres est Français. […] le capital restant dû sera transformé en don à la naissance de leur troisième enfant."}
+  - {id: RNFAM-04, page: 9, themes: [famille, feminisme, classes-populaires], text: "doubler l'allocation de soutien familial (ASF) pour les parents isolés français", detail: "« Présidente de la République, Marine Le Pen doublera cette allocation, la portant à 230 € » ; « cette allocation sera réservée aux familles françaises »."}
+  - {id: RNFAM-05, page: 9, themes: [logement, immigration], text: "instituer une priorité nationale d'accès au logement social et étudiant", detail: "« permettra de remettre rapidement sur le marché les 620 000 logements sociaux occupés par des étrangers, selon les chiffres de l'INSEE pour 2017 »."}
+  - {id: RNFAM-06, page: 10, themes: [education, libertes-laicite], text: "l'attachement à au principe constitutionnel de liberté conduira à renforcer la liberté d'enseignement et notamment de l'enseignement en famille"}
+  - {id: RNFAM-07, page: 11, themes: [classes-populaires, energie, fiscalite], text: "La principale mesure est la baisse de la TVA sur l'ensemble des produits énergétiques (carburants, fioul, gaz, électricité)"}
+  - {id: RNFAM-08, page: 11, themes: [classes-populaires, services-publics], text: "la baisse du prix des péages via la renationalisation des concessions autoroutières"}
+  - {id: RNFAM-09, page: 11, themes: [education, classes-populaires], text: "le principe de la gratuité des transports ferroviaires aux heures creuses pour les 18-25 ans"}
+  - {id: RNFAM-10, page: 12, themes: [fiscalite, famille], text: "ces donations bénéficieront d'un abattement de 100 000 € tous les dix ans contre 15 aujourd'hui. Pour ce qui est des droits de succession, sortiront de l'assiette de calcul, les biens immobiliers à hauteur de 300 000 euros."}
+  - {id: RNFAM-11, page: 13, themes: [fiscalite, retraites, feminisme], text: "réinstaurer la demi-part fiscale pour les veuves et les veufs", detail: "« moins d'un milliard d'euros de pouvoir d'achat rendu, chaque année »."}
+  - {id: RNFAM-12, page: 14, themes: [sante, travail, feminisme], text: "la durée du congé de proche aidant sera portée à douze mois pour l'ensemble de la carrière ; son indemnisation sera indexée sur les revenus de la personne aidante, avec une couverture à 100 % des pertes salariales au niveau du SMIC, à 80% jusqu'au salaire médian puis à 50% au-delà (plafonnée à 3 000 € net)"}
+  - {id: RNFAM-13, page: 14, themes: [sante, classes-populaires], text: "une indemnité spécifique de 300 € mensuels sera créée pour toute personne faisant le choix de vivre au domicile d'un proche dépendant ou de l'accueillir chez elle"}
+  - {id: RNFAM-14, page: 14, themes: [sante, libertes-laicite], text: "créer un droit opposable aux visites dans la partie du code de la santé publique réservée aux droits des personnes"}
+  - {id: RNFAM-15, page: 15, themes: [libertes-laicite, feminisme, institutions], text: "Marine Le Pen s'engage à un moratoire de trois ans sur les sujets sociétaux ; la seule façon d'ouvrir des débats sur ces sujets ne pourra se faire pendant trois ans que par le biais du Referendum d'Initiative Citoyenne"}
+  - {id: RNFAM-16, page: 15, themes: [feminisme, libertes-laicite, famille], text: "l'interdiction de la Gestion pour Autrui (GPA), technique qui se fonde sur la marchandisation du corps de femmes, sera renforcée […] nous refuserons de reconnaitre la filiation des enfants nés à l'étranger par GPA."}
+
+claims:
+  - {page: 7, text: "le désir d'enfant est de 2,39 par femme alors que l'indice conjoncturel de fécondité est de 1,87 (étude UNAF)"}
+  - {page: 9, text: "les 620 000 logements sociaux occupés par des étrangers, selon les chiffres de l'INSEE pour 2017"}
+  - {page: 11, text: "Globalement le programme de Marine Le Pen vise à rendre entre 150 et 200 € de pouvoir d'achat mensuel aux ménages français."}

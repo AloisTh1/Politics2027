@@ -1,0 +1,26 @@
+doc: rn-livret-animaux
+pages:
+  - {n: 1, summary: "Quatrième de couverture insérée : photo et citation de la candidate."}
+  - {n: 2, summary: "Couverture « M la France — La protection des animaux » (campagne présidentielle 2022)."}
+  - {n: 3, summary: "Titre (logo)."}
+  - {n: 4, summary: "Introduction : « éradiquer » la violence gratuite envers les animaux ; distinction entre animaux de compagnie, d'élevage et sauvages."}
+  - {n: 5, summary: "Pas d'interdiction de la chasse ni des essais thérapeutiques indispensables ; sept propositions."}
+  - {n: 6, summary: "Proposition 1 : reconnaissance constitutionnelle (nouvel article 6-1 de la Charte de l'environnement)."}
+  - {n: 7, summary: "Statut civil distinct des biens ; proposition 2 : nouveau livre du Code civil « Des animaux »."}
+  - {n: 8, summary: "Interdiction de l'abattage rituel sans étourdissement ; objection de conscience ; proposition 3 : peines relevées d'un tiers, délit de non-dénonciation, fichier des infractions."}
+  - {n: 9, summary: "Proposition 4 : intérêt général de la protection animale, associations agréées, statut de lanceur d'alerte."}
+  - {n: 10, summary: "Proposition 5 : lutte contre les fraudes à l'importation ; proposition de loi constitutionnelle n° 3852 du 9 mars 2021."}
+  - {n: 11, summary: "Articles proposés pour la Charte de l'environnement : information des consommateurs, accords commerciaux, responsabilité des maisons mères."}
+  - {n: 12, summary: "Proposition 6 : secrétaire d'État à la condition animale, délégation parlementaire, « Défenseur des animaux »."}
+  - {n: 13, summary: "Proposition 7 : référendum d'initiative populaire sur proposition de 500 000 électeurs."}
+  - {n: 14, summary: "Page sans texte."}
+  - {n: 15, summary: "Page sans texte."}
+  - {n: 16, summary: "Page sans texte."}
+
+measures:
+  - {id: RNANI-01, page: 6, themes: [ecologie, institutions], text: "il est proposé de compléter la Charte de l'environnement de 2004 par un nouvel article 6-1 […] « Chacun a le devoir de respecter les créatures vivantes et de ne pas attenter à leur intégrité ou les détruire sans motif légal, raisonnable ou légitime. »"}
+  - {id: RNANI-02, page: 7, themes: [ecologie], text: "Il est donc proposé de créer un nouveau livre du Code civil, entre le livre II (« Des personnes ») et le livre III […] intitulé : « Des animaux »"}
+  - {id: RNANI-03, page: 8, themes: [agriculture, libertes-laicite], text: "L'abattage rituel sans étourdissement préalable sera interdit."}
+  - {id: RNANI-04, page: 8, themes: [securite-justice, ecologie], text: "Les mauvais traitements aux animaux seront correctionnalisés […] L'ensemble des peines d'emprisonnement et d'amende […] seront relevées, à hauteur d'un tiers."}
+  - {id: RNANI-05, page: 12, themes: [institutions, ecologie], text: "Un « Défenseur des animaux », autorité administrative indépendante, sera créé"}
+  - {id: RNANI-06, page: 13, themes: [institutions], text: "La création, dans la Constitution, de la procédure du référendum d'initiative populaire en matière législative permettra à 500 000 électeurs de provoquer un référendum sur toute proposition de loi"}

@@ -1,0 +1,51 @@
+doc: rn-livret-securite
+pages:
+  - {n: 1, summary: "Couverture (sans texte extractible)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « La sécurité »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Diagnostic : « ultraviolence », violences conjugales, territoires échappant à l'État ; « expulser les étrangers à leur sortie de prison »."}
+  - {n: 6, summary: "Page sans texte."}
+  - {n: 7, summary: "Victimes au centre ; plaintes recueillies à domicile ; « les délinquants doivent avoir peur des policiers »."}
+  - {n: 8, summary: "Présomption de légitime défense pour les forces de l'ordre ; loi de programmation : +1,5 Md€ par an, 7 000 policiers et gendarmes, 3 000 administratifs, doublement du nombre de magistrats (20 000)."}
+  - {n: 9, summary: "Police municipale obligatoire au-delà de 10 000 habitants ; 85 000 places de prison en 2028 ; établissements pour détenus souffrant de troubles psychiatriques."}
+  - {n: 10, summary: "Réforme des peines : « efficacité » de la sanction (protéger, dissuader, réinsérer)."}
+  - {n: 11, summary: "Critique du rappel à la loi, des aménagements de peine (loi de 2019), du travail d'intérêt général ; « seules » l'amende et la prison ferme sont comprises par les délinquants."}
+  - {n: 12, summary: "Réductions de peine limitées, période de sûreté allongée, perpétuité sans libération conditionnelle sauf grâce ; retour d'une loi « anticasseurs »."}
+  - {n: 13, summary: "Violences faites aux femmes (modèle espagnol), outrages sexistes inscrits au fichier des délinquants sexuels ; courtes peines de prison."}
+  - {n: 14, summary: "Exemple néerlandais des courtes peines ; établissements adaptés."}
+  - {n: 15, summary: "Peines minimales pour les atteintes aux personnes dépositaires de l'autorité publique."}
+  - {n: 16, summary: "Mineurs sanctionnés dès le premier fait, amende payée par les parents, un centre éducatif fermé par département ; majorité pénale à 16 ans évoquée."}
+  - {n: 17, summary: "Suspension des allocations familiales par le juge ; tests osseux pour les mineurs isolés étrangers (refus valant majorité) ; nationalité refusée aux mineurs étrangers délinquants."}
+  - {n: 18, summary: "Moyens matériels de la police et de la justice ; coordination avec les maires et la vidéoprotection."}
+  - {n: 19, summary: "Expulsion systématique des étrangers condamnés (« près de 25 % des personnes incarcérées sont des étrangers ») et des étrangers en situation irrégulière."}
+  - {n: 20, summary: "Contrôle permanent des frontières ; « éradiquer l'islamisme »."}
+  - {n: 21, summary: "Proposition de loi contre les idéologies islamistes : interdiction de leur manifestation et de leur diffusion, retrait de la nationalité acquise."}
+  - {n: 22, summary: "Rétablissement des renseignements généraux ; procureurs antiterroristes adjoints dans les huit JIRS."}
+  - {n: 23, summary: "Investissements dans le renseignement technique (cyber, satellites, drones), formation."}
+  - {n: 24, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNSEC-01, page: 7, themes: [securite-justice], text: "Pour certains délits, par exemple les cambriolages, les vols par ruse ou à l'arraché, les plaintes pourront être enregistrées au domicile des victimes ou sur le lieu de l'infraction."}
+  - {id: RNSEC-02, page: 8, themes: [securite-justice], text: "permettre aux policiers et gendarmes d'utiliser la force en bénéficiant d'une présomption de légitime défense"}
+  - {id: RNSEC-03, page: 8, themes: [securite-justice, services-publics, finances-publiques], text: "Une loi de programmation pour la sécurité et la justice permettra d'augmenter le budget de la sécurité et de la justice de 1,5 milliard d'euros par an pour créer 7000 postes de policiers et gendarmes, 3000 postes de personnels administratifs […], de doubler le nombre de magistrats pour le porter à 20 000"}
+  - {id: RNSEC-04, page: 9, themes: [securite-justice], text: "La loi de programmation prévoira que 85.000 places de prison seront disponibles à l'horizon de 2028."}
+  - {id: RNSEC-05, page: 12, themes: [securite-justice], text: "Les réductions de peine ne doivent jamais être automatiques […] la période de sûreté […] sera allongée. Pour les condamnations à perpétuité, une libération conditionnelle ne pourra intervenir qu'après une commutation de la peine par grâce."}
+  - {id: RNSEC-06, page: 12, themes: [securite-justice, libertes-laicite], text: "La gauche, en 1981, s'était empressée d'abolir la loi « anticasseurs » […] À action collective, réponse collective."}
+  - {id: RNSEC-07, page: 12, themes: [securite-justice], text: "le système des aménagements de peines sera limité aux condamnations inférieures ou égales à six mois fermes pour les atteintes aux personnes"}
+  - {id: RNSEC-08, page: 13, themes: [feminisme, securite-justice], text: "Des mesures particulières seront prises pour mieux prévenir et réprimer les violences commises à l'encontre des conjoints ou ex-conjoints. […] Les conjoints ou ex-conjoints violents seront jugés dans des délais très brefs et les mesures de protection des victimes seront efficaces."}
+  - {id: RNSEC-09, page: 13, themes: [feminisme, securite-justice], text: "Les personnes condamnées pour des faits qualifiés d'outrages sexistes par le Code pénal feront l'objet d'une inscription au fichier des criminels et délinquants sexuels."}
+  - {id: RNSEC-10, page: 14, themes: [securite-justice], text: "changer radicalement la logique à l'œuvre aujourd'hui en France qui consiste à interdire de prononcer des peines de prison inférieures à un mois et à ne pas effectuer celles inférieures à six mois"}
+  - {id: RNSEC-11, page: 15, themes: [securite-justice, services-publics], text: "il est nécessaire que la loi soit modifiée pour instaurer des peines minimales"}
+  - {id: RNSEC-12, page: 16, themes: [securite-justice, education], text: "Les mineurs délinquants doivent être sanctionnés dès le premier fait commis […] chaque département comptera au moins un Centre éducatif fermé, alors qu'il n'y en a aujourd'hui que 52."}
+  - {id: RNSEC-13, page: 17, themes: [securite-justice, famille], text: "Le juge pourra suspendre les allocations familiales pour une période limitée."}
+  - {id: RNSEC-14, page: 17, themes: [immigration, securite-justice], text: "Les mineurs isolés étrangers devront se soumettre à toutes les vérifications […] notamment des tests osseux. Ceux qui refuseront de collaborer à ces contrôles seront réputés être majeurs."}
+  - {id: RNSEC-15, page: 19, themes: [immigration, securite-justice], text: "les étrangers condamnés pour avoir commis des crimes ou des délits soient systématiquement expulsés"}
+  - {id: RNSEC-16, page: 20, themes: [immigration, securite-justice, europe-international], text: "Les graves défaillances dans ce domaine des mécanismes instaurés par l'Union européenne imposent de rétablir une surveillance et un contrôle permanent de nos frontières."}
+  - {id: RNSEC-17, page: 21, themes: [libertes-laicite, securite-justice], text: "La proposition de loi de Marine Le Pen permettra d'interdire la pratique, la manifestation ainsi que la diffusion publique de l'idéologie islamiste. […] Elle permet de retirer la nationalité française aux individus qui l'avaient acquise s'ils manifestent ou diffusent l'idéologie islamiste."}
+  - {id: RNSEC-18, page: 22, themes: [securite-justice], text: "les renseignements généraux seront reconstitués"}
+  - {id: RNSEC-19, page: 22, themes: [securite-justice], text: "le procureur national antiterroriste sera assisté, dans chacune des huit Juridictions interrégionales spécialisées (JIRS), d'un procureur adjoint"}
+
+claims:
+  - {page: 14, text: "Cette démonstration est faite depuis plusieurs années par les Pays-Bas. Au début des années 2000, les Néerlandais ont modifié leur politique pénale en recourant massivement aux courtes peines. Les conséquences bénéfiques sont : une baisse de la délinquance, une surcapacité pénitentiaire"}
+  - {page: 19, text: "près de 25% des personnes incarcérées sont des étrangers"}

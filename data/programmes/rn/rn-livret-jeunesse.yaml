@@ -1,0 +1,31 @@
+doc: rn-livret-jeunesse
+pages:
+  - {n: 1, summary: "Couverture « M la France — Les jeunes » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « Les jeunes »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Lettre de Marine Le Pen aux jeunes (« je veux être votre premier soutien »)."}
+  - {n: 6, summary: "Page sans texte."}
+  - {n: 7, summary: "Mesure 1 : chèque formation pour les 18-25 ans (5 500 € à 16 ans, 8 000 € après 18 ans, partagés entre le jeune et l'entreprise : +230 € ou +330 € par mois) ; mesure 2 : prêt à taux zéro pour les jeunes couples."}
+  - {n: 8, summary: "Prêt public à taux zéro jusqu'à 100 000 €, transformé en don au troisième enfant."}
+  - {n: 9, summary: "Mesure 3 : exonération totale d'impôt sur le revenu avant trente ans (lutte contre l'expatriation des jeunes)."}
+  - {n: 10, summary: "Mesure 4 : exonération d'impôt sur les sociétés pendant cinq ans pour les entreprises créées par un moins de 30 ans."}
+  - {n: 11, summary: "Mesure 5 : 100 000 logements étudiants publics en cinq ans ; internats des zones touristiques ouverts aux jeunes saisonniers."}
+  - {n: 12, summary: "Mesure 6 : priorité nationale dans les résidences universitaires (« près de 90 000 logements ») ; mesure 7 : aide aux étudiants qui travaillent."}
+  - {n: 13, summary: "Complément de revenu de 20 % (plafond 200 €) ou 30 % pour les boursiers (plafond 300 €), conditionné à la validation des semestres ; rejet d'un « RSA Jeunes »."}
+  - {n: 14, summary: "Mesure 8 : trains gratuits aux heures creuses pour les 18-25 ans."}
+  - {n: 15, summary: "Quatrième de couverture : photo et citation de la candidate."}
+  - {n: 16, summary: "Page sans texte."}
+
+measures:
+  - {id: RNJEU-01, page: 7, themes: [education, travail], text: "je mettrai en place un chèque formation accessible à tous les 18-25 ans versé par l'État. Il correspondra à 50 % de ce que coûterait la formation d'un jeune s'il était scolarisé dans une filière générale. […] une hausse de 230 € de la rémunération mensuelle de tous les moins de 18 ans (et de 330 € pour les 18-25)"}
+  - {id: RNJEU-02, page: 9, themes: [fiscalite, education], text: "l'exonération totale d'impôt sur le revenu avant trente ans", params: {age_max: 30}}
+  - {id: RNJEU-03, page: 10, themes: [entreprises-industrie, fiscalite], text: "j'instaurerai une exonération totale d'impôt sur les sociétés créées par un jeune de moins de trente ans. Pour éviter tout risque d'abus, chaque jeune aura droit à une seule chance de recourir à ce dispositif"}
+  - {id: RNJEU-04, page: 11, themes: [logement, education], text: "en un quinquennat, nous en construirons 100 000 [logements étudiants]"}
+  - {id: RNJEU-05, page: 12, themes: [logement, immigration, education], text: "aucun étudiant étranger ne sera logé dans une résidence universitaire publique tant que toutes les demandes formulées par des Français n'auront pas été satisfaites"}
+  - {id: RNJEU-06, page: 13, themes: [education, classes-populaires, travail], text: "j'instaurerai pour tous les étudiants français qui occupent un emploi un complément de revenu versé par État. Il s'élèvera à 20 % de leur revenu, plafonné à 200 euros mensuels, et à 30 % pour les étudiants boursiers, plafonné à 300 euros mensuels", params: {taux: 0.20, plafond: 200, taux_boursier: 0.30, plafond_boursier: 300}}
+  - {id: RNJEU-07, page: 14, themes: [education, classes-populaires], text: "la gratuité des transports ferroviaires, qu'il s'agisse de lignes régionales ou nationales, pour tous les Français de 18 à 25 ans aux heures creuses"}
+
+claims:
+  - {page: 9, text: "une étude du Boston Consulting Group et de Cadremploi a montré que 79% des Français de 21 à 30 ans souhaitent travailler à l'étranger, contre 61% pour les jeunes des autres pays"}
+  - {page: 11, text: "il manque 250 000 logements étudiants en France"}

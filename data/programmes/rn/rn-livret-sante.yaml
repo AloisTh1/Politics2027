@@ -1,0 +1,45 @@
+doc: rn-livret-sante
+pages:
+  - {n: 1, summary: "Couverture (sans texte extractible)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « La santé »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "Diagnostic : maladies chroniques, vieillissement, déserts médicaux, un quart des médecins de plus de 60 ans, « 18 000 fermetures de lits » sous Emmanuel Macron."}
+  - {n: 6, summary: "Page sans texte."}
+  - {n: 7, summary: "Hôpital : échec des GHT et des CPTS ; gouvernance bureaucratique depuis la loi Bachelot de 2009."}
+  - {n: 8, summary: "Suppression des ARS, tutelle rendue aux préfets ; gouvernance bicéphale directeur-médecin ; pénurie de soignants (30 % de postes non pourvus selon la FHF)."}
+  - {n: 9, summary: "10 000 places de plus en écoles d'infirmiers et d'aides-soignants ; 2 Md€ sur cinq ans, +10 % pour les infirmiers ; plafond de 10 % de postes administratifs."}
+  - {n: 10, summary: "Lits : de 485 000 à 386 000 entre 2000 et 2020, rapprochés de « l'immigration massive » ; moratoire sur les fermetures de lits."}
+  - {n: 11, summary: "Urgences : 21 millions de passages, renfort des effectifs, partenariat avec la médecine de ville, filière gériatrique."}
+  - {n: 12, summary: "Fin de la tarification à l'activité, retour à une dotation globale."}
+  - {n: 13, summary: "Médecine de ville : critique des CPTS, MSP et PDSA ; 7,4 millions de Français en désert médical."}
+  - {n: 14, summary: "Part des médecins à diplôme étranger dans certains départements, dont la qualité est mise en doute ; consultation mieux payée selon le lieu d'installation."}
+  - {n: 15, summary: "Télémédecine, maisons de santé, places en faculté de médecine pour réduire « drastiquement » le recours aux médecins diplômés hors UE ; Ehpad : un médecin coordonnateur et une infirmière 24 h/24."}
+  - {n: 16, summary: "Liberté de prescription et d'expression des médecins ; réforme de la rémunération sur objectifs (ROSP)."}
+  - {n: 17, summary: "Proches aidants : congé de 12 mois indemnisé selon le revenu, indemnité de 300 € par mois."}
+  - {n: 18, summary: "AME : un milliard d'euros « hors soins urgents », plus de 383 000 bénéficiaires en 2020."}
+  - {n: 19, summary: "AME remplacée par la prise en charge des seuls soins urgents « comme dans tous les pays de l'Union européenne » ; ministère de la fraude, preuve de vie annuelle au consulat, carte Vitale biométrique."}
+  - {n: 20, summary: "Quatrième de couverture (sans texte)."}
+
+measures:
+  - {id: RNSAN-01, page: 8, themes: [sante, services-publics], text: "les ARS seront purement et simplement supprimées", detail: "Tutelle des hôpitaux confiée aux préfets de région via les Directions régionales des affaires sanitaires et sociales."}
+  - {id: RNSAN-02, page: 8, themes: [sante], text: "Les hôpitaux auront une gouvernance bicéphale, partagée entre le directeur d'hôpital pour les aspects administratifs et un médecin pour les questions médicales."}
+  - {id: RNSAN-03, page: 9, themes: [sante, education], text: "Au moins 10.000 places supplémentaires seront ouvertes dans les Instituts de Formation en Soins infirmiers (IFSI) et les centres de formation d'aides-soignants."}
+  - {id: RNSAN-04, page: 9, themes: [sante, travail, services-publics, feminisme], text: "2 milliards d'euros sur cinq ans permettront de revaloriser les salaires du personnel soignant exerçant à l'hôpital. Le salaire des infirmiers sera augmenté de 10% pour atteindre la moyenne européenne."}
+  - {id: RNSAN-05, page: 9, themes: [sante, services-publics], text: "Fixer un plafond de 10% de postes administratifs dans les hôpitaux"}
+  - {id: RNSAN-06, page: 10, themes: [sante, services-publics], text: "Instaurer un moratoire sur la suppression des lits à l'hôpital public."}
+  - {id: RNSAN-07, page: 11, themes: [sante], text: "Renforcer de façon significative le personnel des services d'urgence. […] Créer une filière distincte pour les personnes les plus âgées."}
+  - {id: RNSAN-08, page: 12, themes: [sante, services-publics], text: "Redéfinir le mode de financement de l'hôpital public en revenant à un budget sous forme de dotation globale"}
+  - {id: RNSAN-09, page: 14, themes: [sante, services-publics], text: "une rémunération de la consultation modulée selon le lieu d'installation, sans que les praticiens n'aient de démarches spécifiques à faire"}
+  - {id: RNSAN-10, page: 15, themes: [sante], text: "Développer la télémédecine sous toutes ses formes […] Un plan d'investissement massif sera lancé dans ce domaine, cofinancé par l'Etat et les collectivités locales."}
+  - {id: RNSAN-11, page: 15, themes: [sante, education, immigration], text: "Ouvrir un nombre de places suffisantes dans les facultés de médecine pour disposer des médecins dont les Français ont besoin, résorber les déserts médicaux et réduire drastiquement le recours aux médecins ayant obtenu leur diplôme hors de l'Union européenne."}
+  - {id: RNSAN-12, page: 15, themes: [sante], text: "chaque établissement doit être doté d'un médecin coordonnateur et une infirmière doit être présente 24 heures sur 24"}
+  - {id: RNSAN-13, page: 16, themes: [sante, libertes-laicite], text: "Rendre aux médecins leur liberté de prescription et d'expression."}
+  - {id: RNSAN-14, page: 19, themes: [sante, immigration], text: "Transformation de l'AME en un dispositif qui prenne en charge pour les adultes les seuls soins urgents, comme dans tous les pays de l'Union européenne."}
+  - {id: RNSAN-15, page: 19, themes: [finances-publiques, retraites], text: "une preuve de vie, à travers une visite au Consulat de France, sera désormais exigée chaque année"}
+
+claims:
+  - {page: 5, text: "Cette situation a été aggravée par les politiques menées par Emmanuel Macron depuis 5 ans, avec 18 000 fermetures de lits"}
+  - {page: 10, text: "Entre 2000 et 2020, la France est passée de 485 000 à 386 000 lits d'hôpital, alors que dans le même temps les dirigeants français faisaient le choix d'une immigration massive"}
+  - {page: 14, text: "Qui peut croire que des titulaires d'un diplôme de médecine obtenu dans un pays en développement pourront fournir la même qualité de prestations que des médecins formés en France ?"}
+  - {page: 19, text: "Transformation de l'AME […] pour les adultes les seuls soins urgents, comme dans tous les pays de l'Union européenne."}

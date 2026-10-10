@@ -1,0 +1,42 @@
+doc: rn-livret-fraude
+pages:
+  - {n: 1, summary: "Couverture « M la France — La lutte contre la fraude » (campagne présidentielle 2022)."}
+  - {n: 2, summary: "Page sans texte."}
+  - {n: 3, summary: "Titre : « La lutte contre la fraude »."}
+  - {n: 4, summary: "Page sans texte."}
+  - {n: 5, summary: "La fraude comme « exigence républicaine » ; prélèvements obligatoires à 44,5 % du PIB : la lutte contre la fraude présentée comme la voie « la plus efficace » pour augmenter les recettes."}
+  - {n: 6, summary: "Estimations de la Cour des comptes (TVA 15 Md€, prestations 10 à 25 Md€), 2,5 millions de fausses cartes Vitale, recouvrement fiscal en baisse, travail détaché (500 000 postes)."}
+  - {n: 7, summary: "Mécanismes de fraude au travail détaché (dumping social, sous-traitance en cascade)."}
+  - {n: 8, summary: "Vente en ligne : contrôles de la DGCCRF sur les places de marché (60 % de produits non conformes)."}
+  - {n: 9, summary: "Ententes illégales et sanctions de l'Autorité de la concurrence."}
+  - {n: 10, summary: "Bilan des contrôles « très insuffisant » ; la CNAF estime à près de 5 % (3,3 Md€) les sommes versées indûment."}
+  - {n: 11, summary: "Page sans texte."}
+  - {n: 12, summary: "Page sans texte."}
+  - {n: 13, summary: "Propositions : ministère de la lutte contre la fraude ; fraude à la TVA (carrousel)."}
+  - {n: 14, summary: "TVA prélevée en temps réel par la banque ; imposition intégrale en France des profits réalisés en France ; accord OCDE à 15 % jugé insuffisant."}
+  - {n: 15, summary: "Suppression du travail détaché ; simplification du droit fiscal."}
+  - {n: 16, summary: "Paradis fiscaux dans l'UE (Chypre, Irlande, Luxembourg, Malte, Pays-Bas) ; évaluation des fraudes sociales ; documents originaux exigés."}
+  - {n: 17, summary: "Croisement des fichiers ; « 2,4 millions d'allocataires » ne remplissant pas les conditions de résidence ; 1,2 million de retraités à l'étranger, preuve de vie au consulat."}
+  - {n: 18, summary: "Cartes Vitale biométriques ; amende plancher égale au triple des sommes fraudées, au quintuple en récidive, suspension des droits sociaux à la troisième fraude."}
+  - {n: 19, summary: "Retour des contrôles aux frontières pour les marchandises ; douane portée à 20 000 agents (110 M€)."}
+  - {n: 20, summary: "Quatrième de couverture : photo et citation de la candidate."}
+  - {n: 21, summary: "Page sans texte."}
+  - {n: 22, summary: "Page sans texte."}
+
+measures:
+  - {id: RNFRA-01, page: 13, themes: [finances-publiques, institutions], text: "Un ministère de la lutte contre la fraude sera à même de mobiliser l'ensemble du Gouvernement, des administrations et des organismes sociaux pour améliorer fortement la détection et la répression des fraudeurs."}
+  - {id: RNFRA-02, page: 14, themes: [fiscalite, finances-publiques], text: "Ce type de fraude […] peut être combattu en faisant payer la TVA en temps réel par la banque utilisée pour procéder à un achat ou à une vente."}
+  - {id: RNFRA-03, page: 14, themes: [fiscalite, entreprises-industrie], text: "Il convient donc d'instaurer une législation fiscale qui garantisse que les profits réalisés en France sont dans leur intégralité assujettis à l'impôt français sur les sociétés"}
+  - {id: RNFRA-04, page: 15, themes: [travail, europe-international], text: "Le travail détaché est une telle source de fraude au droit du travail et aux cotisations sociales qu'il faut le supprimer."}
+  - {id: RNFRA-05, page: 15, themes: [fiscalite], text: "la simplification du droit fiscal est une des conditions de la réduction de la fraude"}
+  - {id: RNFRA-06, page: 16, themes: [classes-populaires, finances-publiques], text: "Des mesures aussi simples et évidentes que la production de documents originaux et non de copies pour la constitution d'un dossier auprès d'un organisme de prestations sociales"}
+  - {id: RNFRA-07, page: 16, themes: [finances-publiques], text: "Il est indispensable de donner la possibilité aux organismes qui versent des prestations de partager les données qu'ils détiennent et de consulter les fichiers de diverses administrations."}
+  - {id: RNFRA-08, page: 17, themes: [retraites, finances-publiques], text: "Désormais, une visite annuelle de la personne touchant une prestation au Consulat sera systématiquement exigée"}
+  - {id: RNFRA-09, page: 18, themes: [sante, finances-publiques], text: "Remplacer les cartes Vitale actuelles par des cartes infalsifiables contenant des données biométriques"}
+  - {id: RNFRA-10, page: 18, themes: [finances-publiques, classes-populaires], text: "Dès la première fraude, une amende-plancher égale au triple des montants indument perçus (prestations) ou non versés (cotisations), sera instituée. A la première récidive, la pénalité s'élèvera à cinq fois le montant concerné. A partir de la troisième infraction, des suspensions des droits sociaux, pour les particuliers, et des peines de fermeture administrative renforcées, pour les entreprises"}
+  - {id: RNFRA-11, page: 19, themes: [entreprises-industrie, europe-international, services-publics], text: "les effectifs de la douane retrouveront leur niveau de 1990, soit 20 000 agents, contre 16 689 pour le budget 2022, ce qui représentera une dépense de 110 millions d'euros"}
+
+claims:
+  - {page: 6, text: "Selon la Cour des comptes, elle serait de l'ordre de 15 milliards d'euros par an pour la seule TVA, de 10 à 20, voire 25 milliards d'euros pour la fraude aux prestations sociales"}
+  - {page: 6, text: "S'agissant des fausses cartes Vitale […] leur nombre est estimé à 2,5 millions en 2020."}
+  - {page: 17, text: "Selon la direction de la sécurité sociale, 2,4 millions d'allocataires ne remplissent pas ces conditions, chiffre estimé par la Cour des comptes à 3 millions."}

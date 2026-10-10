@@ -218,3 +218,12 @@ documents:
     publisher: "Rassemblement national"
     kind: pdf
     url: https://rassemblementnational.fr/documents/projet/projet-outre-mer.pdf
+
+  - id: rn-livret-defense
+    party: rn
+    role: programme
+    title: "Livret thématique — La défense"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-defense.pdf
+    note: "Servi par le site du RN mais absent de la page « Livrets thématiques » au 10 octobre 2026."
