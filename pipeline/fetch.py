@@ -108,12 +108,59 @@ def crawl(session: requests.Session, doc: dict, limit: int = 2000) -> dict:
     return {"files": files}
 
 
+def fetch_commoncrawl(doc: dict) -> dict:
+    """Dernière capture HTML (statut 200) de chaque URL du motif, collection par collection."""
+    from pipeline import commoncrawl
+
+    best: dict[str, dict] = {}
+    for crawl in doc["crawls"]:
+        # la réponse de l'index est conservée : il est souvent saturé, et elle documente la provenance
+        cache = ROOT / "sources" / "commoncrawl" / f"{doc['id']}.{crawl}.jsonl"
+        if cache.exists():
+            records = [json.loads(line) for line in cache.read_text("utf-8").splitlines() if line.startswith("{")]
+        else:
+            records = commoncrawl.query(crawl, doc["pattern"])
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            cache.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), "utf-8")
+        for rec in records:
+            if rec.get("status") != "200" or "html" not in rec.get("mime", ""):
+                continue
+            key = rec["url"].split("#")[0].rstrip("/")
+            if key not in best or rec["timestamp"] > best[key]["timestamp"]:
+                best[key] = {**rec, "crawl": crawl}
+    files = []
+    for key in sorted(best):
+        rec = best[key]
+        body, headers = commoncrawl.fetch_record(rec)
+        out = RAW / doc["id"] / f"{slug(rec['url'])}.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_bytes(body)
+        files.append({
+            "url": rec["url"],
+            "final_url": rec["url"],
+            "path": str(out.relative_to(ROOT)),
+            "bytes": len(body),
+            "sha256": sha256(body),
+            "archive": {
+                "service": "Common Crawl",
+                "crawl": rec["crawl"],
+                "captured_at": headers.get("WARC-Date", rec["timestamp"]),
+                "warc_filename": rec["filename"],
+                "warc_offset": int(rec["offset"]),
+                "warc_length": int(rec["length"]),
+                "payload_digest": headers.get("WARC-Payload-Digest", ""),
+            },
+        })
+        time.sleep(0.2)
+    return {"files": files}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", nargs="*")
     args = parser.parse_args()
 
-    manifest = json.loads(MANIFEST.read_text("utf-8")) if MANIFEST.exists() else {}
+    updates: dict[str, dict] = {}
     session = requests.Session()
     session.headers["User-Agent"] = UA
     for doc in load_sources():
@@ -123,13 +170,21 @@ def main() -> None:
             print(f"-- {doc['id']}: pas d'URL, ignoré")
             continue
         print(f"-> {doc['id']} ({doc['kind']})")
-        entry = crawl(session, doc) if doc["kind"] == "crawl" else fetch_file(session, doc)
+        if doc["kind"] == "crawl":
+            entry = crawl(session, doc)
+        elif doc["kind"] == "commoncrawl":
+            entry = fetch_commoncrawl(doc)
+        else:
+            entry = fetch_file(session, doc)
         entry["retrieved_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-        manifest[doc["id"]] = entry
+        updates[doc["id"]] = entry
         ok = sum(1 for f in entry["files"] if "sha256" in f)
-        print(f"   {ok} fichier(s)")
+        print(f"   {ok} fichier(s)", flush=True)
+    # relu au dernier moment : plusieurs téléchargements peuvent tourner en parallèle
+    manifest = json.loads(MANIFEST.read_text("utf-8")) if MANIFEST.exists() else {}
+    manifest.update(updates)
     MANIFEST.parent.mkdir(parents=True, exist_ok=True)
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=1), "utf-8")
+    MANIFEST.write_text(json.dumps(dict(sorted(manifest.items())), ensure_ascii=False, indent=1), "utf-8")
 
 
 if __name__ == "__main__":

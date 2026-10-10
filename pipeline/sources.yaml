@@ -13,20 +13,208 @@ documents:
     role: programme
     title: "L'Avenir en commun — édition 2025 (version en ligne)"
     publisher: "La France insoumise / campagne Mélenchon 2027"
-    kind: crawl
+    kind: commoncrawl
     url: https://melenchon2027.fr/programme2025/livre/
-    scope: https://melenchon2027.fr/programme2025/livre/
+    pattern: melenchon2027.fr/programme2025/*
+    crawls: [CC-MAIN-2026-21]
     note: >-
-      Version en ligne mise à jour en avril 2025. Une 5e édition (livre, La Dispute) est
-      annoncée pour les 6-7 novembre 2026 : elle remplacera celle-ci dans le corpus.
+      Version en ligne (dernière mise à jour : avril 2025). Retirée de melenchon2027.fr à
+      l'approche de la 5e édition (livre, La Dispute, annoncé pour le 6 novembre 2026) :
+      le texte est récupéré dans l'archive Common Crawl de mai 2026.
 
   # ------------------------------------------------------------------ RN
-  # Le RN n'a pas publié de programme présidentiel complet au 10 octobre 2026.
-  # Le corpus rassemble ses documents programmatiques officiels les plus récents.
-  - id: rn-contre-budget-2027
+  # Le RN n'a pas publié de programme présidentiel complet au 10 octobre 2026 : son site
+  # présente comme « programme » celui des législatives de juin 2024, complété par les
+  # contre-budgets du groupe RN à l'Assemblée et par les livrets thématiques.
+  # Le contre-budget 2027 (présenté le 6 octobre 2026) n'est pas publié en document.
+  - id: rn-programme-2024
     party: rn
-    role: complement
-    title: "Contre-budget 2027 (présenté le 6 octobre 2026)"
+    role: programme
+    title: "Programme des élections législatives de juin 2024 (« Découvrez le programme »)"
     publisher: "Rassemblement national"
     kind: pdf
-    url: null  # à identifier sur rassemblementnational.fr
+    url: https://rassemblementnational.fr/documents/202406-programme.pdf
+
+  - id: rn-contre-budget-2026
+    party: rn
+    role: complement
+    title: "Contre-budget 2026 du groupe RN (octobre 2025)"
+    publisher: "Groupe Rassemblement national à l'Assemblée nationale"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf
+
+  - id: rn-contre-budget-2025
+    party: rn
+    role: complement
+    title: "Contre-budget 2025 du groupe RN (octobre 2024)"
+    publisher: "Groupe Rassemblement national à l'Assemblée nationale"
+    kind: pdf
+    url: https://back.deputes-rn.fr/wp-content/uploads/2024/10/GRN-CONTRE-BUDGET-2025.pdf
+
+  - id: rn-livret-entreprise
+    party: rn
+    role: complement
+    title: "« La France entreprend » — livret entreprises du groupe RN (septembre 2024)"
+    publisher: "Groupe Rassemblement national à l'Assemblée nationale"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf
+
+  - id: rn-livret-ia
+    party: rn
+    role: complement
+    title: "Livret intelligence artificielle du groupe RN (février 2025)"
+    publisher: "Groupe Rassemblement national à l'Assemblée nationale"
+    kind: pdf
+    url: https://back.deputes-rn.fr/wp-content/uploads/2025/02/WEB-GRN-LIVRET-IA.pdf
+
+  - id: rn-europeennes-2024
+    party: rn
+    role: complement
+    title: "Programme des élections européennes 2024"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/202411-programme-europeennes.pdf
+
+  - id: rn-22-mesures
+    party: rn
+    role: programme
+    title: "Les 22 mesures (présidentielle 2022)"
+    publisher: "Rassemblement national"
+    kind: html
+    url: https://rassemblementnational.fr/22-mesures
+
+  - id: rn-ppl-islamisme
+    party: rn
+    role: complement
+    title: "Proposition de loi visant à combattre les idéologies islamistes"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/mesures/proposition-de-loi-ideologies-islamistes.pdf
+
+  - id: rn-livret-immigration
+    party: rn
+    role: programme
+    title: "Livret thématique — Contrôle de l'immigration"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf
+
+  - id: rn-livret-agriculture
+    party: rn
+    role: programme
+    title: "Livret thématique — L'agriculture"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-l-agriculture.pdf
+
+  - id: rn-livret-ecole
+    party: rn
+    role: programme
+    title: "Livret thématique — L'école"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf
+
+  - id: rn-livret-famille
+    party: rn
+    role: programme
+    title: "Livret thématique — La famille"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-famille.pdf
+
+  - id: rn-livret-jeunesse
+    party: rn
+    role: programme
+    title: "Livret thématique — La jeunesse"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-jeunesse.pdf
+
+  - id: rn-livret-fraude
+    party: rn
+    role: programme
+    title: "Livret thématique — La lutte contre la fraude"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-lutte-contre-la-fraude.pdf
+
+  - id: rn-livret-enfance
+    party: rn
+    role: programme
+    title: "Livret thématique — La protection de l'enfance"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-protection-de-lenfance.pdf
+
+  - id: rn-livret-animaux
+    party: rn
+    role: programme
+    title: "Livret thématique — La protection des animaux"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-protection-des-animaux.pdf
+
+  - id: rn-livret-sante
+    party: rn
+    role: programme
+    title: "Livret thématique — La santé"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-sante.pdf
+
+  - id: rn-livret-securite
+    party: rn
+    role: programme
+    title: "Livret thématique — La sécurité"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf
+
+  - id: rn-livret-numerique
+    party: rn
+    role: programme
+    title: "Livret thématique — Le numérique"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-le-numerique.pdf
+
+  - id: rn-livret-patrimoine
+    party: rn
+    role: programme
+    title: "Livret thématique — Le patrimoine"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-le-patrimoine.pdf
+
+  - id: rn-livret-tourisme
+    party: rn
+    role: programme
+    title: "Livret thématique — Le tourisme"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-le-tourisme.pdf
+
+  - id: rn-livret-ecologie
+    party: rn
+    role: programme
+    title: "Livret thématique — L'écologie"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf
+
+  - id: rn-livret-handicap
+    party: rn
+    role: programme
+    title: "Livret thématique — Les porteurs de handicap"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-les-porteurs-de-handicap.pdf
+
+  - id: rn-livret-outre-mer
+    party: rn
+    role: programme
+    title: "Livret thématique — L'outre-mer"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: https://rassemblementnational.fr/documents/projet/projet-outre-mer.pdf

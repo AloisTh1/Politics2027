@@ -1,0 +1,1983 @@
+{
+ "lfi-aec-2025": {
+  "files": [
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre.html",
+    "bytes": 101969,
+    "sha256": "92e4aca34fcaf209f7ab27450e118037d6f85433d71a1b6364d595914c867811",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-13T15:45:15Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377607.45/warc/CC-MAIN-20260513151005-20260513181005-00646.warc.gz",
+     "warc_offset": 319637668,
+     "warc_length": 24243,
+     "payload_digest": "sha1:KVTLR2FRMMHBSARP37QGNCDEMXVN4WQE"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre1.html",
+    "bytes": 178562,
+    "sha256": "dbef8ddaed720b0fa96ff6430b978ef263c9cd716ce3c088296552376af59718",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:51:33Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00550.warc.gz",
+     "warc_offset": 355339629,
+     "warc_length": 28882,
+     "payload_digest": "sha1:6DCXBSJJ2NL4RDMQIK43WPX6XWF7VVC5"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre1_s1.html",
+    "bytes": 186092,
+    "sha256": "b374b56aa8a890ef2ca700614b1fad01376bafd564aa0dd96820d9c0b22ba56a",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:25:23Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00483.warc.gz",
+     "warc_offset": 318713459,
+     "warc_length": 30663,
+     "payload_digest": "sha1:Q2JY4V3WASJE575QZAAUUNEA7E4NF7XV"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre1_s2.html",
+    "bytes": 185894,
+    "sha256": "5bb86a653bf21ee37c106d23931c15f56c511a2a68c409a8138e5e555b6a5401",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:36:30Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00514.warc.gz",
+     "warc_offset": 312010016,
+     "warc_length": 30754,
+     "payload_digest": "sha1:TWGXAOWMCLDGAC6SPUQBPC4CRGT6L3I5"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s6/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s6/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre1_s6.html",
+    "bytes": 186667,
+    "sha256": "880fcc9f9bd715c71e9db160c6df0278ce9e23972febdf665c5576f2c8039181",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:33:01Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00638.warc.gz",
+     "warc_offset": 349243408,
+     "warc_length": 31226,
+     "payload_digest": "sha1:H7JASZF4V4XH3U7N7TY53AEUSCOH76RX"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre10.html",
+    "bytes": 178762,
+    "sha256": "c294d9bb52bd6831e9f7687b9487d24569b68d0b5016f5ecae7e401440f1a667",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:46:35Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00592.warc.gz",
+     "warc_offset": 311209258,
+     "warc_length": 28982,
+     "payload_digest": "sha1:PMQTFOYRWRKFHOUWRVYV6ZFFXOOP7ZRM"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre10_s1.html",
+    "bytes": 188458,
+    "sha256": "9253b6a861b0df872ac71a2ba07bfc1118d5ef21b9cd490de3de687205e8af64",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:27:25Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00633.warc.gz",
+     "warc_offset": 323244429,
+     "warc_length": 31541,
+     "payload_digest": "sha1:PKHEPBGJZQRG6APTXBXL767JBAKDAC63"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre10_s2.html",
+    "bytes": 186980,
+    "sha256": "2881a1a8d293d72d2f3f523023ff399af6a3226b94194341ceada61f00298b87",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:17:54Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00664.warc.gz",
+     "warc_offset": 299150556,
+     "warc_length": 31286,
+     "payload_digest": "sha1:6UL3EDVYWGJB2IDXJE7WOEZLG6ZWDQIK"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre10_s3.html",
+    "bytes": 185815,
+    "sha256": "735193a8028c6224ce2eec3e0646095a1f8a9ed43c4a0dd046bd3f1eb4000c33",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:33:35Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00695.warc.gz",
+     "warc_offset": 318817646,
+     "warc_length": 30809,
+     "payload_digest": "sha1:AL6U2Y42LRZL67WVBH6IRH22KNOUORRG"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre10_s4.html",
+    "bytes": 186752,
+    "sha256": "838d4088669435cdb9704677f762edf60ce5bf28c8f0c2e9f06917d2aaf8c049",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:26:49Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00726.warc.gz",
+     "warc_offset": 333715380,
+     "warc_length": 31006,
+     "payload_digest": "sha1:7AB3WWOJIVTI6V2HPYQZTUML2HCMMGIO"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre10_s5.html",
+    "bytes": 187175,
+    "sha256": "e6c9ab95573062dfdf3f62d79fc6a5d28d95e3c0b33b7ef3bd82d8cee4a75b9a",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:45:00Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00757.warc.gz",
+     "warc_offset": 337868589,
+     "warc_length": 31058,
+     "payload_digest": "sha1:F2HDY7YAPKM2VJXA3TPZXSLSUUMIHEJD"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre11/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre11.html",
+    "bytes": 177500,
+    "sha256": "75d6f22e57e7c2ff71432bbc90bcae184a2292f3af77b7be87c4a7d87db9ec57",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:03:57Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00623.warc.gz",
+     "warc_offset": 380594192,
+     "warc_length": 28692,
+     "payload_digest": "sha1:AB77UCK5NFZS5NOIIEPJXQXRYIPUFW3V"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre11/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre11_s1.html",
+    "bytes": 190658,
+    "sha256": "b7032063d63970f43433282fb10a56688bc9c8a18161b0786af7c1ae0f7fd247",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:40:05Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00154.warc.gz",
+     "warc_offset": 306303382,
+     "warc_length": 32323,
+     "payload_digest": "sha1:SJH7F4XBZZ2G44354V74YNXUE4LGJFBC"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre11/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre11_s2.html",
+    "bytes": 187372,
+    "sha256": "23cf779a289128434d32dd89d25c21906b187449b505891226aea3e134b40d7b",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:32:20Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00185.warc.gz",
+     "warc_offset": 345752366,
+     "warc_length": 31216,
+     "payload_digest": "sha1:6G6D56CJ7B33WDTO3MGFH45KLS54KXQS"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre12.html",
+    "bytes": 177914,
+    "sha256": "8bbed76538a7f9290d3f7bc839ce91321157e58d19e0323b7ad46366329aab16",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:17:31Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00654.warc.gz",
+     "warc_offset": 339679475,
+     "warc_length": 28720,
+     "payload_digest": "sha1:AW4DGAC7USNN5BHGYLOHPIC7XVGPS4J2"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre12_s1.html",
+    "bytes": 187113,
+    "sha256": "fb8fcf8a2aef0dc672e579832d7b05ac6436a5cce2976e5259f8fb34d0256a40",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:56:27Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00675.warc.gz",
+     "warc_offset": 319279901,
+     "warc_length": 31390,
+     "payload_digest": "sha1:O6HC4HD5Z6YDEL4KNH53CAW4YDNHBPLH"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre12_s2.html",
+    "bytes": 185672,
+    "sha256": "d19c5c977806aaa216e78a4588a978f3e68dba885d500276bbe377f86c68bec1",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:14:57Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00706.warc.gz",
+     "warc_offset": 342072731,
+     "warc_length": 30647,
+     "payload_digest": "sha1:DAHNIOMCY6522TPSITAMXKPV5V26YMVX"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre12_s3.html",
+    "bytes": 184905,
+    "sha256": "b34ae3d5d68913ebf3ff5f1891f89301a3adef4f3a199bed0fd43c584981a8af",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:07:43Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00737.warc.gz",
+     "warc_offset": 342071750,
+     "warc_length": 30477,
+     "payload_digest": "sha1:RZAGBUUYBDHN3UCT4TV4FUE3EOJ4NGXV"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre13.html",
+    "bytes": 179373,
+    "sha256": "656f1017b8125baca097639bca296a4b262fe0dc3f6cc8c1e6ac6470ff6f3588",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:32:14Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00685.warc.gz",
+     "warc_offset": 306949868,
+     "warc_length": 29192,
+     "payload_digest": "sha1:5L7S2OJG36MFTID66TQFIYWONKMEOSKN"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre13_s1.html",
+    "bytes": 184987,
+    "sha256": "f081d53194f5ff96715de5d9fe6c794189a80b22fe988c39ead9384e431ddbdb",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:11:13Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00196.warc.gz",
+     "warc_offset": 294562509,
+     "warc_length": 30505,
+     "payload_digest": "sha1:NGZW3DMFRAOVZX36JR3BTDHTYHW34ZCD"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre13_s2.html",
+    "bytes": 186507,
+    "sha256": "efdbef5d1662fbfc51ea3b6ff9059693ce30b97c671abd36985a9067ef340176",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:29:46Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00227.warc.gz",
+     "warc_offset": 308904380,
+     "warc_length": 31223,
+     "payload_digest": "sha1:O76VDV3VPQ3W4ZGDC5VHVP6Z7WNGZY62"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre13_s3.html",
+    "bytes": 188332,
+    "sha256": "65bdd625e865e47d1db10e1f216ac4a6dc1e5eee21df867b97ace9bf6168967a",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:21:01Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00258.warc.gz",
+     "warc_offset": 372717892,
+     "warc_length": 31891,
+     "payload_digest": "sha1:2OERXOHW4WDNTZRHGDS7OMYBVJOWKL4Q"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre13_s4.html",
+    "bytes": 186689,
+    "sha256": "7a88bced9a0acef54c04b5da3d107dc0c3e0d2d98a1d36b856f59cdd739c43b8",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:37:09Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00289.warc.gz",
+     "warc_offset": 328211254,
+     "warc_length": 31270,
+     "payload_digest": "sha1:YNPZKR5EWH4SVLGYSEFZVOEI65AYB44J"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre13_s5.html",
+    "bytes": 186603,
+    "sha256": "5a7ade8660322ef0b3bdbcfc4b973434394abd230df8860be186a99a6cd7b411",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:30:08Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00320.warc.gz",
+     "warc_offset": 334449952,
+     "warc_length": 31220,
+     "payload_digest": "sha1:BEZWOY2DK6WKTANYOE7OITWDZGZ7OU4U"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14.html",
+    "bytes": 178624,
+    "sha256": "d3d9224f798f919d655e5bb590df6fe1dd48d76f09fcca3848f7016bbac479e6",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:13:56Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00716.warc.gz",
+     "warc_offset": 345398421,
+     "warc_length": 28997,
+     "payload_digest": "sha1:RQLPGTYNQM3S4IETHVTMHOQJTU6T4VTU"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14_s1.html",
+    "bytes": 185140,
+    "sha256": "a0b01815aa3d403fe7024eba9b1e8862669b379df98b698e23fc291fcddb31fc",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:26:32Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00717.warc.gz",
+     "warc_offset": 322661853,
+     "warc_length": 30738,
+     "payload_digest": "sha1:S475D2BAQJS7UT4XPJXMRZ2SWBHQBU4J"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14_s2.html",
+    "bytes": 190177,
+    "sha256": "d1d15c7281cab62f48769ee53a3e11210eb4c084b5817bb7609dc6c716e86cc9",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:44:37Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00748.warc.gz",
+     "warc_offset": 320205474,
+     "warc_length": 32204,
+     "payload_digest": "sha1:ZAQF73GIEDXXCWZOSMUMTMWGOOXN6RCE"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14_s3.html",
+    "bytes": 185204,
+    "sha256": "ac4fa1828605ce03dc2048a0492bdae6e494ce1187c3c1e4b1f90acd445f5736",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:38:12Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00779.warc.gz",
+     "warc_offset": 297137018,
+     "warc_length": 30708,
+     "payload_digest": "sha1:I2OTYW7PFSNUZVM3EGFUUWNIBFTOJ6JN"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14_s4.html",
+    "bytes": 188038,
+    "sha256": "27670d68b509ed1417552b164aa05c57272097cfb5f349d8d0c115525b6f4520",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:54:25Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00810.warc.gz",
+     "warc_offset": 336427910,
+     "warc_length": 31573,
+     "payload_digest": "sha1:CULB3IFIS3QG77XY5J5EC3OCSCV6K4IK"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14_s5.html",
+    "bytes": 184928,
+    "sha256": "ede8525788ae349c98b0118cbdc62c1773feb84bd2a05a05fbc3f85e7b827922",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T18:49:39Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00841.warc.gz",
+     "warc_offset": 344603522,
+     "warc_length": 30590,
+     "payload_digest": "sha1:L6AWDC74HZMNSE55CU7SRAKDZGGLM5QW"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s6/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/s6/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre14_s6.html",
+    "bytes": 184459,
+    "sha256": "6b7eb9c2b820fc6907ac70ae034efbebf16c3b58643c4f41b80dc55d8ed841ba",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:05:50Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00872.warc.gz",
+     "warc_offset": 333395134,
+     "warc_length": 30372,
+     "payload_digest": "sha1:ASXCBNWD33AC5VXMHSZTDKDH4QD6SNBK"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre15.html",
+    "bytes": 178275,
+    "sha256": "669c190fa7fc9645e9e3097b5b33be7d3fbcd61b9eccad8e09f8ab5474e619d0",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:28:49Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00747.warc.gz",
+     "warc_offset": 321114027,
+     "warc_length": 28916,
+     "payload_digest": "sha1:YDDKJDCEJSP5MPUKW4OXUY73M5RFCQIR"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre15_s1.html",
+    "bytes": 186162,
+    "sha256": "805613107eb0289859f2783ca2fa3ae442b038f767d3795a16ad2ded7287aea4",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T18:00:07Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00238.warc.gz",
+     "warc_offset": 327072833,
+     "warc_length": 30989,
+     "payload_digest": "sha1:SVAETQ3ZYXAMA3AYUNJHNAVP4XEHQTTX"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre15_s2.html",
+    "bytes": 187915,
+    "sha256": "99d9e26ad0e29d22b60103f8b9b7b010e8c43e13fd38dfe9f7984a1d6cd2ee7c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:00:59Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00269.warc.gz",
+     "warc_offset": 350150628,
+     "warc_length": 31671,
+     "payload_digest": "sha1:IM5BSCQ455V5U7A26SIGPZBRA6V2C7WV"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre15_s3.html",
+    "bytes": 187332,
+    "sha256": "aba1b85cc62eaa5b1f5f5f8f5618efad0d8f44fed7673f93edceb4d60b11dd7c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:18:19Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00300.warc.gz",
+     "warc_offset": 309812038,
+     "warc_length": 31212,
+     "payload_digest": "sha1:4D2PXPPN72IQZ4PW3ZUE2ZEZNM6HGLRM"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre15_s4.html",
+    "bytes": 185189,
+    "sha256": "a8535844e89a7fb30b82bd20cfde01ea3d0b22ceb54e932f1357841b2978c55e",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:09:57Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00331.warc.gz",
+     "warc_offset": 309327272,
+     "warc_length": 30738,
+     "payload_digest": "sha1:J5JU3HQRO5U4NLX54HFUS62DZAV26PKU"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16.html",
+    "bytes": 182345,
+    "sha256": "1dcfe9c9b4f1c82d4d6e90f5dc5e6ec95fccaad779bcc98f55b739cd8121ad76",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:44:15Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00778.warc.gz",
+     "warc_offset": 315613934,
+     "warc_length": 29792,
+     "payload_digest": "sha1:WQK4DV7XNLH7COBQ3GZWDREYUIVS3P62"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s1.html",
+    "bytes": 189957,
+    "sha256": "8bc27cbce49be8f09997d74d22a382f952670f4b52d0119469a774794a632dd8",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:22:33Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00759.warc.gz",
+     "warc_offset": 331005244,
+     "warc_length": 31970,
+     "payload_digest": "sha1:5I3QAZ6BCUWOADRVX7UARF2RFHPQ72KF"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s10/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s10/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s10.html",
+    "bytes": 186357,
+    "sha256": "0f395253bcec8c6c507516dd165d2dab1743a1554657a64cdf6af31c1c81ae44",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:30:14Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00071.warc.gz",
+     "warc_offset": 314181132,
+     "warc_length": 30899,
+     "payload_digest": "sha1:MGHES2WXM5TFM7LCHHBE7TEYQMLU7GJ7"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s11/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s11/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s11.html",
+    "bytes": 188303,
+    "sha256": "acb55cd9ca32992aa2ae6a59c9e0547fcf9e4ece915f483c10661eba0f809c63",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:34:32Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00102.warc.gz",
+     "warc_offset": 342655569,
+     "warc_length": 31487,
+     "payload_digest": "sha1:744HVYATMY75NPMPG2V6HO7YGE7CBUAA"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s12/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s12/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s12.html",
+    "bytes": 186875,
+    "sha256": "730bc4e551491488883e026038b67f0ddc0424d04c870123d99250b4939ded20",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:43:03Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00133.warc.gz",
+     "warc_offset": 351141386,
+     "warc_length": 31049,
+     "payload_digest": "sha1:ZMF5JF3422KRZDH2VXEXWVMZCQ7NHJ4F"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s2.html",
+    "bytes": 189513,
+    "sha256": "63f3d5e40412bad60a11589e6db0119b7c387169c3717e7b3b6204022e6ccaa6",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:15:09Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00790.warc.gz",
+     "warc_offset": 340839451,
+     "warc_length": 32013,
+     "payload_digest": "sha1:YOLKUGIGFT3FOPEEEHV7MHHAEJY7U5W2"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s3.html",
+    "bytes": 189845,
+    "sha256": "579fa57a5dd581d7c81c1f6defa1daa00cbe95f3a6ba2985ccf052d3a34567da",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:30:43Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00821.warc.gz",
+     "warc_offset": 326476993,
+     "warc_length": 32049,
+     "payload_digest": "sha1:DQ74B4Q2U7CQKSFWX5WFPUWWEUIWEZNI"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s4.html",
+    "bytes": 187842,
+    "sha256": "1e664f089e49f7cccdcb9bb86cb77283b0974f96385a518a4b588b4a4f6f243e",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:24:08Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00852.warc.gz",
+     "warc_offset": 320958936,
+     "warc_length": 31414,
+     "payload_digest": "sha1:N7S2L4LXJ6V7CXGCR6ISXKS4MA2BPLRV"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s5.html",
+    "bytes": 188745,
+    "sha256": "2e564441826c3e8e6aa82ce4e0bfa5242611e7a56c91a98c30a9fa691e4ce2f9",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:40:58Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00883.warc.gz",
+     "warc_offset": 330372330,
+     "warc_length": 31474,
+     "payload_digest": "sha1:KMRTMOIXSYM7HXS5IFHYEEWC74MUHG6N"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s6/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s6/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s6.html",
+    "bytes": 188277,
+    "sha256": "8d402a32c1a82985e0cea2b1147049206ed28efbc9eceec58e183ce1ed070098",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:33:45Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00914.warc.gz",
+     "warc_offset": 346866102,
+     "warc_length": 31466,
+     "payload_digest": "sha1:ZADOPKNYCWJLQZMOXS7K4E4SL7GL2HHL"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s7/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s7/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s7.html",
+    "bytes": 188713,
+    "sha256": "a9abdcc51ea5ca6e0e3c1ba91341114df4457719be6c5b3a7653e935dafa8051",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:51:51Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00945.warc.gz",
+     "warc_offset": 322444301,
+     "warc_length": 31775,
+     "payload_digest": "sha1:7NA77FHFBMJX5VPUD6LLUGEONV7KIMV5"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s8/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s8/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s8.html",
+    "bytes": 187731,
+    "sha256": "978616a0e8ef07c25b1bd8a9d43474f387df995171bf35f18422db558f3cadfd",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T18:07:32Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00976.warc.gz",
+     "warc_offset": 342727400,
+     "warc_length": 31327,
+     "payload_digest": "sha1:NUCA65TLXSAQDAD3J7PKGCFHDGFZ76QQ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s9/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s9/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre16_s9.html",
+    "bytes": 187408,
+    "sha256": "b2b3eef6287a16134d0937add7433967f92289a9e10f0141da1d55bd811e8a53",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:02:23Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00007.warc.gz",
+     "warc_offset": 323441535,
+     "warc_length": 31204,
+     "payload_digest": "sha1:DY2XDUEQUBFVSRW3Y64XQ4SW53D42DFZ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre17/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre17.html",
+    "bytes": 180752,
+    "sha256": "f660bc8f91b31b220b558834e10f1ed1f0f975716f8c89e443b5a809764ffa13",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:00:17Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00809.warc.gz",
+     "warc_offset": 337578661,
+     "warc_length": 30063,
+     "payload_digest": "sha1:3ANKAZ3SKDOGCXNKGYWMRMMM5SPGILEC"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre17/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre17_s1.html",
+    "bytes": 183980,
+    "sha256": "8f5bdcb15b77355d6a285a1313affc22b956c47ca6c7439f5febcd2d77098af7",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:35:57Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00280.warc.gz",
+     "warc_offset": 367608414,
+     "warc_length": 30201,
+     "payload_digest": "sha1:QCVRF4ROORLWHP752XU4J5EI2E6XCSNI"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre17/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre17_s2.html",
+    "bytes": 185708,
+    "sha256": "1a8f882f96c048888560a065256c146ca0c850e11734bff47c0f51893519f188",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:29:30Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00311.warc.gz",
+     "warc_offset": 330251020,
+     "warc_length": 30919,
+     "payload_digest": "sha1:II3RSMFGVEMMEOIBFSVGXOX2PXBSFV5S"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre18.html",
+    "bytes": 178474,
+    "sha256": "84fca794bd0b013cabbedf354fa5061595426576000056e6f2777c27a3bd73ae",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:14:44Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00840.warc.gz",
+     "warc_offset": 307257654,
+     "warc_length": 28935,
+     "payload_digest": "sha1:EORCA7CPTKVYUJX6PZTTNFJKBYCZ5TK6"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre18_s1.html",
+    "bytes": 186329,
+    "sha256": "cceed6614411867da32d2c05fe05ca5bc5ed89e285856d9984abe6cbf202ad1a",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:53:51Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00801.warc.gz",
+     "warc_offset": 314736215,
+     "warc_length": 31042,
+     "payload_digest": "sha1:WUSHQOWHF6JHUEDQM5KVGLIMBOZ2GVA7"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre18_s2.html",
+    "bytes": 186221,
+    "sha256": "e81a3232935c34907da36d5d50facbb72cc444b70fb97c796b91faa3bf3ecf05",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T18:49:28Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00832.warc.gz",
+     "warc_offset": 312917618,
+     "warc_length": 31012,
+     "payload_digest": "sha1:TXBP5V77LD6GUUMFRHFLEZWJ5TZF6OMF"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre18_s3.html",
+    "bytes": 186096,
+    "sha256": "7dac57dd150be606cac4122bc1ba7a34554e2066b4d6fbd233216578f52dae4b",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:05:21Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00863.warc.gz",
+     "warc_offset": 338699307,
+     "warc_length": 30771,
+     "payload_digest": "sha1:W7A6K7FAY35TDQ6WGKSIJSQTKTHHSRQC"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre18_s4.html",
+    "bytes": 187000,
+    "sha256": "731d38d63e7c34f88c027dce452dff7c45c8062fefce3be1c6f408995b552a75",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:20:42Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00894.warc.gz",
+     "warc_offset": 329217297,
+     "warc_length": 31041,
+     "payload_digest": "sha1:4QYLMJLTZVFHFIQQYFA4F5ZNEEMVGAGL"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre18_s5.html",
+    "bytes": 188237,
+    "sha256": "dd040babc4c72f16af355673945392102d600882e3b1c66c64e48202e96f4ed6",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:12:23Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00925.warc.gz",
+     "warc_offset": 321581099,
+     "warc_length": 31685,
+     "payload_digest": "sha1:VQUS5H3H2VL2HGEKKUNYHSE5WRUHV2DR"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre2.html",
+    "bytes": 177170,
+    "sha256": "c144ed42e0cb9ed8a68e71ca9835010baeda3b0a13c4e823e71b5af3468fca5e",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:57:48Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00581.warc.gz",
+     "warc_offset": 322517817,
+     "warc_length": 28597,
+     "payload_digest": "sha1:BWSAX2FQ4U2XW2B6KXHKVZLL6WAF3AO5"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre2/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre2_s1.html",
+    "bytes": 183700,
+    "sha256": "9e8c78d405a6d54c86565f0154696e7d36b5d0f72cfc84cb4e99e991cf648c4c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:32:14Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00004.warc.gz",
+     "warc_offset": 345193851,
+     "warc_length": 30055,
+     "payload_digest": "sha1:44RWSPEQ7AAIRLIR7TAUZFFY7NZR6TJ2"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre2/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre2_s2.html",
+    "bytes": 183805,
+    "sha256": "3b2fc19104910da9b60e42561b3abdc6d0f624cf934f0dc614c533768c56d6e6",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:47:20Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00035.warc.gz",
+     "warc_offset": 312793273,
+     "warc_length": 30152,
+     "payload_digest": "sha1:KZV3JSLKT3HEMXFPXIRABWKOIBACDI67"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre3.html",
+    "bytes": 177585,
+    "sha256": "6e677bf987846cddb8b7011f7030c2315315e74b49fda22783f388a54347e379",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:17:43Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00612.warc.gz",
+     "warc_offset": 334892960,
+     "warc_length": 28686,
+     "payload_digest": "sha1:7ZW4B5DBWPSN7UL6PQ752YCE6D5V7FS6"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre3/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre3_s1.html",
+    "bytes": 183797,
+    "sha256": "ce6715ba6c9730b1ce0d89d40ad5e1bca8ae778c7da347cbedc30f5e5a2fd769",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:42:11Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00525.warc.gz",
+     "warc_offset": 340742300,
+     "warc_length": 30082,
+     "payload_digest": "sha1:IF5GWJSQWWI2RAXARUFOFUKEVSM6GHVE"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre3/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre3_s2.html",
+    "bytes": 185121,
+    "sha256": "bc1676fc762054bc52b723fb630793d7372a2b6ec83f048a8f854c5dbdccab6b",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:58:22Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00556.warc.gz",
+     "warc_offset": 313313689,
+     "warc_length": 30546,
+     "payload_digest": "sha1:RXGFJXYRJGHDPKIFQFLRSPUXEAXJPXAZ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre4.html",
+    "bytes": 177611,
+    "sha256": "c26f74fa06fc86784cf9b51a93b7fe8784f4265f65e7a250e0ca630f1262586b",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:27:53Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00643.warc.gz",
+     "warc_offset": 341424376,
+     "warc_length": 28669,
+     "payload_digest": "sha1:7I6TYFXXPSREWLRK5OICN2I6CBCKLDYT"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre4/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre4_s1.html",
+    "bytes": 185159,
+    "sha256": "0a692ae61321ebf71fee892d8768a4097c884ead21d5c59086c2359696114dd8",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:53:35Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00046.warc.gz",
+     "warc_offset": 345803691,
+     "warc_length": 30670,
+     "payload_digest": "sha1:NE2P24X7UXRQX7L7CEU35H3GOCN4W6XT"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre4/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre4_s2.html",
+    "bytes": 184738,
+    "sha256": "194b78870c58bbbe23ebeca4d35b308a1a716060a1c968da7b640e26bd5b2f1f",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:09:05Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00077.warc.gz",
+     "warc_offset": 313307079,
+     "warc_length": 30428,
+     "payload_digest": "sha1:JK4R7SGCOJDAZMB4T4O5NT2QWAY7XOKY"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre4/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre4_s3.html",
+    "bytes": 184577,
+    "sha256": "3975e4d174beeb0d01d6d5e620aa775f2bd692e7c408be85acb4e364fce5b593",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:20:39Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00108.warc.gz",
+     "warc_offset": 345408163,
+     "warc_length": 30556,
+     "payload_digest": "sha1:PWEM3ZPWXTOEJB25HLLNTWURI4TQZEYC"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5.html",
+    "bytes": 179027,
+    "sha256": "57ad3119471770a897be875700e8d24ecf862d3682b8c82d9e4d8bc4b36ede14",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:34:05Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00674.warc.gz",
+     "warc_offset": 327692259,
+     "warc_length": 29109,
+     "payload_digest": "sha1:5SH6ST354ENJ6D7USDSWBO3XY2WS4BFZ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s1.html",
+    "bytes": 184559,
+    "sha256": "ec0b48abaed4d6f038b24ecee6486f9b915c9112f1e3523e3936c035f5be8ad8",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:04:46Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00567.warc.gz",
+     "warc_offset": 333505452,
+     "warc_length": 30215,
+     "payload_digest": "sha1:EHXGEQYEKRRAPZQ5IYCK7LGGD3MUACKK"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s2.html",
+    "bytes": 187359,
+    "sha256": "1a3c5ff0d8bd0a1f8e67cb9f16312a47e854ef4bb0f6810f958e2b694ad92cd2",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:16:23Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00598.warc.gz",
+     "warc_offset": 315957640,
+     "warc_length": 31053,
+     "payload_digest": "sha1:3QXPIUJOURLHGRQ2WDZCFU2KVKFFED3F"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s3.html",
+    "bytes": 193696,
+    "sha256": "f36d718b5c83f32599878076ebe49b1aed138b7f1a69798b98dc7c3d4d73d45a",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:29:55Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00629.warc.gz",
+     "warc_offset": 356332706,
+     "warc_length": 33124,
+     "payload_digest": "sha1:YYIADQZYHT2JSDCSKK2N7APGRRE46QQG"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s4.html",
+    "bytes": 185138,
+    "sha256": "91641f93d44c4851a5933bcc5400b7c995a102e60b870925c827142011b32f33",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T18:48:44Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00660.warc.gz",
+     "warc_offset": 310760600,
+     "warc_length": 30452,
+     "payload_digest": "sha1:YIYXNABG7LBSIVWOZKSK6BDW6ZT6XPW3"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s5.html",
+    "bytes": 185100,
+    "sha256": "f43cb69c9867b9280be5a1dc4df0b57a565b010a17555f365409da2193d14be5",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:24:46Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00691.warc.gz",
+     "warc_offset": 322534376,
+     "warc_length": 30459,
+     "payload_digest": "sha1:IKYQUDPAY3RIQRG4HR76X4ZATDBIKIBN"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s6/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s6/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s6.html",
+    "bytes": 182904,
+    "sha256": "c58bd092742e8440ed3fef371318a704da81e33f68cc4f2e640f677fabd3de94",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:35:14Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00722.warc.gz",
+     "warc_offset": 324188724,
+     "warc_length": 30415,
+     "payload_digest": "sha1:7WX6V5PPB4YMQFWIKTB7A3JBSRVESYA3"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s7/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s7/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre5_s7.html",
+    "bytes": 186900,
+    "sha256": "f241df809b806d08125ae0e443792b3eba787c4b65609a08889a65d45577339d",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:52:10Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00753.warc.gz",
+     "warc_offset": 311446371,
+     "warc_length": 31002,
+     "payload_digest": "sha1:LPQWTCKL2TOLXSGLT7ZNASN7BPFMNVE7"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre6.html",
+    "bytes": 177971,
+    "sha256": "52a15667451812096e10b2391e7dafd4d8a64b6d42547a6431583003e44be1e5",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:45:24Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00705.warc.gz",
+     "warc_offset": 361294483,
+     "warc_length": 28792,
+     "payload_digest": "sha1:HRF2XJCCK7IZGJI4DVVQAHYXEVFZGDHG"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre6_s1.html",
+    "bytes": 183091,
+    "sha256": "13cb60d96a8376da3180d6ea1d455b36d6429db7f6386fd1c0e9de4cac511c9c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:12:00Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00088.warc.gz",
+     "warc_offset": 312951674,
+     "warc_length": 29866,
+     "payload_digest": "sha1:JWLKR4E4TWR4N3DQGVIPFEP7EJTPE3KF"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre6_s2.html",
+    "bytes": 184326,
+    "sha256": "fbd20b87850bdd95ca45834a52517f306ea86620b8157ce3661cb339c9aeab1f",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:25:56Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00119.warc.gz",
+     "warc_offset": 330861324,
+     "warc_length": 30184,
+     "payload_digest": "sha1:ZK27SCIB2IH522RGTYH7J4P6ONPPOOFZ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre6_s3.html",
+    "bytes": 184153,
+    "sha256": "5435b40e9351973e0f0fae14e1d9a5be8c10245dbe974c1c0ae1b68c0bb49b89",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:51:49Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00150.warc.gz",
+     "warc_offset": 331513865,
+     "warc_length": 30171,
+     "payload_digest": "sha1:DTNAQWUZ3OIYL36BDLZVE7NMCXVCHGOR"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre6_s4.html",
+    "bytes": 185391,
+    "sha256": "271901a0e88f9f5f278c368120963bc289fcdcf2e8cf74959cedcc0063ac02dc",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:19:29Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00181.warc.gz",
+     "warc_offset": 342405802,
+     "warc_length": 30590,
+     "payload_digest": "sha1:DWCVBT7G4UZIUC3YTYTIT4WUA7OP27YZ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre6_s5.html",
+    "bytes": 189925,
+    "sha256": "e06990300db9468fb97de4ff6cad5e10e0e4f609d60c6e10091a7e05fdb7ba2c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:31:43Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00212.warc.gz",
+     "warc_offset": 320516252,
+     "warc_length": 32249,
+     "payload_digest": "sha1:4MCBPE6IHEKPEDEWJ6DFWGIRDLOIB27V"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre7/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre7.html",
+    "bytes": 179645,
+    "sha256": "24de6b1171c130742ff063cdad7d84d14e69a65ef33f7f6e059ae80de530b4a6",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:16:11Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00736.warc.gz",
+     "warc_offset": 331586414,
+     "warc_length": 29259,
+     "payload_digest": "sha1:7FQR5EEXMU6DSSSUBU33MBIDICUZ6FXG"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8.html",
+    "bytes": 179464,
+    "sha256": "b82098aac82ba7ef636f78ee3ff3b1aeb22feec07ef62c70f0ef771a4403634c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:06:19Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00767.warc.gz",
+     "warc_offset": 309553095,
+     "warc_length": 29193,
+     "payload_digest": "sha1:NF5VX3GIOBFYOLW66THMQINYSNQAC2UL"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s1.html",
+    "bytes": 184305,
+    "sha256": "0b9ca4c415230c47d4b60d30b80dbc92e7037f027969210ea1260d7776196c84",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:30:59Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00130.warc.gz",
+     "warc_offset": 343276615,
+     "warc_length": 30197,
+     "payload_digest": "sha1:EI4VTVD324TBNZYJY2LNIDDVLOE7T6CV"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s2.html",
+    "bytes": 186016,
+    "sha256": "832440dd5698d2823dc19cec33d670dfa1dd1ea7ade17d200b1e79451d93477c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T18:49:31Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00161.warc.gz",
+     "warc_offset": 325945438,
+     "warc_length": 30769,
+     "payload_digest": "sha1:EEK3PIJCKRU5SRMBALO4RDQKNLK3YS7O"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s3.html",
+    "bytes": 186417,
+    "sha256": "594969cf6265c687bf818c980a818842832eb8237dccb4a1c60e10a29944207f",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:26:25Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00192.warc.gz",
+     "warc_offset": 359807754,
+     "warc_length": 30958,
+     "payload_digest": "sha1:DKITJMDFLCXS4T4LWFI6RUUKBKCXJJZU"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s4.html",
+    "bytes": 187185,
+    "sha256": "7995986091d5702a8835d0df2930ed1bb82ff93dc2ed5098f459255960fb6df1",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:37:56Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00223.warc.gz",
+     "warc_offset": 344657462,
+     "warc_length": 31072,
+     "payload_digest": "sha1:TVN4ZOAFM6N5X6GSZSA6FKGLJUIFOXBR"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s5.html",
+    "bytes": 186137,
+    "sha256": "5e2e393133c0554b5ad6749bdb549bf5650b72130a116009db4c949419cd30df",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:53:01Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00254.warc.gz",
+     "warc_offset": 330188791,
+     "warc_length": 30818,
+     "payload_digest": "sha1:5IS4V7FB455SVVEXMLRUS7V5E6CNFXVR"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s6/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s6/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s6.html",
+    "bytes": 187890,
+    "sha256": "cf1e8d4d31457a7a403ef3dfacd9c2a39829b0c1d0dbb8cd64ea1e53b36e75b2",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:08:11Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00285.warc.gz",
+     "warc_offset": 355541672,
+     "warc_length": 31058,
+     "payload_digest": "sha1:6USEE2SKE4WCYP6VWYOISWTXA4K23L34"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s7/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s7/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s7.html",
+    "bytes": 185849,
+    "sha256": "c1625b9a79bb9ef65b1f8962134301d0301be63dc5370df3dcacdcd8b8c7079d",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:20:16Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00316.warc.gz",
+     "warc_offset": 330237813,
+     "warc_length": 31030,
+     "payload_digest": "sha1:N4GNU7FZ5O3JQFW7VQXJXTEZVEDAO2WV"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre8_s8.html",
+    "bytes": 187598,
+    "sha256": "72c7daf04f99a3ed14974947ab88240979c29a1f5760fe3c70277bd2b320b66f",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:34:21Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00347.warc.gz",
+     "warc_offset": 344084539,
+     "warc_length": 31256,
+     "payload_digest": "sha1:P3HB5HGWLYFD4EN6EIGYSA2OQIFMY5KC"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre9/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre9.html",
+    "bytes": 177852,
+    "sha256": "f21a028d07be59e3b433c6476072e6c7fd64dffe98aeb745955e610c31256beb",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:14:22Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00798.warc.gz",
+     "warc_offset": 307990597,
+     "warc_length": 28795,
+     "payload_digest": "sha1:XGGNZYZ6R3MQ34LGF3AVNYKVYSGXIZ2X"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/s1/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre9/s1/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre9_s1.html",
+    "bytes": 186483,
+    "sha256": "b93783325528fa98d49fdd38f7fd6d4ac40796bd709f0ebe75fd7800335a6999",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:55:54Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00651.warc.gz",
+     "warc_offset": 278940495,
+     "warc_length": 30805,
+     "payload_digest": "sha1:ZR54YNFW2C27NTDAYSK7SQSCMXHPUNIF"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/s2/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre9/s2/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre9_s2.html",
+    "bytes": 188059,
+    "sha256": "cf32943a49b5c0139253242a023913df9433dd87b4a4771a42f15c25decab014",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:21:42Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00682.warc.gz",
+     "warc_offset": 362846658,
+     "warc_length": 31528,
+     "payload_digest": "sha1:4KS6IJISSS5V5LHAITSLI7HABLXTGY7Y"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/chapitre9/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_chapitre9_s3.html",
+    "bytes": 184877,
+    "sha256": "c6d42bf70ac09f9c7cf6a3b63efde9e6c93bd50de0909be099a790f854d24e8c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:33:07Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00713.warc.gz",
+     "warc_offset": 320268526,
+     "warc_length": 30507,
+     "payload_digest": "sha1:R7JHDOLDCGF63EBM6XQMD37L7LGPGSYN"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_faire-la-revolution-citoyenne.html",
+    "bytes": 186554,
+    "sha256": "e83d479ec37713d08ece5793c8cfc8a140b4a657a18f74a5e10884bb528cc5a8",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:18:39Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00269.warc.gz",
+     "warc_offset": 350183281,
+     "warc_length": 31273,
+     "payload_digest": "sha1:HYFZNN3IPCNCQM2JYWNVPQVOWQJHOETR"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne/chapitre1-3/s4/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne/chapitre1-3/s4/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_faire-la-revolution-citoyenne_chapitre1-3_s4.html",
+    "bytes": 185301,
+    "sha256": "94c47646b07956fafafc40ed94b0fb53a8551efcd0fae804d6a8baf2c705f764",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:07:15Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00279.warc.gz",
+     "warc_offset": 317139507,
+     "warc_length": 30626,
+     "payload_digest": "sha1:LEGJJUGWE2SOX6I4UKDYLZC2XJNIVH2C"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne/chapitre1-3/s5/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne/chapitre1-3/s5/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_faire-la-revolution-citoyenne_chapitre1-3_s5.html",
+    "bytes": 186482,
+    "sha256": "46ef97c06e2d55d95048b75c81f7a6a880a229fa822b9e9521b47069c808f8d4",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:19:26Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00310.warc.gz",
+     "warc_offset": 322342800,
+     "warc_length": 30908,
+     "payload_digest": "sha1:CBC7OVN2APAAVPYRWZBCG22CR3BBFSYQ"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/introduction/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/introduction/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_introduction.html",
+    "bytes": 199307,
+    "sha256": "812cc6b47afc730623cdd1fadae09e3719ae77afd9df42b258b1bd3e910fa8a2",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:42:36Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00743.warc.gz",
+     "warc_offset": 292187806,
+     "warc_length": 37680,
+     "payload_digest": "sha1:RCQOM33PQSKVF5T2OWQDNKQFTPHQCTEM"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/l-harmonie-des-etres-humains-avec-la-nature/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/l-harmonie-des-etres-humains-avec-la-nature/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_l-harmonie-des-etres-humains-avec-la-nature.html",
+    "bytes": 186917,
+    "sha256": "9b01bbd0444ae79585cf4fbf68798f59b6ca2516813cac7b0829e7388f55573f",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:51:21Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00988.warc.gz",
+     "warc_offset": 343375240,
+     "warc_length": 31516,
+     "payload_digest": "sha1:ZV7XID3P5RAVVJRUAJ4VULN76MFKJAPE"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/l-harmonie-des-etres-humains-entre-eux/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/l-harmonie-des-etres-humains-entre-eux/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_l-harmonie-des-etres-humains-entre-eux.html",
+    "bytes": 186746,
+    "sha256": "dc737507b506733ab8e7d00f5ae7181e6086568d588d5a6abceb1eae7e02c7d3",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:31:13Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00676.warc.gz",
+     "warc_offset": 339791991,
+     "warc_length": 31544,
+     "payload_digest": "sha1:MGZIDQZO3RSJ2QZRVPFXZM6QDZFA4Q54"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/livre/ordonner-le-monde/",
+    "final_url": "https://melenchon2027.fr/programme2025/livre/ordonner-le-monde/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_livre_ordonner-le-monde.html",
+    "bytes": 184626,
+    "sha256": "35aeab8b160af9614279d45ccb99086f6659fc0410c98e18246273215c560dac",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T17:15:35Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00842.warc.gz",
+     "warc_offset": 316048965,
+     "warc_length": 30844,
+     "payload_digest": "sha1:KPPINROFC66KX3JSKDXHV2AGTNREEUU2"
+    }
+   },
+   {
+    "url": "https://melenchon2027.fr/programme2025/s3/",
+    "final_url": "https://melenchon2027.fr/programme2025/s3/",
+    "path": "sources/raw/lfi-aec-2025/programme2025_s3.html",
+    "bytes": 183066,
+    "sha256": "7b9e64e8449ba4573e94c80c988ee2694cef74febe85375ac835d644abd7c06c",
+    "archive": {
+     "service": "Common Crawl",
+     "crawl": "CC-MAIN-2026-21",
+     "captured_at": "2026-05-09T16:52:28Z",
+     "warc_filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00700.warc.gz",
+     "warc_offset": 319412470,
+     "warc_length": 30622,
+     "payload_digest": "sha1:ASEIWWUVNCX4M4LFZNFHJUYYQWDZVBSE"
+    }
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:30:24+00:00"
+ },
+ "rn-22-mesures": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/22-mesures",
+    "final_url": "https://rassemblementnational.fr/22-mesures",
+    "path": "sources/raw/rn-22-mesures/22-mesures",
+    "bytes": 123005,
+    "sha256": "e18f633982130eae9d909937fb1f90f50603f247fe82ea8c49f4144bce83c247",
+    "content_type": "text/html; charset=utf-8"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:07+00:00"
+ },
+ "rn-contre-budget-2025": {
+  "files": [
+   {
+    "url": "https://back.deputes-rn.fr/wp-content/uploads/2024/10/GRN-CONTRE-BUDGET-2025.pdf",
+    "final_url": "https://back.deputes-rn.fr/wp-content/uploads/2024/10/GRN-CONTRE-BUDGET-2025.pdf",
+    "path": "sources/raw/rn-contre-budget-2025/GRN-CONTRE-BUDGET-2025.pdf",
+    "bytes": 141218,
+    "sha256": "a2ab9138dc77ee6021dc9abc5edc092f6af168c1e9ce3b634c06ee917499cf70",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:04+00:00"
+ },
+ "rn-contre-budget-2026": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+    "path": "sources/raw/rn-contre-budget-2026/GRN-CONTRE-BUDGET-2026.pdf",
+    "bytes": 893639,
+    "sha256": "800c6620d215ee12ad7166e3ad2e25da6c5b4de79e141e572118341e4f92a24b",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:03+00:00"
+ },
+ "rn-europeennes-2024": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/202411-programme-europeennes.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/202411-programme-europeennes.pdf",
+    "path": "sources/raw/rn-europeennes-2024/202411-programme-europeennes.pdf",
+    "bytes": 24205781,
+    "sha256": "d8ca9c4af92be12b9ee9a1876742c9e0d578dfc2134b4bf63ce126624dd3fe80",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:07+00:00"
+ },
+ "rn-livret-agriculture": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-l-agriculture.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-l-agriculture.pdf",
+    "path": "sources/raw/rn-livret-agriculture/projet-l-agriculture.pdf",
+    "bytes": 2058578,
+    "sha256": "24b16cf576f4d4cd2b08ac29c261411dd226e20bae0d96b309d70631bcce58cb",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:09+00:00"
+ },
+ "rn-livret-animaux": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-protection-des-animaux.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-protection-des-animaux.pdf",
+    "path": "sources/raw/rn-livret-animaux/projet-la-protection-des-animaux.pdf",
+    "bytes": 2155996,
+    "sha256": "4a65b50cc38983f147beb6e764574ce29c9d4d535caed3931f7a0372c85280f6",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:13+00:00"
+ },
+ "rn-livret-ecole": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf",
+    "path": "sources/raw/rn-livret-ecole/projet-l-ecole.pdf",
+    "bytes": 1883612,
+    "sha256": "8b32472355c6558c0ba632cec91cfa20f9fbef9647df5655fd9f59cab3b8a7b5",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:09+00:00"
+ },
+ "rn-livret-ecologie": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf",
+    "path": "sources/raw/rn-livret-ecologie/projet-lecologie.pdf",
+    "bytes": 1738292,
+    "sha256": "e19cd9afe62bb660dbbda44803bc090a772ceda8c2ba89117d2b57aa4da1fa56",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:19+00:00"
+ },
+ "rn-livret-enfance": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-protection-de-lenfance.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-protection-de-lenfance.pdf",
+    "path": "sources/raw/rn-livret-enfance/projet-la-protection-de-lenfance.pdf",
+    "bytes": 1826505,
+    "sha256": "4c2251b5fc571910fb14f73a11a4d1604a69bff8f7d75c2ef15f3acafe1584fd",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:12+00:00"
+ },
+ "rn-livret-entreprise": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+    "path": "sources/raw/rn-livret-entreprise/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+    "bytes": 7654024,
+    "sha256": "84fcdf9546e870b286a36a0103fc8e90d5870eac1fa5b2f31cc8123ae2f3becd",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:05+00:00"
+ },
+ "rn-livret-famille": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-famille.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-famille.pdf",
+    "path": "sources/raw/rn-livret-famille/projet-la-famille.pdf",
+    "bytes": 1547536,
+    "sha256": "14a534f87203d9c1ad5757af474b796bc6f2d005c049b3996430addfa160cf2e",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:09+00:00"
+ },
+ "rn-livret-fraude": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-lutte-contre-la-fraude.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-lutte-contre-la-fraude.pdf",
+    "path": "sources/raw/rn-livret-fraude/projet-la-lutte-contre-la-fraude.pdf",
+    "bytes": 1797910,
+    "sha256": "1c05265ea2ddf4ec9a61c11f82c871377a61c18c94ddd9a8c3bb3b1d999403be",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:11+00:00"
+ },
+ "rn-livret-handicap": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-les-porteurs-de-handicap.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-les-porteurs-de-handicap.pdf",
+    "path": "sources/raw/rn-livret-handicap/projet-les-porteurs-de-handicap.pdf",
+    "bytes": 2236788,
+    "sha256": "b2fd60a838dd634927990e0b8b2345a373a75f00566ac74bef0dd4f90caccb7d",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:20+00:00"
+ },
+ "rn-livret-ia": {
+  "files": [
+   {
+    "url": "https://back.deputes-rn.fr/wp-content/uploads/2025/02/WEB-GRN-LIVRET-IA.pdf",
+    "final_url": "https://back.deputes-rn.fr/wp-content/uploads/2025/02/WEB-GRN-LIVRET-IA.pdf",
+    "path": "sources/raw/rn-livret-ia/WEB-GRN-LIVRET-IA.pdf",
+    "bytes": 13493630,
+    "sha256": "1874607da09b1197de3e73cfa4ded8b38ece092db4333b98727a4982e533602f",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:06+00:00"
+ },
+ "rn-livret-immigration": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf",
+    "path": "sources/raw/rn-livret-immigration/projet-controle-de-limmigration.pdf",
+    "bytes": 2547558,
+    "sha256": "b4fa3a1d57fcc6e0128d26936232d4036735fa549362757f85a2d3790e708987",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:07+00:00"
+ },
+ "rn-livret-jeunesse": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-jeunesse.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-jeunesse.pdf",
+    "path": "sources/raw/rn-livret-jeunesse/projet-la-jeunesse.pdf",
+    "bytes": 1645630,
+    "sha256": "4b8d5ac7c09a9281998704b0e88d3061d7c2b64292bc79d2e17cae69fa5dea4d",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:10+00:00"
+ },
+ "rn-livret-numerique": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-le-numerique.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-le-numerique.pdf",
+    "path": "sources/raw/rn-livret-numerique/projet-le-numerique.pdf",
+    "bytes": 11629336,
+    "sha256": "43f080ad466367c1c5378831885a0c294039d3cea087287ed5eb0d0c46933254",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:15+00:00"
+ },
+ "rn-livret-outre-mer": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-outre-mer.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-outre-mer.pdf",
+    "path": "sources/raw/rn-livret-outre-mer/projet-outre-mer.pdf",
+    "bytes": 794587,
+    "sha256": "b78461afe10823fd005e7808ffeb91b585ecb6422ed52ffcbc988be6745ac9bb",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:21+00:00"
+ },
+ "rn-livret-patrimoine": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-le-patrimoine.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-le-patrimoine.pdf",
+    "path": "sources/raw/rn-livret-patrimoine/projet-le-patrimoine.pdf",
+    "bytes": 1893380,
+    "sha256": "2b711697f84accf09e287d57d47240487e94fc488cf8388effefcbeb1462409b",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:17+00:00"
+ },
+ "rn-livret-sante": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-sante.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-sante.pdf",
+    "path": "sources/raw/rn-livret-sante/projet-la-sante.pdf",
+    "bytes": 1809179,
+    "sha256": "d353171454ffa759f5b365e6b12a78b58781986872aa2d5993941de6d9d56e29",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:14+00:00"
+ },
+ "rn-livret-securite": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf",
+    "path": "sources/raw/rn-livret-securite/projet-la-securite.pdf",
+    "bytes": 2411553,
+    "sha256": "577525d2af9caf492f34386bbaf063c109e7e3d4fb09935ba469f9e8d97973a9",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:14+00:00"
+ },
+ "rn-livret-tourisme": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/projet/projet-le-tourisme.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/projet/projet-le-tourisme.pdf",
+    "path": "sources/raw/rn-livret-tourisme/projet-le-tourisme.pdf",
+    "bytes": 2770331,
+    "sha256": "e15f6523f82e907ebb1b8556854b563bcdabe10cbd1ca8ab02fbddcb41b8f587",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:18+00:00"
+ },
+ "rn-ppl-islamisme": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/mesures/proposition-de-loi-ideologies-islamistes.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/mesures/proposition-de-loi-ideologies-islamistes.pdf",
+    "path": "sources/raw/rn-ppl-islamisme/proposition-de-loi-ideologies-islamistes.pdf",
+    "bytes": 675360,
+    "sha256": "b5d199c076f276e136fc346c185366ad068193a2bec76afffe92667ec4ef34df",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:07+00:00"
+ },
+ "rn-programme-2024": {
+  "files": [
+   {
+    "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+    "final_url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+    "path": "sources/raw/rn-programme-2024/202406-programme.pdf",
+    "bytes": 21546654,
+    "sha256": "8bc4d891a6011ab2f219bfefbdbd2b9eb75e2c47f8182a74ab64faf09b7e8ed4",
+    "content_type": "application/pdf"
+   }
+  ],
+  "retrieved_at": "2026-10-10T08:28:03+00:00"
+ }
+}

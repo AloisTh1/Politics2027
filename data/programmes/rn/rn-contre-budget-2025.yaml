@@ -1,0 +1,83 @@
+doc: rn-contre-budget-2025
+# Amendements du groupe RN au projet de loi de finances pour 2025 (présentation du 16 octobre 2024).
+# Montants en Md€ : signe + = amélioration du solde public, signe - = coût.
+pages:
+  - n: 1
+    summary: "Couverture : « Présentation à la presse — 16 octobre 2024 » : « Rendre du pouvoir d'achat aux Français, défendre les entrepreneurs, lutter contre les rentes et la spéculation, dégraisser l'État »."
+  - n: 2
+    summary: "Intercalaire « Nos propositions »."
+  - n: 3
+    summary: "Bilan budgétaire des amendements RN au PLF 2025, ligne par ligne : ménages (-22,8 Md€), entrepreneurs (-5,35), rentes et spéculation (+21,79), collectivités (+1,32), État (+4,06), immigration (+4,1), divers (+10,64) ; solde +13,7 Md€."
+  - n: 4
+    summary: "Page sans texte."
+  - n: 5
+    summary: "Annexe 1 : baisse de 20 % des taxes affectées à une trentaine d'agences et opérateurs (AFITF, agences de l'eau, ANAH, France Compétences, etc.), total 3,44 Md€."
+  - n: 6
+    summary: "Annexe 2 : baisse de prélèvements sur recettes destinés aux régions (0,2 Md€)."
+  - n: 7
+    summary: "Annexe 3 : ventilation par mission des économies de la partie II (associations, presse, aide au développement, ADEME, culture, hébergement d'urgence, prime d'activité, AME)."
+  - n: 8
+    summary: "Quatrième de couverture (sans texte)."
+
+totals:
+  solde: 13.7
+  blocs: {menages: -22.8, entrepreneurs: -5.35, rentes_speculation_fraudes: 21.79, collectivites: 1.32, appareil_etat: 4.06, immigration: 4.1, divers: 10.64}
+
+measures:
+  - {id: RNCB25-01, page: 3, montant: -3, themes: [fiscalite, famille], text: "Instaurer une part fiscale pleine dès le deuxième enfant"}
+  - {id: RNCB25-02, page: 3, montant: 3, themes: [fiscalite], text: "Remplacer l'IFI par l'IFF"}
+  - {id: RNCB25-03, page: 3, montant: -0.05, themes: [fiscalite], text: "Baisser à 65 ans pour l'application de la demie-part fiscale pour les veuves et veufs d'anciens combattants"}
+  - {id: RNCB25-04, page: 3, montant: 0.1, themes: [fiscalite], text: "Restaurer l'exit tax"}
+  - {id: RNCB25-05, page: 3, montant: 0.75, themes: [fiscalite], text: "Taxer les super dividendes"}
+  - {id: RNCB25-06, page: 3, montant: -3.6, themes: [retraites, classes-populaires], text: "Supprimer la désindexation des retraites durant 6 mois"}
+  - {id: RNCB25-07, page: 3, montant: -0.2, themes: [fiscalite, logement], text: "Supprimer la hausse de la TVA sur les chaudières"}
+  - {id: RNCB25-08, page: 3, montant: -10, themes: [fiscalite, energie, classes-populaires], text: "Baisser la TVA sur l'énergie (12 Mds€ auquel se déduit 2Mds€ de retour de TVA sur cette mesure pouvoir d'achat)"}
+  - {id: RNCB25-09, page: 3, montant: -0.5, themes: [fiscalite, services-publics], text: "Réformer l'octroi de mer"}
+  - {id: RNCB25-10, page: 3, montant: -6, themes: [fiscalite, classes-populaires], text: "Baisser la TVA sur les produits de premières nécessités (7 Mds€ auquel se déduit 1 Md€ de retour TVA)"}
+  - {id: RNCB25-11, page: 3, montant: -0.3, themes: [fiscalite, ecologie], text: "Supprimer l'augmentation du malus automobile"}
+  - {id: RNCB25-12, page: 3, montant: -3, themes: [fiscalite, energie], text: "Supprimer la hausse des ascises"}
+  - {id: RNCB25-13, page: 3, montant: -1.1, themes: [entreprises-industrie, fiscalite], text: "Supprimer le report de la baisse de la CVAE"}
+  - {id: RNCB25-14, page: 3, montant: -4, themes: [entreprises-industrie, travail], text: "Supprimer la mesure de reprofilage des allégements de charges"}
+  - {id: RNCB25-15, page: 3, montant: -0.5, themes: [entreprises-industrie, fiscalite], text: "Elargir les conditions du pacte Dutreil"}
+  - {id: RNCB25-16, page: 3, montant: 0.25, themes: [entreprises-industrie, fiscalite], text: "Exclure la veille technologique des dépenses éligibles au CIR"}
+  - {id: RNCB25-17, page: 3, montant: 0.5, themes: [fiscalite], text: "Doubler la taxe exceptionnelle due par les entreprises de transports maritimes"}
+  - {id: RNCB25-18, page: 3, montant: 8.8, themes: [fiscalite, entreprises-industrie], text: "Augmenter la taxe sur les rachats d'actions (33%)"}
+  - {id: RNCB25-19, page: 3, montant: 0.01, themes: [fiscalite], text: "Supprimer la niche fiscale des journalistes"}
+  - {id: RNCB25-20, page: 3, montant: 0.03, themes: [fiscalite, energie], text: "Doubler la taxe sur l'éolien en mer"}
+  - {id: RNCB25-21, page: 3, montant: 0.1, themes: [fiscalite, energie], text: "Supprimer l'exonération de taxe foncière et de CFE sur l'éolien"}
+  - {id: RNCB25-22, page: 3, montant: 6, themes: [energie, ecologie], text: "Supprimer les tarifs préférentiels de rachat de l'électricité"}
+  - {id: RNCB25-23, page: 3, montant: 0.4, themes: [energie], text: "Redevance fournisseurs d'énergies (0,77Mds dont 370M affectés à l'électrification de la ruralité)"}
+  - {id: RNCB25-24, page: 3, montant: 0.55, themes: [fiscalite], text: "Taxer l'utilisation du réseau par les géants du numériques (à partir de 1% d'utilisation de la bande passante )"}
+  - {id: RNCB25-25, page: 3, montant: 3, themes: [fiscalite], text: "Lutter contre la fraude « cum cum »"}
+  - {id: RNCB25-26, page: 3, montant: 1, themes: [fiscalite], text: "Augmenter la taxe OCDE"}
+  - {id: RNCB25-27, page: 3, montant: 0.1, themes: [fiscalite], text: "Elargir l'assiette de la TFF (Taxe sur les Transaction Financières)"}
+  - {id: RNCB25-28, page: 3, montant: 1.3, themes: [fiscalite], text: "Augmenter de 0,3 % à 0,5 % la TFF (Taxe sur les Transaction Financières)"}
+  - {id: RNCB25-29, page: 3, montant: 1.1, themes: [services-publics, institutions], text: "Supplément écrêtement FCTVA (500 région / 600 EPCI)"}
+  - {id: RNCB25-30, page: 3, montant: 0.22, themes: [services-publics, institutions], text: "Baisser certains prélèvements sur recettes destinés aux régions"}
+  - {id: RNCB25-31, page: 3, montant: -0.1, themes: [education, services-publics], text: "Préserver le nombre d'enseignants"}
+  - {id: RNCB25-32, page: 3, montant: -0.6, themes: [securite-justice], text: "Respecter intégralement la Loi de Programmation Intérieur"}
+  - {id: RNCB25-33, page: 3, montant: -0.5, themes: [securite-justice], text: "Respecter intégralement la Loi de Programmation Justice"}
+  - {id: RNCB25-34, page: 3, montant: -0.4, themes: [education], text: "Respecter Loi de Programmation Recherche"}
+  - {id: RNCB25-35, page: 3, montant: 0.63, themes: [institutions, finances-publiques], text: "Baisser le train de vie de l'Etat"}
+  - {id: RNCB25-36, page: 3, montant: 0.77, themes: [services-publics, ecologie], text: "Ré-internaliser certaines missions des opérateurs publics", detail: "Annexe 3 (p. 7) : dont 0,63 Md€ « ADEME / Opérateurs », suppression de l'ANCT, baisse de subvention des ARS."}
+  - {id: RNCB25-37, page: 3, montant: 0.1, themes: [securite-justice], text: "Instaurer un ticket modérateur d'accès à la justice"}
+  - {id: RNCB25-38, page: 3, montant: 0.4, themes: [services-publics, travail], text: "Égaliser les jours de carences entre le public et le privé"}
+  - {id: RNCB25-39, page: 3, montant: 0.02, themes: [services-publics], text: "Interdir les publicités pour les opérateurs publics hors prévention"}
+  - {id: RNCB25-40, page: 3, montant: 0.08, themes: [education], text: "Supprimer la subvention versée à Sc Po"}
+  - {id: RNCB25-41, page: 3, montant: 3.4, themes: [finances-publiques, services-publics], text: "Baisser de 20% les affectations financières à certaines agences et autres organismes (annexe 1)", detail: "Annexe 1 (p. 5) : dont agences de l'eau 0,47 Md€, France Compétences 2,12 Md€, AFITF 0,54 Md€, ANAH 0,14 Md€."}
+  - {id: RNCB25-42, page: 3, montant: 0.16, themes: [education, fiscalite], text: "Affecter la CVEC (contribution à la vie étudiante et de campus) au budget général"}
+  - {id: RNCB25-43, page: 3, montant: 1.2, themes: [immigration, sante], text: "Remplacer l'AME par l'AMU"}
+  - {id: RNCB25-44, page: 3, montant: 0.3, themes: [immigration, logement], text: "Réserver l'hébergement d'urgence aux personnes en situation régulière"}
+  - {id: RNCB25-45, page: 3, montant: 1, themes: [immigration, classes-populaires], text: "Réserver la prime d'activité aux personnes de nationalité française"}
+  - {id: RNCB25-46, page: 3, montant: 1.6, themes: [immigration, education], text: "Réserver la dotation accueil étudiants étrangers aux étudiants en masters et en doctorat"}
+  - {id: RNCB25-47, page: 3, montant: 5, themes: [europe-international, finances-publiques], text: "Baisser la contribution de la France à l'Union européenne"}
+  - {id: RNCB25-48, page: 3, montant: -0.4, themes: [services-publics], text: "Supprimer la baisse des crédits Outre-Mer"}
+  - {id: RNCB25-49, page: 3, montant: 0.43, themes: [finances-publiques], text: "Baisser les subventions aux associations"}
+  - {id: RNCB25-50, page: 3, montant: 2.34, themes: [europe-international], text: "Baisser les aides publiques au développement"}
+  - {id: RNCB25-51, page: 3, montant: 0.1, themes: [libertes-laicite], text: "Baisser le soutien public à la presse"}
+  - {id: RNCB25-52, page: 3, montant: 0.3, themes: [services-publics], text: "Responsabiliser les acteurs culturels", detail: "Annexe 3 (p. 7) : baisse des dépenses des opéras et théâtres, du soutien au spectacle vivant, à l'emploi des artistes et aux arts visuels."}
+  - {id: RNCB25-53, page: 3, montant: 0.62, themes: [education, travail], text: "Réserver les chèques apprentissages en étudiants avant licence"}
+  - {id: RNCB25-54, page: 3, montant: 0.15, themes: [ecologie], text: "Supprimer le plan vélo"}
+  - {id: RNCB25-55, page: 3, montant: 0.5, themes: [ecologie], text: "Baisser le montant du fonds vert"}
+  - {id: RNCB25-56, page: 3, montant: 0.4, themes: [energie, ecologie], text: "Baisser les aides aux bioénergies"}
+  - {id: RNCB25-57, page: 3, montant: 1.2, themes: [immigration, fiscalite], text: "Instaurer un visa touriste (hors UE) de 50 €"}

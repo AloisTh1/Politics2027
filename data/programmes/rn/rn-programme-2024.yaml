@@ -1,0 +1,140 @@
+doc: rn-programme-2024
+# Pages = pages du fichier PDF (chaque page du fichier réunit deux pages imprimées).
+pages:
+  - n: 1
+    summary: "Couverture : « Élections législatives anticipées des 30 juin et 7 juillet 2024 — Un projet, une méthode »."
+  - n: 2
+    summary: "Éditorial « L'union fait la France » : un projet en deux phases, l'urgence (juillet-automne 2024) puis les réformes à partir du budget ; audit des comptes, consultations, « cohabitation » jusqu'en 2027."
+  - n: 3
+    summary: "Intercalaire « Temps de l'urgence », citation de Jordan Bardella (qualité de vie, sécurité, immigration)."
+  - n: 4
+    summary: "Tableau des mesures d'urgence et de leur véhicule juridique (loi de finances rectificative, décrets, circulaires, projets de loi) : énergie, assurance chômage, peines planchers, droit du sol, AME, régularisations."
+  - n: 5
+    summary: "Intercalaire « Le temps des réformes », « dans la continuité du programme présidentiel de 2022 » : protection, projection, transmission."
+  - n: 6
+    summary: "Devoir de protection (1/2) : défense, immigration (priorité nationale, allocations familiales réservées aux Français, asile en ambassade), sécurité et justice."
+  - n: 7
+    summary: "Devoir de protection (2/2) : fraudes (chiffres de la Cour des comptes), santé (ARS, numerus apertus, endométriose), « écologie punitive » (ZFE, thermique 2035, DPE)."
+  - n: 8
+    summary: "Besoin de projection (1/2) : salaires (+10 % exonérés), impôts de production, abrogation de la réforme des retraites, TVA sur 100 produits, BCE, nucléaire, barrages, RIC."
+  - n: 9
+    summary: "Besoin de projection (2/2) : familles (part fiscale dès le 2e enfant, prêt à taux zéro), agriculture (prix rémunérateurs, « Manger français »)."
+  - n: 10
+    summary: "Impératif de transmission (1/2) : agences de l'État, privatisation de l'audiovisuel public, priorité nationale pour réduire la dépense sociale, école, fonds souverain, exonérations pour les moins de 30 ans."
+  - n: 11
+    summary: "Impératif de transmission (2/2) : héritage et donations, IFI remplacé par un impôt sur la fortune financière, loi contre les idéologies islamistes, francophonie."
+  - n: 12
+    summary: "Quatrième de couverture (sans texte)."
+
+measures:
+  # --- p. 4 : le temps de l'urgence (juillet - automne 2024)
+  - {id: RN24-001, page: 4, themes: [classes-populaires, energie, fiscalite], text: "Baisse de la TVA sur l'ensemble des produits énergétiques", detail: "Véhicule annoncé : loi de finances rectificative 2024, session extraordinaire."}
+  - {id: RN24-002, page: 4, themes: [classes-populaires, energie], text: "Contrôle de l'effectivité de la baisse de la TVA sur les produits énergétiques", detail: "Circulaire à la DGCCRF, juillet 2024."}
+  - {id: RN24-003, page: 4, themes: [energie, europe-international], text: "Sortie des règles européennes de fixation des prix de l'électricité", detail: "Négociations européennes, juillet 2024."}
+  - {id: RN24-004, page: 4, themes: [travail, classes-populaires], text: "Annulation de la réforme de l'assurance chômage de juillet 2024", detail: "Décret, juillet 2024."}
+  - {id: RN24-005, page: 4, themes: [sante, retraites], text: "Allègement des dispositifs de cumul emploi-retraite pour les médecins et les infirmiers"}
+  - {id: RN24-006, page: 4, themes: [sante, fiscalite], text: "Suppression de l'impôt sur les revenus d'activité des médecins et des infirmiers retraités reprenant du service"}
+  - {id: RN24-007, page: 4, themes: [securite-justice], text: "Mise en place des peines planchers pour les récidivistes, les atteintes aux personnes dépositaires d'une mission de services publics et le trafic de drogue", detail: "Projet de loi portant mesures d'urgence sur la politique pénale."}
+  - {id: RN24-008, page: 4, themes: [securite-justice, famille], text: "Suspension des allocations familiales pour les parents de mineurs criminels ou délinquants récidivistes coupables de défaillance"}
+  - {id: RN24-009, page: 4, themes: [securite-justice, services-publics], text: "Soutien aux fonctionnaires attaqués ou menacés (professeurs, soignants, policiers, etc.) par le renforcement de la protection fonctionnelle"}
+  - {id: RN24-010, page: 4, themes: [immigration], text: "Suppression du droit du sol", detail: "Projet de loi portant mesures d'urgence sur l'immigration, session extraordinaire 2024."}
+  - {id: RN24-011, page: 4, themes: [immigration, sante], text: "Remplacement de l'Aide Médicale d'Etat par une Aide d'Urgence Vitale"}
+  - {id: RN24-012, page: 4, themes: [immigration], text: "Suppression de toutes les dérogations qui empêchent les expulsions d'étrangers"}
+  - {id: RN24-013, page: 4, themes: [immigration], text: "Retour du délit de séjour irrégulier"}
+  - {id: RN24-014, page: 4, themes: [immigration], text: "Restriction du regroupement familial par le durcissement des conditions (emploi stable, ressources précisément définies, etc.)"}
+  - {id: RN24-015, page: 4, themes: [immigration], text: "Suspension de toutes les régularisations de clandestins par les préfets", detail: "Circulaire ministérielle, juillet 2024."}
+  - {id: RN24-016, page: 4, themes: [finances-publiques], text: "Lancement d'une commission d'évaluation des comptes publics", detail: "Juillet 2024."}
+  - {id: RN24-017, page: 4, themes: [entreprises-industrie], text: "Lancement des états généraux de la simplification"}
+  - {id: RN24-018, page: 4, themes: [travail], text: "Organisation d'une conférence sociale sur les salaires et les conditions de travail"}
+
+  # --- p. 6 : défense, immigration, sécurité
+  - {id: RN24-019, page: 6, themes: [europe-international], text: "Préserver la souveraineté pleine et entière sur notre dissuasion nucléaire et garantir notre modèle d'armée complet"}
+  - {id: RN24-020, page: 6, themes: [europe-international], text: "Refuser tout transfert de compétences vers l'Union européenne dans les domaines de la défense et de la diplomatie, favoriser une préférence européenne dans les achats militaires effectués par les États européens"}
+  - {id: RN24-021, page: 6, themes: [europe-international, finances-publiques], text: "Sanctuariser la trajectoire budgétaire de la Loi de Programmation Militaire"}
+  - {id: RN24-022, page: 6, themes: [immigration, europe-international], text: "Ouvrir des négociations avec nos partenaires européens pour réserver la libre-circulation Schengen aux seuls ressortissants européens"}
+  - {id: RN24-023, page: 6, themes: [immigration, travail], text: "Renforcer les sanctions pour les employeurs de travailleurs clandestins"}
+  - {id: RN24-024, page: 6, themes: [immigration], text: "Instaurer l'obligation de dépôt des demandes d'asile dans les ambassades et consulats"}
+  - {id: RN24-025, page: 6, themes: [immigration, institutions], text: "Mettre en place la priorité nationale (si nécessaire par référendum constitutionnel)"}
+  - {id: RN24-026, page: 6, themes: [immigration, classes-populaires, famille], text: "Réserver les allocations familiales aux Français et conditionner à 5 années de travail en France l'accès aux prestations sociales non-contributives comme le RSA (si nécessaire par référendum constitutionnel)"}
+  - {id: RN24-027, page: 6, themes: [securite-justice], text: "Lancer un plan d'identification de lieux pouvant être reconvertis en lieux de détention de « basse sécurité » (pour les mineurs ou les peines courtes)"}
+  - {id: RN24-028, page: 6, themes: [securite-justice], text: "Lancer enfin la construction effective des places de prison dont la France a besoin"}
+  - {id: RN24-029, page: 6, themes: [securite-justice], text: "Mettre en place, en plus des peines planchers, la limitation de la possibilité des aménagements et réductions de peine, en particulier pour les atteintes aux personnes"}
+  - {id: RN24-030, page: 6, themes: [securite-justice], text: "Réformer une partie de la justice des mineurs (abaissement de la majorité pénale à 16 ans, possibilité de comparution immédiate…)"}
+  - {id: RN24-031, page: 6, themes: [securite-justice, services-publics], text: "Rendre obligatoire la création d'une police municipale pour les communes de plus de 10 000 habitants"}
+  - {id: RN24-032, page: 6, themes: [securite-justice], text: "Elargir le tour extérieur d'accès à la magistrature à des professionnels du droit (universitaires, avocats, anciens policiers, etc.)"}
+  - {id: RN24-033, page: 6, themes: [securite-justice], text: "Instituer une présomption de légitime défense pour les forces de l'ordre"}
+  - {id: RN24-034, page: 6, themes: [securite-justice, sante], text: "Durcir la lutte contre le trafic et la consommation de drogue"}
+  - {id: RN24-035, page: 6, themes: [securite-justice, feminisme], text: "Inscrire les harceleurs de rue au fichier des délinquants sexuels"}
+
+  # --- p. 7 : fraude, santé, écologie
+  - {id: RN24-036, page: 7, themes: [finances-publiques], text: "La lutte contre la fraude sera un axe important avec la création d'un ministère chargé uniquement de cette question."}
+  - {id: RN24-037, page: 7, themes: [finances-publiques], text: "Permettre aux organismes sociaux d'accéder aux fichiers utiles pour lutter contre la fraude"}
+  - {id: RN24-038, page: 7, themes: [finances-publiques, retraites], text: "Contrôler que les personnes qui perçoivent des prestations sont toujours vivantes, en particulier lorsqu'elles vivent à l'étranger"}
+  - {id: RN24-039, page: 7, themes: [finances-publiques, sante], text: "Mettre en place la carte vitale biométrique"}
+  - {id: RN24-040, page: 7, themes: [entreprises-industrie, agriculture], text: "Renforcer les contrôles des importations pour mettre fin à la vente de produits étrangers ne respectant pas les normes françaises"}
+  - {id: RN24-041, page: 7, themes: [entreprises-industrie], text: "Rendre les distributeurs responsables juridiquement en cas de vente de produits non conformes aux réglementations nationales"}
+  - {id: RN24-042, page: 7, themes: [sante, services-publics], text: "Réduire le poids des services administratifs dans les hôpitaux et transférer une partie des emplois vers les services opérationnels (plafond de 10 % de postes administratifs)"}
+  - {id: RN24-043, page: 7, themes: [sante, services-publics], text: "Supprimer les Agences Régionales de Santé"}
+  - {id: RN24-044, page: 7, themes: [sante, education], text: "Augmenter le nombre d'étudiants en médecine (fin du numerus apertus)"}
+  - {id: RN24-045, page: 7, themes: [sante, entreprises-industrie], text: "Lancer un plan d'autonomie stratégique pour les médicaments et mettre en place, à l'horizon 2026, la vente de médicaments à l'unité pour lutter contre les pénuries et le gaspillage"}
+  - {id: RN24-046, page: 7, themes: [sante], text: "Renforcer le soutien aux proches-aidants"}
+  - {id: RN24-047, page: 7, themes: [sante, education], text: "Donner plus de place à la prévention, notamment grâce aux visites médicales scolaires qui redeviendront systématiques"}
+  - {id: RN24-048, page: 7, themes: [sante, feminisme], text: "Reconnaître l'endométriose comme affection longue durée"}
+  - {id: RN24-049, page: 7, themes: [ecologie, classes-populaires], text: "Renoncer à l'interdiction de la vente des voitures à moteur thermique à l'horizon 2035 et inciter les constructeurs français à développer des véhicules propres abordables"}
+  - {id: RN24-050, page: 7, themes: [ecologie, classes-populaires], text: "Supprimer les Zones à Faibles Emissions"}
+  - {id: RN24-051, page: 7, themes: [ecologie, logement], text: "Abroger toutes les interdictions et obligations liées aux DPE (travaux, mise en location...) et mettre en place un accompagnement pragmatique des rénovations de logements en lien avec les professionnels"}
+  - {id: RN24-052, page: 7, themes: [ecologie, entreprises-industrie], text: "Réduire l'empreinte carbone de la France en soutenant les relocalisations industrielles et en favorisant les acteurs locaux dans la commande publique (circuits courts, priorité nationale, préférence européenne...)"}
+  - {id: RN24-053, page: 7, themes: [logement, travail], text: "Instaurer une priorité d'accès au logement social pour les travailleurs des secteurs prioritaires"}
+  - {id: RN24-054, page: 7, themes: [ecologie, services-publics], text: "Engager un plan de rénovation du réseau de distribution de l'eau, à la fois pour réduire les pertes en ligne et améliorer la qualité"}
+
+  # --- p. 8 : économie, énergie, démocratie
+  - {id: RN24-055, page: 8, themes: [travail, classes-populaires], text: "Revaloriser les revenus du travail par une incitation forte à l'augmentation des salaires (permettre aux entreprises d'augmenter les salaires de 10 % jusqu'à trois fois le SMIC, en les exonérant de l'augmentation des cotisations patronales pendant trois à cinq ans)", params: {hausse_salaire: 0.10, plafond_smic: 3, exoneration_annees: "3 à 5"}}
+  - {id: RN24-056, page: 8, themes: [entreprises-industrie, fiscalite], text: "Poursuivre la baisse des impôts de production (CVAE) pour stimuler les implantations industrielles en France"}
+  - {id: RN24-057, page: 8, themes: [entreprises-industrie], text: "Simplifier l'environnement réglementaire, conformément aux états généraux de la simplification lancés lors du temps des urgences"}
+  - {id: RN24-058, page: 8, themes: [retraites, travail], text: "Abroger la réforme des retraites de Macron et mettre en place un système de retraites progressif, qui incite les jeunes à entrer de manière précoce sur le marché du travail et prend en compte la pénibilité réelle des emplois faiblement qualifiés"}
+  - {id: RN24-059, page: 8, themes: [classes-populaires, fiscalite], text: "Protéger le pouvoir d'achat en cas de forte inflation par la suspension de la TVA sur une centaine de produits de première nécessité."}
+  - {id: RN24-060, page: 8, themes: [europe-international, finances-publiques], text: "Négocier une réforme du mandat de la BCE pour la tourner vers l'emploi, la productivité et le financement de projets stratégiques de long terme"}
+  - {id: RN24-061, page: 8, themes: [energie, europe-international], text: "Sortir des règles européennes de fixation des prix de l'énergie qui affaiblissent notre compétitivité"}
+  - {id: RN24-062, page: 8, themes: [energie], text: "Lancer le plan Marie Curie de relance du nucléaire (EPR, SMR, réacteurs à neutrons rapides)"}
+  - {id: RN24-063, page: 8, themes: [energie, europe-international], text: "Protéger les barrages hydroélectriques de la mise en concurrence voulue par Bruxelles"}
+  - {id: RN24-064, page: 8, themes: [energie], text: "Investir dans les barrages hydroélectriques pour augmenter leur capacité de production"}
+  - {id: RN24-065, page: 8, themes: [energie, ecologie], text: "Sortir définitivement du charbon en convertissant les centrales en biomasse et développer les technologies vertes comme l'hydrogène et la géothermie"}
+  - {id: RN24-066, page: 8, themes: [institutions, services-publics], text: "Créer un Ministère d'État de la Mer et de l'Outre-mer (garantie de la continuité territoriale, réforme de l'octroi de mer, développement des services publics, etc.)"}
+  - {id: RN24-067, page: 8, themes: [institutions], text: "Instaurer dans la Constitution un RIC législatif"}
+  - {id: RN24-068, page: 8, themes: [institutions], text: "Réserver au peuple seul, par référendum, le pouvoir de modifier la Constitution"}
+
+  # --- p. 9 : familles, agriculture
+  - {id: RN24-069, page: 9, themes: [famille, fiscalite], text: "Instituer une part fiscale complète dès le deuxième enfant"}
+  - {id: RN24-070, page: 9, themes: [famille, logement], text: "Créer un prêt public à taux zéro transformé en subvention pour les couples qui ont un 3ème enfant"}
+  - {id: RN24-071, page: 9, themes: [famille, fiscalite, retraites], text: "Rétablir la demi-part fiscale des veuf et veuves"}
+  - {id: RN24-072, page: 9, themes: [agriculture], text: "Garantir des prix rémunérateurs pour les agriculteurs"}
+  - {id: RN24-073, page: 9, themes: [agriculture], text: "Généraliser l'étiquetage sur l'origine et la qualité des produits alimentaires"}
+  - {id: RN24-074, page: 9, themes: [agriculture, services-publics], text: "Lancer un grand plan « Manger français » obligeant les cantines à utiliser 80 % de produits agricoles français à l'horizon 2027"}
+
+  # --- p. 10 : État, école, économie
+  - {id: RN24-075, page: 10, themes: [finances-publiques, services-publics], text: "Lancer dès le Projet de loi de finances pour 2025, un plan de rationalisation des agences publiques de l'Etat (suppression notamment des ARS, réduction des dépenses de fonctionnement)"}
+  - {id: RN24-076, page: 10, themes: [services-publics, libertes-laicite], text: "Privatiser l'audiovisuel public"}
+  - {id: RN24-077, page: 10, themes: [immigration, finances-publiques], text: "Réduire la dépense sociale par la mise en place de la priorité nationale"}
+  - {id: RN24-078, page: 10, themes: [institutions, finances-publiques], text: "Simplifier drastiquement le millefeuille territorial pour réduire la dépense et rendre du pouvoir aux élus de proximité"}
+  - {id: RN24-079, page: 10, themes: [education], text: "Recentrer les enseignements sur les savoirs fondamentaux (sciences, français, histoire)"}
+  - {id: RN24-080, page: 10, themes: [education, services-publics], text: "Revaloriser le métier d'enseignant du recrutement à la fin de la carrière"}
+  - {id: RN24-081, page: 10, themes: [education], text: "Réduire la bureaucratie pour redonner libertés et moyens aux professeurs"}
+  - {id: RN24-082, page: 10, themes: [education, travail], text: "Soutenir financièrement les jeunes et les entreprises faisant le choix de l'apprentissage ou de l'alternance"}
+  - {id: RN24-083, page: 10, themes: [education, travail], text: "Adapter l'offre de formation initiale et continue aux besoins réels des branches professionnelles"}
+  - {id: RN24-084, page: 10, themes: [entreprises-industrie], text: "Créer un Fonds souverain français pour augmenter la rémunération de l'épargne nationale et l'orienter vers les secteurs stratégiques, l'industrie et l'innovation"}
+  - {id: RN24-085, page: 10, themes: [entreprises-industrie, fiscalite], text: "Supprimer la fiscalité sur les transmissions de TPE/PME/ETI en contrepartie d'un engagement à en rester propriétaire pendant au moins 10 ans"}
+  - {id: RN24-086, page: 10, themes: [entreprises-industrie, fiscalite, education], text: "Exonérer d'impôts sur les sociétés pendant 5 ans les entreprises créées par un jeune de moins de 30 ans"}
+  - {id: RN24-087, page: 10, themes: [fiscalite, education], text: "Supprimer l'impôt sur le revenu des jeunes de moins de 30 ans afin de favoriser leur installation durable en France, professionnelle et familiale", params: {age_max: 30}}
+
+  # --- p. 11 : transmission, civilisation
+  - {id: RN24-088, page: 11, themes: [fiscalite, famille], text: "Supprimer les impôts sur l'héritage direct pour les familles modestes et les classes moyennes"}
+  - {id: RN24-089, page: 11, themes: [fiscalite, famille], text: "Exonérer les donations des parents et des grands-parents à leurs enfants et petits-enfants jusqu'à 100 000 € par descendant tous les 10 ans", params: {plafond: 100000, periode_ans: 10}}
+  - {id: RN24-090, page: 11, themes: [fiscalite], text: "Remplacer l'impôt sur la fortune immobilière (IFI) qui entrave la conservation et la transmission des patrimoines et épargne de tout effort contributif les fortunes exclusivement mobilières, par un impôt sur la fortune financière (IFF)"}
+  - {id: RN24-091, page: 11, themes: [libertes-laicite, securite-justice], text: "Mettre en place une législation spécifique visant les idéologies islamistes, véritable menace totalitaire des temps modernes"}
+  - {id: RN24-092, page: 11, themes: [europe-international], text: "Redonner à la Francophonie une place de choix dans notre politique étrangère"}
+  - {id: RN24-093, page: 11, themes: [education, services-publics], text: "Expérimenter la création d'un Service national volontaire du patrimoine, afin d'œuvrer à la restauration, à la protection et à la valorisation de notre patrimoine bâti et naturel"}
+
+claims:
+  # Affirmations factuelles du document, à vérifier
+  - {page: 7, text: "Selon la Cour des comptes, les fraudes seraient de l'ordre de 15 milliards d'euros par an pour la seule TVA, de 10 à 20, voire 25 milliards d'euros pour la fraude aux prestations sociales, alors même que les organismes sociaux n'ont détecté, en 2019, qu'un milliard d'euros de fraude"}
+  - {page: 7, text: "Alors que la France figure dans les cinq pays où l'environnement est le moins dégradé"}

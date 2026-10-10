@@ -1,0 +1,112 @@
+doc: rn-contre-budget-2026
+# Montants en milliards d'euros pour 2026, tels qu'annoncés par le groupe RN (annexe p. 7).
+# effet : "economie" (baisse de dépense), "recette" (hausse de recette),
+#         "baisse-impot" (baisse de recette), "depense" (hausse de dépense)
+pages:
+  - n: 1
+    summary: "Couverture : « Conférence de presse — 23 octobre 2025 »."
+  - n: 2
+    summary: "« Héritage » : déficit public 2026 à -4,7 % du PIB, dette à 117,9 %, dépenses publiques +28,5 Md€ entre 2025 et 2026, charge de la dette 74 Md€ (graphique « Présidence Macron »)."
+  - n: 3
+    summary: "Synthèse des économies (contribution à l'UE, agences, immigration, associations, collectivités) et des recettes nouvelles (impôt sur la fortune financière, taxe sur les rachats d'actions, certificats d'économie d'énergie, fraude)."
+  - n: 4
+    summary: "Synthèse des baisses d'impôts (TVA sur les énergies 10,96 Md€, TVA sur 100 produits, part fiscale dès le 2e enfant, impôts de production 16,2 Md€) et des dépenses nouvelles (réforme des retraites du RN 1,5 Md€, dégel des prestations)."
+  - n: 5
+    summary: "Bilan : -57 Md€ de dépenses, +7 Md€ de dépenses nouvelles, +31 Md€ de recettes, -45 Md€ d'impôts, soit 36 Md€ d'« économies dégagées » ; comparaison avec le budget Lecornu (déficit 143 contre 107 Md€, dette 3 609 contre 3 573 Md€)."
+  - n: 6
+    summary: "Intercalaire « Annexes »."
+  - n: 7
+    summary: "Tableau détaillé, ligne par ligne, des 88,3 Md€ d'économies et recettes et des 52,7 Md€ de baisses d'impôts et dépenses nouvelles (solde : 35,6 Md€)."
+  - n: 8
+    summary: "Quatrième de couverture (sans texte)."
+
+totals:
+  economies_et_recettes: 88.274
+  baisses_et_depenses: 52.674
+  solde: 35.6
+  bilan_p5: {depenses_baisse: 57, depenses_nouvelles: 7, recettes_nouvelles: 31, baisses_impots: 45, economies_nettes: 36}
+  comparaison_p5: {deficit_lecornu: 143, deficit_rn: 107, dette_lecornu: 3609, dette_rn: 3573, interets_lecornu: 74, interets_rn: 71, prelevements_lecornu: 19, prelevements_rn: -1}
+
+measures:
+  # ---- Baisse des dépenses
+  - {id: RNCB26-01, page: 7, effet: economie, montant: 8.700, themes: [europe-international, finances-publiques], text: "Baisse de la contribution de la France à l'UE"}
+  - {id: RNCB26-02, page: 7, effet: economie, montant: 7.700, themes: [finances-publiques, services-publics], text: "Baisser de 20% les affectations financières ou les subventions à certaines agences et organismes (cf annexe)"}
+  - {id: RNCB26-03, page: 7, effet: economie, montant: 7.200, themes: [energie, ecologie], text: "Suppression des tarifs préférentiels de rachat d'électricité (énergies intermittentes)"}
+  - {id: RNCB26-04, page: 7, effet: economie, montant: 2.300, themes: [europe-international], text: "Rationalisation de l'Aide Publique au Développement"}
+  - {id: RNCB26-05, page: 7, effet: economie, montant: 3.400, themes: [logement, ecologie], text: "Remplacement \"Ma Primrenov\" par \"100%Renov\""}
+  - {id: RNCB26-06, page: 7, effet: economie, montant: 0.460, themes: [ecologie], text: "Suppression du fonds vert hors dépenses pour inondations et feux de forêts"}
+  - {id: RNCB26-07, page: 7, effet: economie, montant: 1.600, themes: [education, travail], text: "Réserver les chèques apprentissages aux étudiants avant licence"}
+  - {id: RNCB26-08, page: 7, effet: economie, montant: 0.550, themes: [sante], text: "Délivrance des médicaments à l'unité"}
+  - {id: RNCB26-09, page: 7, effet: economie, montant: 0.450, themes: [sante], text: "Contrôler systématiquement l'éligibilité à l'ALD"}
+  - {id: RNCB26-10, page: 7, effet: economie, montant: 6.100, themes: [immigration, classes-populaires], text: "Réserver le bénéfice des prestations de solidarités aux étrangers ayant au moins 5 ans ETP travaillés en France"}
+  - {id: RNCB26-11, page: 7, effet: economie, montant: 1.300, themes: [immigration, sante], text: "Remplacement AME par AMU"}
+  - {id: RNCB26-12, page: 7, effet: economie, montant: 1.000, themes: [immigration, sante], text: "Suppression visa pour soins"}
+  - {id: RNCB26-13, page: 7, effet: economie, montant: 1.300, themes: [immigration, europe-international], text: "Fin de l'accord de 1968 avec l'Algérie"}
+  - {id: RNCB26-14, page: 7, effet: economie, montant: 1.110, themes: [immigration], text: "Renvoyer les étrangers qui n'ont pas eu d'emploi pendant 1 an et qui ne peuvent pas subvenir à leurs besoins"}
+  - {id: RNCB26-15, page: 7, effet: economie, montant: 1.100, themes: [immigration, education], text: "Hausse des frais de scolarité des étudiants étrangers sauf conventions interétatiques"}
+  - {id: RNCB26-16, page: 7, effet: economie, montant: 0.513, themes: [institutions, finances-publiques], text: "Baisse du train de vie de l'État (Elysée, AN, Sénat, CESE, etc)"}
+  - {id: RNCB26-17, page: 7, effet: economie, montant: 3.200, themes: [finances-publiques], text: "Baisser les subventions aux associations ne relevant pas de l'intérêt général"}
+  - {id: RNCB26-18, page: 7, effet: economie, montant: 0.154, themes: [services-publics], text: "Baisse de la dotation à l'audiovisuel public"}
+  - {id: RNCB26-19, page: 7, effet: economie, montant: 0.177, themes: [libertes-laicite], text: "Suppression aides à la presse (hors avantage postal)"}
+  - {id: RNCB26-20, page: 7, effet: economie, montant: 0.040, themes: [institutions], text: "Suppression des CESER"}
+  - {id: RNCB26-21, page: 7, effet: economie, montant: 0.031, themes: [ecologie], text: "Suppression du plan vélo"}
+  - {id: RNCB26-22, page: 7, effet: economie, montant: 5.000, themes: [services-publics, institutions], text: "Baisse de la DGF pour les régions et les EPCI"}
+  - {id: RNCB26-23, page: 7, effet: economie, montant: 2.500, themes: [finances-publiques], text: "Réforme gestion des (BTF) bons du Trésor à taux fixe et à intérêt précompté"}
+  - {id: RNCB26-24, page: 7, effet: economie, montant: 1.454, themes: [finances-publiques], text: "Economie baisse besoin d'emprunt"}
+  # ---- Hausse des recettes
+  - {id: RNCB26-25, page: 7, effet: recette, montant: 4.000, themes: [fiscalite], text: "IFF à la place de la taxe sur les holdings et de l'IFI"}
+  - {id: RNCB26-26, page: 7, effet: recette, montant: 0.100, themes: [fiscalite], text: "Suppression niche journalistes / conseillers régionaux"}
+  - {id: RNCB26-27, page: 7, effet: recette, montant: 0.170, themes: [education, fiscalite], text: "Affecter la CVEC (contribution à la vie étudiante et de campus) au budget général"}
+  - {id: RNCB26-28, page: 7, effet: recette, montant: 3.000, themes: [fiscalite], text: "Taxe sur les transactions financières intra-journalières"}
+  - {id: RNCB26-29, page: 7, effet: recette, montant: 0.750, themes: [fiscalite], text: "Taxe sur les superdividendes"}
+  - {id: RNCB26-30, page: 7, effet: recette, montant: 8.400, themes: [fiscalite, entreprises-industrie], text: "Taxe sur les rachats d'action"}
+  - {id: RNCB26-31, page: 7, effet: recette, montant: 3.500, themes: [finances-publiques], text: "Lutte contre les fraudes"}
+  - {id: RNCB26-32, page: 7, effet: recette, montant: 0.800, themes: [immigration, fiscalite], text: "Timbres sur les visa touristiques"}
+  - {id: RNCB26-33, page: 7, effet: recette, montant: 6.000, themes: [energie, ecologie, finances-publiques], text: "Rebudgétaitsation des Certificat d'économie d'énergie"}
+  - {id: RNCB26-34, page: 7, effet: recette, montant: 0.745, themes: [energie], text: "Redevance d'accès au marché historique électrique et gazier français."}
+  - {id: RNCB26-35, page: 7, effet: recette, montant: 0.550, themes: [fiscalite], text: "Taxe l'utilisation du réseau par les géants du numériques"}
+  - {id: RNCB26-36, page: 7, effet: recette, montant: 1.100, themes: [fiscalite], text: "Retour IS baisse impôts de production"}
+  - {id: RNCB26-37, page: 7, effet: recette, montant: 1.820, themes: [fiscalite], text: "Retour TVA baisse \"dépenses contraintes\""}
+  # ---- Baisse des recettes
+  - {id: RNCB26-38, page: 7, effet: baisse-impot, montant: 1.900, themes: [fiscalite, classes-populaires], text: "Indexation du barème de l'IR et CSG sur l'inflation"}
+  - {id: RNCB26-39, page: 7, effet: baisse-impot, montant: 2.860, themes: [fiscalite, famille], text: "Part fiscale pleine dès le deuxième enfant"}
+  - {id: RNCB26-40, page: 7, effet: baisse-impot, montant: 1.000, themes: [fiscalite, retraites], text: "Généralisation de la demi part pour les veuves et veufs"}
+  - {id: RNCB26-41, page: 7, effet: baisse-impot, montant: 0.600, themes: [fiscalite], text: "Suppression taxe petit colis"}
+  - {id: RNCB26-42, page: 7, effet: baisse-impot, montant: 1.200, themes: [fiscalite, retraites], text: "Suppression de l'abattement forfaitaire retraités (garder l'abattement 10%)"}
+  - {id: RNCB26-43, page: 7, effet: baisse-impot, montant: 3.500, themes: [fiscalite, classes-populaires], text: "Suppression TVA 100 produits premières nécessité"}
+  - {id: RNCB26-44, page: 7, effet: baisse-impot, montant: 0.015, themes: [fiscalite], text: "Suppression taxe sur le streaming musical"}
+  - {id: RNCB26-45, page: 7, effet: baisse-impot, montant: 0.454, themes: [fiscalite, education], text: "Préserver niche fiscale frais de scolarité (secondaire et enseignement sup.)"}
+  - {id: RNCB26-46, page: 7, effet: baisse-impot, montant: 0.883, themes: [fiscalite, sante], text: "Préserver niche fiscale indemnités journalières ALD"}
+  - {id: RNCB26-47, page: 7, effet: baisse-impot, montant: 0.024, themes: [fiscalite, sante], text: "Suppression de la \"taxe vapotage\""}
+  - {id: RNCB26-48, page: 7, effet: baisse-impot, montant: 0.003, themes: [fiscalite, ecologie], text: "Suppression hausse malus Auto"}
+  - {id: RNCB26-49, page: 7, effet: baisse-impot, montant: 0.011, themes: [fiscalite, travail], text: "Préserver l'exonération de la gratification pour médaille d'honneur du travail"}
+  - {id: RNCB26-50, page: 7, effet: baisse-impot, montant: 0.720, themes: [fiscalite, ecologie], text: "Suppression de la hausse de 2025 des taxes sur le secteur aérien"}
+  - {id: RNCB26-51, page: 7, effet: baisse-impot, montant: 0.289, themes: [fiscalite, energie], text: "Préserver la niche fiscale sur le bio-carburant"}
+  - {id: RNCB26-52, page: 7, effet: baisse-impot, montant: 10.960, themes: [fiscalite, energie, classes-populaires], text: "Baisse TVA énergies", detail: "p. 4 : « Baisse de la TVA sur les énergies (gaz, électricité, carburants, bois, fioul) »."}
+  - {id: RNCB26-53, page: 7, effet: baisse-impot, montant: 0.500, themes: [fiscalite, services-publics], text: "Réforme de l'octroi de mer"}
+  - {id: RNCB26-54, page: 7, effet: baisse-impot, montant: 0.950, themes: [travail, fiscalite], text: "Suppression de la taxe sur les avantages sociaux (ticket resto, etc…)"}
+  - {id: RNCB26-55, page: 7, effet: baisse-impot, montant: 0.092, themes: [entreprises-industrie], text: "Annulation de la réforme du dispositif ACRE (Aide à la création ou à la reprise d'une entreprise)"}
+  - {id: RNCB26-56, page: 7, effet: baisse-impot, montant: 0.025, themes: [entreprises-industrie], text: "Annulation de la réforme du dispositif JEI (Jeune entreprise innovante)"}
+  - {id: RNCB26-57, page: 7, effet: baisse-impot, montant: 0.350, themes: [entreprises-industrie, services-publics], text: "Annulation de la réforme du dispositif LEODOM"}
+  - {id: RNCB26-58, page: 7, effet: baisse-impot, montant: 0.320, themes: [travail, education], text: "Préserver le dispositif d'exonération de cotisations salariales des apprentis"}
+  - {id: RNCB26-59, page: 7, effet: baisse-impot, montant: 0.260, themes: [travail, retraites], text: "Suppression de la hausse de la taxe sur les indemnités pour rupture conventionnelle et pour mise à la retraite"}
+  - {id: RNCB26-60, page: 7, effet: baisse-impot, montant: 0.002, themes: [securite-justice], text: "Suppression prise en charge des frais d'enquête par le condamné"}
+  - {id: RNCB26-61, page: 7, effet: baisse-impot, montant: 0.020, themes: [entreprises-industrie, fiscalite], text: "Préservation des dispositions actuelles de la niche \"Madelin\""}
+  - {id: RNCB26-62, page: 7, effet: baisse-impot, montant: 0.500, themes: [entreprises-industrie, fiscalite], text: "Modifier les conditions du pacte Dutreil (annulation de la taxation contre détention de 10 ans)"}
+  - {id: RNCB26-63, page: 7, effet: baisse-impot, montant: 0.100, themes: [entreprises-industrie, services-publics], text: "Préserver les aides à l'investissement productif en outre-mer"}
+  - {id: RNCB26-64, page: 7, effet: baisse-impot, montant: 0.500, themes: [entreprises-industrie, fiscalite], text: "Exempter les ETI du dispositif \"super-IS\""}
+  - {id: RNCB26-65, page: 7, effet: baisse-impot, montant: 0.150, themes: [entreprises-industrie], text: "Crédit d'impôt pour les transporteurs routiers (déduction cout des péages)"}
+  - {id: RNCB26-66, page: 7, effet: baisse-impot, montant: 8.800, themes: [entreprises-industrie, fiscalite], text: "Baisse impôt de production: suppression de la CFE"}
+  - {id: RNCB26-67, page: 7, effet: baisse-impot, montant: 2.600, themes: [entreprises-industrie, fiscalite], text: "Baisse impôt de production: suppression totale de la CVAE"}
+  - {id: RNCB26-68, page: 7, effet: baisse-impot, montant: 4.800, themes: [entreprises-industrie, fiscalite], text: "Baisse impôt de production: suppression de la C3S"}
+  - {id: RNCB26-69, page: 7, effet: baisse-impot, montant: 1.020, themes: [sante, fiscalite], text: "Suppression taxe sur les OCAM ( organismes complémentaires d'Assurance maladie- mutuelles)"}
+  # ---- Hausse des dépenses
+  - {id: RNCB26-70, page: 7, effet: depense, montant: 0.496, themes: [entreprises-industrie], text: "Achat d'une Golden share dans ATOS, Arcelor et Opella"}
+  - {id: RNCB26-71, page: 7, effet: depense, montant: 0.700, themes: [services-publics], text: "Augmentation du budget de la mission Outre-mer pour renfoncer les infrastructures et la compétitivité des entreprises"}
+  - {id: RNCB26-72, page: 7, effet: depense, montant: 0.500, themes: [agriculture], text: "Suppression de la baisse des crédits de la mission agriculture"}
+  - {id: RNCB26-73, page: 7, effet: depense, montant: 1.500, themes: [retraites], text: "Lancement de la réforme des retraites MLP"}
+  - {id: RNCB26-74, page: 7, effet: depense, montant: 3.610, themes: [retraites, classes-populaires], text: "Indexation des retraites et dégel des prestations"}
+  - {id: RNCB26-75, page: 7, effet: depense, montant: 0.460, themes: [sante, services-publics], text: "Mise en place dès 2026 de la protection sociale complémentaire pour les agents de la fonction publique hospitalière"}
+
+claims:
+  - {page: 2, text: "Déficit public (2026) -4,7 % ; dette publique (2026) 117,9 % ; dépenses publiques +28,5 Md€ entre 2025 et 2026 ; coût de la dette publique 74 Md€ (2026)"}

@@ -1,0 +1,426 @@
+{
+ "id": "rn-22-mesures",
+ "party": "rn",
+ "title": "Les 22 mesures (présidentielle 2022)",
+ "retrieved_at": "2026-10-10T08:28:07+00:00",
+ "pages": [
+  {
+   "n": 1,
+   "url": "https://rassemblementnational.fr/22-mesures",
+   "title": "Rassemblement National - Accueil",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "22 mesures pour 2022"
+    },
+    {
+     "type": "h3",
+     "text": "1 Arrêter l’immigration incontrôlée en donnant la parole aux Français par référendum."
+    },
+    {
+     "type": "li",
+     "text": "Mettre fin à l’immigration de peuplement et au regroupement familial."
+    },
+    {
+     "type": "li",
+     "text": "Traiter les demandes de droit d’asile uniquement à l’étranger."
+    },
+    {
+     "type": "li",
+     "text": "Réserver les aides sociales aux Français, et conditionner à 5 années de travail en France l’accès aux prestations de solidarité."
+    },
+    {
+     "type": "li",
+     "text": "Assurer la priorité nationale d’accès au logement social et à l’emploi."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer l’autorisation de séjour pour tout étranger n’ayant pas travaillé depuis un an en France."
+    },
+    {
+     "type": "li",
+     "text": "Expulser systématiquement les clandestins, délinquants et criminels étrangers."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer le droit du sol et limiter l’accès à la nationalité à la seule naturalisation sur des critères de mérite et d’assimilation."
+    },
+    {
+     "type": "h3",
+     "text": "2 Éradiquer les idéologies islamistes et l’ensemble de leurs réseaux du territoire national."
+    },
+    {
+     "type": "p",
+     "text": "Proposition de loi visant à combattre les idéologies islamistes"
+    },
+    {
+     "type": "h3",
+     "text": "3 Faire de la sécurité partout et pour tous une priorité du quinquennat."
+    },
+    {
+     "type": "li",
+     "text": "Rétablir les peines planchers pour que tout criminel et délinquant aient une sanction."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer toute possibilité de réduction et d’aménagements de peine, en particulier pour les violences contre les personnes."
+    },
+    {
+     "type": "li",
+     "text": "Instituer une présomption de légitime défense pour les forces de l’ordre."
+    },
+    {
+     "type": "li",
+     "text": "Accélérer les procédures judiciaires en engageant le doublement du nombre de magistrats."
+    },
+    {
+     "type": "li",
+     "text": "Inscrire au fichier des délinquants sexuels les harceleurs de rue."
+    },
+    {
+     "type": "li",
+     "text": "Atteindre 85 000 places de prison en 2027."
+    },
+    {
+     "type": "li",
+     "text": "Établir une perpétuité réelle."
+    },
+    {
+     "type": "h3",
+     "text": "4 Baisser la TVA de 20% à 5.5% sur les produits énergétiques (carburants, fioul, gaz et électricité) en tant que biens de première nécessité."
+    },
+    {
+     "type": "h3",
+     "text": "5 Permettre aux entreprises une hausse des salaires de 10% (jusqu'à 3 smic) en exonérant cette augmentation de cotisations patronales."
+    },
+    {
+     "type": "h3",
+     "text": "6 Renationaliser les autoroutes pour baisser de 15% les péages et privatiser l’audiovisuel public pour supprimer les 138€ de redevance."
+    },
+    {
+     "type": "h3",
+     "text": "7 Encourager les projets des jeunes et leur entrée dans la vie active."
+    },
+    {
+     "type": "li",
+     "text": "Créer un chèque-formation mensuel de 200 à 300€ pour les apprentis, les alternants et leurs employeurs."
+    },
+    {
+     "type": "li",
+     "text": "Exonérer d’impôt sur le revenu tous les jeunes actifs jusqu’à 30 ans pour qu’ils restent en France et fondent leur famille chez nous."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer l’impôt sur les sociétés pour les entrepreneurs de moins de 30 ans pendant les 5 premières années pour éviter leur départ à l’étranger."
+    },
+    {
+     "type": "h3",
+     "text": "8 Soutenir les familles françaises."
+    },
+    {
+     "type": "li",
+     "text": "Instituer une part fiscale complète dès le deuxième enfant."
+    },
+    {
+     "type": "li",
+     "text": "Doubler le soutien aux mères isolées élevant des enfants tout en renforçant les contrôles pour éviter les fraudes."
+    },
+    {
+     "type": "li",
+     "text": "Créer un prêt à 0% pour les jeunes familles françaises transformé en subvention pour les couples qui auront un 3e enfant."
+    },
+    {
+     "type": "li",
+     "text": "Construire en cinq ans 100 000 nouveaux logements étudiants."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer les impôts sur l’héritage direct pour les familles modestes et les classes moyennes."
+    },
+    {
+     "type": "li",
+     "text": "Exonérer les donations des parents mais aussi des grands-parents à leurs enfants et petits-enfants jusqu’à 100 000€ par enfant tous les dix ans."
+    },
+    {
+     "type": "h3",
+     "text": "9 Garantir à nos aînés une retraite sereine et digne."
+    },
+    {
+     "type": "li",
+     "text": "Réindexer les retraites sur l’inflation pour un pouvoir d’achat respectueux d’une vie de travail."
+    },
+    {
+     "type": "li",
+     "text": "Revaloriser le minimum vieillesse à 1 000 € par mois et augmenter les petites retraites."
+    },
+    {
+     "type": "li",
+     "text": "Refuser tout allongement de l’âge de départ à la retraite."
+    },
+    {
+     "type": "li",
+     "text": "Permettre à ceux qui ont commencé à travailler avant 20 ans pendant 40 annuités de prendre leur retraite à 60 ans."
+    },
+    {
+     "type": "li",
+     "text": "Restaurer la demi-part fiscale en faveur des veuves et veufs."
+    },
+    {
+     "type": "li",
+     "text": "Créer un droit opposable aux visites dans les établissements et accroître fortement la présence de personnel médical dans les EHPAD."
+    },
+    {
+     "type": "h3",
+     "text": "10 Assurer enfin les droits de nos compatriotes en situation de handicap."
+    },
+    {
+     "type": "li",
+     "text": "Déconjugaliser et revaloriser l’Allocation Adulte Handicapée."
+    },
+    {
+     "type": "li",
+     "text": "Lancer un grand plan sur l’accès à la scolarité pour les enfants touchés par le handicap."
+    },
+    {
+     "type": "li",
+     "text": "Appliquer la loi sur l’accès à tous les lieux et transports publics."
+    },
+    {
+     "type": "li",
+     "text": "Revaloriser et augmenter la durée des aides destinées aux proches aidants."
+    },
+    {
+     "type": "h3",
+     "text": "11 Instaurer le Référendum d’Initiative Citoyenne et mettre en place la proportionnelle."
+    },
+    {
+     "type": "h3",
+     "text": "12 Assurer notre indépendance énergétique pour baisser la facture des Français."
+    },
+    {
+     "type": "li",
+     "text": "Rendre aux ménages les 5 milliards de subventions versées notamment aux éoliennes."
+    },
+    {
+     "type": "li",
+     "text": "Arrêter les projets éoliens et dé- manteler progressivement les parcs existants."
+    },
+    {
+     "type": "li",
+     "text": "Relancer la filière nucléaire, hydroélectrique et investir dans la filière hydrogène."
+    },
+    {
+     "type": "li",
+     "text": "Sortir du marché européen de l'électricité pour retrouver des prix décents."
+    },
+    {
+     "type": "h3",
+     "text": "13 Défendre nos agriculteurs et une alimentation de qualité pour tous."
+    },
+    {
+     "type": "li",
+     "text": "Garantir aux paysans des prix respectueux de leur travail et mettre un terme aux marges abusives de la grande distribution."
+    },
+    {
+     "type": "li",
+     "text": "Interdire les importations de produits agricoles ne respectant pas les normes de production française."
+    },
+    {
+     "type": "li",
+     "text": "Contraindre les cantines à utiliser 80% de produits agricoles français."
+    },
+    {
+     "type": "li",
+     "text": "Mettre en place un « plan abattoirs » pour assurer des conditions dignes et interdire l’abattage sans étourdissement."
+    },
+    {
+     "type": "li",
+     "text": "Généraliser l’étiquetage sur l’origine et la qualité des produits alimentaires."
+    },
+    {
+     "type": "h3",
+     "text": "14 Lancer un plan de soutien d’urgence pour la santé de 20 milliards d’euros."
+    },
+    {
+     "type": "li",
+     "text": "Arrêter les fermetures des lits à l’hôpital public et des maternités."
+    },
+    {
+     "type": "li",
+     "text": "Revaloriser les salaires des personnels soignants à hauteur de leur travail."
+    },
+    {
+     "type": "li",
+     "text": "Investir dans les technologies de santé et rapatrier la fabrication des médicaments."
+    },
+    {
+     "type": "li",
+     "text": "Créer des urgences gériatriques dédiées à nos aînés."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer les ARS et réduire à 10% les postes administratifs dans les hôpitaux pour libérer des moyens pour les soignants."
+    },
+    {
+     "type": "li",
+     "text": "Agir contre les déserts médicaux grâce à des incitations financières fortes pour les soignants et augmenter le nombre de maisons de santé."
+    },
+    {
+     "type": "li",
+     "text": "Donner plus de place à la prévention, notamment grâce aux visites médicales scolaires qui redeviendront systématiques."
+    },
+    {
+     "type": "h3",
+     "text": "15 Restaurer notre système éducatif pour qu’il retrouve sa mission de transmission des savoirs."
+    },
+    {
+     "type": "li",
+     "text": "Remettre au cœur des programmes l’enseignement du français, des mathématiques et de l’histoire."
+    },
+    {
+     "type": "li",
+     "text": "Revaloriser les salaires des enseignants et refonder leur formation."
+    },
+    {
+     "type": "li",
+     "text": "Rétablir l’autorité de l’institution scolaire par l’instauration d’un uniforme au primaire et au collège tout en sanctionnant les absences et les incivilités."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer la bureaucratie de l’Education nationale pour libérer des moyens financiers, réduire les effectifs des classes et arrêter les fermetures d’écoles."
+    },
+    {
+     "type": "h3",
+     "text": "16 Supprimer l’IFI qui taxe l’enracinement et créer un IFF, impôt sur la fortune financière, pour taxer la spéculation."
+    },
+    {
+     "type": "h3",
+     "text": "17 Favoriser l’accès à la propriété et au logement des Français."
+    },
+    {
+     "type": "li",
+     "text": "Construire 100 000 logements sociaux par an dont 20 000 en faveur des étudiants et jeunes travailleurs."
+    },
+    {
+     "type": "li",
+     "text": "Lancer un plan de réhabilitation de l’habitat ancien grâce à des aides efficaces."
+    },
+    {
+     "type": "li",
+     "text": "Créer un Fonds de Garantie des Loyers pour protéger les propriétaires."
+    },
+    {
+     "type": "h3",
+     "text": "18 Mettre en place le patriotisme économique pour réindustrialiser et produire les richesses en France."
+    },
+    {
+     "type": "li",
+     "text": "Donner la priorité aux PME pour les marchés publics."
+    },
+    {
+     "type": "li",
+     "text": "Conditionner les subventions à la création d’emplois au titre d’une politique d’aménagement du territoire."
+    },
+    {
+     "type": "li",
+     "text": "Supprimer la Cotisation Foncière des Entreprises (CFE) qui pénalise les PME-TPE locales et les impôts de production qui nuisent à la relocalisation."
+    },
+    {
+     "type": "li",
+     "text": "Protéger notre économie de la concurrence déloyale et revoir les accords de libre-échange qui ne respectent pas les intérêts de la France."
+    },
+    {
+     "type": "h3",
+     "text": "19 Créer un « fonds souverain français » pour augmenter la rémunération de l’épargne des Français et l’orienter vers des secteurs stratégiques et l’innovation."
+    },
+    {
+     "type": "h3",
+     "text": "20 Porter le budget de la défense à 55 milliards d’euros à l’horizon 2027."
+    },
+    {
+     "type": "li",
+     "text": "Renforcer notre souveraineté et notre indépendance."
+    },
+    {
+     "type": "li",
+     "text": "Garantir à nos soldats l’équipement et les moyens nécessaires pour garantir et protéger les intérêts nationaux."
+    },
+    {
+     "type": "h3",
+     "text": "21 Créer un ministère d’État de la Mer et de l’Outre-mer."
+    },
+    {
+     "type": "h3",
+     "text": "22 Créer un ministère de la lutte contre les fraudes (fiscales, aux cotisations et prestations sociales, aux importations, ententes, etc.)."
+    },
+    {
+     "type": "h2",
+     "text": "Je soutiens le Rassemblement National"
+    },
+    {
+     "type": "h3",
+     "text": "Je fais un don"
+    }
+   ],
+   "chars": 7922,
+   "toc": [
+    "Les fédérations métropolitaines",
+    "Les fédérations d’Outre-mer",
+    "Les Français de l’étranger",
+    "Bureau Exécutif",
+    "Bureau National",
+    "Commission Nationale d'Investiture",
+    "Commission des Conflits",
+    "Conseil national",
+    "Le Congrès",
+    "18ème congrès",
+    "Les adhérents",
+    "Assemblée générale extraordinaire",
+    "Communiqués",
+    "Tribunes libres",
+    "Lettre ouverte",
+    "Vidéos",
+    "Découvrez le programme",
+    "Contre-Budget 2026",
+    "Livrets thématiques",
+    "Les 22 mesures",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Les fédérations métropolitaines",
+    "Les fédérations d’Outre-mer",
+    "Les Français de l’étranger",
+    "Bureau exécutif",
+    "Bureau national",
+    "Commission nationale d'investiture",
+    "Commission des conflits",
+    "Conseil national",
+    "Le Congrès",
+    "18ème congrès",
+    "Les adhérents",
+    "Assemblée générale extraordinaire",
+    "Le règlement intérieur",
+    "Statuts du Rassemblement National",
+    "Vidéos",
+    "Communiqués",
+    "Vie parlementaire",
+    "Tribunes libres",
+    "Discours",
+    "Conférences de presse",
+    "Lettre ouverte",
+    "Nouvelles nominations au sein de l'équipe de campagne de Marine Le Pen. Julien Sanchez -\n                                        09 octobre 2026",
+    "Accès à l’eau dans les outremers : le vote sectaire du Parlement empêche l’adoption de la résolution du Rassemblement National Marine Le Pen -\n                                        08 octobre 2026",
+    "Toute l'actualité →",
+    "Législatives 2024 Découvrez le programme.",
+    "Européennes 2024 Découvrez le programme.",
+    "Contre-Budget 2026 Découvrez le programme.",
+    "La France entreprend Découvrez le programme.",
+    "Les 22 mesures Retrouvez l’intégralité du programme de Marine Le Pen pour\n                            la France.",
+    "Livrets thématiques Retrouvez les livrets thématiques de Marine Le Pen."
+   ]
+  }
+ ]
+}

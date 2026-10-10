@@ -1,6 +1,7 @@
 """Découpe chaque document téléchargé en pages lisibles : data/corpus/<id>.json.
 
-PDF  -> une entrée par page imprimée (texte brut, `pdftotext -layout` page par page).
+PDF  -> une entrée par page du fichier (numérotation du lecteur PDF, qui peut différer de la
+        pagination imprimée) : texte dans l'ordre de lecture et texte avec mise en page.
 HTML -> une entrée par page web, avec la suite ordonnée des blocs (titres, paragraphes,
         éléments de liste) du contenu principal, sans menus ni pieds de page.
 
@@ -29,38 +30,65 @@ def pdf_pages(path: Path) -> list[dict]:
     count = int(re.search(r"^Pages:\s+(\d+)", info, re.M).group(1))
     pages = []
     for n in range(1, count + 1):
-        text = subprocess.run(
-            ["pdftotext", "-layout", "-f", str(n), "-l", str(n), str(path), "-"],
-            capture_output=True, text=True, check=True,
-        ).stdout
-        pages.append({"n": n, "text": text.rstrip(), "chars": len(text.strip())})
+        def run(*flags: str) -> str:
+            return subprocess.run(
+                ["pdftotext", *flags, "-f", str(n), "-l", str(n), str(path), "-"],
+                capture_output=True, text=True, check=True,
+            ).stdout.rstrip()
+
+        # ordre de lecture pour le texte suivi, mise en page conservée pour les tableaux
+        text, layout = run(), run("-layout")
+        pages.append({"n": n, "text": text, "layout": layout, "chars": len(text.strip())})
     return pages
 
 
+# Classes du thème de melenchon2027.fr (édition 2025 de L'Avenir en commun)
+LFI_CLASSES = {"mesure-cle": "mesure-cle", "mesure": "mesure", "sous-mesure": "sous-mesure", "chiffre": "chiffre"}
+
+
 def main_node(soup: BeautifulSoup):
-    for tag in soup(["script", "style", "noscript", "form", "nav", "header", "footer", "aside", "svg"]):
+    for tag in soup(["script", "style", "noscript", "form", "header", "footer", "aside", "svg"]):
         tag.decompose()
-    for selector in ("article", "main", ".entry-content", "#content", "body"):
+    for selector in ("main.section", "article", "main", ".entry-content", "#content", "body"):
         node = soup.select_one(selector)
-        if node and len(node.get_text(strip=True)) > 200:
+        if node and len(node.get_text(strip=True)) > 150:
             return node
     return soup
 
 
-def html_blocks(path: Path) -> tuple[str, list[dict]]:
+def block_type(el) -> str | None:
+    classes = el.get("class") or []
+    for cls in classes:
+        if cls in LFI_CLASSES:
+            return LFI_CLASSES[cls]
+    if el.name in BLOCK_TAGS:
+        return "citation" if el.name == "blockquote" else el.name
+    return None
+
+
+def html_blocks(path: Path) -> tuple[str, list[dict], list[str]]:
     soup = BeautifulSoup(path.read_bytes(), "html.parser")
     title = WS.sub(" ", soup.title.get_text()).strip() if soup.title else ""
+    title = title.split(" - Mélenchon 2027")[0]
+    root = main_node(soup)
+    toc = []
+    for nav in root.select("nav.tdm, nav"):
+        toc.extend(a.get_text(" ", strip=True) for a in nav.find_all("a"))
+        nav.decompose()
     blocks, last = [], None
-    for el in main_node(soup).find_all(BLOCK_TAGS):
-        # un <li> qui contient lui-même des <p> serait compté deux fois
-        if el.name == "p" and el.find_parent("li"):
+    for el in root.find_all(True):
+        kind = block_type(el)
+        if not kind:
+            continue
+        # un bloc imbriqué dans un bloc déjà retenu serait compté deux fois
+        if any(block_type(parent) for parent in el.parents if parent is not root and parent.name != "[document]"):
             continue
         text = WS.sub(" ", el.get_text(" ")).strip()
         if not text or text == last:
             continue
-        blocks.append({"type": el.name, "text": text})
+        blocks.append({"type": kind, "text": text})
         last = text
-    return title, blocks
+    return title, blocks, toc
 
 
 def main() -> None:
@@ -83,14 +111,19 @@ def main() -> None:
             if path.suffix.lower() == ".pdf":
                 pages.extend(pdf_pages(path))
             else:
-                title, blocks = html_blocks(path)
-                pages.append({
+                title, blocks, toc = html_blocks(path)
+                page = {
                     "n": len(pages) + 1,
                     "url": f["final_url"],
                     "title": title,
                     "blocks": blocks,
                     "chars": sum(len(b["text"]) for b in blocks),
-                })
+                }
+                if toc:
+                    page["toc"] = toc
+                if "archive" in f:
+                    page["archive"] = f["archive"]
+                pages.append(page)
         out = {
             "id": doc["id"],
             "party": doc["party"],
