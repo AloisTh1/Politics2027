@@ -1,0 +1,523 @@
+# Relevé au 2026-10-10. Les montants sont ceux des auteurs, selon leurs périmètres.
+# Pour les fiches Montaigne 2024 non datées individuellement, la date est celle du bouclage publié le 2024-07-05.
+- id: montaigne-rn-global-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Rassemblement national
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese/
+  partis: [rn]
+  perimetre: Programme des législatives 2024, effet annuel toutes choses égales par ailleurs
+  mesures: [RN24-001, RN24-058, RN24-025]
+  chiffrage: {cout_md: 85, recettes_md: 14, solde_md: -71, horizon: année pleine}
+  conclusions: ["Les dépenses et pertes de recettes excèdent les économies retenues dans la synthèse."]
+- id: ifrap-rn-global-2024
+  auteur: Fondation iFRAP
+  type: think-tank
+  orientation: libéral, favorable à la réduction de la dépense publique
+  titre: Le vrai coût du programme du Rassemblement National
+  date: 2024-06-26
+  url: https://www.ifrap.org/budget-et-fiscalite/le-vrai-cout-du-programme-du-rassemblement-national
+  partis: [rn]
+  perimetre: Législatives 2024, écart à la trajectoire gouvernementale en 2027
+  mesures: [RN24-001, RN24-058, RN24-026]
+  chiffrage: {solde_md: -14.5, horizon: 2027, note: "Déficit supplémentaire minimal selon l'iFRAP ; mesures différées ou floues."}
+  conclusions: ["L'iFRAP chiffre 20,5 Md€ de baisses de recettes et 8 Md€ d'économies, mais juge plusieurs postes incertains."]
+- id: montaigne-rn-retraites-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Abroger la réforme des retraites et permettre un départ après 40 annuités
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/abroger-la-reforme-des-retraites-et-pour-ceux-ayant-commence-a-travailler-avant-20-ans-partir-a-40-annuites-de-cotisations/
+  partis: [rn]
+  perimetre: Retraites, régime général à horizon 2027
+  mesures: [RN24-058, RNENT-16]
+  chiffrage: {cout_md: 34.7, horizon: 2027}
+  conclusions: ["L'estimation pourrait atteindre 44,7 Md€ avec l'alignement des régimes complémentaires."]
+- id: ifrap-rn-retraites-2024
+  auteur: Fondation iFRAP
+  type: think-tank
+  orientation: libéral, favorable à la réduction de la dépense publique
+  titre: Le vrai coût du programme du Rassemblement National
+  date: 2024-06-26
+  url: https://www.ifrap.org/budget-et-fiscalite/le-vrai-cout-du-programme-du-rassemblement-national
+  partis: [rn]
+  perimetre: Abrogation de la réforme de 2023 à horizon 2027, hypothèse iFRAP
+  mesures: [RN24-058]
+  chiffrage: {cout_md: 10, horizon: 2027}
+  conclusions: ["La fondation juge le calendrier de la réforme annoncé par le RN insuffisamment précisé."]
+- id: montaigne-rn-tva-energie-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Baisser la TVA sur les carburants, l'électricité, le gaz et le fioul
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/baisser-la-tva-de-20-a-55-pour-les-carburants-lelectricite-le-gaz-et-le-fioul-domestique/
+  partis: [rn]
+  perimetre: Baisse de TVA à 5,5 %, année pleine
+  mesures: [RN24-001, RNCB25-08, RNCB26-52]
+  chiffrage: {cout_md: 11.3, horizon: année pleine}
+  conclusions: ["La baisse réduit les recettes de TVA ; sa mise en œuvre sur les carburants suppose une négociation européenne."]
+- id: ifrap-rn-tva-energie-2024
+  auteur: Fondation iFRAP
+  type: think-tank
+  orientation: libéral, favorable à la réduction de la dépense publique
+  titre: Le vrai coût du programme du Rassemblement National
+  date: 2024-06-26
+  url: https://www.ifrap.org/budget-et-fiscalite/le-vrai-cout-du-programme-du-rassemblement-national
+  partis: [rn]
+  perimetre: Baisse de TVA sur énergie et carburants, législatives 2024
+  mesures: [RN24-001]
+  chiffrage: {cout_md: 16.7, horizon: 2027}
+  conclusions: ["L'estimation est supérieure à celle de l'Institut Montaigne ; les hypothèses ne sont pas identiques."]
+- id: montaigne-rn-tva-essentiels-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Supprimer la TVA sur les produits de première nécessité
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/supprimer-la-tva-sur-les-produits-de-premiere-necessite/
+  partis: [rn]
+  perimetre: Panier de cent produits, selon sa composition
+  mesures: [RN24-059, RNCB25-10, RNCB26-43]
+  chiffrage: {cout_md: 6.75, horizon: année pleine}
+  conclusions: ["La fourchette de coût est de 4,7 à 8,8 Md€ ; le bénéfice dépend de la transmission aux prix."]
+- id: montaigne-rn-prestations-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Conditionner les prestations de solidarité à cinq ans de travail
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reserver-le-benefice-du-rsa-et-des-prestations-de-solidarites-aux-etrangers-ayant-au-moins-5-ans-dequivalent-temps-plein-travaille-en-france/
+  partis: [rn]
+  perimetre: Prestations non contributives pour les résidents étrangers
+  mesures: [RN24-025, RN24-026]
+  conclusions: ["Le périmètre des personnes concernées est imprécis ; une restriction selon la nationalité rencontre des obstacles constitutionnels et européens."]
+- id: montaigne-rn-droit-sol-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Supprimer le droit du sol
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/supprimer-le-droit-du-sol/
+  partis: [rn]
+  perimetre: Acquisition de la nationalité par la naissance en France
+  mesures: [RN24-010]
+  conclusions: ["Une modification législative est envisageable ; un contrôle constitutionnel pourrait toutefois exiger une révision de la Constitution."]
+- id: montaigne-rn-ame-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Remplacer l'aide médicale d'État par une aide d'urgence
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/suppression-de-laide-medicale-detat-ame-et-remplacement-par-laide-durgence-vitale/
+  partis: [rn]
+  perimetre: Économie annuelle brute liée au remplacement de l'AME
+  mesures: [RN24-011, RNCB25-43]
+  chiffrage: {recettes_md: 0.7, horizon: année pleine}
+  conclusions: ["L'aide de remplacement garderait un coût ; des effets sanitaires indirects ne sont pas chiffrés."]
+- id: montaigne-rn-impots-production-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Baisse des impôts de production CVAE et C3S
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/baisse-des-impots-de-production-cvae-et-c3s/
+  partis: [rn]
+  perimetre: Coût cumulé entre 2024 et 2027, non annualisé
+  mesures: [RN24-056]
+  conclusions: ["Le chiffrage de 7,3 Md€ sur la période repose sur une hypothèse de rythme de suppression de la C3S non précisée par le RN."]
+- id: montaigne-rn-quotient-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Une part fiscale entière dès le deuxième enfant
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/instituer-une-part-fiscale-complete-des-le-deuxieme-enfant/
+  partis: [rn]
+  perimetre: Quotient familial, coût annuel
+  mesures: [RN24-069, RNCB25-01]
+  chiffrage: {cout_md: 3.4, horizon: année pleine}
+  conclusions: ["La baisse d'impôt est concentrée sur les ménages imposables avec au moins deux enfants."]
+- id: montaigne-rn-donations-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Défiscaliser les donations familiales jusqu'à 100 000 euros
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/defiscaliser-les-donations-familiales-jusqua-100-000-e-tous-les-10-ans/
+  partis: [rn]
+  perimetre: Donations tous les dix ans, année pleine
+  mesures: [RN24-089, RNFAM-10]
+  chiffrage: {cout_md: 1, horizon: année pleine}
+  conclusions: ["L'estimation est incertaine faute de données fiscales de référence suffisantes."]
+- id: montaigne-rn-europe-ecologie-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: "Pacte vert, énergie : une France faible dans une Europe allemande ?"
+  date: 2024-06-20
+  url: https://www.institutmontaigne.org/publications/legislatives-2024-pacte-vert-energie-une-france-faible-dans-une-europe-allemande
+  partis: [rn]
+  perimetre: Propositions du RN sur le marché européen de l'électricité et le Pacte vert
+  mesures: [RN24-003, RN24-061, RNECO-01]
+  conclusions: ["La sortie des règles du marché électrique et le retrait du Pacte vert impliqueraient des négociations avec les partenaires de l'UE."]
+- id: monde-rn-cb2025-2024
+  auteur: Le Monde, Clément Guillou
+  type: presse
+  titre: "Budget 2025 : le RN propose des coupes drastiques"
+  date: 2024-10-17
+  url: https://www.lemonde.fr/politique/article/2024/10/17/budget-2025-le-rn-propose-des-coupes-drastiques-au-detriment-de-l-environnement-des-collectivites-et-des-missions-de-l-etat_6353944_823448.html
+  partis: [rn]
+  perimetre: Contre-budget RN pour 2025
+  mesures: [RNCB25-22, RNCB25-36, RNCB25-41]
+  conclusions: ["Le solde revendiqué de 13,7 Md€ inclut 6 Md€ d'économies liées aux contrats de rachat d'électricité renouvelable, dont la durée contractuelle complique l'annulation."]
+- id: monde-rn-cb2026-trajectoire-2025
+  auteur: Le Monde, Clément Guillou et Corentin Lesueur
+  type: presse
+  titre: Le programme budgétaire du RN ou le mystère des 100 milliards d'économies
+  date: 2025-10-19
+  url: https://www.lemonde.fr/politique/article/2025/10/19/le-programme-budgetaire-du-rassemblement-national-ou-le-mystere-des-100-milliards-d-economies_6648097_823448.html
+  partis: [rn]
+  perimetre: Trajectoire budgétaire annoncée par le RN avant le contre-budget 2026
+  mesures: [RN24-026, RN24-058, RN24-001]
+  conclusions: ["Les économies annoncées paraissent surestimées ; certaines mesures se heurtent au droit constitutionnel ou européen."]
+- id: monde-rn-cb2026-immigration-2025
+  auteur: Le Monde, Clément Guillou et Corentin Lesueur
+  type: presse
+  titre: Le RN propose un contre-budget hypothétique et radical
+  date: 2025-10-23
+  url: https://www.lemonde.fr/politique/article/2025/10/23/le-contre-budget-hypothetique-et-radical-du-rassemblement-national_6649070_823448.html
+  partis: [rn]
+  perimetre: Économies du contre-budget RN 2026 relatives à l'immigration
+  mesures: [RN24-026, RNCB26-10, RNCB26-11]
+  conclusions: ["La presse confronte les 11,9 Md€ d'économies annoncées aux données des caisses sociales et juge le poste surévalué."]
+- id: afp-rn-cb2026-2025
+  auteur: AFP et 20 Minutes
+  type: presse
+  titre: Où le RN trouve-t-il 36 milliards d'économies ?
+  date: 2025-10-23
+  url: https://www.20minutes.fr/economie/4181143-20251023-budget-rn-trouve-36-milliards-economies
+  partis: [rn]
+  perimetre: Décomposition publiée du contre-budget RN 2026, sans audit indépendant des montants
+  mesures: [RNCB26-03, RNCB26-52, RNCB26-73]
+  conclusions: ["Le RN affiche 45 Md€ de baisses d'impôts, 31 Md€ de recettes nouvelles et 11,9 Md€ d'économies liées à l'immigration."]
+- id: rtl-rn-cb2027-2026
+  auteur: François Lenglet, RTL
+  type: presse
+  titre: Le pari à 140 milliards du contre-budget RN
+  date: 2026-10-07
+  url: https://www.rtl.fr/actu/economie-consommation/nouveau-programme-economique-du-rn-c-est-une-inflexion-ideologique-importante-conclut-francois-lenglet-7900681712
+  partis: [rn]
+  perimetre: Présentation du 6 octobre 2026, objectif affiché pour 2032
+  mesures: [RN24-058, RN24-001, RN24-059]
+  conclusions: ["Lenglet estime que le financement des retraites et des baisses d'impôts demande des économies supplémentaires aux 140 Md€ annoncés."]
+- id: monde-rn-cb2027-2026
+  auteur: Le Monde, Clément Guillou
+  type: presse
+  titre: What's in Le Pen's fiscal magic measures
+  date: 2026-10-07
+  url: https://www.lemonde.fr/en/politics/article/2026/10/07/what-s-in-le-pen-s-fiscal-magic-measures_6758361_5.html
+  partis: [rn]
+  perimetre: Contre-budget RN pour 2027 présenté le 6 octobre 2026
+  mesures: [RN24-025, RN24-058]
+  conclusions: ["Le journal relève des incohérences dans les documents distribués à la presse et des hypothèses d'économies discutées."]
+- id: montaigne-lfi-global-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Programme commun NFP 2024, auquel participe LFI, effet annuel
+  mesures: [NFP-02, NFP-04, NFP-72]
+  chiffrage: {cout_md: 233, recettes_md: 54, solde_md: -179, horizon: année pleine}
+  conclusions: ["Les nouvelles recettes évaluées ne compensent pas les dépenses dans l'estimation statique de l'institut."]
+- id: ifrap-lfi-global-2024
+  auteur: Fondation iFRAP
+  type: think-tank
+  orientation: libéral, favorable à la réduction de la dépense publique
+  titre: Le vrai coût du programme du Nouveau Front Populaire
+  date: 2024-06-27
+  url: https://www.ifrap.org/budget-et-fiscalite/le-vrai-cout-du-programme-du-nouveau-front-populaire
+  partis: [lfi]
+  perimetre: Programme commun NFP 2024, écart à la trajectoire gouvernementale en 2027
+  mesures: [NFP-02, NFP-04, NFP-72]
+  chiffrage: {cout_md: 215, recettes_md: 55, solde_md: -160, horizon: 2027}
+  conclusions: ["Le retour à 60 ans et les mesures salariales constituent des postes importants du chiffrage iFRAP."]
+- id: montaigne-lfi-retraites-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Abroger la réforme des retraites et restaurer la retraite à 60 ans
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/abroger-la-reforme-des-retraites-restaurer-la-retraite-a-60-ans-en-prenant-en-compte-le-rsa-en-portant-le-minimum-contributif-au-smic/
+  partis: [lfi]
+  perimetre: Ensemble des paramètres de retraite du NFP à horizon 2027
+  mesures: [NFP-02, NFP-03, NFP-100]
+  chiffrage: {cout_md: 58, horizon: 2027}
+  conclusions: ["Le chiffrage dépend du calendrier de retour à 60 ans et ne comprend pas tous les effets de substitution entre prestations."]
+- id: ifrap-lfi-retraites-2024
+  auteur: Fondation iFRAP
+  type: think-tank
+  orientation: libéral, favorable à la réduction de la dépense publique
+  titre: Le vrai coût du programme du Nouveau Front Populaire
+  date: 2024-06-27
+  url: https://www.ifrap.org/budget-et-fiscalite/le-vrai-cout-du-programme-du-nouveau-front-populaire
+  partis: [lfi]
+  perimetre: Retour à 60 ans et quarante annuités supposé effectif avant 2027
+  mesures: [NFP-02, NFP-100]
+  chiffrage: {cout_md: 50, horizon: 2027}
+  conclusions: ["L'hypothèse de mise en œuvre complète avant 2027 explique une partie du coût retenu."]
+- id: montaigne-lfi-smic-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Augmenter le Smic à 1 600 euros nets
+  date: 2024-06-24
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net/
+  partis: [lfi]
+  perimetre: Effets budgétaires à moyen terme de la hausse du Smic du NFP
+  mesures: [NFP-04]
+  chiffrage: {cout_md: 19, horizon: année pleine à moyen terme}
+  conclusions: ["La révision du 24 juin porte l'estimation de l'effet immédiat de 3,5 Md€ à une fourchette de 17 à 21 Md€ à moyen terme."]
+- id: ifrap-lfi-smic-2024
+  auteur: Fondation iFRAP
+  type: think-tank
+  orientation: libéral, favorable à la réduction de la dépense publique
+  titre: L'augmentation du Smic à 1 600 euros détruirait 240 000 emplois
+  date: 2024-07-16
+  url: https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois
+  partis: [lfi]
+  perimetre: Simulation isolée de la hausse du Smic
+  mesures: [NFP-04]
+  conclusions: ["Selon les élasticités choisies, l'iFRAP projette une perte de 240 000 emplois ; elle présente ce résultat comme un ordre de grandeur conditionnel."]
+- id: montaigne-lfi-prix-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Bloquer les prix des produits de première nécessité
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/
+  partis: [lfi]
+  perimetre: Prix de l'énergie, des carburants et de l'alimentation
+  mesures: [NFP-01]
+  conclusions: ["Le coût dépend des produits, du niveau du plafond et d'une éventuelle compensation des fournisseurs, paramètres non définis complètement."]
+- id: montaigne-lfi-indexation-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Indexer les salaires sur l'inflation
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/indexer-les-salaires-sur-linflation/
+  partis: [lfi]
+  perimetre: Salaires privés et traitements publics, programme NFP 2024
+  mesures: [NFP-39]
+  conclusions: ["L'effet budgétaire dépend de l'application à la fonction publique ; la mise en œuvre requiert une loi."]
+- id: montaigne-lfi-pensions-indexees-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Indexer les pensions de retraite sur les salaires
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/indexer-les-pensions-de-retraites-sur-les-salaires/
+  partis: [lfi]
+  perimetre: Surcoût par rapport à l'indexation sur les prix, de 2025 à 2027
+  mesures: [NFP-101]
+  conclusions: ["Le surcoût estimé est de 13,4 Md€ sur trois ans, dont 6,6 Md€ en 2025, sous l'hypothèse d'une forte hausse initiale du Smic."]
+- id: montaigne-lfi-superprofits-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Généraliser la taxation des superprofits au niveau européen
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/generaliser-la-taxation-des-superprofits-au-niveau-europeen/
+  partis: [lfi]
+  perimetre: Rendement potentiel d'une taxation européenne, paramètres à négocier
+  mesures: [NFP-225]
+  chiffrage: {recettes_md: 15, horizon: année pleine hypothétique}
+  conclusions: ["L'institut reprend un ordre de grandeur de l'IPP, mais souligne l'incertitude du rendement et de l'accord européen."]
+- id: montaigne-lfi-heritage-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, successions
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Impôt sur les successions les plus élevées
+  mesures: [NFP-75]
+  chiffrage: {recettes_md: 9, horizon: année pleine}
+  conclusions: ["Le rendement estimé est inférieur aux 17 Md€ annoncés par le NFP pour sa réforme de l'héritage."]
+- id: montaigne-lfi-isf-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, ISF climatique
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Rétablissement de l'ISF avec composante climatique
+  mesures: [NFP-72]
+  chiffrage: {recettes_md: 3.5, horizon: année pleine}
+  conclusions: ["Le rendement estimé est inférieur aux 15 Md€ annoncés par le NFP."]
+- id: montaigne-lfi-ir-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, impôt sur le revenu
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Barème d'impôt sur le revenu à quatorze tranches
+  mesures: [NFP-70]
+  chiffrage: {recettes_md: 4.7, horizon: année pleine}
+  conclusions: ["Le rendement dépend des tranches et des taux retenus dans le texte d'application."]
+- id: montaigne-lfi-flat-tax-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, fiscalité du capital
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Suppression de la flat tax et rétablissement de l'exit tax
+  mesures: [NFP-73]
+  chiffrage: {recettes_md: 3.2, horizon: année pleine}
+  conclusions: ["La synthèse évalue conjointement les deux mesures, sans attribuer tout le rendement à l'une d'elles."]
+- id: montaigne-lfi-cotisations-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, cotisations vieillesse
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Hausse de 0,25 point par an pendant cinq ans et modulation patronale
+  mesures: [NFP-103]
+  chiffrage: {recettes_md: 6.3, horizon: année pleine}
+  conclusions: ["Cette ressource est intégrée au bouclage financier de la synthèse."]
+- id: rousseau-lfi-macro-2024
+  auteur: Institut Rousseau
+  type: think-tank
+  orientation: progressiste, note favorable au NFP
+  titre: Le Nouveau Front populaire, une rupture réaliste
+  date: 2024-06-22
+  url: https://institut-rousseau.fr/publications/le-nouveau-front-populaire-une-rupture-realiste
+  partis: [lfi]
+  perimetre: Simulation Eurogreen d'un ensemble de mesures du NFP, avec retraite à 62 ans
+  mesures: [NFP-04, NFP-58, NFP-72]
+  conclusions: ["Le modèle projette une dette rapportée au PIB inférieure au scénario de référence en 2030 ; il ne simule pas un retour complet à 60 ans."]
+- id: rousseau-lfi-ecologie-2024
+  auteur: Institut Rousseau
+  type: think-tank
+  orientation: progressiste, note favorable au NFP
+  titre: Le Nouveau Front populaire, une rupture réaliste
+  date: 2024-06-22
+  url: https://institut-rousseau.fr/publications/le-nouveau-front-populaire-une-rupture-realiste
+  partis: [lfi]
+  perimetre: Investissements publics de bifurcation écologique
+  mesures: [NFP-58, NFP-59, NFP-62]
+  conclusions: ["L'institut juge l'enveloppe NFP de 30 Md€ cohérente avec son estimation des besoins, entre 23 et 31 Md€ par an selon le périmètre."]
+- id: rexecode-deux-programmes-2024
+  auteur: Rexecode
+  type: think-tank
+  orientation: proche des entreprises, centré sur la compétitivité
+  titre: Législatives 2024 - Situation et défis de l'économie française
+  date: 2024-06-26
+  url: https://www.rexecode.fr/site/competitivite-croissance/a-noter/legislatives-2024-situation-et-defis-de-l-economie-francaise
+  partis: [rn, lfi]
+  perimetre: Cadre macroéconomique des programmes de 2024, sans chiffrage propre à chaque parti
+  mesures: [RN24-001, RN24-058, NFP-02, NFP-04]
+  conclusions: ["Rexecode souligne que les chiffrages statiques ne mesurent pas les réactions de l'économie et renonce à chiffrer les programmes."]
+- id: montaigne-lfi-transports-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, transports
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Tarifs des transports publics et TVA réduite
+  mesures: [NFP-140]
+  conclusions: ["Le coût dépend du nombre de bénéficiaires des gratuités ciblées et des tarifs effectivement retenus."]
+- id: montaigne-lfi-ecologie-logements-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, rénovation
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Rénovation thermique et dépenses environnementales
+  mesures: [NFP-59, NFP-60]
+  conclusions: ["La synthèse inclut la rénovation dans les nouvelles dépenses du programme ; le rythme d'exécution conditionne son coût annuel."]
+- id: montaigne-lfi-dette-2024
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du Nouveau Front populaire, bouclage financier
+  date: 2024-07-05
+  url: https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese/
+  partis: [lfi]
+  perimetre: Dette et déficit dans un calcul toutes choses égales par ailleurs
+  mesures: [NFP-216, NFP-70, NFP-72]
+  conclusions: ["L'institut juge incertain le surcroît de recettes attendu par le NFP de l'activité suscitée par les dépenses."]
+- id: constitutionnel-rn-prestations-2024
+  auteur: Conseil constitutionnel
+  type: institution
+  titre: Décision n° 2024-6 RIP sur l'accès aux prestations sociales des étrangers
+  date: 2024-04-11
+  url: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049405871
+  partis: [rn]
+  perimetre: Décision sur un autre texte de restriction des prestations, précédent juridique et non avis sur le programme RN
+  mesures: [RN24-025, RN24-026, RNCB26-10]
+  conclusions: ["Le Conseil juge disproportionnée une condition de cinq ans de résidence ou de trente mois d'activité pour certaines prestations aux étrangers en situation régulière."]
+- id: cor-deux-programmes-retraites-2026
+  auteur: Conseil d'orientation des retraites
+  type: institution
+  titre: Rapport annuel 2026 sur les perspectives des retraites
+  date: 2026-06-11
+  url: https://www.cor-retraites.fr/rapports-du-cor/rapport-annuel-cor-juin-2026-evolutions-perspectives-retraites-france
+  partis: [rn, lfi]
+  perimetre: Projections de référence, sans simulation des programmes RN et LFI
+  mesures: [RN24-058, NFP-02]
+  conclusions: ["Les projections financières sont sensibles aux hypothèses démographiques ; elles ne constituent pas un chiffrage des deux retours envisagés sur la réforme des retraites."]
+- id: montaigne-rn-global-2022
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Les quatre points à retenir du programme de Marine Le Pen
+  date: 2022-04-20
+  url: https://www.institutmontaigne.org/expressions/les-quatre-points-retenir-du-programme-de-marine-le-pen
+  partis: [rn]
+  perimetre: Programme présidentiel RN 2022, distinct de celui des législatives 2024
+  mesures: [RN22-04, RN22-15, RN22-16, RN22-19]
+  chiffrage: {cout_md: 101.8, horizon: année pleine}
+  conclusions: ["L'institut évalue à 101,8 Md€ par an le coût global des mesures présidentielles RN retenues dans son exercice de 2022."]
+- id: montaigne-lfi-global-2022
+  auteur: Institut Montaigne
+  type: think-tank
+  orientation: libéral
+  titre: Synthèse des chiffrages du programme présidentiel de Jean-Luc Mélenchon
+  date: 2022-04-07
+  url: https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/
+  partis: [lfi]
+  perimetre: Programme présidentiel LFI 2022, distinct du contrat NFP 2024 et de l'AEC 2025
+  mesures: [NFP-02, NFP-70, NFP-75]
+  chiffrage: {cout_md: 331.6, recettes_md: 112.7, solde_md: -218.9, horizon: année pleine}
+  conclusions: ["L'estimation de l'institut accroît le déficit de 218,9 Md€ par an ; elle n'intègre pas les recettes de fraude et de croissance jugées trop incertaines."]
+- id: jean-jaures-rn-hopital-2024
+  auteur: Fondation Jean-Jaurès, Louis-Samuel Pilcer, Francis Soulas et Riwan Yahmi
+  type: think-tank
+  orientation: social-démocrate, proche de la gauche
+  titre: Le Rassemblement national au pouvoir, vers un désert de services publics
+  date: 2024-06-24
+  url: https://www.jean-jaures.org/publication/le-rassemblement-national-au-pouvoir-vers-un-desert-de-services-publics/
+  partis: [rn]
+  perimetre: Plafond RN de 10 % de postes administratifs à l'hôpital
+  mesures: [RN24-042]
+  conclusions: ["La fondation relève, à partir de données DREES, que le personnel administratif représente déjà environ 10 % de l'effectif hospitalier public ; le gain de la cible n'est pas établi."]

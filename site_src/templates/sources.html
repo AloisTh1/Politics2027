@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="lede">Documents utilisés, adresse d'origine, date de récupération et empreinte SHA-256. Pour les pages archivées, le manifeste indique l'enregistrement Common Crawl.</p>
+<div class="document-index">{% for source in sources %}<a href="#{{ source.id }}">{{ source.id }}</a>{% endfor %}</div>
+{% for source in sources %}<section class="card source-record" id="{{ source.id }}"><h2>{{ source.id }}</h2><p>Récupéré le {{ source.retrieved_at }}</p><ul>{% for file in source.files %}<li><a href="{{ file.url }}">{{ file.url }}</a><br><small>SHA-256 : <code>{{ file.sha256 }}</code></small>{% if file.archive %}<br><small>Archive {{ file.archive.service }} · {{ file.archive.crawl }} · {{ file.archive.captured_at }}<br>WARC : <code>{{ file.archive.warc_filename }}</code> · octets {{ file.archive.warc_offset }} à {{ file.archive.warc_offset + file.archive.warc_length - 1 }}</small>{% endif %}</li>{% endfor %}</ul></section>{% endfor %}
+<section id="outils"><h2>Outils</h2><ul class="tool-list">{% for tool in tools %}<li><strong>{{ tool.nom }}</strong>{% if tool.version %} {{ tool.version }}{% endif %} — {{ tool.usage }}{% if tool.url %} <a href="{{ tool.url }}">Site ↗</a>{% endif %}</li>{% endfor %}</ul></section>
+<section id="exclusions"><h2>Sites écartés</h2><ul class="tool-list">{% for item in exclusions %}<li><strong>{{ item.site }}</strong> — {{ item.raison }}</li>{% endfor %}</ul></section>
+{% endblock %}

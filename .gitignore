@@ -3,5 +3,10 @@ sources/raw/
 __pycache__/
 *.pyc
 .venv/
+.venv-openfisca/
 node_modules/
+research/_cache/
 .DS_Store
+public/
+.uv-cache/
+work/

@@ -1,0 +1,601 @@
+# Déclarations vérifiées le 2026-10-10. Les citations sont des extraits littéraux courts.
+- id: bardella-tva-2024-06-24
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-24
+  media: "Conférence de presse, rapportée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/legislatives-jordan-bardella-expose-ses-priorites-en-cas-de-victoire-et-fait-du-nouveau-front-populaire-son-seul-adversaire
+  citation: "réalignement"
+  sujet: "TVA sur l'énergie et moyenne européenne"
+  mesures: [RN24-001]
+  rapport_au_programme: precise
+  note: "Il évite alors de promettre explicitement le taux de 5,5 % pour chaque énergie."
+- id: bardella-retraites-audit-2024-06-24
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-24
+  media: "Conférence de presse, rapportée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/legislatives-jordan-bardella-expose-ses-priorites-en-cas-de-victoire-et-fait-du-nouveau-front-populaire-son-seul-adversaire
+  citation: "déterminée après l’audit budgétaire et au regard des marges"
+  sujet: "Progressivité des retraites"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Les paramètres du dispositif pour les autres carrières sont renvoyés à l'audit."
+- id: bardella-retraites-60-2024-06-20
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-20
+  media: "Grand oral du patronat, rapporté par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/economie/retraites-fiscalite-main-doeuvre-detrangere-cout-du-programme-jordan-bardella-face-aux-inquietudes-du-patronat
+  citation: "Au-delà, il y a une progressivité"
+  sujet: "Carrières longues et retraites"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Le départ à 60 ans est réservé aux carrières commencées avant 20 ans avec 40 annuités."
+- id: bardella-retraites-marges-2024-06-20
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-20
+  media: "Grand oral du patronat, rapporté par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/economie/retraites-fiscalite-main-doeuvre-detrangere-cout-du-programme-jordan-bardella-face-aux-inquietudes-du-patronat
+  citation: "Cette progressivité sera aussi déterminée par les marges de manœuvre budgétaires"
+  sujet: "Conditions financières de la réforme des retraites"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Condition supplémentaire annoncée oralement."
+- id: bardella-retraites-66-2024-06-25
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-25
+  media: "Débat télévisé, rapporté par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/reforme-des-retraites-impots-prix-planchers-comment-le-rn-reajuste-son-programme-au-fil-de-la-campagne
+  citation: "avec 42 annuités de cotisation, c’est-à-dire 66 ans"
+  sujet: "Exemple de départ pour une carrière commencée à 24 ans"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Exemple arithmétique cité par l'article ; ne vaut pas règle générale."
+- id: bardella-emplois-sensibles-2024-06-24
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-24
+  media: "Conférence de presse, rapportée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/reforme-des-retraites-impots-prix-planchers-comment-le-rn-reajuste-son-programme-au-fil-de-la-campagne
+  citation: "postes les plus stratégiques de l’Etat"
+  sujet: "Accès des binationaux aux emplois publics sensibles"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Proposition évoquée dans la campagne ; aucun identifiant de la mesure RN24 n'a été relié avec certitude."
+- id: chenu-binationalite-2024-06-13
+  parti: rn
+  personne: "Sébastien Chenu"
+  fonction: "vice-président du RN"
+  date: 2024-06-13
+  media: "Touche pas à mon poste, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/pouvoir-dachat-securite-immigration-le-programme-du-rassemblement-national-pour-les-elections-legislatives
+  citation: "En dehors des pays européens, quand on a une nationalité, on n’en a qu’une"
+  sujet: "Double nationalité extra-européenne"
+  mesures: []
+  rapport_au_programme: modifie
+  note: "Le même jour, Chenu a indiqué sur X que Marine Le Pen avait renoncé à cette proposition."
+- id: tanguy-retraites-censure-2025-01-14
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2025-01-14
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/jean-philippe-tanguy-la-dit-dans-bonjour-chez-vous-mardi-14-janvier-2025-ab216-02e48.html
+  citation: "L’absence de réforme sur les retraites n’est pas un objet de censure"
+  sujet: "Priorité politique de l'abrogation des retraites"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "L'abrogation reste souhaitée, mais n'est pas posée comme condition de censure."
+- id: tanguy-deficit-2025-01-14
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2025-01-14
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/jean-philippe-tanguy-la-dit-dans-bonjour-chez-vous-mardi-14-janvier-2025-ab216-02e48.html
+  citation: "les marchés nous sanctionneront"
+  sujet: "Cible de déficit public"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Il juge déraisonnable de ne pas tenir 5 % de déficit ; déclaration sur le budget courant."
+- id: tanguy-tva-sociale-2025-05-15
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2025-05-15
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/jean-philippe-tanguy-la-dit-dans-bonjour-chez-vous-sur-public-senat-jeudi-15-mai-2025-e1086-02e48.html
+  citation: "la TVA est l'impôt le plus injuste"
+  sujet: "TVA sociale"
+  mesures: [RN24-001]
+  rapport_au_programme: confirme
+  note: "Il rejette une hausse générale de TVA, cohérente avec la baisse ciblée sur l'énergie."
+- id: tanguy-ukraine-2025-05-15
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2025-05-15
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/jean-philippe-tanguy-la-dit-dans-bonjour-chez-vous-sur-public-senat-jeudi-15-mai-2025-e1086-02e48.html
+  citation: "l'Union européenne n'arrive pas à gérer la paix et la diplomatie sur son propre sol"
+  sujet: "Négociations sur l'Ukraine"
+  mesures: [RN24-020]
+  rapport_au_programme: precise
+  note: "Critique du rôle diplomatique de l'UE, sans annoncer de sortie de l'Union."
+- id: chenu-communaute-nationale-2025-04-29
+  parti: rn
+  personne: "Sébastien Chenu"
+  fonction: "vice-président du RN"
+  date: 2025-04-29
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/sebastien-chenu-la-dit-dans-bonjour-chez-vous-sur-public-senat-mardi-29-avril-2025-e74ca-02e48.html
+  citation: "Je ne reconnais qu'une communauté, c'est la communauté nationale"
+  sujet: "Laïcité et appartenance nationale"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Propos tenus après le meurtre dans une mosquée ; rapprochement général, sans mesure précise."
+- id: chenu-israel-2025-06-23
+  parti: rn
+  personne: "Sébastien Chenu"
+  fonction: "vice-président du RN"
+  date: 2025-06-23
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/sebastien-chenu-la-dit-dans-bonjour-chez-vous-le-lundi-23-juin-2025-9d6d3-02e48.html
+  citation: "On doit soutenir Israël, on ne doit pas le faire à moitié"
+  sujet: "Israël et Gaza"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Déclaration de politique étrangère, sans mesure RN24 directement identifiable."
+- id: chenu-ukraine-2025-06-23
+  parti: rn
+  personne: "Sébastien Chenu"
+  fonction: "vice-président du RN"
+  date: 2025-06-23
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/sebastien-chenu-la-dit-dans-bonjour-chez-vous-le-lundi-23-juin-2025-9d6d3-02e48.html
+  citation: "La France doit prendre des initiatives de paix"
+  sujet: "Guerre en Ukraine"
+  mesures: [RN24-020]
+  rapport_au_programme: precise
+  note: "Appel diplomatique ; ne tranche pas le niveau d'aide militaire à l'Ukraine."
+- id: lepen-retraites-2026-05-22
+  parti: rn
+  personne: "Marine Le Pen"
+  fonction: "présidente du groupe RN à l'Assemblée"
+  date: 2026-05-22
+  media: "BFMTV, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/economie/retraites-le-rn-reflechit-a-supprimer-lage-legal-de-depart-mais-ce-nest-pas-aussi-simple-estime-jean-philippe-tanguy-rn
+  citation: "comment on augmente le taux d’activité des seniors"
+  sujet: "Emploi des seniors et retraite"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Présente l'emploi des seniors comme un paramètre encore étudié."
+- id: tanguy-retraites-2026-05-27
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2026-05-27
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://www.publicsenat.fr/actualites/economie/retraites-le-rn-reflechit-a-supprimer-lage-legal-de-depart-mais-ce-nest-pas-aussi-simple-estime-jean-philippe-tanguy-rn
+  citation: "Nous reviendrons sur la réforme Borne et on revient sur 62 ans et 42 annuités"
+  sujet: "Retour à 62 ans"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Fixe les paramètres généraux que le programme 2024 ne chiffre pas."
+- id: bardella-age-legal-2026-05-28
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2026-05-28
+  media: "LCI, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/au-rn-la-reforme-des-retraites-divise-jordan-bardella-et-marine-le-pen-sur-le-programme-pour-la-presidentielle-2027
+  citation: "l’âge de départ ne veut rien dire"
+  sujet: "Critère de l'âge légal de départ"
+  mesures: [RN24-058]
+  rapport_au_programme: modifie
+  note: "Il envisage un système centré sur les annuités ; l'âge légal reste défendu par Marine Le Pen."
+- id: lepen-retraites-actualite-2026-05-13
+  parti: rn
+  personne: "Marine Le Pen"
+  fonction: "présidente du groupe RN à l'Assemblée"
+  date: 2026-05-13
+  media: "RTL, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/au-rn-la-reforme-des-retraites-divise-jordan-bardella-et-marine-le-pen-sur-le-programme-pour-la-presidentielle-2027
+  citation: "reste d’actualité"
+  sujet: "Retraite à 62 ans et carrières longues"
+  mesures: [RN24-058]
+  rapport_au_programme: confirme
+  note: "Réaffirme son projet alors que Bardella envisage de revoir le critère d'âge."
+- id: lepen-retraites-carrieres-2026-08-27
+  parti: rn
+  personne: "Marine Le Pen"
+  fonction: "candidate à la présidentielle, présidente du groupe RN"
+  date: 2026-08-27
+  media: "Université d'été du Medef, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites
+  citation: "cotiseront 40 ans et partiront à 60 ans"
+  sujet: "Carrières commencées avant 20 ans"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "La citation s'applique aux personnes ayant commencé un emploi effectif avant 20 ans."
+- id: lepen-retraites-incitations-2026-08-27
+  parti: rn
+  personne: "Marine Le Pen"
+  fonction: "candidate à la présidentielle, présidente du groupe RN"
+  date: 2026-08-27
+  media: "Université d'été du Medef, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites
+  citation: "mettre en place des incitations"
+  sujet: "Poursuite volontaire du travail après les droits à retraite"
+  mesures: [RN24-058]
+  rapport_au_programme: precise
+  note: "Elle évoque des cotisations allégées, selon l'article, sans barème détaillé."
+- id: lepen-depenses-etat-2026-08-27
+  parti: rn
+  personne: "Marine Le Pen"
+  fonction: "candidate à la présidentielle, présidente du groupe RN"
+  date: 2026-08-27
+  media: "Université d'été du Medef, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle
+  citation: "Le premier qui doit faire un effort c’est l’Etat"
+  sujet: "Dette et réduction de la dépense publique"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Déclaration générale sur la trajectoire budgétaire ; pas de montant repris dans la citation."
+- id: bardella-palestine-2025-07-24
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2025-07-24
+  media: "Déclaration citée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/international/emmanuel-macron-annonce-que-la-france-va-reconnaitre-letat-de-palestine-israel-fustige-cette-decision
+  citation: "décision précipitée"
+  sujet: "Reconnaissance de l'État de Palestine"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Il critique le calendrier de la reconnaissance annoncée par Emmanuel Macron."
+- id: bardella-ame-2024-06-24
+  parti: rn
+  personne: "Jordan Bardella"
+  fonction: "président du RN"
+  date: 2024-06-24
+  media: "Conférence de presse, rapportée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/legislatives-jordan-bardella-expose-ses-priorites-en-cas-de-victoire-et-fait-du-nouveau-front-populaire-son-seul-adversaire
+  citation: "une aide d’urgence vitale"
+  sujet: "Remplacement de l'aide médicale de l'État"
+  mesures: [RN24-011]
+  rapport_au_programme: confirme
+  note: "Confirme le remplacement de l'AME prévu par le programme RN de 2024."
+- id: tanguy-regle-or-2025-06-10
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2025-06-10
+  media: "Conférence de presse, citée par Boursorama/AFP"
+  url: https://www.boursorama.com/actualite-economique/actualites/budget-le-rn-veut-inscrire-dans-le-droit-francais-la-regle-d-or-dans-l-espoir-de-respecter-les-3-de-deficit-4cbcdc9ad9d13f2c38c44030ac2e28db
+  citation: "concernerait l'équilibre des dépenses de fonctionnement"
+  sujet: "Règle d'or budgétaire"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Piste en discussion interne, non arbitrée par le parti à cette date."
+- id: tanguy-marche-electricite-2025-01-31
+  parti: rn
+  personne: "Jean-Philippe Tanguy"
+  fonction: "président délégué du groupe RN à l'Assemblée"
+  date: 2025-01-31
+  media: "Déclaration à la presse, rapportée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/parlementaire/censure-sur-le-budget-2025-le-rn-actera-sa-strategie-lundi-selon-jean-philippe-tanguy-rn
+  citation: "une intégration définitive de nos centrales nucléaires, sur le marché européen libéralisé"
+  sujet: "Régulation du prix de l'électricité nucléaire"
+  mesures: [RN24-003, RN24-061]
+  rapport_au_programme: confirme
+  note: "Critique le dispositif succédant à l'ARENH au regard du projet de sortie des règles de prix européennes."
+- id: panot-retraites-2024-07-23
+  parti: lfi
+  personne: "Mathilde Panot"
+  fonction: "présidente du groupe LFI à l'Assemblée"
+  date: 2024-07-23
+  media: "France Inter, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/parlementaire/abrogation-de-la-reforme-des-retraites-la-proposition-de-loi-de-la-france-insoumise-peut-elle-aboutir
+  citation: "pour abroger la réforme de la retraite à 64 ans"
+  sujet: "Abrogation de la réforme des retraites"
+  mesures: [LFI-08.08-01]
+  rapport_au_programme: confirme
+  note: "Annonce de l'initiative parlementaire ; la citation ne promet pas à elle seule les 60 ans."
+- id: bompard-chiffrage-2024-06-14
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2024-06-14
+  media: "Présentation du NFP, rapportée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/programme-du-nouveau-front-populaire-lepineuse-question-du-chiffrage
+  citation: "travail en cours"
+  sujet: "Chiffrage du programme du Nouveau Front populaire"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Déclaration sur le programme commun NFP, distinct du texte propre de LFI."
+- id: guette-chiffrage-2024-06-19
+  parti: lfi
+  personne: "Clémence Guetté"
+  fonction: "responsable du programme de LFI"
+  date: 2024-06-19
+  media: "Communiqué conjoint avec Éric Coquerel, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/programme-du-nouveau-front-populaire-lepineuse-question-du-chiffrage
+  citation: "vision personnelle"
+  sujet: "Chiffrage de Valérie Rabault pour le NFP"
+  mesures: []
+  rapport_au_programme: precise
+  note: "Elle et Coquerel contestent que cette estimation représente le chiffrage commun."
+- id: coquerel-chiffrage-2024-06-19
+  parti: lfi
+  personne: "Éric Coquerel"
+  fonction: "député LFI, ancien président de la commission des finances"
+  date: 2024-06-19
+  media: "Communiqué conjoint avec Clémence Guetté, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/programme-du-nouveau-front-populaire-lepineuse-question-du-chiffrage
+  citation: "limité"
+  sujet: "Portée du chiffrage présenté pour le NFP"
+  mesures: []
+  rapport_au_programme: precise
+  note: "La critique porte sur le périmètre des mesures chiffrées."
+- id: bompard-budget-2024-11-04
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2024-11-04
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/manuel-bompard-la-dit-dans-bonjour-chez-vous-sur-public-senat-lundi-04-novembre-2024-8fcda-02e48-1.html
+  citation: "il est possible de générer 60 milliards d'euros de nouvelles recettes"
+  sujet: "Financement et recettes fiscales"
+  mesures: [LFI-06.05-03]
+  rapport_au_programme: precise
+  note: "Montant revendiqué à propos des amendements budgétaires, pas chiffrage global de L'Avenir en commun."
+- id: bompard-laicite-2024-11-04
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2024-11-04
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/manuel-bompard-la-dit-dans-bonjour-chez-vous-sur-public-senat-lundi-04-novembre-2024-8fcda-02e48-1.html
+  citation: "Il y a une forme d’hystérisation du débat public"
+  sujet: "Débat sur la laïcité"
+  mesures: [LFI-01.05-01]
+  rapport_au_programme: precise
+  note: "Prise de position sur le débat public, sans modification de la mesure écrite."
+- id: coquerel-russie-2025-03-21
+  parti: lfi
+  personne: "Éric Coquerel"
+  fonction: "président de la commission des finances"
+  date: 2025-03-21
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/eric-coquerel-la-dit-dans-bonjour-chez-vous-sur-public-senat-vendredi-21-mars-2025-2bc2f-02e48.html
+  citation: "Je pense que la Russie n’est pas une menace pour le territoire français"
+  sujet: "Évaluation de la menace russe"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: precise
+  note: "Jugement sur une menace directe pour le territoire français ; ne nie pas la guerre en Ukraine."
+- id: coquerel-droit-international-2025-03-21
+  parti: lfi
+  personne: "Éric Coquerel"
+  fonction: "président de la commission des finances"
+  date: 2025-03-21
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/eric-coquerel-la-dit-dans-bonjour-chez-vous-sur-public-senat-vendredi-21-mars-2025-2bc2f-02e48.html
+  citation: "la France doit présenter une autre voie, celle du droit international"
+  sujet: "Non-alignement et droit international"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: confirme
+  note: "Évoque à la fois Poutine et Trump comme bafouant le droit international."
+- id: bompard-otan-2025-02-20
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2025-02-20
+  media: "Déclaration à la sortie de l'Élysée, citée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/international/reunion-sur-lukraine-avec-macron-poutine-veut-mettre-a-genoux-nos-democraties-affirme-le-senateur-lr-cedric-perrin
+  citation: "une forme d’aveuglement atlantiste"
+  sujet: "OTAN et non-alignement"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: confirme
+  note: "Critique la place de l'OTAN dans la stratégie française."
+- id: bompard-ukraine-negociations-2025-02-20
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2025-02-20
+  media: "Déclaration à la sortie de l'Élysée, citée par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/international/reunion-sur-lukraine-avec-macron-poutine-veut-mettre-a-genoux-nos-democraties-affirme-le-senateur-lr-cedric-perrin
+  citation: "l’Ukraine soit à la table des négociations"
+  sujet: "Négociations de paix sur l'Ukraine"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: precise
+  note: "Selon l'article, il demande aussi la présence des partenaires européens."
+- id: panot-police-municipale-2025-07-06
+  parti: lfi
+  personne: "Mathilde Panot"
+  fonction: "présidente du groupe LFI à l'Assemblée"
+  date: 2025-07-06
+  media: "BFMTV, cité par Le Progrès"
+  url: https://www.leprogres.fr/politique/2025/07/07/mathilde-panot-propose-de-desarmer-la-police-municipale-et-provoque-une-tolle-generale
+  citation: "Une police municipale de proximité n'a pas besoin d'être armée"
+  sujet: "Armement de la police municipale"
+  mesures: [LFI-04.03-01]
+  rapport_au_programme: precise
+  note: "Vise la police municipale ; ne concerne pas la police nationale."
+- id: guette-nucleaire-2024-06-27
+  parti: lfi
+  personne: "Clémence Guetté"
+  fonction: "députée LFI sortante"
+  date: 2024-06-27
+  media: "BFMTV, entretien vidéo"
+  url: https://www.bfmtv.com/politique/elections/legislatives/centrales-nucleaires-il-faudra-aller-vers-leur-fermeture-progressive-selon-clemence-guette-lfi_VN-202406270963.html
+  citation: "Il faudra aller vers leur fermeture progressive"
+  sujet: "Calendrier de fermeture des centrales nucléaires"
+  mesures: [LFI-13.03-04]
+  rapport_au_programme: precise
+  note: "Présente la sortie du nucléaire comme progressive ; la vidéo BFMTV fournit la citation dans son titre."
+- id: melenchon-gaza-2025-07-24
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "fondateur de LFI"
+  date: 2025-07-24
+  media: "X, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/international/reconnaissance-de-letat-de-palestine-par-macron-la-droite-fustige-la-duplicite-du-president-la-gauche-salue-une-decision-moralement-necessaire
+  citation: "Pourquoi en septembre et pas maintenant ?"
+  sujet: "Calendrier de reconnaissance de la Palestine"
+  mesures: [LFI-16.04-06]
+  rapport_au_programme: confirme
+  note: "Demande une reconnaissance plus rapide."
+- id: melenchon-embargo-2025-07-24
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "fondateur de LFI"
+  date: 2025-07-24
+  media: "X, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/international/reconnaissance-de-letat-de-palestine-par-macron-la-droite-fustige-la-duplicite-du-president-la-gauche-salue-une-decision-moralement-necessaire
+  citation: "Et l’embargo sur les armes ?"
+  sujet: "Embargo sur les armes vers Israël"
+  mesures: [LFI-16.04-05]
+  rapport_au_programme: confirme
+  note: "Rappelle la demande d'embargo figurant dans le programme."
+- id: melenchon-ukraine-2025-08-14
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "fondateur de LFI"
+  date: 2025-08-14
+  media: "Billet de blog, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/billet-de-jean-luc-melenchon-sur-la-guerre-en-ukraine-cest-radio-poutine-fustige-rachid-temal
+  citation: "Le départ de Zelenski (sic) est la condition de l’accord"
+  sujet: "Conditions d'un accord de paix en Ukraine"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: precise
+  note: "Propos de prévision politique ; Bompard précise le lendemain que ce n'est pas un souhait."
+- id: bompard-russie-2025-08-18
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2025-08-18
+  media: "franceinfo, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/billet-de-jean-luc-melenchon-sur-la-guerre-en-ukraine-cest-radio-poutine-fustige-rachid-temal
+  citation: "en aucun cas la guerre impérialiste de Vladimir Poutine contre l’Ukraine"
+  sujet: "Condamnation de l'invasion russe"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: precise
+  note: "Précise que l'analyse de Mélenchon ne justifie pas l'invasion russe."
+- id: bompard-taxe-zucman-2025-10-27
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2025-10-27
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/manuel-bompard-l-a-dit-dans-bonjour-chez-vous-sur-public-senat-lundi-27-octobre-2025-cd111-02e48.html
+  citation: "elle exonère les biens professionnels et passe totalement à côté de l'objectif"
+  sujet: "Assiette d'une taxe sur les hauts patrimoines"
+  mesures: [LFI-06.05-03]
+  rapport_au_programme: precise
+  note: "Critique l'exclusion des biens professionnels du dispositif socialiste."
+- id: bompard-retraites-2025-10-27
+  parti: lfi
+  personne: "Manuel Bompard"
+  fonction: "coordinateur de LFI"
+  date: 2025-10-27
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/manuel-bompard-l-a-dit-dans-bonjour-chez-vous-sur-public-senat-lundi-27-octobre-2025-cd111-02e48.html
+  citation: "Nous ne voterons pas la suppression de ce décalage"
+  sujet: "Report d'un an de l'entrée en vigueur de la réforme Borne"
+  mesures: [LFI-08.08-01]
+  rapport_au_programme: precise
+  note: "Position sur un amendement parlementaire, sans abandon de l'abrogation."
+- id: coquerel-recettes-2025-11-03
+  parti: lfi
+  personne: "Éric Coquerel"
+  fonction: "président de la commission des finances"
+  date: 2025-11-03
+  media: "Public Sénat, Bonjour chez vous !"
+  url: https://pro.publicsenat.fr/actualites/eric-coquerel-l-a-dit-dans-bonjour-chez-vous-sur-public-senat-lundi-3-novembre-2025-9afbd-02e48.html
+  citation: "on a voté pour 35 à 40 milliards de recettes en plus"
+  sujet: "Recettes fiscales du budget 2026"
+  mesures: [LFI-06.05-03]
+  rapport_au_programme: precise
+  note: "Montant d'amendements votés, pas chiffrage du programme présidentiel."
+- id: panot-smic-2024-07-11
+  parti: lfi
+  personne: "Mathilde Panot"
+  fonction: "présidente du groupe LFI à l'Assemblée"
+  date: 2024-07-11
+  media: "Franceinfo, 8h30 franceinfo"
+  url: https://www.radiofrance.fr/franceinfo/podcasts/8h30-franceinfo/coup-de-force-democratique-hausse-du-smic-le-8h30-franceinfo-de-mathilde-panot-1029542
+  citation: "Nous proposons une caisse de péréquation"
+  sujet: "Financement de la hausse du SMIC pour les petites entreprises"
+  mesures: [LFI-08.04-01]
+  rapport_au_programme: precise
+  note: "Propose une compensation entre grandes et petites entreprises pour porter le SMIC net à 1 600 euros."
+- id: melenchon-retraites-etapes-2026-08-27
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "candidat à la présidentielle, fondateur de LFI"
+  date: 2026-08-27
+  media: "Université d'été du Medef, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites
+  citation: "d’arriver le plus vite possible à 60 ans"
+  sujet: "Calendrier du retour à la retraite à 60 ans"
+  mesures: [LFI-08.08-01]
+  rapport_au_programme: modifie
+  note: "Il annonce d'abord 62 ans, puis 60 ans ; le programme écrit promet 60 ans à taux plein pour 40 annuités."
+- id: melenchon-dette-bce-2026-08-27
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "candidat à la présidentielle, fondateur de LFI"
+  date: 2026-08-27
+  media: "Université d'été du Medef, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle
+  citation: "Je trouverai des alliés en Europe"
+  sujet: "Transformation de la dette détenue par la BCE"
+  mesures: [LFI-06.04-01]
+  rapport_au_programme: precise
+  note: "Présente la recherche d'alliés européens comme voie de mise en œuvre."
+- id: melenchon-retraites-chomage-2026-08-27
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "candidat à la présidentielle, fondateur de LFI"
+  date: 2026-08-27
+  media: "Université d'été du Medef, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle
+  citation: "Ceux qui travaillent plus vieux ne travailleront pas"
+  sujet: "Justification du retour à 60 ans"
+  mesures: [LFI-08.08-01]
+  rapport_au_programme: confirme
+  note: "Argumente que certains seniors seraient malades ou au chômage."
+- id: aubry-russie-menace-2025-03-09
+  parti: lfi
+  personne: "Manon Aubry"
+  fonction: "députée européenne LFI, présidente du groupe La Gauche"
+  date: 2025-03-09
+  media: "franceinfo, vidéo Dailymotion"
+  url: https://www.dailymotion.com/video/x9ftom6
+  citation: "Ce n'est pas une menace militaire directe aux portes de la France"
+  sujet: "Menace militaire russe pour la France"
+  mesures: [LFI-16.01-01]
+  rapport_au_programme: precise
+  note: "Elle qualifie aussi la Russie de menace pour l'Ukraine et les démocraties."
+- id: melenchon-immigration-retraites-2026-05-10
+  parti: lfi
+  personne: "Jean-Luc Mélenchon"
+  fonction: "candidat à la présidentielle, fondateur de LFI"
+  date: 2026-05-10
+  media: "La Tribune Dimanche, cité par Public Sénat"
+  url: https://www.publicsenat.fr/actualites/politique/presidentielle-limmigration-nouveau-clivage-a-gauche
+  citation: "le recours à l’immigration et la reprise de la natalité"
+  sujet: "Financement de la retraite à 60 ans et population active"
+  mesures: [LFI-08.08-01]
+  rapport_au_programme: precise
+  note: "Évoque deux facteurs démographiques, sans chiffrer leur contribution."

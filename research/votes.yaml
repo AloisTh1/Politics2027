@@ -1,0 +1,965 @@
+# Scrutins publics de l’Assemblée nationale ; contrôle des pages officielles le 2026-10-10.
+- id: pouvoir-achat-2022
+  sujet: Mesures d’urgence pour le pouvoir d’achat
+  scrutin:
+    legislature: 16
+    numero: 81
+    date: '2022-07-21'
+    intitule: l'ensemble du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première
+      lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/81
+  mesures:
+  - RN24-055
+  - LFI-08.04-01
+  groupes:
+    rn:
+      pour: 78
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 74
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le vote favorable concerne un texte global et ne tranche pas sa proposition de hausse salariale exonérée.
+    lfi:
+      statut: nuance
+      note: Le vote défavorable ne permet pas de conclure sur la revalorisation précise du SMIC inscrite dans son
+        programme.
+- id: ukraine-resolution-2022
+  sujet: Résolution de soutien à l’Ukraine
+  scrutin:
+    legislature: 16
+    numero: 652
+    date: '2022-11-30'
+    intitule: la proposition de résolution affirmant le soutien de l'Assemblée nationale à l'Ukraine et condamnant
+      la guerre menée par la Fédération de Russie (art. 34-1 de la Constitution).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/652
+  mesures:
+  - RNDEF-02
+  - LFI-16.04-02
+  groupes:
+    rn:
+      pour: 0
+      contre: 0
+      abstention: 67
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 1
+      abstention: 28
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: L’abstention sur la résolution ne précise pas quelle clause du texte est en cause.
+    lfi:
+      statut: nuance
+      note: Le groupe s’est majoritairement abstenu malgré un programme demandant le retrait des troupes russes
+        ; le motif du vote reste à établir.
+- id: renouvelables-2023
+  sujet: Accélération de la production d’énergies renouvelables
+  scrutin:
+    legislature: 16
+    numero: 823
+    date: '2023-01-10'
+    intitule: l'ensemble du projet de loi relatif à l'accélération de la production d'énergies renouvelables (première
+      lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/823
+  mesures:
+  - RNECO-03
+  - LFI-13.03-01
+  groupes:
+    rn:
+      pour: 0
+      contre: 87
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 70
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Le vote contre un texte d’accélération est compatible avec le moratoire éolien et solaire annoncé.
+    lfi:
+      statut: nuance
+      note: Le vote contre le texte global contraste avec l’objectif de renouvelables, sans établir un refus de
+        chaque dispositif.
+- id: retraites-rejet-2023
+  sujet: Motion de rejet de la réforme des retraites de 2023
+  scrutin:
+    legislature: 16
+    numero: 908
+    date: '2023-02-06'
+    intitule: la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de financement rectificative
+      de la sécurité sociale pour 2023 (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/908
+  mesures:
+  - RN24-058
+  - LFI-08.08-01
+  groupes:
+    rn:
+      pour: 85
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 74
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Le vote pour rejeter le texte est compatible avec l’abrogation annoncée.
+    lfi:
+      statut: coherent
+      note: Le vote pour rejeter le texte est compatible avec l’abrogation annoncée.
+- id: retraites-censure-2023
+  sujet: Motion de censure après le 49.3 sur les retraites
+  scrutin:
+    legislature: 16
+    numero: 1240
+    date: '2023-03-20'
+    intitule: la motion de censure déposée en application de l'article 49, alinéa 3, de la Constitution par M. Bertrand
+      Pancher et 90 membres de l'Assemblée.
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1240
+  mesures:
+  - RN24-058
+  - LFI-08.08-01
+  groupes:
+    rn:
+      pour: 88
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 74
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Le soutien à la motion est compatible avec l’opposition à la réforme des retraites.
+    lfi:
+      statut: coherent
+      note: Le soutien à la motion est compatible avec l’opposition à la réforme des retraites.
+- id: nucleaire-2023
+  sujet: Construction de nouvelles installations nucléaires
+  scrutin:
+    legislature: 16
+    numero: 1533
+    date: '2023-05-16'
+    intitule: l'ensemble du projet de loi relatif à l'accélération des procédures liées à la construction de nouvelles
+      installations nucléaires à proximité de sites nucléaires existants et au fonctionnement des installations
+      existantes (texte de la commission mixte paritaire).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1533
+  mesures:
+  - RN24-062
+  - LFI-13.03-04
+  groupes:
+    rn:
+      pour: 84
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 72
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Le soutien au texte va dans le sens de la relance nucléaire annoncée.
+    lfi:
+      statut: coherent
+      note: Le vote contre le texte va dans le sens de l’abandon des nouveaux EPR annoncé.
+- id: ame-resolution-2023
+  sujet: Résolution sur la couverture santé des étrangers
+  scrutin:
+    legislature: 16
+    numero: 1780
+    date: '2023-06-07'
+    intitule: la proposition de résolution relative au dérapage du coût pour l’État de la couverture santé des étrangers
+      en situation irrégulière et des demandeurs d’asile provenant de pays d’origine sûrs et au nombre d’étrangers
+      en situation irrégulière (art. 34-1 de la Constitution).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1780
+  mesures:
+  - RN24-011
+  - LFI-16.07-13
+  groupes:
+    rn:
+      pour: 43
+      contre: 0
+      abstention: 0
+      non_votants: 1
+    lfi:
+      pour: 0
+      contre: 44
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien à cette résolution est compatible avec une restriction de l’AME, mais ne vote pas son remplacement.
+    lfi:
+      statut: nuance
+      note: Le refus de la résolution est compatible avec le maintien de l’AME, sans porter sur ses règles précises.
+- id: partage-valeur-2023
+  sujet: Accord sur le partage de la valeur en entreprise
+  scrutin:
+    legislature: 16
+    numero: 2112
+    date: '2023-06-29'
+    intitule: l'ensemble du projet de loi portant transposition de l'accord national interprofessionnel relatif
+      au partage de la valeur au sein de l'entreprise (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/2112
+  mesures:
+  - RN24-055
+  - LFI-08.04-01
+  groupes:
+    rn:
+      pour: 17
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 26
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien au texte global ne décide pas de l’incitation salariale de 10 % proposée.
+    lfi:
+      statut: nuance
+      note: Le refus du texte global ne décide pas d’une hausse du SMIC à 1 600 euros nets.
+- id: immigration-rejet-2023
+  sujet: Motion de rejet préalable du projet de loi immigration
+  scrutin:
+    legislature: 16
+    numero: 3203
+    date: '2023-12-11'
+    intitule: la motion de rejet préalable, déposée par Mme Cyrielle Chatelain, du projet de loi pour contrôler
+      l'immigration, améliorer l'intégration (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3203
+  mesures:
+  - RN24-010
+  - LFI-16.07-12
+  groupes:
+    rn:
+      pour: 87
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 75
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le groupe vote le rejet préalable puis soutient le texte issu de la commission mixte paritaire.
+    lfi:
+      statut: coherent
+      note: Le rejet préalable est compatible avec l’abrogation des lois immigration annoncée.
+- id: immigration-cmp-2023
+  sujet: Loi immigration, texte de commission mixte paritaire
+  scrutin:
+    legislature: 16
+    numero: 3213
+    date: '2023-12-19'
+    intitule: l'ensemble du projet de loi pour contrôler l'immigration, améliorer l'intégration (texte de la commission
+      mixte paritaire).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3213
+  mesures:
+  - RN24-010
+  - LFI-16.07-12
+  groupes:
+    rn:
+      pour: 88
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 75
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien au texte est compatible avec un durcissement, sans démontrer l’adoption de la suppression
+        générale du droit du sol annoncée.
+    lfi:
+      statut: coherent
+      note: Le refus du texte est compatible avec l’abrogation des dernières lois immigration annoncée.
+- id: ivg-constitution-2024
+  sujet: Constitutionnalisation de la liberté de recourir à l’IVG
+  scrutin:
+    legislature: 16
+    numero: 3289
+    date: '2024-01-30'
+    intitule: l’ensemble du projet de loi constitutionnelle relatif à la liberté de recourir à l’interruption volontaire
+      de grossesse (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3289
+  mesures:
+  - LFI-10.01-12
+  groupes:
+    rn:
+      pour: 46
+      contre: 12
+      abstention: 14
+      non_votants: 0
+    lfi:
+      pour: 75
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: sans-objet
+      note: Aucune mesure explicite du corpus RN ne fixe une position sur cette constitutionnalisation.
+    lfi:
+      statut: coherent
+      note: Le soutien unanime des votants du groupe va dans le sens de la garantie de l’accès à l’IVG.
+- id: ukraine-accord-2024
+  sujet: Accord de sécurité franco-ukrainien
+  scrutin:
+    legislature: 16
+    numero: 3461
+    date: '2024-03-12'
+    intitule: la déclaration du Gouvernement relative au débat sur l'accord de sécurité franco-ukrainien et la situation
+      en Ukraine (application de l'article 50-1 de la Constitution).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3461
+  mesures:
+  - RNDEF-02
+  - LFI-16.04-02
+  groupes:
+    rn:
+      pour: 0
+      contre: 0
+      abstention: 88
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 75
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: L’abstention sur la déclaration gouvernementale ne permet pas de déduire une position sur chaque forme
+        d’aide à l’Ukraine.
+    lfi:
+      statut: nuance
+      note: Le vote contre la déclaration ne suffit pas à infirmer l’objectif de retrait des troupes russes.
+- id: revenu-agriculteurs-2024
+  sujet: Revenu digne et transition agricole
+  scrutin:
+    legislature: 16
+    numero: 3653
+    date: '2024-04-04'
+    intitule: l'ensemble de la proposition de loi visant à garantir un revenu digne aux agriculteurs et à accompagner
+      la transition agricole (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3653
+  mesures:
+  - RN24-072
+  - LFI-13.05-02
+  groupes:
+    rn:
+      pour: 0
+      contre: 0
+      abstention: 12
+      non_votants: 0
+    lfi:
+      pour: 42
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: L’abstention sur le texte global laisse ouverte sa position sur les prix rémunérateurs annoncés.
+    lfi:
+      statut: coherent
+      note: Le soutien au texte va dans le sens des prix rémunérateurs annoncés.
+- id: fin-vie-article-2024
+  sujet: Soins palliatifs et d’accompagnement dans le projet de loi sur la fin de vie
+  scrutin:
+    legislature: 16
+    numero: 3975
+    date: '2024-05-29'
+    intitule: l'article premier du projet de loi relatif à l'accompagnement des malades et de la fin de vie (première
+      lecture).
+    url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3975
+  mesures:
+  - LFI-04.01-02
+  groupes:
+    rn:
+      pour: 4
+      contre: 40
+      abstention: 3
+      non_votants: 0
+    lfi:
+      pour: 16
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: sans-objet
+      note: Le corpus RN étudié ne contient pas de mesure explicite sur les soins palliatifs.
+    lfi:
+      statut: coherent
+      note: Le soutien à cet article est compatible avec l’accès garanti aux soins palliatifs annoncé.
+- id: retraites-annulation-2024
+  sujet: Annulation des dernières réformes des retraites
+  scrutin:
+    legislature: 17
+    numero: 217
+    date: '2024-10-31'
+    intitule: l'ensemble de la proposition de loi visant à restaurer un système de retraite plus juste en annulant
+      les dernières réformes portant sur l’âge de départ et le nombre d’annuités (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/217
+  mesures:
+  - RN24-058
+  - LFI-08.08-01
+  groupes:
+    rn:
+      pour: 118
+      contre: 0
+      abstention: 3
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Les votants RN soutiennent l’annulation des dernières réformes.
+    lfi:
+      statut: nuance
+      note: Aucun vote du groupe LFI-NFP n’est décompté à ce scrutin malgré sa mesure d’abrogation.
+- id: budget-2025-premiere-partie
+  sujet: Première partie du budget de l’État pour 2025
+  scrutin:
+    legislature: 17
+    numero: 438
+    date: '2024-11-12'
+    intitule: la première partie du projet de loi de finances pour 2025 (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/438
+  mesures:
+  - RNCB25-08
+  - LFI-06.05-03
+  groupes:
+    rn:
+      pour: 0
+      contre: 125
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 71
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le refus du volet recettes est compatible avec un contre-budget, sans valider ses lignes détaillées.
+    lfi:
+      statut: nuance
+      note: Le soutien au volet recettes ne démontre pas l’adoption de son projet fiscal complet.
+- id: plfss-2025-censure
+  sujet: Motion de censure sur le financement de la Sécurité sociale pour 2025
+  scrutin:
+    legislature: 17
+    numero: 519
+    date: '2024-12-04'
+    intitule: la motion de censure déposée en application de l'article 49, alinéa 3, de la Constitution par Mme
+      Mathilde Panot, M. Boris Vallaud, Mme Cyrielle Chatelain, M. André Chassaigne et 181 membres de l'Assemblée.
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/519
+  mesures:
+  - RNCB25-06
+  - LFI-08.08-02
+  groupes:
+    rn:
+      pour: 123
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 71
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le vote de censure marque une opposition au PLFSS gouvernemental, sans décider de la désindexation des
+        retraites.
+    lfi:
+      statut: nuance
+      note: Le vote de censure marque une opposition au PLFSS gouvernemental, sans décider du minimum de pension
+        annoncé.
+- id: nationalite-mayotte-2025
+  sujet: Conditions d’accès à la nationalité à Mayotte
+  scrutin:
+    legislature: 17
+    numero: 738
+    date: '2025-02-06'
+    intitule: l'ensemble de la proposition de loi visant à renforcer les conditions d'accès à la nationalité française
+      à Mayotte (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/738
+  mesures:
+  - RN24-010
+  - LFI-10.02-04
+  groupes:
+    rn:
+      pour: 88
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 32
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Le soutien au durcissement du droit du sol à Mayotte va dans le sens de sa suppression annoncée.
+    lfi:
+      statut: coherent
+      note: Le refus du texte va dans le sens du droit du sol intégral annoncé.
+- id: taxe-zucman-2025
+  sujet: Impôt plancher sur les patrimoines des ultra riches
+  scrutin:
+    legislature: 17
+    numero: 881
+    date: '2025-02-20'
+    intitule: l'ensemble de la proposition de loi instaurant un impôt plancher de 2 % sur le patrimoine des ultra
+      riches (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/881
+  mesures:
+  - RN24-090
+  - LFI-06.05-04
+  groupes:
+    rn:
+      pour: 0
+      contre: 0
+      abstention: 28
+      non_votants: 0
+    lfi:
+      pour: 37
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: L’abstention porte sur un impôt plancher distinct de l’impôt sur la fortune financière proposé par le
+        RN.
+    lfi:
+      statut: coherent
+      note: Le groupe soutient le texte reprenant le principe de sa taxe sur les patrimoines des milliardaires.
+- id: ukraine-resolution-2025
+  sujet: Résolution européenne sur le soutien à l’Ukraine
+  scrutin:
+    legislature: 17
+    numero: 988
+    date: '2025-03-12'
+    intitule: l'article unique de la proposition de résolution européenne appelant au renforcement du soutien à
+      l'Ukraine.
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/988
+  mesures:
+  - RNDEF-02
+  - LFI-16.04-02
+  groupes:
+    rn:
+      pour: 0
+      contre: 0
+      abstention: 114
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 45
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: L’abstention ne permet pas d’isoler la position du groupe sur les différentes mesures de la résolution.
+    lfi:
+      statut: nuance
+      note: Le refus du texte coexiste avec l’objectif programmatique de retrait des troupes russes, sans motif
+        établi par ce scrutin.
+- id: execution-peines-2025
+  sujet: Exécution des peines d’emprisonnement ferme
+  scrutin:
+    legislature: 17
+    numero: 1262
+    date: '2025-04-03'
+    intitule: l'ensemble de la proposition de loi visant à faire exécuter les peines d’emprisonnement ferme (première
+      lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/1262
+  mesures:
+  - RN24-029
+  groupes:
+    rn:
+      pour: 14
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 22
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: coherent
+      note: Le soutien au texte va dans le sens de la limitation annoncée des aménagements de peine.
+    lfi:
+      statut: sans-objet
+      note: Aucune mesure LFI du corpus ne porte directement sur les règles visées par ce vote global.
+- id: aide-mourir-2025
+  sujet: Droit à l’aide à mourir, première lecture
+  scrutin:
+    legislature: 17
+    numero: 2107
+    date: '2025-05-27'
+    intitule: l’ensemble de la proposition de loi relative au droit à l’aide à mourir (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/2107
+  mesures:
+  - LFI-04.01-02
+  groupes:
+    rn:
+      pour: 19
+      contre: 101
+      abstention: 3
+      non_votants: 0
+    lfi:
+      pour: 62
+      contre: 1
+      abstention: 3
+      non_votants: 0
+  coherence:
+    rn:
+      statut: sans-objet
+      note: Le corpus RN étudié ne fixe pas de position programmatique explicite sur ce droit.
+    lfi:
+      statut: coherent
+      note: La majorité des votants LFI-NFP soutient un droit proche de celui annoncé.
+- id: energie-climat-2025
+  sujet: Programmation nationale de l’énergie et du climat
+  scrutin:
+    legislature: 17
+    numero: 2653
+    date: '2025-06-24'
+    intitule: l'ensemble de la proposition de loi portant programmation nationale pour l'énergie et le climat pour
+      les années 2025 à 2035 (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/2653
+  mesures:
+  - RN24-062
+  - LFI-13.03-01
+  - LFI-13.03-04
+  groupes:
+    rn:
+      pour: 122
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 71
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le vote favorable au texte global ne vérifie pas à lui seul la relance nucléaire précise annoncée.
+    lfi:
+      statut: nuance
+      note: Le refus du texte global ne distingue pas les dispositions nucléaires de celles sur les renouvelables.
+- id: agriculture-duplomb-2025
+  sujet: Loi dite Duplomb, texte de commission mixte paritaire
+  scrutin:
+    legislature: 17
+    numero: 2957
+    date: '2025-07-08'
+    intitule: l'ensemble de la proposition de loi visant à lever les contraintes à l'exercice du métier d'agriculteur
+      (texte de la commission mixte paritaire).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/2957
+  mesures:
+  - RN24-072
+  - LFI-13.05-01
+  groupes:
+    rn:
+      pour: 119
+      contre: 0
+      abstention: 2
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 71
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien au texte global ne démontre pas la réalisation de prix rémunérateurs.
+    lfi:
+      statut: nuance
+      note: Le refus du texte global est compatible avec une autre orientation agricole, sans isoler un article
+        précis.
+- id: budget-2026-premiere-partie
+  sujet: Première partie du budget de l’État pour 2026
+  scrutin:
+    legislature: 17
+    numero: 4241
+    date: '2025-11-21'
+    intitule: la première partie du projet de loi de finances pour 2026 (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4241
+  mesures:
+  - RNCB26-52
+  - LFI-06.05-03
+  groupes:
+    rn:
+      pour: 0
+      contre: 117
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 71
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le refus du volet recettes est compatible avec son contre-budget, sans prouver le sort de chaque mesure.
+    lfi:
+      statut: nuance
+      note: Le refus du volet recettes ne dit pas quels impôts précis le groupe conteste.
+- id: securite-sociale-2026-nouvelle
+  sujet: Financement de la Sécurité sociale pour 2026, nouvelle lecture
+  scrutin:
+    legislature: 17
+    numero: 4696
+    date: '2025-12-09'
+    intitule: l'ensemble du projet de loi de financement de la sécurité sociale pour 2026 (nouvelle lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4696
+  mesures:
+  - RNCB26-74
+  - LFI-08.08-02
+  groupes:
+    rn:
+      pour: 0
+      contre: 123
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 71
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le vote contre l’ensemble ne vaut pas vote sur l’indexation des retraites du contre-budget.
+    lfi:
+      statut: nuance
+      note: Le vote contre l’ensemble ne vaut pas vote sur le minimum de pension annoncé.
+- id: securite-sociale-2026-definitive
+  sujet: Financement de la Sécurité sociale pour 2026, lecture définitive
+  scrutin:
+    legislature: 17
+    numero: 4758
+    date: '2025-12-16'
+    intitule: l'ensemble du projet de loi de financement de la sécurité sociale pour 2026 (lecture définitive).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4758
+  mesures:
+  - RNCB26-74
+  - LFI-08.08-02
+  groupes:
+    rn:
+      pour: 0
+      contre: 123
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 69
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le refus en lecture définitive porte sur un texte global et non sur une seule prestation.
+    lfi:
+      statut: nuance
+      note: Le refus en lecture définitive porte sur un texte global et non sur une seule pension.
+- id: budget-2026-censure-gauche
+  sujet: Motion de censure sur le budget 2026 déposée par la gauche
+  scrutin:
+    legislature: 17
+    numero: 5154
+    date: '2026-01-23'
+    intitule: la motion de censure déposée en application de l'article 49, alinéa 3, de la Constitution par Mme
+      Mathilde Panot, Mme Cyrielle Chatelain, M. Stéphane Peu et 108 députés.
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/5154
+  mesures:
+  - RNCB26-52
+  - LFI-06.05-03
+  groupes:
+    rn:
+      pour: 122
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 71
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien à la censure ne vaut pas adoption de son contre-budget.
+    lfi:
+      statut: nuance
+      note: Le soutien à la censure ne vaut pas adoption de son programme fiscal.
+- id: budget-2026-censure-rn
+  sujet: Motion de censure sur le budget 2026 déposée par le RN et ses alliés
+  scrutin:
+    legislature: 17
+    numero: 5155
+    date: '2026-01-23'
+    intitule: la motion de censure déposée en application de l'article 49, alinéa 3, de la Constitution par Mme
+      Marine Le Pen, M. Éric CIotti et 102 députés.
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/5155
+  mesures:
+  - RNCB26-52
+  - LFI-06.05-03
+  groupes:
+    rn:
+      pour: 122
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien à sa motion traduit un refus du budget gouvernemental, sans valider son contre-budget.
+    lfi:
+      statut: nuance
+      note: Aucun vote LFI-NFP n’est décompté sur cette motion ; cela ne renseigne pas son choix sur le budget lui-même.
+- id: aide-mourir-2026
+  sujet: Droit à l’aide à mourir, deuxième lecture
+  scrutin:
+    legislature: 17
+    numero: 5729
+    date: '2026-02-25'
+    intitule: l'ensemble de la proposition de loi relative au droit à l'aide à mourir (deuxième lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/5729
+  mesures:
+  - LFI-04.01-02
+  groupes:
+    rn:
+      pour: 17
+      contre: 102
+      abstention: 3
+      non_votants: 0
+    lfi:
+      pour: 62
+      contre: 1
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: sans-objet
+      note: Le corpus RN étudié ne fixe pas de position programmatique explicite sur ce droit.
+    lfi:
+      statut: coherent
+      note: La majorité des votants LFI-NFP soutient le droit à l’aide à mourir.
+- id: assurance-chomage-2026
+  sujet: Transposition d’un avenant à l’accord d’assurance chômage
+  scrutin:
+    legislature: 17
+    numero: 7260
+    date: '2026-06-02'
+    intitule: l'ensemble du projet de loi portant transposition de l'avenant n° 3 du 25 février 2026 au protocole
+      d'accord du 10 novembre 2023 relatif à l'assurance chômage (deuxième lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/7260
+  mesures:
+  - RN24-004
+  - LFI-08.05-01
+  groupes:
+    rn:
+      pour: 115
+      contre: 0
+      abstention: 0
+      non_votants: 0
+    lfi:
+      pour: 0
+      contre: 63
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien à cet avenant ne permet pas de juger l’annulation promise de la réforme de juillet 2024.
+    lfi:
+      statut: nuance
+      note: Le refus du texte est compatible avec une assurance chômage plus protectrice, sans trancher le dispositif
+        exact.
+- id: retraites-agricoles-2026
+  sujet: Revalorisation des pensions agricoles
+  scrutin:
+    legislature: 17
+    numero: 7324
+    date: '2026-06-04'
+    intitule: l'ensemble de la proposition de loi portant plusieurs mesures de justice en faveur de la revalorisation
+      des pensions de retraites agricoles (première lecture).
+    url: https://www.assemblee-nationale.fr/dyn/17/scrutins/7324
+  mesures:
+  - RN24-058
+  - LFI-13.05-03
+  groupes:
+    rn:
+      pour: 20
+      contre: 0
+      abstention: 0
+      non_votants: 1
+    lfi:
+      pour: 18
+      contre: 0
+      abstention: 0
+      non_votants: 0
+  coherence:
+    rn:
+      statut: nuance
+      note: Le soutien est compatible avec une réforme des retraites tenant compte de la pénibilité, sans engagement
+        agricole spécifique identifié.
+    lfi:
+      statut: coherent
+      note: Le soutien au texte va dans le sens d’une réforme des retraites agricoles annoncée.

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block head %}<script type="module" src="static/js/simulateur-ui.js"></script>{% endblock %}
+{% block content %}
+<p class="lede">Estimation indicative pour un foyer type, limitée aux mesures dont les paramètres sont publiés. Les hypothèses et les mesures exclues apparaissent avec le résultat.</p>
+<form id="simulateur-form" class="sim-form">
+  <fieldset><legend>Votre foyer</legend><div class="form-grid">
+    <label>Situation <select name="couple"><option value="non">Personne seule</option><option value="oui">Couple</option></select></label>
+    <label>Âge <input name="age" type="number" min="16" max="120" step="1" required></label>
+    <label>Statut <select name="statut"><option value="salarie_prive">Salarié du privé</option><option value="fonctionnaire">Fonctionnaire</option><option value="independant">Indépendant</option><option value="demandeur_emploi">Demandeur d'emploi</option><option value="retraite">Retraité</option><option value="etudiant">Étudiant</option></select></label>
+    <label>Votre revenu mensuel (€) <input name="revenu" type="number" min="0" step="0.01" inputmode="decimal" required></label>
+    <label>Type de revenu <select name="type_revenu"><option value="net">Net</option><option value="brut">Brut</option></select></label>
+    <label>Revenu net mensuel du conjoint (€) <input name="revenu_conjoint" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
+    <label>Âges des enfants (séparés par des virgules) <input name="enfants" type="text" inputmode="numeric" placeholder="Ex. 7, 12" aria-describedby="ages-help"><small id="ages-help">Laisser vide si aucun enfant.</small></label>
+    <label>Logement <select name="logement"><option value="locataire">Locataire</option><option value="proprietaire">Propriétaire</option><option value="autre">Autre</option></select></label>
+    <label>APL actuelle par mois (€) <input name="apl_actuelle" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
+    <label>Dépenses mensuelles d'énergie TTC (€) <input name="energie_mensuelle" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
+    <label>Dépenses mensuelles de carburant TTC (€) <input name="carburant_mensuel" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
+    <label>Chauffage <select name="chauffage"><option value="autre">Autre ou non précisé</option><option value="electricite">Électricité</option></select></label>
+    <label>Heures de travail par semaine <input name="temps_travail_heures" type="number" min="0" max="80" step="0.5" value="35" inputmode="decimal"></label>
+  </div></fieldset>
+  <button type="submit">Estimer</button>
+</form>
+<section id="simulateur-resultat" class="sim-result" aria-live="polite" aria-label="Résultats du simulateur"><h2>Résultat</h2><p>Renseignez le formulaire pour lancer l'estimation.</p></section>
+{% endblock %}

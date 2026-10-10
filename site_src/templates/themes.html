@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="lede">Les mêmes thèmes sont présentés pour les deux partis. Chaque renvoi mène au texte de la mesure.</p>
+{% if missing %}<p class="empty">En préparation.</p>{% endif %}
+<nav class="topic-index" aria-label="Liste des thèmes">{% for row in rows %}<a href="#{{ row.id }}">{{ row.label }}</a>{% endfor %}</nav>
+{% for row in rows %}
+<section class="topic" id="{{ row.id }}"><h2>{{ row.label }}</h2><div class="comparison">
+  {% for party in ['rn', 'lfi'] %}<div class="party-panel" data-party="{{ party }}"><h3>{{ 'Rassemblement national' if party == 'rn' else 'La France insoumise' }}</h3>
+    {% if row.fallback %}{% if row[party] %}<ul class="compact-measures">{% for m in row[party] %}<li><a href="{{ m.href }}" title="{{ m.text }}">{{ m.id }}</a> — {{ m.text }}</li>{% endfor %}</ul>{% else %}<p>Aucune mesure relevée pour ce thème.</p>{% endif %}
+    {% else %}<div class="prose">{{ row[party]|safe if row[party] else 'En préparation.' }}</div>{% endif %}
+  </div>{% endfor %}
+</div></section>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+{% if not entries %}<p class="empty">En préparation.</p>{% endif %}
+{% for item in entries %}<article class="card research-entry" id="{{ item.id }}">
+  <p class="eyebrow">{{ item.id }}</p>
+  {% if kind == 'vote' %}
+    <h2>{{ item.sujet }}</h2>{% if item.scrutin %}<p>{{ item.scrutin.intitule }} · {{ item.scrutin.date }} · <a href="{{ item.scrutin.url }}">Scrutin officiel ↗</a></p>{% endif %}
+    {% if item.groupes %}<div class="comparison">{% for party in ['rn', 'lfi'] %}<div class="party-panel"><h3>{{ 'Rassemblement national' if party == 'rn' else 'La France insoumise' }}</h3>{% set result = item.groupes.get(party, {}) %}<p>Pour : {{ result.pour|default('—') }} · Contre : {{ result.contre|default('—') }} · Abstentions : {{ result.abstention|default('—') }} · Non-votants : {{ result.non_votants|default('—') }}</p>{% if item.coherence and item.coherence.get(party) %}<p>{{ item.coherence[party].statut }}</p><div class="prose small">{{ item.coherence_html[party]|safe }}</div>{% endif %}</div>{% endfor %}</div>{% endif %}
+  {% elif kind == 'eval' %}
+    <h2>{{ item.titre }}</h2><p>{{ item.auteur }}{% if item.date %} · {{ item.date }}{% endif %}{% if item.type %} · {{ item.type }}{% endif %} · <a href="{{ item.url }}">Évaluation source ↗</a></p>{% if item.perimetre_html %}<div class="prose">{{ item.perimetre_html|safe }}</div>{% endif %}{% if item.conclusions_html %}<div class="prose">{{ item.conclusions_html|safe }}</div>{% endif %}
+  {% else %}
+    <h2>{{ item.sujet }}</h2><p>{{ item.personne }}{% if item.media %} · {{ item.media }}{% endif %}{% if item.date %} · {{ item.date }}{% endif %} · <a href="{{ item.url }}">Déclaration source ↗</a></p>{% if item.citation %}<blockquote>{{ item.citation }}</blockquote>{% endif %}{% if item.rapport_au_programme %}<p>Rapport au programme : {{ item.rapport_au_programme }}</p>{% endif %}{% if item.note_html %}<div class="prose">{{ item.note_html|safe }}</div>{% endif %}
+  {% endif %}
+  {% if item.mesures %}<p class="related">Mesures liées : {% for id in item.mesures %}{% if id in measures %}<a href="{{ measures[id].href }}" title="{{ measures[id].text }}">{{ id }}</a>{% else %}<span>{{ id }}</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+  {% if item.verifie is defined and not item.verifie %}<p class="unverified">Non vérifié{% if item.note_verification %} : {{ item.note_verification }}{% endif %}</p>{% endif %}
+</article>{% endfor %}
+{% endblock %}

@@ -1,0 +1,2 @@
+{% extends "base.html" %}
+{% block content %}{% if analyses %}<p class="lede">Analyses par facteur, selon les mêmes questions pour les deux partis.</p><ol class="article-list">{% for article in analyses %}<li><a href="analyses/{{ article.slug }}.html">{{ article.title }}</a></li>{% endfor %}</ol>{% else %}<p class="empty">En préparation.</p>{% endif %}{% endblock %}

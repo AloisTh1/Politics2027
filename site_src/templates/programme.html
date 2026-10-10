@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="lede">Mesures citées mot pour mot, classées par document et par page. Les résumés décrivent le contenu de chaque page.</p>
+<div class="filters" role="search" aria-label="Filtrer les mesures">
+  <label for="measure-search">Rechercher dans les mesures</label><input id="measure-search" type="search" autocomplete="off" placeholder="Texte ou identifiant" data-filter-search="measure">
+  <label for="theme-filter">Thème</label><select id="theme-filter" data-filter-theme="measure"><option value="">Tous les thèmes</option>{% for theme in themes %}<option value="{{ theme }}">{{ theme|replace('-', ' ')|capitalize }}</option>{% endfor %}</select>
+  <p class="filter-status" role="status" aria-live="polite" data-filter-status="measure"></p>
+</div>
+<div class="document-index" aria-label="Documents du corpus">{% for doc in docs %}<a href="#doc-{{ doc.id }}">{{ doc.title }}</a>{% endfor %}</div>
+{% for doc in docs %}
+<section class="document" id="doc-{{ doc.id }}" aria-labelledby="heading-{{ doc.id }}">
+  <div class="document-head"><p class="eyebrow">Document {{ loop.index }}</p><h2 id="heading-{{ doc.id }}">{{ doc.title }}</h2><p>{{ doc.count }} mesure{% if doc.count != 1 %}s{% endif %} relevée{% if doc.count != 1 %}s{% endif %} · <a href="{{ doc.source_url }}">Document source</a></p></div>
+  {% for page in doc.pages %}
+  <section class="source-page" id="page-{{ doc.id }}-{{ page.n }}" data-page-group>
+    <h3>Page {{ page.n }}{% if page.ref %} · {{ page.ref }}{% endif %}</h3>
+    {% if page.title %}<p class="page-title">{{ page.title }}</p>{% endif %}
+    {% if page.summary %}<p class="page-summary">{{ page.summary }}</p>{% endif %}
+    {% if page.source_url %}<p class="source-line"><a href="{{ page.source_url }}">Ouvrir la source de cette page ↗</a></p>{% endif %}
+    {% for m in page.measures %}
+    <article class="measure" id="{{ m.id }}" data-filter-item="measure" data-themes="{{ m.themes|join(' ') }}" data-search="{{ (m.id ~ ' ' ~ m.text ~ ' ' ~ m.themes|join(' '))|lower }}">
+      <div class="measure-meta"><a class="id-link" href="#{{ m.id }}">{{ m.id }}</a><span>Page {{ m.page }}</span>{% for theme in m.themes %}<span class="theme-tag">{{ theme|replace('-', ' ') }}</span>{% endfor %}</div>
+      <blockquote>{{ m.text }}</blockquote>
+      {% if m.source_url %}<a class="source-line" href="{{ m.source_url }}">Texte source ↗</a>{% else %}<span class="unverified">Source en ligne indisponible</span>{% endif %}
+    </article>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

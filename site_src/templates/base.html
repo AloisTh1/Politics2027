@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if root_prefix %}<base href="{{ root_prefix }}">{% endif %}
+  <meta name="description" content="Au crible 2027 : comparaison sourcée des programmes du RN et de LFI.">
+  <title>{{ title }} · Au crible 2027</title>
+  <link rel="stylesheet" href="static/css/site.css">
+  <script src="static/js/site.js" defer></script>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="wrap masthead"><a class="brand" href="index.html">Au crible <span>2027</span></a><span class="edition">État des sources au 10 octobre 2026</span></div>
+    <nav class="site-nav wrap" aria-label="Navigation principale">
+      {% for href, label in nav %}<a href="{{ href }}" {% if current == href %}aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}
+      <a href="avertissements.html" {% if current == 'avertissements.html' %}aria-current="page"{% endif %}>Avertissements</a>
+    </nav>
+  </header>
+  <main id="contenu" class="wrap">
+    <div class="page-heading"><p class="eyebrow">Au crible 2027</p><h1>{{ title }}</h1></div>
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer"><div class="wrap"><strong>À lire avant de comparer.</strong> Les programmes présidentiels 2027 ne sont pas définitifs ; les corpus et leurs dates diffèrent. Les scores et le simulateur reposent sur des hypothèses explicites. <a href="avertissements.html">Voir les avertissements</a> et <a href="methode.html">la méthode</a>.</div></footer>
+</body>
+</html>

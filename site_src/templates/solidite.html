@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block head %}<script src="static/js/solidite.js" defer></script>{% endblock %}
+{% block content %}
+<p class="lede">Sept critères notés de 0 à 5. Modifiez leur poids pour voir l'effet sur le score de chaque programme.</p>
+{% if not criteria %}<p class="empty">En préparation.</p>{% else %}
+<div class="scoreboard" role="status" aria-live="polite"><p>Rassemblement national <strong id="score-rn">—</strong> / 5</p><p>La France insoumise <strong id="score-lfi">—</strong> / 5</p></div>
+<div class="table-scroll"><table class="score-table"><caption>Notes, justifications et poids des critères</caption><thead><tr><th scope="col">Critère</th><th scope="col">Poids</th><th scope="col">RN</th><th scope="col">LFI</th></tr></thead><tbody>
+{% for criterion in criteria %}{% set rn = notes.get('rn', {}).get(criterion.id, {}) %}{% set lfi = notes.get('lfi', {}).get(criterion.id, {}) %}
+<tr data-score-row data-rn="{{ rn.note if rn.note is defined else '' }}" data-lfi="{{ lfi.note if lfi.note is defined else '' }}"><th scope="row">{{ criterion.libelle }}{% if criterion.description %}<small>{{ criterion.description }}</small>{% endif %}</th><td><label class="sr-only" for="weight-{{ criterion.id }}">Poids de {{ criterion.libelle }}</label><input id="weight-{{ criterion.id }}" type="range" min="0" max="5" step="1" value="1" data-weight><output for="weight-{{ criterion.id }}">1</output></td><td><strong>{{ rn.note if rn.note is defined else '—' }}</strong><div class="prose small">{{ rn.justification_html|safe if rn.justification_html is defined else 'Note en préparation.' }}</div></td><td><strong>{{ lfi.note if lfi.note is defined else '—' }}</strong><div class="prose small">{{ lfi.justification_html|safe if lfi.justification_html is defined else 'Note en préparation.' }}</div></td></tr>
+{% endfor %}</tbody></table></div>
+{% endif %}
+{% endblock %}
