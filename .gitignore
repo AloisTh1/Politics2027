@@ -1,0 +1,7 @@
+# Copies locales des documents sources (re-téléchargeables, voir sources/manifest.json)
+sources/raw/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store

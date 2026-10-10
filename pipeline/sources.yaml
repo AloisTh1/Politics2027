@@ -1,0 +1,32 @@
+# Corpus des documents programmatiques analysés.
+# Chaque entrée est téléchargée par pipeline/fetch.py (copie locale + empreinte SHA-256)
+# puis découpée page par page (PDF) ou section par section (pages web) par pipeline/extract.py.
+#
+# kind: pdf | html | crawl (crawl = toutes les pages web sous `scope`)
+# role: programme (texte programmatique principal) | complement (document officiel du parti
+#       qui précise ou chiffre le programme) | contexte (document utile mais non programmatique)
+
+documents:
+  # ------------------------------------------------------------------ LFI
+  - id: lfi-aec-2025
+    party: lfi
+    role: programme
+    title: "L'Avenir en commun — édition 2025 (version en ligne)"
+    publisher: "La France insoumise / campagne Mélenchon 2027"
+    kind: crawl
+    url: https://melenchon2027.fr/programme2025/livre/
+    scope: https://melenchon2027.fr/programme2025/livre/
+    note: >-
+      Version en ligne mise à jour en avril 2025. Une 5e édition (livre, La Dispute) est
+      annoncée pour les 6-7 novembre 2026 : elle remplacera celle-ci dans le corpus.
+
+  # ------------------------------------------------------------------ RN
+  # Le RN n'a pas publié de programme présidentiel complet au 10 octobre 2026.
+  # Le corpus rassemble ses documents programmatiques officiels les plus récents.
+  - id: rn-contre-budget-2027
+    party: rn
+    role: complement
+    title: "Contre-budget 2027 (présenté le 6 octobre 2026)"
+    publisher: "Rassemblement national"
+    kind: pdf
+    url: null  # à identifier sur rassemblementnational.fr
