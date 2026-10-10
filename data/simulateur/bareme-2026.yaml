@@ -1,0 +1,234 @@
+# Barème de la législation en vigueur au 10 octobre 2026, pour le simulateur d'impact personnel.
+# Montants mensuels sauf mention contraire. Chaque groupe porte son URL de source (champ `url`),
+# la date de dernière vérification (`verifie_le`) et un `statut` :
+#   officiel             valeur relue sur la page officielle citée ;
+#   openfisca            valeur relue seulement dans OpenFisca-France 176.1.2 (page officielle illisible
+#                        par outil automatique), URL officielle donnée à titre de référence ;
+#   derniere-valeur      aucun paramètre 2026 publié : dernière valeur connue, signalée comme telle ;
+#   simplifie            règle réelle plus riche que la règle codée (voir `note`).
+date_reference: 2026-10-10
+champ: "France métropolitaine, cas général ; montants mensuels sauf mention contraire"
+smic:
+  statut: officiel
+  verifie_le: 2026-10-10
+  horaire_brut: 12.31
+  mensuel_brut: 1867.02
+  mensuel_net_indicatif: 1477.93
+  heures_mensuelles: 151.67
+  note: "La fiche Service-Public cite l'arrêté du 22 mai 2026 (relèvement en cours d'année) sans date d'effet affichée."
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2300
+cotisations:
+  plafond_mensuel_securite_sociale: 4005
+  prive:
+    statut: officiel
+    verifie_le: 2026-10-10
+    vieillesse_plafonnee: 0.069
+    vieillesse_deplafonnee: 0.004
+    agirc_arrco_t1: 0.0315
+    agirc_arrco_t2: 0.0864
+    ceg_t1: 0.0086
+    ceg_t2: 0.0108
+    cet: 0.0014
+    cet_seuil: 4005
+    csg_deductible: 0.068
+    csg_non_deductible: 0.024
+    crds: 0.005
+    assiette_csg: 0.9825
+    note: "Salarié du secteur privé non cadre ou cadre, régime général ; chômage salarié supprimé, cotisation Apec (0,024 %) et prévoyance/mutuelle négligées."
+    url: https://entreprendre.service-public.gouv.fr/vosdroits/F2302
+  fonctionnaire:
+    statut: officiel
+    verifie_le: 2026-10-10
+    pension_civile: 0.111
+    rafp_primes: 0.05
+    rafp_plafond_part_traitement: 0.2
+    csg_deductible: 0.068
+    csg_non_deductible: 0.024
+    crds: 0.005
+    assiette_csg: 0.9825
+    note: "Contribution exceptionnelle de solidarité (1 %) et indemnité compensatrice de CSG non modélisées."
+    url: https://www.service-public.gouv.fr/particuliers/vosdroits/F468
+  micro_entrepreneur:
+    statut: officiel
+    verifie_le: 2026-10-10
+    vente: 0.123
+    services_bic: 0.212
+    liberal_bnc: 0.256
+    cipav: 0.232
+    abattement_vente: 0.71
+    abattement_services_bic: 0.50
+    abattement_liberal_bnc: 0.34
+    abattement_cipav: 0.34
+    note: "Taux globaux micro-sociaux sur le chiffre d'affaires (CSG/CRDS incluses), hors Acre et contribution à la formation professionnelle. Impôt à l'abattement forfaitaire du micro-BIC/BNC, sans versement libératoire. Un indépendant au réel n'est pas calculable avec les entrées prévues."
+    url: https://entreprendre.service-public.gouv.fr/vosdroits/F37353
+  retraite:
+    statut: officiel
+    verifie_le: 2026-10-10
+    csg_taux_plein: 0.083
+    csg_taux_median: 0.066
+    csg_taux_reduit: 0.038
+    csg_deductible_plein: 0.059
+    csg_deductible_median: 0.042
+    csg_deductible_reduit: 0.038
+    crds: 0.005
+    casa: 0.003
+    seuil_rfr_zero: 13048
+    seuil_rfr_reduit: 17057
+    seuil_rfr_median: 26472
+    demi_part_rfr_zero: 3484
+    demi_part_rfr_reduit: 4555
+    demi_part_rfr_median: 7066
+    note: "Le taux dépend du revenu fiscal de référence de l'année N-2 ; le simulateur l'approche par le revenu imposable courant (réglable)."
+    url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2971
+  chomage:
+    statut: officiel
+    verifie_le: 2026-10-10
+    csg_deductible: 0.038
+    csg_non_deductible: 0.024
+    crds: 0.005
+    assiette_csg: 0.9825
+    note: "Allocation de retour à l'emploi : le montant saisi est l'allocation nette versée ; la base imposable est reconstituée avec la CSG et la CRDS, sans la cotisation de retraite complémentaire ni le taux réduit de CSG des allocations faibles."
+    url: https://www.cleiss.fr/docs/cotisations/france.html
+impot_revenu:
+  statut: officiel
+  verifie_le: 2026-10-10
+  annee_imposition: 2026
+  revenus: 2025
+  note: "Dernier barème publié au 10 octobre 2026 (revenus 2025). Utilisé comme proxy pour douze mois de revenu constant en 2026 : le barème des revenus 2026 ne sera connu qu'avec la loi de finances pour 2027."
+  tranches:
+    - {seuil: 0, taux: 0}
+    - {seuil: 11600, taux: 0.11}
+    - {seuil: 29579, taux: 0.30}
+    - {seuil: 84577, taux: 0.41}
+    - {seuil: 181917, taux: 0.45}
+  plafond_demi_part: 1807
+  plafond_parent_isole: 4262
+  decote: {seul: 897, couple: 1483, coefficient: 0.4525}
+  seuil_recouvrement: 61
+  abattement_salaires: {taux: 0.10, minimum: 509, maximum: 14555}
+  abattement_pensions: {taux: 0.10, minimum: 454, maximum: 4439}
+  abattement_pensions_note: "Minimum de 454 € relevé seulement dans OpenFisca-France ; maximum de 4 439 € commun au foyer."
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1419
+  url_bareme: https://bofip.impots.gouv.fr/bofip/2491-PGP.html/identifiant=BOI-IR-LIQ-20-10-20260407
+  url_quotient: https://bofip.impots.gouv.fr/bofip/2494-PGP.html/identifiant=BOI-IR-LIQ-20-20-20-20260407
+  url_decote: https://bofip.impots.gouv.fr/bofip/2495-PGP.html/identifiant=BOI-IR-LIQ-20-20-30-20260407
+prestations:
+  crds_prestations: 0.005
+  rsa:
+    statut: officiel
+    verifie_le: 2026-10-10
+    date: 2026-04-01
+    base: 651.69
+    couple_sans_enfant: 977.54
+    seul_un_enfant: 977.54
+    deux_personnes_a_charge: 1173.05
+    couple_deux_enfants: 1368.56
+    enfant_supplementaire: 260.68
+    majoration_isolement_base: 1.28412
+    majoration_isolement_par_enfant: 0.42804
+    forfait_logement: [0, 78.20, 156.41, 193.55]
+    age_minimum_sans_enfant: 25
+    note: "RSA non majoré, majoré pour parent isolé d'un enfant de moins de 3 ans (hypothèse : un seul parent et un enfant de moins de 3 ans). Condition de nationalité et de résidence non modélisées."
+    url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-revenu-de-solidarite-active
+  prime_activite:
+    statut: officiel
+    verifie_le: 2026-10-10
+    date: 2026-04-01
+    base: 638.28
+    part_revenus_activite: 0.5985
+    bonification_max_part_base: 0.377
+    bonification_seuil_bas_heures_smic: 59
+    bonification_seuil_haut_heures_smic: 138
+    majoration_adulte_ou_enfant_1: 0.5
+    majoration_enfant_couple_1: 0.3
+    majoration_enfant_2: 0.3
+    majoration_enfant_supplementaire: 0.4
+    forfait_logement_taux: [0.12, 0.16, 0.165]
+    seuil_versement: 15
+    apprenant_heures: 169
+    apprenant_part_smic: 0.55
+    note: "Calcul sur le mois courant (le droit réel moyenne le trimestre de référence). Bonification individuelle de chaque adulte. Étudiant ou apprenti : revenu d'activité mensuel supérieur à 169 h x 55 % du SMIC horaire brut (règle relevée dans OpenFisca-France)."
+    url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2882
+    url_bonification: https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/qui%20sommes%20nous/Textes%20de%20r%C3%A9f%C3%A9rence/Circulaires/2026/IT-%202026-080.pdf
+  allocations_familiales:
+    statut: officiel
+    verifie_le: 2026-10-10
+    date: 2026-04-01
+    enfants_2: [152.25, 76.13, 38.06]
+    enfants_3: [347.32, 173.66, 86.83]
+    enfant_supplementaire: [195.07, 97.53, 48.77]
+    plafond_2: [79980, 106604]
+    plafond_par_enfant_supplementaire: 6664
+    majoration_age: [76.13, 38.06, 19.04]
+    majoration_age_min: 15
+    age_max: 19
+    note: "Montants après CRDS (la CRDS est rétablie pour les ressources de la prime d'activité). Majoration d'âge à partir de 15 ans (14 ans pour les enfants nés avant le 1er mars 2012 : non retenu à 14 ans par prudence), sauf pour l'aîné d'une famille de deux enfants. Allocation forfaitaire des 20-21 ans, complément familial, ASF et PAJE non modélisés. Ressources N-2 approchées par le revenu imposable courant."
+    url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-allocations-familiales
+  ars:
+    statut: officiel
+    verifie_le: 2026-10-10
+    date: 2026-08-01
+    ages: {debut: 6, fin: 18}
+    montants: {age_6_10: 426.87, age_11_14: 450.41, age_15_18: 466.02}
+    plafonds: [28956, 35638, 42320, 48583]
+    plafond_par_enfant_supplementaire: 6263
+    note: "Montant annuel de la rentrée 2026 réparti sur douze mois ; scolarité supposée, ressources imposables courantes pour approcher celles de N-2. Le plafond du 5e enfant et plus est extrapolé par l'écart entre les plafonds de 3 et 4 enfants (6 263)."
+    url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-allocation-de-rentree-scolaire
+  apl:
+    statut: openfisca
+    verifie_le: 2026-10-10
+    methode: simplifiee
+    note: "Formule du secteur locatif (loyer plafonné + forfait de charges - participation personnelle), zones 1 à 3, métropole, hors colocation, chambre, logement meublé, foyer, accession, outre-mer et patrimoine. Ressources approchées par le revenu net imposable annuel courant arrondi à la centaine supérieure (étudiant de moins de 28 ans : forfait de ressources) ; abattement de double activité (95 € par an) négligé. Paramètres relus dans OpenFisca-France 176.1.2 ; la page CAF officielle n'est pas lisible par outil automatique. L'utilisateur peut saisir le montant exact qu'il perçoit."
+    plafonds_loyer:
+      zone_1: {seul: 336.97, couple: 406.40, un_enfant: 459.32, enfant_supplementaire: 66.65}
+      zone_2: {seul: 293.68, couple: 359.47, un_enfant: 404.49, enfant_supplementaire: 58.88}
+      zone_3: {seul: 275.25, couple: 333.67, un_enfant: 374.13, enfant_supplementaire: 53.62}
+    forfait_charges: {base: 61.29, par_enfant: 13.9}
+    participation_minimale: {taux: 0.085, forfait: 40.01}
+    r0: {seul: 5235, couple: 7501, enfants: [8947, 9148, 9498, 9851, 10202, 10554], enfant_supplementaire: 346}
+    taux_famille: {seul: 0.0283, couple: 0.0315, enfants: [0.027, 0.0238, 0.0201, 0.0185, 0.0179, 0.0173], enfant_supplementaire: -0.0006}
+    taux_loyer: {seuil_1: 0.45, seuil_2: 0.75, taux_2: 0.0045, taux_3: 0.0068}
+    degressivite: {zone_1: [3.4, 4.0], zone_2: [2.5, 3.1], zone_3: [2.5, 3.1]}
+    minoration_forfaitaire: 5
+    seuil_versement: 10
+    etudiant_age_max: 28
+    etudiant_forfait_ressources: 8600
+    etudiant_minoration_boursier: 1700
+    url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-aides-au-logement
+    url_texte: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039160329
+  aspa:
+    statut: officiel
+    verifie_le: 2026-10-10
+    date: 2026-01-01
+    seul: 1043.59
+    couple: 1620.18
+    age_general: 65
+    note: "Différentiel simplifié (plafond de ressources moins ressources mensuelles) ; le patrimoine, la résidence et la récupération sur succession ne sont pas modélisés. Un couple où un seul membre a 65 ans est traité comme une personne seule."
+    url: https://www.service-public.gouv.fr/particuliers/vosdroits/F16871
+tva:
+  statut: officiel
+  verifie_le: 2026-10-10
+  taux: {normal: 0.20, intermediaire: 0.10, reduit: 0.055, particulier: 0.021}
+  energie_usage: {electricite: 0.20, gaz: 0.20, fioul: 0.20, carburant: 0.20}
+  note: "Taux métropolitains appliqués à des dépenses saisies toutes taxes comprises ; la composition fiscale de la facture (accises, TURPE, TICPE) n'est pas simulée."
+  url: https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069577/LEGISCTA000006191654/
+  url_energie: https://bofip.impots.gouv.fr/bofip/14705-PGP.html/identifiant=BOI-RES-TVA-000209-20250605
+etudiants:
+  statut: officiel
+  verifie_le: 2026-10-10
+  cvec: 105
+  cvec_annee: "2026-2027"
+  note: "Contribution de vie étudiante et de campus, due chaque année par les étudiants non boursiers de l'enseignement supérieur."
+  url: https://www.etudiant.gouv.fr/fr/cvec-une-demarche-de-rentree-incontournable-955
+seuil_pauvrete:
+  statut: derniere-valeur
+  verifie_le: 2026-10-10
+  personne_seule: 1216
+  note: "Montant cité par le programme de LFI lui-même (LFI-10.03-01, page 53) ; sert uniquement à chiffrer les mesures de LFI qui s'y réfèrent."
+  url: https://melenchon2027.fr/programme2025/livre/
+consommation_deciles:
+  statut: derniere-valeur
+  verifie_le: 2026-10-10
+  valeur: null
+  note: "Aucune part moyenne de consommation taxable par décile directement transposable dans la source INSEE consultée : non imputée. Les dépenses d'énergie sont saisies par l'utilisateur."
+  url: https://www.insee.fr/fr/statistiques/8272803

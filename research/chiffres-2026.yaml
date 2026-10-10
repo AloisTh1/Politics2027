@@ -1,0 +1,154 @@
+- id: smic-horaire-2026
+  libelle: "SMIC horaire brut, juin 2026"
+  valeur: 12.31
+  unite: "€/heure"
+  source: "Service Public"
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2300
+  date: 2026-06-01
+- id: smic-mensuel-2026
+  libelle: "SMIC mensuel brut, 35 heures"
+  valeur: 1867.02
+  unite: "€/mois"
+  source: "Service Public"
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2300
+  date: 2026-06-01
+- id: smic-net-indicatif-2026
+  libelle: "SMIC mensuel net indicatif"
+  valeur: 1477.93
+  unite: "€/mois"
+  source: "Service Public"
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F2300
+  date: 2026-06-01
+- id: plafond-securite-sociale-2026
+  libelle: "Plafond mensuel de la Sécurité sociale, cotisations salariales"
+  valeur: 4005
+  unite: "€/mois"
+  source: "Service Public Entreprendre"
+  url: https://entreprendre.service-public.gouv.fr/vosdroits/F2302
+  date: 2026-01-01
+- id: vieillesse-salarie-plafonnee-2026
+  libelle: "Cotisation salariale vieillesse plafonnée"
+  valeur: 6.9
+  unite: "%"
+  source: "Service Public Entreprendre"
+  url: https://entreprendre.service-public.gouv.fr/vosdroits/F2302
+  date: 2026-01-01
+- id: csg-activite-2026
+  libelle: "CSG salaires, dont 6,8 points déductibles"
+  valeur: 9.2
+  unite: "%"
+  source: "Service Public Entreprendre"
+  url: https://entreprendre.service-public.gouv.fr/vosdroits/F2302
+  date: 2026-01-01
+- id: crds-activite-2026
+  libelle: "CRDS sur salaires"
+  valeur: 0.5
+  unite: "%"
+  source: "Service Public Entreprendre"
+  url: https://entreprendre.service-public.gouv.fr/vosdroits/F2302
+  date: 2026-01-01
+- id: pension-fonctionnaire-2026
+  libelle: "Retenue pour pension civile sur traitement indiciaire"
+  valeur: 11.1
+  unite: "%"
+  source: "Service Public"
+  url: https://www.service-public.fr/particuliers/vosdroits/F468
+  date: 2026-01-01
+- id: micro-services-bic-2026
+  libelle: "Taux micro-social prestations de services BIC"
+  valeur: 21.2
+  unite: "% du chiffre d'affaires"
+  source: "Service Public Entreprendre"
+  url: https://entreprendre.service-public.fr/vosdroits/F33339
+  date: 2026-01-01
+- id: ir-premier-seuil-2026
+  libelle: "Premier seuil d'imposition 2026 des revenus 2025"
+  valeur: 11600
+  unite: "€ par part"
+  source: "BOFiP"
+  url: https://bofip.impots.gouv.fr/bofip/2491-PGP.html/identifiant=BOI-IR-LIQ-20-10-20260407
+  date: 2026-04-07
+- id: ir-plafond-demi-part-2026
+  libelle: "Plafond général de l'avantage d'une demi-part supplémentaire"
+  valeur: 1807
+  unite: "€ d'impôt par an"
+  source: "BOFiP"
+  url: https://bofip.impots.gouv.fr/bofip/2494-PGP.html/identifiant=BOI-IR-LIQ-20-20-20-20260407
+  date: 2026-04-07
+- id: ir-decote-seul-2026
+  libelle: "Constante de décote d'une personne seule"
+  valeur: 897
+  unite: "€"
+  source: "BOFiP"
+  url: https://bofip.impots.gouv.fr/bofip/2495-PGP.html/identifiant=BOI-IR-LIQ-20-20-30-20260407
+  date: 2026-04-07
+- id: rsa-seul-2026
+  libelle: "RSA forfaitaire personne seule, avril 2026"
+  valeur: 651.69
+  unite: "€/mois"
+  source: "CAF"
+  url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-revenu-de-solidarite-active
+  date: 2026-04-01
+- id: prime-activite-forfait-2026
+  libelle: "Base forfaitaire de la prime d'activité, personne seule"
+  valeur: 638.28
+  unite: "€/mois"
+  source: "Ministère de l'Économie"
+  url: https://www.economie.gouv.fr/particuliers/vie-en-entreprise/prime-dactivite-pouvez-vous-en-beneficier
+  date: 2026-04-01
+- id: af-deux-enfants-2026
+  libelle: "Allocations familiales, deux enfants, premier niveau de ressources"
+  valeur: 152.25
+  unite: "€/mois"
+  source: "CAF"
+  url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-allocations-familiales
+  date: 2026-04-01
+- id: ars-6-10-2026
+  libelle: "Allocation de rentrée scolaire, 6 à 10 ans"
+  valeur: 426.87
+  unite: "€/an"
+  source: "CAF"
+  url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-allocation-de-rentree-scolaire
+  date: 2026-08-01
+- id: aspa-seul-2026
+  libelle: "ASPA maximale pour une personne seule"
+  valeur: 1043.59
+  unite: "€/mois"
+  source: "Ministère des Solidarités"
+  url: https://www.aidant.gouv.fr/allocation-de-solidarite-aux-personnes-agees
+  date: 2026-01-01
+- id: aspa-couple-2026
+  libelle: "ASPA maximale pour un couple"
+  valeur: 1620.18
+  unite: "€/mois"
+  source: "Ministère des Solidarités"
+  url: https://www.aidant.gouv.fr/allocation-de-solidarite-aux-personnes-agees
+  date: 2026-01-01
+- id: tva-normale-2026
+  libelle: "TVA au taux normal en métropole"
+  valeur: 20
+  unite: "%"
+  source: "Code général des impôts, article 278"
+  url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000026950057
+  date: 2026-10-10
+- id: tva-reduite-2026
+  libelle: "TVA au taux réduit en métropole"
+  valeur: 5.5
+  unite: "%"
+  source: "Code général des impôts, article 278-0 bis"
+  url: https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069577/LEGISCTA000006191654/
+  date: 2026-10-10
+- id: apl-plafond-loyer-zone2-seul-2026
+  libelle: "Plafond de loyer pour aide au logement, zone 2, personne seule"
+  valeur: 293.68
+  unite: "€/mois"
+  source: "CAF"
+  url: https://www.caf.fr/professionnels/offres-et-services/accompagnement-des-allocataires/bareme-aides-au-logement
+  date: 2026-10-01
+- id: prime-activite-bonification-max-2026
+  libelle: "Bonification individuelle maximale, en part du forfait de prime d'activité"
+  valeur: 37.7
+  unite: "%"
+  source: "CAF, instruction 2026-080"
+  url: https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/qui%20sommes%20nous/Textes%20de%20r%C3%A9f%C3%A9rence/Circulaires/2026/IT-%202026-080.pdf
+  date: 2026-04-01

@@ -1,0 +1,1070 @@
+# Mesures des programmes du RN et de LFI qui peuvent changer le revenu disponible d'un ménage.
+# Chaque mesure renvoie à une mesure de data/programmes/{rn,lfi}/*.yaml par son identifiant.
+# - statut `chiffrable` : tous les paramètres sont dans le texte cité (`source`, `autres_sources`) ;
+# - statut `parametres-manquants` : le texte ne suffit pas, `manque` dit ce qui fait défaut ;
+# - `source.citation` et `autres_sources[].citation` sont vérifiées mot pour mot contre le corpus par
+#   tools/sim_data.py, qui en déduit aussi la page et l'adresse du document ;
+# - `hypotheses` : hypothèses réglables dans l'interface (définies dans `hypotheses` ci-dessous) ;
+# - `hypotheses_fixes` : hypothèses de modélisation non réglables, affichées avec le résultat ;
+# - `concerne` : jetons de pertinence (tous, statuts, famille, couple, locataire, proprietaire,
+#   electricite, gaz, fioul, minima_sociaux, etudiant...) ; `condition_non_saisie` : condition que le
+#   formulaire ne permet pas de tester ;
+# - les doublons entre documents ou millésimes ne s'additionnent pas : ils sont rangés dans
+#   `autres_sources` de la mesure principale.
+date_reference: 2026-10-10
+note: >-
+  Une mesure n'est chiffrée que si ses paramètres figurent dans le texte cité et si les entrées
+  nécessaires existent. Aucun paramètre n'est inventé : toute hypothèse est visible et, quand
+  c'est possible, réglable.
+hypotheses_generales:
+- Les revenus, la composition du foyer et les dépenses saisis sont supposés constants sur douze mois ; le barème
+  de l'impôt sur le revenu 2026 (revenus 2025) sert de proxy pour les revenus 2026.
+- Le foyer est supposé de nationalité française, résidant en France métropolitaine ; un couple est marié ou pacsé
+  et imposé en commun, sauf indication contraire.
+- Les droits aux prestations sont les droits théoriques maximaux (pas de non-recours). Les ressources de l'année
+  N-2 prises en compte par la CAF sont approchées par le revenu imposable courant.
+- 'Les dépenses d''énergie et de carburant sont saisies toutes taxes comprises et restent identiques en volume :
+  seul le prix change.'
+- Seuls les effets directs sur le budget du foyer sont chiffrés. Le financement des mesures (impôts nouveaux, économies)
+  et les effets sur l'emploi, les prix ou la croissance ne sont pas simulés.
+- Une mesure n'est chiffrée que si le texte cité donne ses paramètres ; les autres sont listées avec ce qui manque.
+  Les deux programmes sont traités avec les mêmes règles.
+hypotheses:
+  repercussion_tva:
+    libelle: Part de la baisse de TVA répercutée sur les prix
+    aide: '100 % : les prix baissent de tout l''écart de TVA. En dessous, une partie reste dans les marges.'
+    type: pourcentage
+    defaut: 1
+    min: 0
+    max: 1
+    pas: 0.05
+    mesures:
+    - RNEU-14
+  baisse_electricite:
+    libelle: Baisse du prix de l'électricité
+    aide: 30 % dans le livret entreprises, 30 à 40 % de la facture dans le programme des européennes.
+    type: pourcentage
+    defaut: 0.3
+    min: 0.3
+    max: 0.4
+    pas: 0.01
+    mesures:
+    - RNENT-01
+  part_facture_electricite:
+    libelle: Part de la facture d'électricité concernée par la baisse
+    aide: '100 % : toute la facture TTC. Réduire si la baisse ne porte que sur la part énergie, hors taxes et acheminement.'
+    type: pourcentage
+    defaut: 1
+    min: 0
+    max: 1
+    pas: 0.05
+    mesures:
+    - RNENT-01
+  part_primes_fonctionnaire:
+    libelle: Part des primes dans la rémunération brute d'un fonctionnaire
+    aide: '0 % : tout le brut est du traitement indiciaire. Les primes (RAFP à 5 %) ne sont pas revalorisées par
+      le point d''indice.'
+    type: pourcentage
+    defaut: 0
+    min: 0
+    max: 0.6
+    pas: 0.05
+    mesures:
+    - LFI-09.01-04
+    modele: true
+  age_max_jeunes:
+    libelle: Âge limite des jeunes visés par la garantie d'autonomie
+    aide: Le texte dit « jeunes » sans âge. 25 ans par défaut, comme pour la conscription citoyenne du même programme.
+    type: nombre
+    unite: ans
+    defaut: 25
+    min: 18
+    max: 30
+    pas: 1
+    mesures:
+    - LFI-10.03-01
+  csg_retraite:
+    libelle: Taux de CSG sur les pensions de retraite
+    aide: '« Automatique » : déduit du revenu imposable courant, faute du revenu fiscal de référence de l''année
+      N-2.'
+    type: choix
+    choix:
+    - - auto
+      - Automatique
+    - - plein
+      - Taux plein (8,3 %)
+    - - median
+      - Taux médian (6,6 %)
+    - - reduit
+      - Taux réduit (3,8 %)
+    - - exonere
+      - Exonéré
+    defaut: auto
+    modele: true
+  activite_micro:
+    libelle: Activité de l'indépendant (micro-entrepreneur)
+    aide: Détermine le taux de cotisations et l'abattement fiscal.
+    type: choix
+    choix:
+    - - services_bic
+      - Prestations de services BIC ou artisan (21,2 %)
+    - - vente
+      - Vente de marchandises (12,3 %)
+    - - liberal_bnc
+      - Profession libérale non réglementée (25,6 %)
+    - - cipav
+      - Profession libérale Cipav (23,2 %)
+    defaut: services_bic
+    modele: true
+  parent_isole:
+    libelle: Parent seul élevant seul ses enfants (case T)
+    aide: Ouvre une demi-part fiscale supplémentaire pour un parent seul. À décocher en cas de garde alternée.
+    type: booleen
+    defaut: true
+    modele: true
+mesures:
+- id: RN24-055
+  parti: rn
+  libelle: Incitation à une hausse de salaire de 10 %
+  statut: parametres-manquants
+  parametres:
+    hausse_envisagee: 0.1
+    plafond_smic: 3
+    duree_annees: 3 à 5
+  manque: La hausse est une décision de l'employeur ; aucune probabilité ni obligation de hausse.
+  concerne:
+  - salarie_prive
+  source:
+    citation: permettre aux entreprises d'augmenter les salaires de 10 % jusqu'à trois fois le SMIC
+  autres_sources:
+  - id: RN22-16
+    citation: Permettre aux entreprises une hausse des salaires de 10% (jusqu'à 3 smic) en exonérant cette augmentation
+      de cotisations patronales
+  - id: RNENT-11
+    citation: Permettre aux entreprises d'augmenter les salaires de 10 % en les exonérant de l'augmentation des
+      cotisations sociales pendant trois à cinq ans
+- id: RN24-026
+  parti: rn
+  libelle: Conditions de nationalité et de travail pour allocations et RSA
+  statut: parametres-manquants
+  manque: Nationalité du foyer, historique de travail et périmètre précis des prestations non contributives absents
+    des entrées obligatoires.
+  concerne:
+  - famille
+  - minima_sociaux
+  condition_non_saisie: 'Concerne les foyers dont aucun parent n''est français ou sans cinq années de travail :
+    nationalité et historique non saisis.'
+  source:
+    citation: Réserver les allocations familiales aux Français et conditionner à 5 années de travail en France l'accès
+      aux prestations sociales non-contributives
+  autres_sources:
+  - id: RNENT-18
+    citation: Les prestations familiales seront réservées aux familles dont au moins un parent est français
+  - id: RNFAM-01
+    citation: toutes les allocations et primes de politique familiale seront réservées, exclusivement, aux familles
+      dont au moins l'un des deux parents est Français
+  - id: RNIMM-07
+    citation: Les prestations de solidarité qui ne relèvent pas d'un régime d'assurance seront soit réservées aux
+      Français
+  - id: RNCB25-45
+    citation: Réserver la prime d'activité aux personnes de nationalité française
+- id: RN24-058
+  parti: rn
+  libelle: Réforme de l'âge et de la durée de retraite
+  statut: parametres-manquants
+  manque: Historique de carrière et montant de pension contrefactuel absents.
+  concerne:
+  - retraite
+  - salarie_prive
+  - fonctionnaire
+  - independant
+  source:
+    citation: Abroger la réforme des retraites de Macron et mettre en place un système de retraites progressif
+- id: RN24-059
+  parti: rn
+  libelle: Suspension de TVA sur cent produits essentiels
+  statut: parametres-manquants
+  manque: Liste des produits, dépense correspondante et condition de forte inflation non définies.
+  concerne:
+  - tous
+  source:
+    citation: suspension de la TVA sur une centaine de produits de première nécessité
+  autres_sources:
+  - id: RNCB25-10
+    citation: Baisser la TVA sur les produits de premières nécessités
+  - id: RNCB26-43
+    citation: Suppression TVA 100 produits premières nécessité
+- id: RN24-071
+  parti: rn
+  libelle: Demi-part des veuves et veufs
+  statut: parametres-manquants
+  manque: La seule situation couple/seul ne distingue pas veuvage ni les demi-parts déjà accordées selon les cas.
+  concerne:
+  - retraite
+  condition_non_saisie: 'Concerne les veuves et veufs : le formulaire ne distingue pas le veuvage.'
+  source:
+    citation: Rétablir la demi-part fiscale des veuf et veuves
+- id: RN22-22
+  parti: rn
+  libelle: Minimum vieillesse à 1 000 euros
+  statut: parametres-manquants
+  parametres:
+    objectif_mensuel_2022: 1000
+  manque: Objectif 2022 déjà inférieur à l'ASPA seule de 2026 ; révision du montant non publiée.
+  concerne:
+  - retraite
+  source:
+    citation: Revaloriser le minimum vieillesse à 1 000 € par mois
+- id: LFI-06.05-01
+  parti: lfi
+  libelle: IR à 14 tranches
+  statut: parametres-manquants
+  manque: Seuils et taux des 14 tranches absents.
+  concerne:
+  - tous
+  source:
+    citation: Rendre l’impôt sur le revenu plus progressif avec un barème à 14 tranches
+- id: LFI-06.05-06
+  parti: lfi
+  libelle: CSG à 14 tranches
+  statut: parametres-manquants
+  manque: Seuils et taux absents.
+  concerne:
+  - tous
+  source:
+    citation: Rendre la CSG progressive avec 14 tranches
+  autres_sources:
+  - id: NFP-71
+    citation: Rendre la CSG progressive
+- id: LFI-06.05-08
+  parti: lfi
+  libelle: TVA réduite sur les produits essentiels et TVA grand luxe
+  statut: parametres-manquants
+  manque: Produits, taux et dépenses par catégorie non spécifiés.
+  concerne:
+  - tous
+  source:
+    citation: Réduire la TVA sur les produits de première nécessité
+- id: LFI-06.05-14
+  parti: lfi
+  libelle: Fin des quotients conjugal et familial
+  statut: parametres-manquants
+  manque: Montant du crédit d'impôt par enfant et règles d'imposition séparée absents.
+  concerne:
+  - famille
+  - couple
+  source:
+    citation: remplacer l’injuste quotient familial fiscal actuel par un crédit d’impôt par enfant
+- id: LFI-08.08-04
+  parti: lfi
+  libelle: Cotisation vieillesse accrue de 0,25 point par an
+  statut: parametres-manquants
+  parametres:
+    hausse_points_par_an: 0.25
+  manque: Répartition employeur/salarié et année d'effet individuel non précisées.
+  concerne:
+  - salarie_prive
+  - fonctionnaire
+  - independant
+  source:
+    citation: Augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse
+  autres_sources:
+  - id: NFP-103
+    citation: Augmenter de 0,25 point par an pendant 5 ans les cotisations vieillesse
+- id: LFI-08.08-01
+  parti: lfi
+  libelle: Retraite à 60 ans après quarante annuités
+  statut: parametres-manquants
+  manque: Historique de carrière et pension contrefactuelle absents.
+  concerne:
+  - retraite
+  - salarie_prive
+  - fonctionnaire
+  - independant
+  source:
+    citation: Abroger la réforme d’Emmanuel Macron passant l’âge de départ à la retraite à 64 ans
+- id: LFI-09.01-01
+  parti: lfi
+  libelle: Blocage des prix essentiels
+  statut: parametres-manquants
+  manque: Prix de référence, liste de produits et économies par ménage non spécifiés.
+  concerne:
+  - tous
+  source:
+    citation: Bloquer les prix des produits de première nécessité
+  autres_sources:
+  - id: NFP-01
+    citation: Bloquer les prix des biens de première nécessité dans l’alimentation, l’énergie et les carburants
+      par décret
+- id: LFI-09.01-03
+  parti: lfi
+  libelle: Hausse des minima sociaux
+  statut: parametres-manquants
+  manque: Montants cibles des prestations non donnés ; le SMIC est traité séparément.
+  concerne:
+  - minima_sociaux
+  - retraite
+  source:
+    citation: Augmenter immédiatement le SMIC à 1600€ net mensuel et les minima sociaux
+- id: LFI-05.03-01
+  parti: lfi
+  libelle: Gratuité de la cantine et des transports scolaires
+  statut: parametres-manquants
+  manque: Dépense actuelle par enfant absente des entrées.
+  concerne:
+  - famille
+  source:
+    citation: Assurer la gratuité réelle de l’éducation publique, y compris les cantines
+  autres_sources:
+  - id: NFP-14
+    citation: 'Faire les premiers pas pour la gratuité intégrale à l’école : cantine scolaire, fournitures, transports,
+      activités périscolaires'
+- id: LFI-07-S21
+  parti: lfi
+  libelle: APL des étudiants étrangers
+  statut: parametres-manquants
+  manque: Statut de séjour et droit actuel individuel absents.
+  concerne:
+  - etudiant
+  - locataire
+  condition_non_saisie: 'Concerne les étudiants étrangers : nationalité non saisie.'
+  source:
+    citation: Rétablir les aides personnalisées au logement (APL) pour les étudiants étrangers
+  note: Chapitre 7 absent de l'archive ; synthèse de contributions seulement.
+- id: RN24-008
+  parti: rn
+  libelle: Suspension des allocations familiales pour les parents de mineurs criminels
+  statut: parametres-manquants
+  manque: Décision judiciaire et durée de suspension inconnues.
+  concerne:
+  - famille
+  source:
+    citation: Suspension des allocations familiales pour les parents de mineurs criminels
+- id: RN24-006
+  parti: rn
+  libelle: Impôt sur le revenu d'activité des soignants retraités
+  statut: parametres-manquants
+  manque: Profession et montant du cumul emploi-retraite absents.
+  concerne:
+  - retraite
+  condition_non_saisie: Concerne les médecins et infirmiers retraités qui continuent d'exercer.
+  source:
+    citation: Suppression de l'impôt sur les revenus d'activité des médecins et
+- id: RNENT-16
+  parti: rn
+  libelle: Âge de départ lié à la carrière
+  statut: parametres-manquants
+  manque: Historique de carrière et pension contrefactuelle absents.
+  concerne:
+  - retraite
+  source:
+    citation: notre réforme indexera les deux paramètres de notre système de
+- id: RNFAM-04
+  parti: rn
+  libelle: Doublement de l'allocation de soutien familial
+  statut: parametres-manquants
+  manque: Montant d'ASF perçu et situation juridique du parent isolé absents.
+  concerne:
+  - famille
+  condition_non_saisie: Concerne les parents isolés percevant l'ASF.
+  source:
+    citation: doubler l'allocation de soutien familial (ASF) pour les parents isolés
+- id: RNFAM-09
+  parti: rn
+  libelle: Train gratuit hors pointe pour les 18-25 ans
+  statut: parametres-manquants
+  manque: Dépense ferroviaire et part hors pointe absentes.
+  concerne:
+  - etudiant
+  source:
+    citation: le principe de la gratuité des transports ferroviaires aux heures
+- id: RNECOL-15
+  parti: rn
+  libelle: Revalorisation des salaires des enseignants
+  statut: parametres-manquants
+  manque: Profession et ancienneté absentes des entrées ; montant de la revalorisation non précisé.
+  concerne:
+  - fonctionnaire
+  condition_non_saisie: Concerne les enseignants.
+  source:
+    citation: les salaires des enseignants du primaire au lycée seront revalorisés
+- id: RN22-21
+  parti: rn
+  libelle: Indexation des retraites sur l'inflation
+  statut: parametres-manquants
+  manque: Indexation déjà pratiquée et inflation future inconnue.
+  concerne:
+  - retraite
+  source:
+    citation: Réindexer les retraites sur l'inflation pour un pouvoir d'achat respectueux
+  autres_sources:
+  - id: RNCB26-74
+    citation: Indexation des retraites et dégel des prestations
+  - id: RNCB25-06
+    citation: Supprimer la désindexation des retraites durant 6 mois
+- id: RNJEU-07
+  parti: rn
+  libelle: Train gratuit pour les jeunes
+  statut: parametres-manquants
+  manque: Dépense ferroviaire et voyages éligibles absents.
+  concerne:
+  - etudiant
+  source:
+    citation: la gratuité des transports ferroviaires, qu'il s'agisse de lignes régionales
+- id: LFI-05.02-07
+  parti: lfi
+  libelle: Crèches publiques gratuites
+  statut: parametres-manquants
+  manque: Coût actuel de garde et accès à une crèche publique absents.
+  concerne:
+  - famille
+  source:
+    citation: Garantir la gratuité des crèches publiques
+- id: LFI-05.06-02
+  parti: lfi
+  libelle: Enseignement supérieur gratuit
+  statut: parametres-manquants
+  manque: Frais actuels d'inscription et établissement absents.
+  concerne:
+  - etudiant
+  source:
+    citation: Instaurer la gratuité de l’enseignement supérieur, de la licence au
+- id: LFI-05.07-02
+  parti: lfi
+  libelle: Conscription rémunérée au SMIC
+  statut: parametres-manquants
+  manque: Choix individuel de conscription non renseigné.
+  concerne:
+  - etudiant
+  condition_non_saisie: Concerne les moins de 25 ans qui feraient la conscription.
+  source:
+    citation: Mettre en place une conscription citoyenne de neuf mois, pour
+- id: LFI-08.04-02
+  parti: lfi
+  libelle: Rémunération des apprentis et alternants
+  statut: parametres-manquants
+  manque: Montant cible et statut d'apprenti absents.
+  concerne:
+  - etudiant
+  condition_non_saisie: Concerne les apprentis et alternants.
+  source:
+    citation: Revaloriser la rémunération des apprentis et des alternants
+- id: LFI-08.04-08
+  parti: lfi
+  libelle: Revalorisation du traitement des fonctionnaires
+  statut: parametres-manquants
+  manque: Montant ou grille cible absents ; le point d'indice (+10 %) est chiffré à part.
+  concerne:
+  - fonctionnaire
+  condition_non_saisie: Concerne les agents de la fonction publique.
+  source:
+    citation: Revaloriser le traitement des fonctionnaires
+- id: LFI-08.05-01
+  parti: lfi
+  libelle: Assurance chômage calculée dès le premier jour de travail
+  statut: parametres-manquants
+  manque: Durée, salaire antérieur et règles de calcul détaillées absents.
+  concerne:
+  - demandeur_emploi
+  source:
+    citation: Revenir sur les réformes Macron en abrogeant l’éligibilité et les
+- id: LFI-08.08-05
+  parti: lfi
+  libelle: Indexation des pensions sur les salaires
+  statut: parametres-manquants
+  manque: Croissance future des salaires inconnue.
+  concerne:
+  - retraite
+  source:
+    citation: Indexer le montant des retraites sur les salaires
+- id: LFI-08.08-07
+  parti: lfi
+  libelle: Suppression de la décote retraite
+  statut: parametres-manquants
+  manque: Carrière complète et pension brute théorique absentes.
+  concerne:
+  - retraite
+  source:
+    citation: Supprimer la décote qui représente une double peine pour les
+- id: LFI-10.01-08
+  parti: lfi
+  libelle: Allocation de soutien familial et pensions alimentaires
+  statut: parametres-manquants
+  manque: Montant de l'ASF et de la pension, paramètres de revalorisation absents.
+  concerne:
+  - famille
+  condition_non_saisie: Concerne les parents isolés percevant l'ASF ou une pension alimentaire.
+  source:
+    citation: Garantir le droit de partir et lutter contre la précarité
+  autres_sources:
+  - id: NFP-41
+    citation: déconjugalisant l’allocation de soutien familial, l’indexer sur l’inflation et défiscaliser la pension
+      alimentaire
+- id: LFI-10.03-02
+  parti: lfi
+  libelle: Repas CROUS à un euro
+  statut: parametres-manquants
+  manque: Nombre de repas et prix actuel absents.
+  concerne:
+  - etudiant
+  condition_non_saisie: Concerne les étudiants prenant des repas au CROUS.
+  source:
+    citation: Instaurer le repas à un euro dans tous les sites
+- id: LFI-10.05-01
+  parti: lfi
+  libelle: AAH au niveau du SMIC
+  statut: parametres-manquants
+  manque: Situation de handicap et montant de l'AAH actuelle absents des entrées.
+  concerne:
+  - tous
+  condition_non_saisie: 'Concerne les bénéficiaires de l''AAH : situation de handicap non saisie.'
+  source:
+    citation: Assurer l’autonomie financière des personnes en situation de handicap, en
+  autres_sources:
+  - id: NFP-39
+    citation: porter l’Allocation aux adultes handicapés (AAH) au niveau du SMIC
+- id: LFI-13.03-08
+  parti: lfi
+  libelle: Annulation des hausses du gaz depuis 2017
+  statut: parametres-manquants
+  manque: Tarif de référence et volume contractuel inconnus.
+  concerne:
+  - tous
+  source:
+    citation: Annuler les hausses du tarif du gaz depuis 2017
+- id: LFI-14.02-08
+  parti: lfi
+  libelle: Premiers mètres cubes d'eau gratuits et fin de l'abonnement
+  statut: parametres-manquants
+  manque: Volume indispensable et facture d'eau absents.
+  concerne:
+  - tous
+  source:
+    citation: Rendre effectif le droit à l’eau et à l’assainissement par
+  autres_sources:
+  - id: NFP-146
+    citation: la gratuité des premiers mètres-cubes indispensables à la vie
+- id: LFI-15.02-01
+  parti: lfi
+  libelle: Remboursement intégral des soins (100 % Sécu)
+  statut: parametres-manquants
+  manque: Dépenses de santé et panier pris en charge absents.
+  concerne:
+  - tous
+  source:
+    citation: Reconstruire le service public hospitalier et instaurer le « 100
+- id: LFIR-46
+  parti: lfi
+  libelle: Transports scolaires gratuits en ruralité
+  statut: parametres-manquants
+  manque: Dépense de transport scolaire absente.
+  concerne:
+  - famille
+  source:
+    citation: Rendant les transports scolaires gratuits et accessibles à tous et
+- id: LFIR-79
+  parti: lfi
+  libelle: Garantie d'emploi au SMIC
+  statut: parametres-manquants
+  manque: Offre individuelle et durée du chômage absentes.
+  concerne:
+  - demandeur_emploi
+  source:
+    citation: 'Mettra en place une garantie d’emploi : tout·e chômeur·se de'
+- id: LFI-08.01-01
+  parti: lfi
+  libelle: Garantie d'emploi au SMIC revalorisé
+  statut: parametres-manquants
+  manque: Durée du chômage, acceptation et accès effectif à un emploi inconnus.
+  concerne:
+  - demandeur_emploi
+  source:
+    citation: 'Créer une garantie d’emploi : tout chômeur de longue durée pourra se'
+- id: LFI-08.02-01
+  parti: lfi
+  libelle: Durée légale à 35 heures et majoration des heures supplémentaires
+  statut: parametres-manquants
+  manque: Heures supplémentaires et métier pénible ou de nuit non renseignés.
+  concerne:
+  - salarie_prive
+  - fonctionnaire
+  condition_non_saisie: Concerne les salariés faisant des heures supplémentaires ou en métier pénible ou de nuit.
+  source:
+    citation: Rétablir immédiatement la durée légale hebdomadaire à 35 heures (en majorant les
+- id: LFI-08.05-02
+  parti: lfi
+  libelle: Suppression de la condition de 15 heures d'activité pour certains revenus de remplacement
+  statut: parametres-manquants
+  manque: Condition individuelle et suspension éventuelle du droit inconnues.
+  concerne:
+  - demandeur_emploi
+  - minima_sociaux
+  source:
+    citation: Abroger la loi France Travail et l’obligation de réaliser 15h d’activités hebdomadaires
+- id: LFI-08.08-03
+  parti: lfi
+  libelle: Trimestres de retraite validés avec le RSA
+  statut: parametres-manquants
+  manque: Historique de RSA et pension contrefactuelle absents.
+  concerne:
+  - retraite
+  - minima_sociaux
+  source:
+    citation: Prendre en compte le revenu de solidarité active (RSA) pour valider des
+- id: LFI-13.02-03
+  parti: lfi
+  libelle: Tarifs ferroviaires accessibles
+  statut: parametres-manquants
+  manque: Prix cible et dépenses de transport absents.
+  concerne:
+  - tous
+  source:
+    citation: Refuser la suppression des lignes ferroviaires du quotidien et en réouvrir, augmenter
+- id: LFI-13.03-06
+  parti: lfi
+  libelle: Tarifs réglementés de l'énergie et premières quantités gratuites
+  statut: parametres-manquants
+  manque: Quantités gratuites, tarif cible et consommation en kWh absents.
+  concerne:
+  - tous
+  source:
+    citation: Remettre en place des tarifs réglementés de l’énergie calculés à partir des
+- id: LFI-18.04-01
+  parti: lfi
+  libelle: Accès minimal gratuit à Internet
+  statut: parametres-manquants
+  manque: Débit ou volume minimal et facture actuelle absents.
+  concerne:
+  - tous
+  source:
+    citation: Garantir le droit à un accès minimal gratuit à Internet
+- id: LFI-07-S12
+  parti: lfi
+  libelle: Cantine et périscolaire gratuits
+  statut: parametres-manquants
+  manque: Dépenses actuelles de cantine et de périscolaire absentes.
+  concerne:
+  - famille
+  source:
+    citation: La gratuité de la cantine et du périscolaire
+- id: LFI-07-S17
+  parti: lfi
+  libelle: Encadrement des loyers étendu
+  statut: parametres-manquants
+  manque: Loyer de référence local et effet sur le bail actuel absents.
+  concerne:
+  - locataire
+  source:
+    citation: Étendre et pérenniser l’encadrement des loyers sur tout le territoire
+- id: RN22-17
+  parti: rn
+  libelle: Baisse de 15 % des péages
+  statut: parametres-manquants
+  manque: Dépense annuelle de péages absente ; la redevance audiovisuelle mentionnée en 2022 est déjà supprimée
+    en 2026.
+  concerne:
+  - tous
+  source:
+    citation: Renationaliser les autoroutes pour baisser de 15% les péages et privatiser l'audiovisuel
+- id: RN22-18
+  parti: rn
+  libelle: Chèque-formation pour apprentis et alternants
+  statut: parametres-manquants
+  manque: Statut d'apprenti ou d'alternant et répartition entre employeur et jeune absents.
+  concerne:
+  - etudiant
+  condition_non_saisie: Concerne les apprentis et alternants.
+  source:
+    citation: Créer un chèque-formation mensuel de 200 à 300€ pour les apprentis, les
+- id: RN22-20
+  parti: rn
+  libelle: Soutien doublé aux mères isolées
+  statut: parametres-manquants
+  manque: Prestation visée et droit individuel actuels non précisés.
+  concerne:
+  - famille
+  condition_non_saisie: Concerne les mères isolées.
+  source:
+    citation: Doubler le soutien aux mères isolées élevant des enfants tout en renforçant
+- id: RNHAN-04
+  parti: rn
+  libelle: AAH sans prise en compte des revenus du conjoint
+  manque: Situation de handicap et montant de l'AAH non saisis ; revalorisation sans montant.
+  concerne:
+  - tous
+  condition_non_saisie: Concerne les bénéficiaires de l'AAH en couple.
+  source:
+    citation: le barème permettant d'établir les droits au titre de l'allocation adulte handicapé (AAH) ne prendra
+      plus en compte les revenus du conjoint
+  statut: parametres-manquants
+- id: RNCB26-38
+  parti: rn
+  libelle: Indexation du barème de l'IR et de la CSG sur l'inflation
+  manque: Inflation future inconnue ; le barème 2026 déjà indexé sert de référence.
+  concerne:
+  - tous
+  source:
+    citation: Indexation du barème de l'IR et CSG sur l'inflation
+  statut: parametres-manquants
+- id: RNSAN-04
+  parti: rn
+  libelle: Salaire des infirmiers hospitaliers relevé de 10 %
+  manque: Profession et employeur hospitalier absents des entrées.
+  concerne:
+  - salarie_prive
+  - fonctionnaire
+  condition_non_saisie: Concerne les infirmiers hospitaliers.
+  parametres:
+    hausse: 0.1
+  source:
+    citation: Le salaire des infirmiers sera augmenté de 10% pour atteindre la moyenne européenne
+  statut: parametres-manquants
+- id: RN24-088
+  parti: rn
+  libelle: Suppression des droits sur l'héritage direct pour les familles modestes et les classes moyennes
+  manque: Patrimoine reçu, seuil de « familles modestes » et calendrier des successions absents.
+  concerne:
+  - tous
+  condition_non_saisie: Concerne les héritiers en ligne directe.
+  source:
+    citation: Supprimer les impôts sur l'héritage direct pour les familles modestes et les classes moyennes
+  statut: parametres-manquants
+- id: NFP-40
+  parti: lfi
+  libelle: Fin de la « taxe Macron » de 10 % sur les factures d'énergie et gratuité des premiers kWh
+  manque: Assiette de la « taxe Macron de 10 % » et quantités gratuites non précisées.
+  concerne:
+  - tous
+  source:
+    citation: Abolir la taxe Macron de 10% sur les factures d’énergie
+  statut: parametres-manquants
+- id: NFP-140
+  parti: lfi
+  libelle: TVA à 5,5 % sur les transports en commun
+  manque: Dépenses de transport en commun non saisies.
+  concerne:
+  - tous
+  parametres:
+    taux_cible: 0.055
+  source:
+    citation: baisser la TVA sur la tarification des transports en commun à 5,5 %
+  statut: parametres-manquants
+- id: NFP-102
+  parti: lfi
+  libelle: Cotisations sur dividendes, participation, épargne salariale, rachats d'actions et heures supplémentaires
+  manque: Montants de dividendes, de participation et d'heures supplémentaires non saisis ; taux de cotisation absents.
+  concerne:
+  - tous
+  source:
+    citation: Soumettre à cotisation les dividendes, la participation, l’épargne salariale, les rachats d’action,
+      les heures supplémentaires
+  statut: parametres-manquants
+- id: NFP-104
+  parti: lfi
+  libelle: Surcotisation sur les hauts salaires
+  manque: Seuil et taux de la surcotisation absents.
+  concerne:
+  - salarie_prive
+  - fonctionnaire
+  source:
+    citation: Créer une surcotisation sur les hauts salaires
+  statut: parametres-manquants
+- id: NFP-15
+  parti: lfi
+  libelle: Pass'Sport porté à 150 euros
+  manque: Montant actuel du Pass'Sport et conditions d'éligibilité non vérifiés pour 2026.
+  concerne:
+  - famille
+  parametres:
+    montant_cible: 150
+  source:
+    citation: Augmenter le montant du Pass’Sport à 150 euros
+  statut: parametres-manquants
+- id: LFI-06.05-05
+  parti: lfi
+  libelle: Fin de la flat tax sur les revenus du capital
+  manque: Revenus du capital non saisis.
+  concerne:
+  - tous
+  condition_non_saisie: Concerne les ménages percevant des revenus du capital.
+  source:
+    citation: Supprimer la flat tax et imposer les revenus du capital comme ceux du travail
+  statut: parametres-manquants
+- id: RNEU-14
+  parti: rn
+  libelle: TVA à 5,5 % sur l'électricité, le gaz, le fioul et les carburants
+  statut: chiffrable
+  action: tva_energie
+  nature: prix
+  parametres:
+    taux_cible: 0.055
+    produits:
+    - electricite
+    - gaz
+    - fioul
+    - carburant
+  parametres_sources:
+    taux_cible: RNEU-14
+    produits: RNEU-14
+  hypotheses:
+  - repercussion_tva
+  hypotheses_fixes:
+  - Les dépenses saisies sont toutes taxes comprises et supposées inchangées en volume.
+  - Le taux de 5,5 % est celui des textes de 2022 et de 2024 ; les livrets thématiques de 2026 annoncent la baisse
+    sans taux.
+  concerne:
+  - tous
+  source:
+    citation: 'la baisse de la TVA de 20 à 5,5% sur les énergies : électricité, gaz, fioul et carburants'
+  autres_sources:
+  - id: RN22-15
+    citation: Baisser la TVA de 20% à 5.5% sur les produits énergétiques
+  - id: RNFAM-07
+    citation: la baisse de la TVA sur l'ensemble des produits énergétiques (carburants, fioul, gaz, électricité)
+  - id: RNECO-11
+    citation: TVA réduite de 20 % à 5.5 %
+  - id: RN24-001
+    citation: Baisse de la TVA sur l'ensemble des produits énergétiques
+  - id: RNCB26-52
+    citation: Baisse TVA énergies
+  note: 'Le coût pour les finances publiques (RNCB25-08 : 12 Md€ moins 2 Md€ de retour de TVA) n''est pas simulé
+    : seul l''effet sur le foyer l''est.'
+- id: RNENT-01
+  parti: rn
+  libelle: Baisse de 30 % du prix de l'électricité
+  statut: chiffrable
+  action: prix_electricite
+  nature: prix
+  parametres:
+    baisse: 0.3
+    baisse_haute: 0.4
+  parametres_sources:
+    baisse: RNENT-01
+    baisse_haute: RNEU-11
+  hypotheses:
+  - baisse_electricite
+  - part_facture_electricite
+  hypotheses_fixes:
+  - La baisse s'applique à la facture d'électricité saisie, toutes taxes comprises ; combinée à la baisse de TVA,
+    elle se multiplie (l'écart d'interaction est indiqué).
+  concerne:
+  - tous
+  source:
+    citation: Nous baisserons immédiatement le prix de l'électricité de 30 %
+  autres_sources:
+  - id: RNEU-11
+    citation: Baisser de 30 à 40% la facture d'électricité
+  note: 'Le livret entreprises annonce 30 % ; le programme des européennes de 2024 évoque 30 à 40 % de la facture
+    : la valeur retenue (30 %) est réglable de 30 à 40 %.'
+- id: RNFAM-02
+  parti: rn
+  libelle: Part fiscale pleine dès le deuxième enfant
+  statut: chiffrable
+  action: part_deuxieme_enfant
+  nature: revenu
+  parametres:
+    part_deuxieme_enfant: 1
+    part_actuelle: 0.5
+  parametres_sources:
+    part_deuxieme_enfant: RNFAM-02
+    part_actuelle: RNFAM-02
+  hypotheses: []
+  hypotheses_fixes:
+  - 'Le plafond de l''avantage par demi-part supplémentaire (1 807 €) reste inchangé : le texte ne le modifie pas.'
+  concerne:
+  - famille
+  source:
+    citation: instaurer une part fiscale pleine, contre une demi-part actuellement, pour le deuxième enfant
+  autres_sources:
+  - id: RN24-069
+    citation: Instituer une part fiscale complète dès le deuxième enfant
+  - id: RNCB25-01
+    citation: Instaurer une part fiscale pleine dès le deuxième enfant
+  - id: RNCB26-39
+    citation: Part fiscale pleine dès le deuxième enfant
+- id: RN24-087
+  parti: rn
+  libelle: Exonération d'impôt sur le revenu avant 30 ans
+  statut: chiffrable
+  action: ir_jeune
+  nature: revenu
+  parametres:
+    age_strictement_inferieur: 30
+  parametres_sources:
+    age_strictement_inferieur: RN24-087
+  hypotheses: []
+  hypotheses_fixes:
+  - Les revenus saisis de chaque personne de moins de 30 ans sont exonérés, sans plafond ; le texte n'en indique
+    pas.
+  - 'Le foyer reste imposé conjointement : seule la part de revenu de la personne de moins de 30 ans sort de l''assiette.'
+  concerne:
+  - tous
+  source:
+    citation: Supprimer l'impôt sur le revenu des jeunes de moins de 30 ans
+  autres_sources:
+  - id: RN22-19
+    citation: Exonérer d'impôt sur le revenu tous les jeunes actifs jusqu'à 30 ans
+  - id: RNJEU-02
+    citation: l'exonération totale d'impôt sur le revenu avant trente ans
+- id: RNJEU-06
+  parti: rn
+  libelle: Complément de revenu pour les étudiants qui travaillent
+  statut: chiffrable
+  action: complement_etudiant
+  nature: revenu
+  parametres:
+    taux: 0.2
+    plafond_mensuel: 200
+    taux_boursier: 0.3
+    plafond_mensuel_boursier: 300
+  parametres_sources:
+    taux: RNJEU-06
+    plafond_mensuel: RNJEU-06
+    taux_boursier: RNJEU-06
+    plafond_mensuel_boursier: RNJEU-06
+  hypotheses: []
+  hypotheses_fixes:
+  - Le revenu retenu est le revenu d'activité net saisi ; le texte parle de « leur revenu ».
+  - L'étudiant est supposé de nationalité française, condition posée par le texte (« étudiants français »).
+  - 'Le complément n''est ni imposable ni compté dans les ressources des prestations : le texte ne le précise pas.'
+  concerne:
+  - etudiant
+  source:
+    citation: un complément de revenu versé par État. Il s'élèvera à 20 % de leur revenu, plafonné à 200 euros mensuels,
+      et à 30 % pour les étudiants boursiers, plafonné à 300 euros mensuels
+- id: LFI-08.04-01
+  parti: lfi
+  libelle: SMIC à 1 600 euros net par mois
+  statut: chiffrable
+  action: smic_net
+  nature: revenu
+  parametres:
+    mensuel_net_35h: 1600
+  parametres_sources:
+    mensuel_net_35h: LFI-08.04-01
+  hypotheses: []
+  hypotheses_fixes:
+  - Le salaire net est relevé, au prorata des heures travaillées, s'il est inférieur à 1 600 € pour 35 heures ;
+    les salaires supérieurs ne bougent pas (pas d'effet de rattrapage sur les grilles).
+  - Effets sur l'emploi, les prix et le coût pour l'employeur non modélisés.
+  concerne:
+  - salarie_prive
+  - fonctionnaire
+  - etudiant
+  source:
+    citation: Porter immédiatement le SMIC mensuel à 1600 euros net
+  autres_sources:
+  - id: NFP-04
+    citation: le passage du SMIC à 1600€ net
+- id: LFI-09.01-04
+  parti: lfi
+  libelle: Point d'indice des fonctionnaires revalorisé de 10 %
+  statut: chiffrable
+  action: point_indice
+  nature: revenu
+  parametres:
+    hausse: 0.1
+  parametres_sources:
+    hausse: LFI-09.01-04
+  hypotheses:
+  - part_primes_fonctionnaire
+  hypotheses_fixes:
+  - Seul le traitement indiciaire augmente de 10 % ; les primes ne sont pas indexées.
+  - La hausse est répercutée en brut ; les cotisations et la CSG suivent.
+  concerne:
+  - fonctionnaire
+  source:
+    citation: Revaloriser la valeur du point d’indice des fonctionnaires de 10 %
+  autres_sources:
+  - id: NFP-04
+    citation: la hausse de 10% du point d’indice des fonctionnaires
+- id: LFI-09.01-05
+  parti: lfi
+  libelle: Aides au logement (APL) revalorisées de 10 %
+  statut: chiffrable
+  action: apl_hausse
+  nature: revenu
+  parametres:
+    hausse: 0.1
+  parametres_sources:
+    hausse: LFI-09.01-05
+  hypotheses: []
+  hypotheses_fixes:
+  - La hausse de 10 % porte sur l'aide au logement perçue (saisie ou estimée), quel que soit son type (APL, ALS,
+    ALF).
+  - 'Elle s''applique au montant de l''aide, non aux barèmes de ressources : pas d''effet sur l''éligibilité.'
+  concerne:
+  - locataire
+  source:
+    citation: Revaloriser les APL de 10 %
+  autres_sources:
+  - id: NFP-06
+    citation: Revaloriser les APL de 10 %
+- id: LFI-10.03-01
+  parti: lfi
+  libelle: Garantie d'autonomie pour les jeunes détachés du foyer fiscal parental
+  statut: chiffrable
+  action: garantie_autonomie
+  nature: revenu
+  parametres:
+    seuil_personne_seule: 1216
+  parametres_sources:
+    seuil_personne_seule: LFI-10.03-01
+  hypotheses:
+  - age_max_jeunes
+  hypotheses_fixes:
+  - 'Le texte vise les « jeunes » sans borne d''âge : la limite est réglable.'
+  - Le jeune est supposé détaché du foyer fiscal parental, sans conjoint ni enfant ; son revenu disponible est porté
+    à 1 216 € s'il est inférieur.
+  concerne:
+  - etudiant
+  - demandeur_emploi
+  source:
+    citation: la garantie d’autonomie, qui les portera au-dessus du seuil de pauvreté (1 216 euros pour une personne
+      seule)
+- id: LFI-08.08-02
+  parti: lfi
+  libelle: Minimum vieillesse au niveau du seuil de pauvreté
+  statut: chiffrable
+  action: minimum_vieillesse
+  nature: revenu
+  parametres:
+    seuil_personne_seule: 1216
+  parametres_sources:
+    seuil_personne_seule: LFI-10.03-01
+  hypotheses: []
+  hypotheses_fixes:
+  - Le seuil de pauvreté de 1 216 € cité à la page 53 du même programme (garantie d'autonomie) est repris pour le
+    minimum vieillesse ; le texte de la page 45 ne le chiffre pas.
+  - 'Seules les personnes seules de 65 ans et plus sont chiffrées : le seuil d''un couple n''est pas donné.'
+  concerne:
+  - retraite
+  source:
+    citation: le minimum vieillesse au niveau du seuil de pauvreté
+  autres_sources:
+  - id: LFI-10.03-01
+    renvoi: true
+    citation: seuil de pauvreté (1 216 euros pour une personne seule)
+  - id: NFP-03
+    citation: le minimum vieillesse au niveau du seuil de pauvreté
+  note: La part du texte sur les pensions de carrière complète au SMIC revalorisé n'est pas chiffrée (carrière non
+    observable).
+- id: LFI-05.06-03
+  parti: lfi
+  libelle: Suppression de la CVEC
+  statut: chiffrable
+  action: supprimer_cvec
+  nature: revenu
+  parametres:
+    suppression: true
+  parametres_sources:
+    suppression: LFI-05.06-03
+  hypotheses: []
+  hypotheses_fixes:
+  - Le montant supprimé est la CVEC en vigueur (105 € pour 2026-2027), versée une fois par an et lissée sur douze
+    mois.
+  - 'Seuls les étudiants non boursiers sont chiffrés : les boursiers en sont déjà exonérés.'
+  concerne:
+  - etudiant
+  source:
+    citation: Supprimer la contribution à la vie étudiante et de campus (CVEC)

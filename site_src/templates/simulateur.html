@@ -1,24 +1,116 @@
 {% extends "base.html" %}
 {% block head %}<script type="module" src="static/js/simulateur-ui.js"></script>{% endblock %}
 {% block content %}
-<p class="lede">Estimation indicative pour un foyer type, limitée aux mesures dont les paramètres sont publiés. Les hypothèses et les mesures exclues apparaissent avec le résultat.</p>
-<form id="simulateur-form" class="sim-form">
-  <fieldset><legend>Votre foyer</legend><div class="form-grid">
-    <label>Situation <select name="couple"><option value="non">Personne seule</option><option value="oui">Couple</option></select></label>
-    <label>Âge <input name="age" type="number" min="16" max="120" step="1" required></label>
-    <label>Statut <select name="statut"><option value="salarie_prive">Salarié du privé</option><option value="fonctionnaire">Fonctionnaire</option><option value="independant">Indépendant</option><option value="demandeur_emploi">Demandeur d'emploi</option><option value="retraite">Retraité</option><option value="etudiant">Étudiant</option></select></label>
-    <label>Votre revenu mensuel (€) <input name="revenu" type="number" min="0" step="0.01" inputmode="decimal" required></label>
-    <label>Type de revenu <select name="type_revenu"><option value="net">Net</option><option value="brut">Brut</option></select></label>
-    <label>Revenu net mensuel du conjoint (€) <input name="revenu_conjoint" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
-    <label>Âges des enfants (séparés par des virgules) <input name="enfants" type="text" inputmode="numeric" placeholder="Ex. 7, 12" aria-describedby="ages-help"><small id="ages-help">Laisser vide si aucun enfant.</small></label>
-    <label>Logement <select name="logement"><option value="locataire">Locataire</option><option value="proprietaire">Propriétaire</option><option value="autre">Autre</option></select></label>
-    <label>APL actuelle par mois (€) <input name="apl_actuelle" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
-    <label>Dépenses mensuelles d'énergie TTC (€) <input name="energie_mensuelle" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
-    <label>Dépenses mensuelles de carburant TTC (€) <input name="carburant_mensuel" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
-    <label>Chauffage <select name="chauffage"><option value="autre">Autre ou non précisé</option><option value="electricite">Électricité</option></select></label>
-    <label>Heures de travail par semaine <input name="temps_travail_heures" type="number" min="0" max="80" step="0.5" value="35" inputmode="decimal"></label>
-  </div></fieldset>
-  <button type="submit">Estimer</button>
+<p class="lede">Estimez, pour un ménage type, ce que changeraient chacune des deux propositions sur le revenu disponible mensuel. Seules les mesures dont le texte donne les paramètres sont chiffrées ; les autres sont listées avec ce qui leur manque.</p>
+<p class="sim-privacy">Le calcul se fait dans votre navigateur : aucune donnée saisie n'est envoyée ni enregistrée. Résultat indicatif, fondé sur la législation du 10 octobre 2026 et sur des hypothèses visibles et réglables.</p>
+<noscript><p class="empty">Le simulateur a besoin de JavaScript. Les mesures et leurs sources restent consultables dans les pages <a href="programme-rn.html">RN</a> et <a href="programme-lfi.html">LFI</a>.</p></noscript>
+<p id="simulateur-statut" class="sim-status" role="status" aria-live="polite">Chargement des données du simulateur…</p>
+
+<form id="simulateur-form" class="sim-form" autocomplete="off" novalidate>
+  <fieldset>
+    <legend>Vous</legend>
+    <div class="form-grid">
+      <div class="champ"><label for="sim-statut">Situation professionnelle</label><select id="sim-statut" name="statut">
+          <option value="salarie_prive">Salarié du secteur privé</option>
+          <option value="fonctionnaire">Fonctionnaire</option>
+          <option value="independant">Indépendant (micro-entrepreneur)</option>
+          <option value="demandeur_emploi">Demandeur d'emploi</option>
+          <option value="retraite">Retraité</option>
+          <option value="etudiant">Étudiant</option>
+        </select></div>
+      <div class="champ"><label for="sim-age">Votre âge</label><input id="sim-age" name="age" type="number" min="16" max="110" step="1" inputmode="numeric" required></div>
+      <div class="champ"><label for="sim-revenu" data-libelle-revenu>Salaire mensuel (€)</label><input id="sim-revenu" name="revenu" type="number" min="0" step="0.01" inputmode="decimal" required aria-describedby="sim-revenu-aide"><small id="sim-revenu-aide">Montant mensuel moyen sur l'année. Mettez 0 si vous n'avez pas de revenu.</small></div>
+      <div class="champ"><label for="sim-type-revenu">Ce montant est</label><select id="sim-type-revenu" name="type_revenu">
+          <option value="net">Net (ce que vous percevez)</option>
+          <option value="brut">Brut</option>
+        </select></div>
+      <div class="champ" data-visible-pour="salarie_prive fonctionnaire etudiant"><label for="sim-heures">Heures travaillées par semaine</label><input id="sim-heures" name="heures_hebdo" type="number" min="1" max="60" step="0.5" inputmode="decimal" aria-describedby="sim-heures-aide"><small id="sim-heures-aide">35 pour un temps plein. Sert au calcul de la mesure sur le SMIC.</small></div>
+      <div class="champ sim-check" data-visible-pour="etudiant"><input id="sim-boursier" name="boursier" type="checkbox"><label for="sim-boursier">Je suis boursier</label></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Votre foyer</legend>
+    <div class="form-grid">
+      <div class="champ"><label for="sim-couple">Vie en couple</label><select id="sim-couple" name="couple">
+          <option value="non">Non, je vis seul(e)</option>
+          <option value="oui">Oui (marié ou pacsé)</option>
+        </select></div>
+      <div class="champ"><label for="sim-enfants">Âges des enfants à charge</label><input id="sim-enfants" name="enfants" type="text" inputmode="numeric" placeholder="Par exemple : 3, 8, 15" aria-describedby="sim-enfants-aide"><small id="sim-enfants-aide">Séparés par des virgules, de 0 à 24 ans. Vide s'il n'y en a pas.</small></div>
+    </div>
+    <div id="sim-conjoint" class="form-grid sim-sous-groupe" hidden>
+      <h3 class="sim-sous-titre">Votre conjoint</h3>
+      <div class="champ"><label for="sim-conjoint-statut">Situation professionnelle</label><select id="sim-conjoint-statut" name="conjoint_statut">
+          <option value="salarie_prive">Salarié du secteur privé</option>
+          <option value="fonctionnaire">Fonctionnaire</option>
+          <option value="independant">Indépendant (micro-entrepreneur)</option>
+          <option value="demandeur_emploi">Demandeur d'emploi</option>
+          <option value="retraite">Retraité</option>
+          <option value="etudiant">Étudiant</option>
+          <option value="sans_activite" selected>Sans activité ni revenu</option>
+        </select></div>
+      <div class="champ"><label for="sim-conjoint-age">Son âge</label><input id="sim-conjoint-age" name="conjoint_age" type="number" min="16" max="110" step="1" inputmode="numeric"></div>
+      <div class="champ" data-cache-pour="sans_activite"><label for="sim-conjoint-revenu" data-libelle-revenu-conjoint>Salaire mensuel (€)</label><input id="sim-conjoint-revenu" name="conjoint_revenu" type="number" min="0" step="0.01" inputmode="decimal" value="0"></div>
+      <div class="champ" data-cache-pour="sans_activite"><label for="sim-conjoint-type">Ce montant est</label><select id="sim-conjoint-type" name="conjoint_type_revenu">
+          <option value="net">Net</option>
+          <option value="brut">Brut</option>
+        </select></div>
+      <div class="champ" data-visible-pour="salarie_prive fonctionnaire etudiant"><label for="sim-conjoint-heures">Heures travaillées par semaine</label><input id="sim-conjoint-heures" name="conjoint_heures_hebdo" type="number" min="1" max="60" step="0.5" inputmode="decimal"></div>
+      <div class="champ sim-check" data-visible-pour="etudiant"><input id="sim-conjoint-boursier" name="conjoint_boursier" type="checkbox"><label for="sim-conjoint-boursier">Il ou elle est boursier(ère)</label></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Logement</legend>
+    <div class="form-grid">
+      <div class="champ"><label for="sim-logement">Vous êtes</label><select id="sim-logement" name="logement">
+          <option value="locataire">Locataire</option>
+          <option value="proprietaire">Propriétaire</option>
+          <option value="gratuit">Hébergé gratuitement</option>
+        </select></div>
+      <div class="champ" data-visible-logement="locataire"><label for="sim-loyer">Loyer mensuel hors charges (€)</label><input id="sim-loyer" name="loyer" type="number" min="0" step="1" inputmode="decimal" value="0"></div>
+      <div class="champ" data-visible-logement="locataire"><label for="sim-zone">Zone de votre commune</label><select id="sim-zone" name="zone_apl" aria-describedby="sim-zone-aide">
+          <option value="1">Zone 1 : Paris et agglomération parisienne</option>
+          <option value="2" selected>Zone 2 : grandes agglomérations et villes moyennes</option>
+          <option value="3">Zone 3 : autres communes</option>
+        </select><small id="sim-zone-aide">Zonage des aides au logement ; en cas de doute, gardez la zone 2.</small></div>
+      <div class="champ" data-visible-logement="locataire"><label for="sim-apl">Aide au logement perçue (€ par mois)</label><input id="sim-apl" name="apl_actuelle" type="number" min="0" step="0.01" inputmode="decimal" aria-describedby="sim-apl-aide"><small id="sim-apl-aide">Laissez vide pour une estimation simplifiée à partir du loyer.</small></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Énergie et carburant</legend>
+    <p class="small sim-aide-fieldset" id="sim-energie-aide">Montants mensuels moyens toutes taxes comprises, d'après vos factures. Laissez 0 si vous ne les connaissez pas : les mesures sur les prix de l'énergie ne seront alors pas chiffrées.</p>
+    <div class="form-grid">
+      <div class="champ"><label for="sim-chauffage">Chauffage principal</label><select id="sim-chauffage" name="chauffage">
+          <option value="electricite">Électricité</option>
+          <option value="gaz">Gaz</option>
+          <option value="fioul">Fioul</option>
+          <option value="autre" selected>Autre ou je ne sais pas</option>
+        </select></div>
+      <div class="champ"><label for="sim-electricite">Électricité (€ par mois)</label><input id="sim-electricite" name="electricite_mensuelle" type="number" min="0" step="1" inputmode="decimal" value="0" aria-describedby="sim-energie-aide"></div>
+      <div class="champ"><label for="sim-gaz">Gaz (€ par mois)</label><input id="sim-gaz" name="gaz_mensuel" type="number" min="0" step="1" inputmode="decimal" value="0"></div>
+      <div class="champ"><label for="sim-fioul">Fioul, moyenne mensuelle (€)</label><input id="sim-fioul" name="fioul_mensuel" type="number" min="0" step="1" inputmode="decimal" value="0"></div>
+      <div class="champ"><label for="sim-carburant">Carburant (€ par mois)</label><input id="sim-carburant" name="carburant_mensuel" type="number" min="0" step="1" inputmode="decimal" value="0"></div>
+    </div>
+  </fieldset>
+
+  <details class="sim-hypotheses" id="sim-hypotheses">
+    <summary>Hypothèses réglables</summary>
+    <p class="small">Chaque valeur par défaut est la plus proche du texte des programmes ou de la loi. Modifiez-la pour voir l'effet ; le résultat se met à jour tout de suite.</p>
+    <div id="sim-hypotheses-champs" class="form-grid"></div>
+    <button type="button" id="sim-hypotheses-reinitialiser" class="secondaire">Revenir aux valeurs par défaut</button>
+  </details>
+
+  <div class="sim-actions">
+    <button type="submit" id="sim-estimer">Estimer l'impact</button>
+    <button type="reset" class="secondaire" id="sim-effacer">Tout effacer</button>
+  </div>
+  <p id="simulateur-erreur" class="sim-erreur" role="alert" hidden></p>
 </form>
-<section id="simulateur-resultat" class="sim-result" aria-live="polite" aria-label="Résultats du simulateur"><h2>Résultat</h2><p>Renseignez le formulaire pour lancer l'estimation.</p></section>
+
+<section id="simulateur-resultat" class="sim-result" aria-live="polite" aria-labelledby="simulateur-resultat-titre" tabindex="-1">
+  <h2 id="simulateur-resultat-titre">Résultat</h2>
+  <p>Renseignez le formulaire puis lancez l'estimation : le revenu disponible mensuel actuel apparaîtra ici, avec ce qu'il deviendrait sous chaque programme.</p>
+</section>
 {% endblock %}

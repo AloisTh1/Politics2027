@@ -15,6 +15,8 @@ import markdown
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from tools.sim_data import ecrire_json, load as load_simulator
+
 
 ROOT = Path(__file__).resolve().parent
 LINK = re.compile(r"\[\[([^\]]+)\]\]")
@@ -140,12 +142,12 @@ def build(root: Path = ROOT, output: Path | None = None, lax: bool = False) -> d
         shutil.rmtree(output)
     output.mkdir(parents=True)
     shutil.copytree(root / "site_src/static", output / "static")
-    bareme = read_yaml(root / "data/simulateur/bareme-2026.yaml", None)
-    mesures_sim = read_yaml(root / "data/simulateur/mesures.yaml", None)
-    if bareme is not None and isinstance(mesures_sim, dict):
+    # Données du simulateur : validées (citations, pages, sources du barème) puis écrites en JSON pour le navigateur.
+    if (root / "data/simulateur/bareme-2026.yaml").exists() and (root / "data/simulateur/mesures.yaml").exists():
         target = output / "static/data/simulateur.json"
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(json.dumps({"bareme": bareme, "mesures": mesures_sim.get("mesures", [])}, ensure_ascii=False, default=str), encoding="utf-8")
+        with target.open("w", encoding="utf-8") as stream:
+            ecrire_json(load_simulator(root), stream)
     nav = [("index.html", "Accueil"), ("methode.html", "Méthode"), ("programme-rn.html", "RN"), ("programme-lfi.html", "LFI"), ("themes.html", "Thèmes"), ("analyses.html", "Analyses"), ("contradictions.html", "Contradictions"), ("solidite.html", "Solidité"), ("votes.html", "Votes"), ("evaluations.html", "Évaluations"), ("declarations.html", "Déclarations"), ("simulateur.html", "Simulateur"), ("sources.html", "Sources et outils")]
 
     def write(filename, template="page.html", **data):
@@ -193,10 +195,33 @@ def build(root: Path = ROOT, output: Path | None = None, lax: bool = False) -> d
         entry["explication_html"] = md(item.get("explication", ""), f"contra:{item['id']}")
         for side in ("a", "b"):
             citation = dict(item.get(side) or {})
-            page_data = doc_pages.get(citation.get("doc", ""), {}).get(citation.get("page"))
-            citation["source_url"] = source_url(manifest, citation.get("doc", ""), citation.get("page"), page_data)
+            references = [key for key in ("doc", "vote", "decl") if citation.get(key)]
+            if len(references) != 1 or (side == "a" and references != ["doc"]):
+                raise ValueError(f"contra:{item['id']}:{side} : source doc, vote ou decl attendue")
+            if "doc" in references:
+                if citation.get("page") not in doc_pages.get(citation["doc"], {}):
+                    raise ValueError(f"contra:{item['id']}:{side} : page de document inconnue")
+                page_data = doc_pages[citation["doc"]][citation["page"]]
+                citation["source_url"] = source_url(manifest, citation["doc"], citation["page"], page_data)
+                citation["source_label"] = f"Page {citation['page']}"
+            elif "vote" in references:
+                vote = next((v for v in collections["vote"] if str(v["id"]) == str(citation["vote"])), None)
+                if vote is None:
+                    raise ValueError(f"contra:{item['id']}:{side} : vote inconnu")
+                citation["source_url"] = vote["scrutin"]["url"]
+                citation["source_label"] = f"Scrutin {vote['scrutin']['legislature']}/{vote['scrutin']['numero']}"
+                citation["detail_url"] = f"votes.html#{quote(str(vote['id']))}"
+            else:
+                declaration = next((d for d in collections["decl"] if str(d["id"]) == str(citation["decl"])), None)
+                if declaration is None:
+                    raise ValueError(f"contra:{item['id']}:{side} : déclaration inconnue")
+                citation["source_url"] = declaration["url"]
+                citation["source_label"] = f"Déclaration du {declaration['date']}"
+                citation["detail_url"] = f"declarations.html#{quote(str(declaration['id']))}"
             entry[side] = citation
         contradictions.append(entry)
+    rank = {"majeure": 0, "importante": 1, "mineure": 2}
+    contradictions.sort(key=lambda entry: rank.get(entry.get("gravite"), 3))
     write("contradictions.html", "contradictions.html", title="Contradictions", entries=contradictions)
 
     solidite = read_yaml(root / "content/solidite.yaml", {}) or {}
@@ -204,7 +229,8 @@ def build(root: Path = ROOT, output: Path | None = None, lax: bool = False) -> d
     notes = solidite.get("notes", {})
     for party in PARTIES:
         for key, value in (notes.get(party) or {}).items():
-            value["justification_html"] = md(value.get("justification", ""), f"solidite:{party}:{key}")
+            if isinstance(value, dict):
+                value["justification_html"] = md(value.get("justification", ""), f"solidite:{party}:{key}")
     write("solidite.html", "solidite.html", title="Solidité", criteria=criteria, notes=notes)
 
     for kind, filename, title in (("vote", "votes.html", "Votes"), ("eval", "evaluations.html", "Évaluations"), ("decl", "declarations.html", "Déclarations")):
