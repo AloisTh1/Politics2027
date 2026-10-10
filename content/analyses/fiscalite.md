@@ -1,0 +1,46 @@
+---
+titre: "Impôts, dépense publique et dette"
+facteur: fiscalite
+ordre: 2
+themes: [fiscalite, finances-publiques]
+---
+
+## Ce que propose le RN
+
+### Objectifs
+Le livret « entreprises » de 2024 annonce un plan de réduction de la dépense publique pour faire passer les prélèvements obligatoires de 46 % à 40 % du PIB à moyen terme : un tiers des économies irait à la réduction des déficits, un tiers aux baisses d'impôts des ménages, un tiers à celles des entreprises [[RNENT-17]]. Il vise aussi à ramener les impôts de production au niveau moyen européen [[RNENT-05]].
+
+### Moyens
+Pour les entreprises, le RN poursuit la baisse de la CVAE [[RN24-056]] ; son contre-budget 2026 supprime la CFE (8,8 milliards d'euros), la CVAE (2,6) et la C3S (4,8) [[RNCB26-66]] [[RNCB26-67]] [[RNCB26-68]]. Pour les ménages, il supprime l'impôt sur le revenu des moins de 30 ans [[RN24-087]], accorde une part fiscale pleine dès le deuxième enfant [[RN24-069]], supprime les droits sur l'héritage direct pour les familles modestes et les classes moyennes [[RN24-088]] et exonère les donations jusqu'à 100 000 euros par descendant tous les dix ans [[RN24-089]]. Il remplace l'impôt sur la fortune immobilière par un impôt sur la fortune financière [[RN24-090]], qui inclurait les actifs financiers et exclurait la résidence principale et les actifs professionnels, au barème de l'IFI [[RNIA-03]] ; le contre-budget 2026 l'inscrit pour 4 milliards d'euros de recettes, à la place de la taxe sur les holdings et de l'IFI [[RNCB26-25]]. Les contreparties sont des économies (contribution à l'Union européenne, 8,7 milliards ; agences, 7,7 milliards) et de nouvelles recettes (rachats d'actions, 8,4 milliards ; fraudes, 3,5) [[RNCB26-01]] [[RNCB26-02]] [[RNCB26-30]] [[RNCB26-31]].
+
+### Cohérence interne
+Baisser les impôts et réduire le déficit supposent que les économies soient réalisées. Jean-Philippe Tanguy a déclaré en janvier 2025 que les marchés « nous sanctionneront » si le déficit n'est pas tenu à 5 % [[decl:tanguy-deficit-2025-01-14]] . Marine Le Pen a dit en août 2026 que « le premier qui doit faire un effort c'est l'État » [[decl:lepen-depenses-etat-2026-08-27]]. Le site recense une instabilité de chiffrage sur la TVA des produits de première nécessité [[contra:rn-tva-100-produits]]. Au vote, 28 députés RN se sont abstenus sur l'impôt plancher de 2 % sur les patrimoines, texte distinct de l'impôt sur la fortune financière ; aucun n'a voté pour ou contre [[vote:taxe-zucman-2025]].
+
+### Faisabilité (budgétaire, juridique, pratique)
+L'iFRAP (libérale, favorable à la réduction de la dépense publique) retient 20,5 milliards d'euros de baisses de recettes et 8 milliards d'économies, juge plusieurs postes incertains et évalue à 14,5 milliards au moins le déficit supplémentaire en 2027 [[eval:ifrap-rn-global-2024]]. L'Institut Montaigne (libéral) chiffre 85 milliards de dépenses et de pertes de recettes par an, soit un solde de −71 milliards [[eval:montaigne-rn-global-2024]]; pour les seuls impôts de production, il retient 7,3 milliards cumulés sur 2024-2027, selon un rythme de suppression que le RN n'a pas précisé [[eval:montaigne-rn-impots-production-2024]]. Le Monde estime en 2025 les économies annoncées surestimées et certaines mesures exposées au droit constitutionnel ou européen [[eval:monde-rn-cb2026-trajectoire-2025]]. Pour le contre-budget présenté le 6 octobre 2026, il relève des incohérences dans les documents distribués [[eval:monde-rn-cb2027-2026]].
+
+### Qui gagne, qui paie
+Gagneraient les entreprises assujetties aux impôts de production, les jeunes de moins de 30 ans, les familles imposables avec deux enfants et les héritiers [[RN24-056]] [[RN24-087]] [[RN24-069]] [[RN24-088]]. Les détenteurs d'actifs financiers entreraient dans l'assiette du nouvel impôt [[RNIA-03]] et les actionnaires paieraient la taxe sur les rachats d'actions [[RNCB26-30]]. Les économies du contre-budget 2026 portent notamment sur les agences, les dotations aux collectivités et les prestations de solidarité des étrangers ayant moins de cinq ans de travail en France (6,1 milliards) [[RNCB26-02]] [[RNCB26-22]] [[RNCB26-10]].
+
+## Ce que propose LFI
+
+### Objectifs
+*L'Avenir en commun* (édition 2025) veut financer un plan de 200 milliards d'euros d'investissements écologiquement et socialement utiles [[LFI-13.01-01]] en rendant l'impôt plus progressif et en taxant davantage le capital et les hauts patrimoines. Il propose aussi de sortir la dette publique de la main des marchés financiers [[LFI-06.04-02]].
+
+### Moyens
+Le programme prévoit un barème de l'impôt sur le revenu à 14 tranches, une CSG progressive à 14 tranches [[LFI-06.05-01]] [[LFI-06.05-06]], un ISF renforcé avec un volet climatique [[LFI-06.05-03]] et une garantie d'impôt de 2 % sur le patrimoine des milliardaires, dite taxe Zucman [[LFI-06.05-04]]. Il supprime la flat tax [[LFI-06.05-05]], évalue les niches fiscales pour supprimer les plus injustes [[LFI-06.05-09]], renforce la lutte contre la fraude et l'évasion fiscales [[LFI-06.05-15]], plafonne l'héritage à 12 millions d'euros [[LFI-06.05-07]], instaure une taxe permanente sur les superprofits [[LFI-06.05-12]], remplace le quotient familial par un crédit d'impôt par enfant [[LFI-06.05-14]] et annule les cadeaux fiscaux accordés sans contrepartie aux plus grandes entreprises [[LFI-13.01-02]]. Sur la dette, il demande à la BCE de racheter la dette publique et d'autoriser un découvert des États [[LFI-06.04-02]], de transformer sa part de dette en dette perpétuelle à taux nul [[LFI-06.04-01]] et de réaliser un audit citoyen [[LFI-06.04-04]].
+
+### Cohérence interne
+Le titre de la section sur la dette, « annuler la dette publique », ne correspond à aucune mesure d'annulation [[contra:lfi-dette]]. Manuel Bompard a affirmé en novembre 2024 qu'« il est possible de générer 60 milliards d'euros de nouvelles recettes » par des amendements budgétaires, montant qui n'est pas un chiffrage du programme [[decl:bompard-budget-2024-11-04]] ; Éric Coquerel a parlé de 35 à 40 milliards de recettes votées en 2025 [[decl:coquerel-recettes-2025-11-03]]. En octobre 2025, Manuel Bompard a critiqué la version socialiste de la taxe Zucman, qui « exonère les biens professionnels » [[decl:bompard-taxe-zucman-2025-10-27]]. Pour la dette détenue par la BCE, Jean-Luc Mélenchon a dit en août 2026 : « Je trouverai des alliés en Europe » [[decl:melenchon-dette-bce-2026-08-27]]. Au vote, le groupe LFI a soutenu l'impôt plancher sur les patrimoines (37 voix) [[vote:taxe-zucman-2025]].
+
+### Faisabilité (budgétaire, juridique, pratique)
+Pour le programme commun du NFP de 2024, l'iFRAP chiffre 215 milliards de coûts pour 55 milliards de recettes en 2027, soit environ −160 milliards [[eval:ifrap-lfi-global-2024]] ; Montaigne retient 233 milliards pour 54 [[eval:montaigne-lfi-global-2024]] et juge incertain le surcroît de recettes attendu de l'activité suscitée par les dépenses [[eval:montaigne-lfi-dette-2024]]. Montaigne estime l'ISF climatique à 3,5 milliards (15 annoncés par le NFP) et la réforme des successions à 9 milliards (17 annoncés) [[eval:montaigne-lfi-isf-2024]] [[eval:montaigne-lfi-heritage-2024]]. L'Institut Rousseau (progressiste) simule une dette plus basse en 2030 pour un ensemble partiel de mesures [[eval:rousseau-lfi-macro-2024]]. Juridiquement, le traité sur le fonctionnement de l'Union interdit les découverts auprès de la BCE et l'achat direct de dette publique ([article 123](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E123)), ce qui suppose une révision ou une décision européenne [[LFI-06.04-01]].
+
+### Qui gagne, qui paie
+Paieraient les ménages aux revenus et patrimoines les plus élevés (barème, ISF, taxe Zucman, héritages au-delà de 12 millions), les détenteurs de revenus du capital et les grandes entreprises [[LFI-06.05-01]] [[LFI-06.05-03]] [[LFI-06.05-04]] [[LFI-06.05-05]] [[LFI-13.01-02]]. Les usagers des services et des filières financés par l'investissement public, ainsi que les familles recevant un crédit d'impôt par enfant, y gagneraient [[LFI-13.01-01]] [[LFI-06.05-14]].
+
+## Points de comparaison
+Le RN baisse les prélèvements et compte sur des économies ; LFI augmente la fiscalité du capital et du patrimoine pour investir [[RNENT-17]] [[LFI-13.01-01]]. Quelques points communs : la lutte contre la fraude [[RN24-036]] [[LFI-06.05-15]], la taxation des rachats d'actions [[RNCB26-30]] [[LFI-06.01-04]] et une réforme du rôle de la BCE [[RN24-060]] [[LFI-06.04-01]]. Sur la première partie du budget 2025, rejetée, le RN a voté contre et LFI pour ; sur celle de 2026, rejetée, les deux ont voté contre [[vote:budget-2025-premiere-partie]] [[vote:budget-2026-premiere-partie]]. Les évaluations de 2024 ne sont pas comparables : Montaigne retient 85 milliards pour le RN et 233 pour le NFP.
+
+## Ce qu'on ne sait pas
+Aucun chiffrage indépendant ne porte sur l'édition 2025 du programme LFI ni sur le contre-budget RN présenté le 6 octobre 2026, qui n'est connu que par la presse. La réalisation des économies du RN, le rendement des recettes de LFI et leurs effets sur l'activité restent incertains ; Rexecode rappelle que les chiffrages statiques ne mesurent pas ces réactions [[eval:rexecode-deux-programmes-2024]].

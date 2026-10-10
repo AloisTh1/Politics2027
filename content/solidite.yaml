@@ -1,0 +1,160 @@
+criteres:
+  - id: precision
+    libelle: "Précision des mesures"
+    description: "Paramètres, publics concernés et conditions d'application."
+    bareme:
+      0: "Aucune mesure identifiable."
+      1: "Objectifs généraux seulement ; paramètres et bénéficiaires presque toujours absents."
+      2: "Quelques mesures définies, mais la plupart des conditions d'application restent ouvertes."
+      3: "Mesures centrales identifiables et plusieurs paramètres explicites ; lacunes substantielles."
+      4: "La plupart des mesures centrales donnent leurs paramètres et leur champ ; lacunes limitées."
+      5: "Mesures centrales et secondaires définies avec paramètres, champ et exceptions vérifiables."
+  - id: chiffrage
+    libelle: "Chiffrage et financement"
+    description: "Coûts, recettes, horizon et hypothèses budgétaires."
+    bareme:
+      0: "Aucun coût, aucune recette et aucune piste de financement."
+      1: "Quelques montants isolés, sans bilan ni horizon."
+      2: "Plusieurs montants ou pistes de financement, mais pas de bilan complet contrôlable."
+      3: "Bilan publié et postes majeurs chiffrés ; hypothèses ou compensations importantes manquantes."
+      4: "Bilan couvrant l'essentiel, horizons et hypothèses exposés ; incertitudes majeures discutées."
+      5: "Bilan détaillé, reproductible, pluriannuel et confronté aux évaluations indépendantes."
+  - id: coherence
+    libelle: "Cohérence interne"
+    description: "Compatibilité entre mesures et documents du corpus."
+    bareme:
+      0: "Engagements centraux directement incompatibles, sans arbitrage."
+      1: "Plusieurs incompatibilités majeures non arbitrées."
+      2: "Au moins une incompatibilité majeure ou plusieurs importantes ; arbitrage absent."
+      3: "Quelques tensions documentées ; ensemble central globalement compatible."
+      4: "Tensions rares et expliquées ; articulation des mesures centrales publiée."
+      5: "Articulation explicite et arbitrages publiés pour les principales tensions recensées."
+  - id: juridique
+    libelle: "Faisabilité juridique"
+    description: "Véhicules juridiques et traitement des obstacles connus."
+    bareme:
+      0: "Obstacles juridiques centraux ignorés et aucun véhicule annoncé."
+      1: "Véhicules presque toujours absents ; obstacles connus non traités."
+      2: "Quelques véhicules identifiés, mais obstacles majeurs laissés sans solution vérifiable."
+      3: "Véhicules des mesures centrales identifiés ; plusieurs obstacles restent à instruire."
+      4: "Véhicules et contraintes françaises ou européennes discutés pour l'essentiel."
+      5: "Chemin juridique détaillé, avec solutions argumentées aux obstacles principaux."
+  - id: constance
+    libelle: "Constance des positions"
+    description: "Accord des engagements avec votes et prises de position observés."
+    bareme:
+      0: "Votes ou déclarations vérifiés opposés à plusieurs engagements centraux, sans explication."
+      1: "Écarts répétés sur les engagements centraux."
+      2: "Écarts ou changements importants peu expliqués ; correspondances aussi observées."
+      3: "Correspondances majoritaires parmi les cas testables, avec nuances ou changements identifiés."
+      4: "Correspondances fréquentes et changements substantiels expliqués."
+      5: "Correspondance étayée sur les thèmes centraux, avec explication publiée des exceptions."
+  - id: donnees
+    libelle: "Données et évaluations"
+    description: "Sources empiriques, hypothèses et réponse aux évaluations indépendantes."
+    bareme:
+      0: "Aucune donnée ni évaluation exploitable."
+      1: "Données ou évaluations citées ponctuellement, sans méthode contrôlable."
+      2: "Données présentes sur plusieurs sujets, mais hypothèses ou réponses aux critiques lacunaires."
+      3: "Données sourcées pour les mesures centrales et évaluations contradictoires discutées."
+      4: "Hypothèses et sources détaillées, avec discussion des principaux désaccords empiriques."
+      5: "Données, méthodes et sensibilités publiées et révisées au regard des évaluations indépendantes."
+  - id: mise-en-oeuvre
+    libelle: "Chemin de mise en œuvre"
+    description: "Étapes, calendrier, administrations et conditions pratiques."
+    bareme:
+      0: "Aucune étape de réalisation identifiable."
+      1: "Intentions sans calendrier, acteur ou étape pour les mesures centrales."
+      2: "Quelques étapes ou acteurs annoncés ; séquencement global indéterminé."
+      3: "Séquence générale et plusieurs moyens identifiés ; dépendances et capacités incomplètes."
+      4: "Calendrier, acteurs et dépendances précisés pour l'essentiel des mesures centrales."
+      5: "Plan opérationnel détaillé, étapes, responsables, moyens et conditions de suivi publiés."
+notes:
+  rn:
+    precision:
+      note: 3
+      incertitude: forte
+      justification: >-
+        Dans les 93 mesures du programme législatif 2024, 20 (21,5 %) contiennent un paramètre numérique selon le repérage de tools/solidite_stats.py ; ce comptage n'établit pas que tous les autres paramètres soient absents. La baisse de TVA énergétique et la condition de cinq années de travail désignent des objets et des publics identifiables [[RN24-001]] [[RN24-026]]. En revanche, la réforme progressive des retraites ne fixe pas tous ses paramètres dans ce document [[RN24-058]] [[decl:bardella-retraites-audit-2024-06-24]]. La note porte sur le document central de 2024, faute de programme présidentiel RN 2027 publié dans le corpus ; les livrets de 2022 et les contre-budgets apportent des précisions dont l'actualité reste incertaine.
+    chiffrage:
+      note: 3
+      incertitude: forte
+      justification: >-
+        Le contre-budget 2026 publie 75 postes dotés d'un montant dans le relevé structuré du corpus et un bilan de 36 milliards d'euros d'économies annoncées [[eval:afp-rn-cb2026-2025]]. Il chiffre notamment la baisse de TVA énergétique et le lancement de la réforme des retraites, sans détailler le coût de cette réforme à régime permanent [[contra:rn-retraites]]. La variation de 6 à 3,5 milliards d'euros pour la TVA sur 100 produits n'est pas accompagnée d'une méthode publiée dans les documents rapprochés [[contra:rn-tva-100-produits]]. Les évaluations du programme législatif 2024 ont un autre périmètre et divergent selon leurs hypothèses [[eval:montaigne-rn-global-2024]] [[eval:ifrap-rn-global-2024]] ; aucun bilan présidentiel RN 2027 écrit et contrôlable ne figure dans le corpus.
+    coherence:
+      note: 2
+      incertitude: forte
+      justification: >-
+        La promesse d'abroger la réforme des retraites et le seul financement du lancement dans le contre-budget 2026 laissent le résultat final et son coût sans arbitrage explicite [[RN24-058]] [[contra:rn-retraites]]. La TVA sur les produits essentiels change de condition et de chiffrage entre documents [[RN24-059]] [[contra:rn-tva-100-produits]]. Le livret de défense de 2022 et le programme européen de 2024 présentent des positions différentes sur la Russie [[contra:rn-russie]]. Ces écarts concernent des textes d'années et d'élections différentes : ils signalent l'incertitude du corpus disponible, sans prouver qu'un programme 2027 reprendrait toutes les anciennes positions.
+    juridique:
+      note: 2
+      incertitude: forte
+      justification: >-
+        Onze mesures sur 93 (11,8 %) du programme 2024 nomment un véhicule juridique dans leur texte ou leur détail selon le repérage lexical du script ; son tableau d'urgence en explicite plusieurs [[RN24-001]] [[RN24-010]]. Le recours éventuel à un référendum constitutionnel est indiqué pour la priorité nationale et les prestations [[RN24-025]] [[RN24-026]]. Une décision du Conseil constitutionnel de 2024 relève cependant une difficulté d'égalité pour une autre rédaction de condition d'accès aux prestations ; elle ne préjuge pas d'un futur texte [[eval:constitutionnel-rn-prestations-2024]]. Le livret immigration de 2022 propose de rester dans la CEDH tout en écartant son invocation devant le juge français, sans résoudre l'obligation internationale qui subsisterait [[contra:rn-cedh]].
+    constance:
+      note: 3
+      incertitude: moyenne
+      justification: >-
+        Dans les 32 scrutins sélectionnés par la recherche, le classement éditorial RN est de 7 « cohérent », 21 « nuance » et 4 « sans objet » ; ce choix de scrutins n'est pas un échantillon représentatif de tous les votes. Le vote sur l'annulation des réformes des retraites va dans le sens de l'engagement écrit [[vote:retraites-annulation-2024]] [[RN24-058]]. La position sur les retraites est toutefois décrite avec des paramètres et des priorités différents dans des déclarations de 2024 à 2026 [[decl:bardella-retraites-audit-2024-06-24]] [[decl:tanguy-retraites-2026-05-27]]. Ces déclarations ne constituent pas un programme présidentiel 2027 adopté.
+    donnees:
+      note: 2
+      incertitude: forte
+      justification: >-
+        Le contre-budget 2026 présente des postes chiffrés, dont la TVA énergétique et des économies liées à l'immigration, mais leurs hypothèses de calcul ne sont pas toutes détaillées [[eval:afp-rn-cb2026-2025]]. Les chiffrages indépendants de la TVA énergétique diffèrent selon l'assiette et le traitement des retours fiscaux [[eval:montaigne-rn-tva-energie-2024]] [[eval:ifrap-rn-tva-energie-2024]]. La variation du coût affiché de la TVA sur 100 produits ne s'accompagne pas d'une méthode explicative dans les documents comparés [[contra:rn-tva-100-produits]]. Les évaluations disponibles portent surtout sur 2024 ou sur des postes isolés du contre-budget, pas sur un programme RN 2027 complet.
+    mise-en-oeuvre:
+      note: 3
+      incertitude: forte
+      justification: >-
+        Le programme législatif 2024 distingue l'urgence et les réformes et affecte à certaines mesures une loi, un décret ou une circulaire [[RN24-001]] [[RN24-004]] [[RN24-015]]. Douze mesures sur 93 (12,9 %) comportent un repère temporel explicite selon le script ; la plupart ne livrent donc pas un calendrier repérable par cette méthode. La baisse de TVA prévoit un contrôle administratif identifié [[RN24-002]], tandis que la réforme des retraites renvoie encore à un audit des paramètres [[decl:bardella-retraites-audit-2024-06-24]]. Cette séquence était conçue pour une victoire législative en 2024 et ne vaut pas calendrier présidentiel 2027.
+    points_forts:
+      - "Phases et véhicules juridiques indiqués pour plusieurs mesures d'urgence de 2024 [[RN24-001]] [[RN24-004]]."
+      - "Contre-budget 2026 avec postes et bilan chiffrés [[eval:afp-rn-cb2026-2025]]."
+      - "Correspondance observable sur certains votes, notamment les retraites [[vote:retraites-annulation-2024]]."
+    points_faibles:
+      - "Pas de programme présidentiel RN 2027 écrit dans le corpus ; actualité des livrets anciens incertaine [[contra:rn-russie]]."
+      - "Coût complet des retraites et méthode de chiffrage de la TVA sur 100 produits non établis [[contra:rn-retraites]] [[contra:rn-tva-100-produits]]."
+      - "Obstacle juridique non résolu dans le livret immigration [[contra:rn-cedh]]."
+  lfi:
+    precision:
+      note: 3
+      incertitude: forte
+      justification: >-
+        L'édition 2025 de L'Avenir en commun fournit 757 mesures relevées dans le corpus, mais le chapitre 7 n'est que partiellement reconstitué ; le dénominateur décrit donc ce corpus disponible. Soixante-neuf mesures (9,1 %) contiennent un paramètre numérique selon le repérage lexical du script. La retraite à 60 ans et quarante annuités illustre un engagement paramétré [[LFI-08.08-01]], tandis que la convocation d'une Constituante décrit surtout un objectif institutionnel à préciser [[LFI-01.01-01]]. Le plan ruralités de 2026 ajoute des mesures sectorielles, mais ne comble pas le chapitre manquant du livre-programme [[LFIR-01]].
+    chiffrage:
+      note: 2
+      incertitude: forte
+      justification: >-
+        Aucune des 757 mesures de l'édition 2025 relevées dans le corpus ne porte un champ structuré « montant » ; cela ne signifie pas qu'aucun coût ne soit mentionné dans la prose. Les évaluations de 2024 chiffrent le programme du Nouveau Front populaire, coalition comprenant LFI, et non l'édition LFI 2025 [[eval:montaigne-lfi-global-2024]] [[eval:ifrap-lfi-global-2024]]. Leurs soldes divergent notamment en raison des hypothèses et périmètres retenus. L'objectif de retraite à 60 ans a un paramètre lisible, mais aucun bouclage financier propre à cette édition n'est établi dans les sources retenues [[LFI-08.08-01]] [[eval:montaigne-lfi-retraites-2024]].
+    coherence:
+      note: 3
+      incertitude: forte
+      justification: >-
+        Le corpus LFI repose principalement sur une édition 2025, ce qui réduit les écarts entre documents de dates différentes mais limite aussi le recul disponible. Le rapprochement de l'annulation des hausses du gaz et du remplacement des chaudières à gaz dans le plan logement 2026 fait apparaître une tension de prix non arbitrée [[contra:lfi-gaz]]. L'exception proposée pour la Corse n'est pas expliquée face au refus général de la différenciation territoriale [[contra:lfi-differenciation]]. Le titre sur l'annulation de la dette va plus loin que les mesures de réaménagement présentées dans sa section [[contra:lfi-dette]]. Le chapitre 7 partiel empêche de conclure à l'absence d'autres tensions.
+    juridique:
+      note: 2
+      incertitude: forte
+      justification: >-
+        Trente-cinq mesures sur 757 (4,6 %) nomment un véhicule juridique dans le repérage lexical du script ; les renvois génériques à une loi ne prouvent pas que le chemin légal soit détaillé. La Constituante et certains référendums donnent une voie institutionnelle explicite [[LFI-01.01-01]]. La demande de transformation par la BCE de dettes publiques en dettes perpétuelles suppose une décision européenne que le seul programme français ne peut garantir [[LFI-06.04-01]]. Le texte relevé ne fournit pas, pour cette mesure, un accord ou une procédure européenne obtenue ; le chapitre 7 manquant limite l'inventaire global des véhicules.
+    constance:
+      note: 3
+      incertitude: moyenne
+      justification: >-
+        Dans les 32 scrutins sélectionnés, le classement éditorial LFI est de 13 « cohérent », 18 « nuance » et 1 « sans objet » ; ces scrutins ne sont pas représentatifs de tous les votes. Les votes contre la réforme des retraites rejoignent l'engagement de retour à 60 ans [[vote:retraites-rejet-2023]] [[LFI-08.08-01]]. Le vote contre la loi globale sur les renouvelables est classé « nuance » : il ne permet pas d'attribuer au groupe une opposition à chaque filière [[vote:renouvelables-2023]]. La déclaration de 2026 évoquant 62 ans comme étape vers 60 ans précise le calendrier sans établir un abandon de la cible finale [[decl:melenchon-retraites-etapes-2026-08-27]].
+    donnees:
+      note: 2
+      incertitude: forte
+      justification: >-
+        Le [plan ruralités 2026](https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf) mobilise des constats et données sectoriels, mais ces éléments ne forment pas une méthode de calcul des effets du programme entier [[LFIR-01]]. Les estimations sur les retraites et le SMIC disponibles dans les fiches indépendantes concernent le NFP 2024 et reposent sur des hypothèses différentes [[eval:montaigne-lfi-retraites-2024]] [[eval:montaigne-lfi-smic-2024]] [[eval:ifrap-lfi-smic-2024]]. Aucun audit indépendant complet de l'édition LFI 2025 n'est identifié dans les recherches retenues. Le chapitre 7 partiel empêche également de compter toutes les données que cette édition pouvait contenir.
+    mise-en-oeuvre:
+      note: 2
+      incertitude: forte
+      justification: >-
+        Seize mesures sur 757 (2,1 %) contiennent un repère temporel détecté par le script ; ce faible taux est un indicateur lexical et ne mesure pas toutes les étapes décrites dans les chapitres. La convocation d'une Constituante identifie une première étape pour le changement institutionnel [[LFI-01.01-01]]. Pour les retraites, une déclaration de 2026 précise le passage envisagé par 62 ans avant 60 ans, sans fournir dans le document central un calendrier complet et ses conditions financières [[decl:melenchon-retraites-etapes-2026-08-27]] [[LFI-08.08-01]]. Le plan ruralités détaille des actions, mais le chapitre 7 incomplet et l'absence de séquence générale publiée dans le corpus limitent la note [[LFIR-01]].
+    points_forts:
+      - "Corpus central 2025 structuré en mesures repérables, avec des paramètres pour les retraites [[LFI-08.08-01]]."
+      - "Voie institutionnelle identifiable pour la Constituante [[LFI-01.01-01]]."
+      - "Correspondance vérifiable sur plusieurs scrutins relatifs aux retraites [[vote:retraites-rejet-2023]]."
+    points_faibles:
+      - "Pas de bilan financier propre à l'édition LFI 2025 dans les évaluations retenues [[eval:montaigne-lfi-global-2024]]."
+      - "Tension entre tarif du gaz et remplacement des chaudières non arbitrée [[contra:lfi-gaz]]."
+      - "Chemin européen de la transformation des dettes détenues par la BCE non garanti [[LFI-06.04-01]]."

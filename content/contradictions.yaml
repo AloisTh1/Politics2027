@@ -3,8 +3,9 @@
 # qui ne peuvent pas être tenus ensemble (ou deux chiffrages d'une même mesure) ; une simple
 # évolution assumée n'en est pas une. Gravité : majeure (cœur du programme ou de sa crédibilité),
 # importante (mesure significative), mineure (détail ou incohérence de forme).
-# Le corpus RN couvre 25 documents publiés entre 2022 et 2025 ; le corpus LFI repose sur un texte
-# unique (édition 2025) et trois documents annexes : la comparaison du nombre d'entrées n'a pas de sens.
+# Le corpus RN couvre 25 documents de plusieurs campagnes et exercices budgétaires ; celui de LFI
+# comprend l'édition 2025, deux plans 2026, une synthèse et le programme commun NFP 2024 (contexte).
+# Ces périmètres et périodes différents interdisent de comparer les nombres bruts de contradictions.
 
 - id: rn-cedh
   parti: rn
@@ -156,6 +157,29 @@
     ([[RN24-059]]). Un an plus tard, la mesure devient permanente et son coût net passe de 6 à
     3,5 milliards d'euros sans que la liste des produits ni la méthode de calcul soient publiées.
 
+- id: lfi-gaz
+  parti: lfi
+  titre: "Sortir du chauffage au gaz tout en annulant les hausses du prix du gaz"
+  gravite: importante
+  type: "Tension entre objectifs écologique et social"
+  a:
+    libelle: "L'Avenir en commun, édition 2025"
+    doc: lfi-aec-2025
+    page: 67
+    citation: "Annuler les hausses du tarif du gaz depuis 2017"
+  b:
+    libelle: "Plan d'investissement BTP/logement (septembre 2026)"
+    doc: lfi-plan-btp-logement
+    page: 13
+    citation: "Nous viserons le remplacement de 400 000 chaudières au fioul par an […] et de 350 000 chaudières à gaz par an"
+  explication: |
+    Le plan de 2026 reproche lui-même aux gouvernements d'avoir rendu l'électricité trop chère
+    par rapport au gaz : « La fiscalité sur l'électricité a en particulier été augmentée à un niveau
+    deux fois supérieur à celle sur le gaz » (p. 6), ce qui freine les pompes à chaleur. Annuler
+    toutes les hausses du gaz depuis 2017 creuserait cet écart de prix. Le programme NFP de 2024
+    allait dans le même sens (annuler la hausse « programmée » du gaz, [[NFP-40]]). Le plan ne dit
+    pas comment concilier les deux.
+
 - id: rn-exemple-salaire
   parti: rn
   titre: "Le même exemple chiffré, en salaire brut puis en salaire net"
@@ -193,29 +217,6 @@
     citation: "La loi de programmation prévoira que 85.000 places de prison seront disponibles à l'horizon de 2028."
   explication: |
     Deux échéances pour le même objectif dans deux documents de la même campagne.
-
-- id: lfi-gaz
-  parti: lfi
-  titre: "Sortir du chauffage au gaz tout en annulant les hausses du prix du gaz"
-  gravite: importante
-  type: "Tension entre objectifs écologique et social"
-  a:
-    libelle: "L'Avenir en commun, édition 2025"
-    doc: lfi-aec-2025
-    page: 67
-    citation: "Annuler les hausses du tarif du gaz depuis 2017"
-  b:
-    libelle: "Plan d'investissement BTP/logement (septembre 2026)"
-    doc: lfi-plan-btp-logement
-    page: 13
-    citation: "Nous viserons le remplacement de 400 000 chaudières au fioul par an […] et de 350 000 chaudières à gaz par an"
-  explication: |
-    Le plan de 2026 reproche lui-même aux gouvernements d'avoir rendu l'électricité trop chère
-    par rapport au gaz : « La fiscalité sur l'électricité a en particulier été augmentée à un niveau
-    deux fois supérieur à celle sur le gaz » (p. 6), ce qui freine les pompes à chaleur. Annuler
-    toutes les hausses du gaz depuis 2017 creuserait cet écart de prix. Le programme NFP de 2024
-    allait dans le même sens (annuler la hausse « programmée » du gaz, [[NFP-40]]). Le plan ne dit
-    pas comment concilier les deux.
 
 - id: lfi-differenciation
   parti: lfi

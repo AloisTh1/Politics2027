@@ -1,0 +1,102 @@
+# Synthèse par thème (comparateur). Une entrée par thème utilisé dans data/programmes.
+# Chaque texte : 3 à 5 phrases neutres, 2 à 4 renvois [[ID]] représentatifs, même profondeur pour les deux partis.
+
+- theme: agriculture
+  libelle: "Agriculture"
+  rn: "Le RN promet des prix rémunérateurs aux agriculteurs [[RN24-072]], que son livret de 2022 décline par une modification des lois Egalim permettant à l'État d'intervenir dans les indices de prix minimums [[RNAGR-01]]. Il exclut l'agriculture des traités de libre-échange et refuse de ratifier le CETA [[RNAGR-07]]. Sur les pesticides, ce livret exclut toute interdiction de substance active sans solution équivalente et économiquement soutenable [[RNAGR-12]]."
+  lfi: "LFI propose des prix planchers, l'interdiction des ventes à perte et une caisse de défaisance pour les dettes des exploitations converties au bio [[LFI-13.05-02]]. Elle veut refondre la politique agricole commune pour orienter les aides vers une production écologiquement soutenable [[LFI-13.05-04]]. Elle prévoit de réduire progressivement les engrais et pesticides, d'interdire immédiatement le glyphosate et les néonicotinoïdes et d'interdire l'importation de produits qui en contiennent [[LFI-13.05-07]]."
+
+- theme: classes-populaires
+  libelle: "Classes populaires et pouvoir d'achat"
+  rn: "Le RN met en avant la baisse de la TVA sur l'énergie [[RN24-001]] et la suspension de la TVA sur une centaine de produits de première nécessité en cas de forte inflation [[RN24-059]]. Il propose que les entreprises puissent augmenter les salaires de 10 %, jusqu'à trois SMIC, avec une exonération de cotisations patronales pendant trois à cinq ans [[RN24-055]]. Il propose de réserver les allocations familiales aux Français et de conditionner à cinq années de travail l'accès aux prestations non contributives comme le RSA [[RN24-026]]."
+  lfi: "LFI propose de porter le SMIC à 1 600 euros nets et d'indexer les salaires sur l'inflation dans le privé et dans la fonction publique [[LFI-08.04-01]]. Elle veut bloquer les prix de l'alimentation, de l'énergie et des carburants et interdire la « réduflation » [[LFI-09.01-01]], ainsi que revaloriser les aides personnalisées au logement de 10 % [[LFI-09.01-05]]. Elle prévoit une garantie d'emploi : tout chômeur de longue durée pourrait se voir proposer un emploi au moins au SMIC revalorisé [[LFI-08.01-01]]."
+
+- theme: ecologie
+  libelle: "Écologie et climat"
+  rn: "Le RN veut sortir du « Green deal » européen et de la taxonomie [[RNECO-01]]. Il veut renoncer à l'interdiction de la vente des voitures à moteur thermique à l'horizon 2035 [[RN24-049]] et supprimer les zones à faibles émissions [[RN24-050]]. Il propose d'abroger les interdictions et obligations liées au diagnostic de performance énergétique des logements [[RN24-051]]."
+  lfi: "LFI propose un plan de 200 milliards d'euros d'investissements écologiquement et socialement utiles [[LFI-13.01-01]]. Elle veut renationaliser la SNCF et refuser la mise en concurrence des lignes de transport [[LFI-13.02-02]], abolir l'obsolescence programmée et allonger les garanties légales des produits [[LFI-13.04-01]]. Elle demande un moratoire sur les zones à faibles émissions dans leur conception actuelle [[LFI-13.02-10]]."
+
+- theme: education
+  libelle: "Éducation et jeunesse"
+  rn: "Le RN veut recentrer l'enseignement sur les savoirs fondamentaux : sciences, français, histoire [[RN24-079]]. Son livret de 2022 limite à 20 élèves les classes de grande section et de cours préparatoire [[RNECOL-04]]. Il prévoit aussi le port d'un uniforme à l'école primaire et au collège [[RNECOL-09]] et une revalorisation des salaires des enseignants de 3 % par an pendant cinq ans [[RNECOL-15]]."
+  lfi: "LFI propose d'assurer la gratuité réelle de l'éducation publique, cantines, transports et activités périscolaires compris [[LFI-05.03-01]], et de réduire partout les effectifs par classe en priorisant les maternelles et l'éducation prioritaire [[LFI-05.03-04]]. Elle veut rétablir le baccalauréat comme diplôme national et abroger les contre-réformes du lycée, de la voie professionnelle et du collège [[LFI-05.03-27]]. Elle propose aussi d'abolir les privilèges de l'enseignement privé et d'abroger la loi Carle [[LFI-05.03-28]]."
+
+- theme: energie
+  libelle: "Énergie"
+  rn: "Le RN veut relancer le nucléaire avec le plan Marie Curie (EPR, petits réacteurs modulaires, réacteurs à neutrons rapides) [[RN24-062]] ; son livret de 2022 évoque 20 EPR2 d'ici 2045 [[RNENT-02]]. Il propose un moratoire sur l'éolien et le solaire, avec démantèlement progressif des sites éoliens en commençant par ceux en fin de vie [[RNECO-03]]. Il veut sortir des règles européennes de fixation des prix de l'électricité [[RN24-003]]."
+  lfi: "LFI planifie le passage à 100 % d'énergies renouvelables, avec la sobriété et l'efficacité énergétique pour mots d'ordre [[LFI-13.03-01]], et la sortie du nucléaire : abandon des projets d'EPR et démantèlement planifié des sites [[LFI-13.03-04]]. Elle veut remettre en place des tarifs réglementés de l'énergie calculés à partir des coûts de production [[LFI-13.03-06]]. Elle propose aussi d'annuler la libéralisation du marché de l'électricité et du gaz et de créer un pôle public de l'énergie en renationalisant EDF et Engie [[LFI-13.03-07]]."
+
+- theme: entreprises-industrie
+  libelle: "Entreprises et industrie"
+  rn: "Le RN veut poursuivre la baisse des impôts de production, dont la CVAE, pour stimuler les implantations industrielles [[RN24-056]]. Il propose un fonds souverain pour orienter l'épargne nationale vers l'industrie [[RN24-084]] et la suppression de la fiscalité sur la transmission des TPE, PME et ETI contre dix ans de conservation [[RN24-085]]. Il prévoit que l'État puisse bloquer un rachat d'entreprise menaçant un intérêt stratégique [[RNIA-04]]."
+  lfi: "LFI veut relocaliser les productions essentielles à la vie du pays [[LFI-09.02-01]] et constituer des pôles publics dans les secteurs stratégiques : médicaments, transports et mobilité, banque, énergie, armement [[LFI-02.02-05]]. Elle propose d'interdire aux entreprises de distribuer plus de dividendes que de bénéfices [[LFI-06.03-03]]. Elle prévoit aussi des droits de douane sur des critères écologiques : émissions de carbone, pollutions, empreinte hydrique [[LFI-09.02-07]]."
+
+- theme: europe-international
+  libelle: "Europe et international"
+  rn: "Le RN défend une Europe des nations : garantir le droit de veto des États et l'étendre au commerce [[RNEU-18]], refuser tout transfert de compétences vers l'Union en matière de défense et de diplomatie [[RN24-020]]. Il veut aussi baisser la contribution française au budget de l'Union [[RNEU-14]]. Son livret défense de 2022 prévoit de quitter le commandement intégré de l'OTAN [[RNDEF-01]] ; le programme de 2024 ne précise pas ce qu'il en est."
+  lfi: "LFI propose de se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même [[LFI-16.01-01]]. Elle veut utiliser le droit de veto de la France contre les nouveaux accords de libre-échange [[LFI-17.01-01]] et affirmer la supériorité de la Constitution sur le droit européen, avec un principe de non-régression sociale et écologique [[LFI-17.02-05]]. Sur l'Ukraine, elle demande un cadre diplomatique pour un cessez-le-feu, le retrait des troupes russes et une négociation de paix [[LFI-16.04-02]]."
+
+- theme: famille
+  libelle: "Famille"
+  rn: "Le RN propose une part fiscale complète dès le deuxième enfant [[RN24-069]]. L'Institut Montaigne, think-tank d'orientation libérale, estime son coût à 3,4 milliards d'euros par an, concentré sur les ménages imposables ayant au moins deux enfants [[eval:montaigne-rn-quotient-2024]]. Il prévoit de réserver les allocations familiales aux Français [[RN24-026]] et, dans son livret de 2022, de doubler l'allocation de soutien familial pour les parents isolés français [[RNFAM-04]]."
+  lfi: "LFI propose un service public de la petite enfance avec 500 000 places en crèche sur cinq ans [[LFI-05.02-01]]. Elle veut mettre fin au quotient conjugal et remplacer le quotient familial par un crédit d'impôt par enfant [[LFI-06.05-14]]. Elle prévoit de déconjugaliser et revaloriser l'allocation de soutien familial et de défiscaliser les pensions alimentaires [[LFI-10.01-08]]."
+
+- theme: feminisme
+  libelle: "Égalité femmes-hommes"
+  rn: "Les mesures relevées dans les documents du RN portent surtout sur les violences et la santé des femmes : inscription des harceleurs de rue au fichier des délinquants sexuels [[RN24-035]], jugement rapide des conjoints ou ex-conjoints violents [[RNSEC-08]], reconnaissance de l'endométriose en affection longue durée [[RN24-048]]. Aucune mesure relevée ne vise la parité ou l'égalité salariale. Le livret famille de 2022 annonce un moratoire de trois ans sur les sujets de société [[RNFAM-15]]."
+  lfi: "LFI veut imposer la parité dans les institutions politiques, administratives, économiques, syndicales et associatives [[LFI-10.01-02]] et durcir les sanctions contre les entreprises qui ne respectent pas l'égalité salariale [[LFI-10.01-03]]. Elle prévoit une loi de lutte contre le sexisme et les violences faites aux femmes, avec les 2,6 milliards d'euros de budget demandés par les associations [[LFI-10.01-01]]. Elle garantit l'effectivité du droit à l'IVG et le choix de la méthode [[LFI-10.01-12]]."
+
+- theme: finances-publiques
+  libelle: "Finances publiques et dette"
+  rn: "Le RN prévoit un grand plan de réduction de la dépense publique pour ramener les prélèvements obligatoires de 46 % à 40 % du PIB à moyen terme [[RNENT-17]]. Il compte sur un plan de rationalisation des agences de l'État [[RN24-075]] et sur la lutte contre la fraude, avec un ministère qui lui serait consacré [[RN24-036]]. Le Monde relève que les économies annoncées avant le contre-budget 2026 paraissent surestimées [[eval:monde-rn-cb2026-trajectoire-2025]]."
+  lfi: "LFI demande à l'Union européenne que la Banque centrale européenne transforme la dette des États qu'elle détient en dette perpétuelle à taux nul [[LFI-06.04-01]] et prévoit un audit citoyen de la dette publique pour préparer un réaménagement négocié [[LFI-06.04-04]]. Elle propose un plan de 200 milliards d'euros d'investissements écologiquement et socialement utiles [[LFI-13.01-01]]. Une section intitulée « annuler la dette publique » ne contient aucune mesure d'annulation : le site recense cet écart [[contra:lfi-dette]]."
+
+- theme: fiscalite
+  libelle: "Fiscalité"
+  rn: "Le RN propose de remplacer l'impôt sur la fortune immobilière par un impôt sur la fortune financière [[RN24-090]]. Il veut exonérer les donations des parents et grands-parents jusqu'à 100 000 euros par descendant tous les dix ans [[RN24-089]]. Il propose aussi de supprimer l'impôt sur le revenu des moins de 30 ans [[RN24-087]] et de poursuivre la baisse des impôts de production [[RN24-056]]."
+  lfi: "LFI propose un impôt sur le revenu à 14 tranches contre 5 aujourd'hui [[LFI-06.05-01]]. Elle veut rétablir l'ISF avec un volet climatique [[LFI-06.05-03]] et instaurer une garantie d'impôt de 2 % sur le patrimoine des milliardaires, dite taxe Zucman [[LFI-06.05-04]]. Elle veut supprimer la flat tax et imposer les revenus du capital comme ceux du travail [[LFI-06.05-05]]."
+
+- theme: immigration
+  libelle: "Immigration"
+  rn: "Le RN propose de supprimer le droit du sol [[RN24-010]] et de restreindre le regroupement familial par le durcissement des conditions [[RN24-014]]. Il veut réserver les allocations familiales aux Français, avec cinq années de travail en France exigées pour les prestations non contributives [[RN24-026]]. Il envisage de mettre en place la priorité nationale, si nécessaire par référendum constitutionnel [[RN24-025]]."
+  lfi: "LFI propose de garantir le droit du sol intégral à tous les enfants nés en France et de faciliter l'accès à la nationalité [[LFI-10.02-04]]. Elle veut abroger les dernières lois asile et immigration [[LFI-16.07-12]] et régulariser les travailleurs, les étudiants et les parents d'enfants scolarisés [[LFI-16.07-06]]. Elle garantit l'accès à l'aide médicale d'État [[LFI-16.07-13]]."
+
+- theme: institutions
+  libelle: "Institutions et démocratie"
+  rn: "Le RN propose d'inscrire dans la Constitution un référendum d'initiative citoyenne législatif [[RN24-067]] et de réserver au peuple seul, par référendum, le pouvoir de modifier la Constitution [[RN24-068]]. Son livret de 2022 prévoit un référendum sur l'immigration, la nationalité et l'identité françaises [[RNIMM-01]]. Son programme européen de 2024 prévoit un référendum pour réaffirmer la primauté de la Constitution sur les décisions des juges européens en matière d'immigration [[RNEU-08]]."
+  lfi: "LFI propose de convoquer une Assemblée constituante pour passer à une VIe République [[LFI-01.01-01]]. Elle veut élire l'Assemblée nationale à la proportionnelle [[LFI-01.02-02]] et abolir les procédures de votes forcés comme le 49.3 [[LFI-01.02-04]]. Elle veut instaurer un référendum d'initiative citoyenne permettant de révoquer des élus, de proposer ou d'abroger une loi et de modifier la Constitution [[LFI-01.04-01]]."
+
+- theme: libertes-laicite
+  libelle: "Libertés et laïcité"
+  rn: "Le RN veut une législation spécifique visant les « idéologies islamistes » [[RN24-091]], détaillée dans une proposition de loi de 2021 qui interdit leur pratique, leur manifestation et leur diffusion publique [[RNPPL-01]]. Cette proposition interdit aussi aux agents publics tout signe manifestant ostensiblement une conviction religieuse ou politique [[RNPPL-05]]. Elle permet la fermeture de lieux recevant du public, y compris de lieux de culte [[RNPPL-10]]."
+  lfi: "LFI garantit la liberté de conscience et l'application stricte de la laïcité [[LFI-01.05-01]] et propose d'abroger le concordat d'Alsace-Moselle [[LFI-01.05-02]]. Elle veut abroger la loi dite contre le « séparatisme » et le contrat d'engagement républicain [[LFI-10.02-10]]. Elle propose d'inscrire dans la Constitution le droit de mourir dans la dignité, y compris avec assistance, et l'accès garanti aux soins palliatifs [[LFI-04.01-02]]."
+
+- theme: logement
+  libelle: "Logement"
+  rn: "Les « 22 mesures » de 2022 prévoient 100 000 logements sociaux par an, dont 20 000 pour les étudiants et les jeunes travailleurs [[RN22-32]]. Elles prévoient aussi un fonds de garantie des loyers pour protéger les propriétaires [[RN22-33]]. Le RN propose une priorité nationale d'accès au logement social [[RN22-05]] et l'abrogation des interdictions et obligations liées au diagnostic de performance énergétique [[RN24-051]]."
+  lfi: "Le plan BTP et logement de septembre 2026 vise la production de 200 000 logements publics par an et de 30 000 logements pour les jeunes pendant cinq ans [[LFIB-01]]. LFI veut rehausser à 30 % le seuil de logements sociaux de la loi SRU [[LFIB-10]] et revaloriser les aides personnalisées au logement de 10 % [[LFI-09.01-05]]. La synthèse des contributions reprend aussi l'extension de l'encadrement des loyers à tout le territoire [[LFI-07-S17]]."
+
+- theme: retraites
+  libelle: "Retraites"
+  rn: "Le RN propose d'abroger la réforme de 2023 et de mettre en place un système progressif, qui incite à entrer tôt sur le marché du travail et tient compte de la pénibilité [[RN24-058]]. Son livret entreprise de 2022 décrit la cible : âge et durée de cotisation indexés sur l'âge d'entrée dans un emploi stable, jusqu'à 62 ans et 168 trimestres pour une entrée à 25 ans [[RNENT-16]]. Le contre-budget 2026 inscrit 1,5 milliard d'euros pour lancer cette réforme [[RNCB26-73]]. L'Institut Montaigne estime à 34,7 milliards d'euros en 2027 le coût d'une abrogation avec départ après 40 annuités [[eval:montaigne-rn-retraites-2024]]."
+  lfi: "LFI propose d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer la retraite à 60 ans à taux plein pour 40 annuités de cotisation [[LFI-08.08-01]]. Elle veut porter toutes les pensions d'une carrière complète (salarié, indépendant, agriculteur) au moins au niveau du SMIC revalorisé [[LFI-08.08-02]] et augmenter de 0,25 point par an le taux de cotisation vieillesse [[LFI-08.08-04]]. L'Institut Montaigne estime à 58 milliards d'euros en 2027 le coût de l'ensemble des paramètres de retraite du programme du Nouveau Front populaire de 2024 [[eval:montaigne-lfi-retraites-2024]]."
+
+- theme: sante
+  libelle: "Santé"
+  rn: "Le RN propose 2 milliards d'euros sur cinq ans pour revaloriser les salaires du personnel soignant à l'hôpital [[RNSAN-04]]. Il veut supprimer les agences régionales de santé [[RN24-043]] et plafonner à 10 % les postes administratifs dans les hôpitaux pour transférer des emplois vers les services opérationnels [[RN24-042]]. Il remplacerait l'aide médicale d'État par une aide d'urgence vitale [[RN24-011]]."
+  lfi: "LFI propose de reconstruire le service public hospitalier et d'instaurer un « 100 % Sécu » remboursant à 100 % les soins prescrits [[LFI-15.02-01]]. Elle veut rouvrir progressivement des urgences, des maternités et des EHPAD publics à moins de trente minutes de chaque Français [[LFI-15.02-02]] et créer un réseau public de centres de santé [[LFI-15.02-09]]. Elle prévoit aussi un pôle public du médicament [[LFI-15.01-06]]."
+
+- theme: securite-justice
+  libelle: "Sécurité et justice"
+  rn: "Le RN propose de rétablir les peines planchers, notamment pour les récidivistes et le trafic de drogue [[RN24-007]], et de limiter les aménagements et réductions de peine [[RN24-029]]. Son livret sécurité de 2022 prévoit une loi de programmation qui double le nombre de magistrats pour le porter à 20 000 [[RNSEC-03]]. Il veut aussi instituer une présomption de légitime défense pour les forces de l'ordre [[RN24-033]]."
+  lfi: "LFI veut refonder les activités de police pour garantir le droit à la sûreté [[LFI-04.03-01]] et mettre en place un récépissé de contrôle d'identité [[LFI-10.02-06]]. Elle propose d'interdire les tasers, les grenades de désencerclement et les lanceurs de balles de défense, pour une stratégie de maintien de l'ordre fondée sur la désescalade [[LFI-04.03-05]]. Elle veut légaliser le cannabis sous monopole d'État [[LFI-15.03-01]]."
+
+- theme: services-publics
+  libelle: "Services publics"
+  rn: "Le RN veut arrêter les fermetures de lits d'hôpital et de maternités [[RN22-30]]. Il annonce un plan de rationalisation des agences de l'État, avec la suppression des agences régionales de santé [[RN24-075]], et une baisse de 20 % des subventions de certains organismes dans le contre-budget 2026 [[RNCB26-02]]. Il propose aussi de privatiser l'audiovisuel public [[RN24-076]]."
+  lfi: "LFI propose de créer un service public de la petite enfance avec 500 000 places en crèche sur cinq ans [[LFI-05.02-01]] et un service public de la dépendance [[LFI-10.04-01]]. Elle veut constituer des pôles publics dans les secteurs stratégiques [[LFI-02.02-05]]. Son plan ruralités prévoit de stopper les fermetures de services publics de proximité [[LFIR-40]]."
+
+- theme: travail
+  libelle: "Travail et emploi"
+  rn: "Le RN propose que les entreprises puissent augmenter les salaires de 10 %, jusqu'à trois SMIC, avec une exonération des cotisations patronales supplémentaires pendant trois à cinq ans [[RN24-055]]. Il annule la réforme de l'assurance chômage de juillet 2024 [[RN24-004]] et organiserait une conférence sociale sur les salaires et les conditions de travail [[RN24-018]]. Son livret entreprise interdit la fixation de salaires minimums de branche inférieurs au SMIC [[RNENT-12]]."
+  lfi: "LFI propose de porter le SMIC à 1 600 euros nets et d'indexer les salaires sur l'inflation [[LFI-08.04-01]]. Elle veut rétablir la durée légale du travail à 35 heures, avec 32 heures dans les métiers pénibles ou de nuit [[LFI-08.02-01]], et créer une garantie d'emploi pour les chômeurs de longue durée [[LFI-08.01-01]]. Elle veut abroger les ordonnances Pénicaud et la loi El Khomri et rétablir le principe de faveur [[LFI-08.03-02]]."

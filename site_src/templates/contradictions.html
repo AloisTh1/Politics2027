@@ -5,7 +5,7 @@
 {% if not entries %}<p class="empty">En préparation.</p>{% endif %}
 {% for item in entries %}<article class="contradiction card" id="{{ item.id }}" data-filter-item="contra" data-party="{{ item.parti }}">
   <p class="eyebrow">{{ 'Rassemblement national' if item.parti == 'rn' else 'La France insoumise' }} · {{ item.gravite }}{% if item.type %} · {{ item.type }}{% endif %}</p><h2>{{ item.titre }}</h2>
-  <div class="comparison">{% for side in [item.a, item.b] %}<div class="quote-panel"><h3>{{ side.libelle }}</h3><blockquote>{{ side.citation }}</blockquote><p>Page {{ side.page }}{% if side.source_url %} · <a href="{{ side.source_url }}">Source ↗</a>{% endif %}</p></div>{% endfor %}</div>
+  <div class="comparison">{% for side in [item.a, item.b] %}<div class="quote-panel"><h3>{{ side.libelle }}</h3><blockquote>{{ side.citation }}</blockquote><p>{{ side.source_label }}{% if side.source_url %} · <a href="{{ side.source_url }}">Source ↗</a>{% endif %}{% if side.detail_url %} · <a href="{{ side.detail_url }}">Fiche détaillée</a>{% endif %}</p></div>{% endfor %}</div>
   <div class="prose">{{ item.explication_html|safe }}</div>
 </article>{% endfor %}
 {% endblock %}

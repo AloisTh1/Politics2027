@@ -69,6 +69,30 @@ marqué `verifie: false` avec une note. Pas d'adjectifs de jugement : on décrit
   note: "En quoi la déclaration diffère du texte écrit."
 ```
 
+## `content/contradictions.yaml` — engagements incompatibles
+
+Liste ordonnée par gravité (`majeure`, `importante`, `mineure`). Chaque entrée contient `id`,
+`parti`, `titre`, `gravite`, `type`, `a`, `b` et `explication`. Le côté `a` cite un document du
+programme avec `libelle`, `doc`, `page` et `citation`. Le côté `b` a les mêmes champs, ou bien
+`libelle`, `vote: <id>` et `citation`, ou bien `libelle`, `decl: <id>` et `citation`. Les identifiants
+`vote` et `decl` doivent exister dans les fichiers `research` correspondants. La source en ligne
+est déduite du manifeste pour un document, de `scrutin.url` pour un vote et de `url` pour une
+déclaration. Une seule référence (`doc`, `vote` ou `decl`) est admise par côté ; `page` est exigée
+avec `doc`. Pour un vote, la citation doit décrire exactement le scrutin et le sens du vote du
+groupe, sans lui prêter une motivation. Une divergence sur un texte entier ou une évolution
+expliquée ne suffit pas à établir une contradiction.
+
+```yaml
+- id: exemple-vote
+  parti: rn
+  titre: "…"
+  gravite: importante
+  type: "Écrit et vote"
+  a: {libelle: "Programme", doc: rn-programme-2024, page: 8, citation: "…"}
+  b: {libelle: "Scrutin public", vote: identifiant-du-vote, citation: "…"}
+  explication: "…"
+```
+
 ## `research/chiffres-2026.yaml` — chiffres officiels de référence
 
 ```yaml
