@@ -1,0 +1,59 @@
+outils:
+  - nom: Python
+    version: "3.13"
+    usage: "Chaîne de collecte, d'extraction et de génération du site."
+    url: https://www.python.org/
+  - nom: requests
+    usage: "Téléchargement des documents et des pages web."
+    url: https://requests.readthedocs.io/
+  - nom: Beautiful Soup
+    usage: "Découpage des pages web (blocs « mesure » du site de L'Avenir en commun, 22 mesures du RN)."
+    url: https://www.crummy.com/software/BeautifulSoup/
+  - nom: Poppler (pdftotext, pdfinfo, pdftoppm)
+    usage: "Extraction du texte des PDF page par page, en ordre de lecture et en mise en page ; rendu des pages en image pour contrôle visuel."
+    url: https://poppler.freedesktop.org/
+  - nom: Pillow
+    usage: "Planches-contacts des pages sans texte (couvertures, intercalaires) pour vérification visuelle."
+    url: https://python-pillow.org/
+  - nom: Common Crawl (index CDX et fichiers WARC)
+    usage: "Récupération de l'édition 2025 de L'Avenir en commun, retirée du site de la campagne ; chaque page est rattachée à son enregistrement d'archive."
+    url: https://commoncrawl.org/
+  - nom: API de disponibilité de l'Internet Archive
+    usage: "Recherche de captures des pages retirées."
+    url: https://archive.org/help/wayback_api.php
+  - nom: OpenFisca-France
+    version: "176.1.2"
+    usage: "Barèmes socio-fiscaux 2026 et vérification des calculs du simulateur."
+    url: https://openfisca.org/
+  - nom: PyYAML, Jinja2, Python-Markdown
+    usage: "Données structurées des programmes et génération des pages du site."
+    url: https://jinja.palletsprojects.com/
+  - nom: Source Serif 4 et Source Sans 3
+    usage: "Polices du site (licence SIL Open Font License), hébergées avec le site via les paquets @fontsource-variable."
+    url: https://fontsource.org/
+  - nom: Playwright et Chromium
+    usage: "Captures d'écran de contrôle du site sur ordinateur et sur mobile."
+    url: https://playwright.dev/
+  - nom: Claude Code (Anthropic)
+    usage: "Assistant de programmation utilisé pour écrire la chaîne de traitement, lire et cataloguer les documents, mener les recherches documentaires (avec des sous-agents) et rédiger les analyses. Toutes les citations renvoient aux documents sources pour vérification."
+    url: https://www.anthropic.com/claude-code
+  - nom: Recherche et lecture web
+    usage: "Moteur de recherche et lecteur de pages intégrés à l'assistant, pour les votes, déclarations et évaluations."
+
+exclusions:
+  - site: francebudget.fr
+    raison: "Contenus non sourcés sur les programmes, auteur non identifiable."
+  - site: votons-2027.fr
+    raison: "Agrégateur de « mesures » sans renvoi vérifiable aux documents des partis."
+  - site: le-francais-moyen.com
+    raison: "Contenus non sourcés, apparemment générés automatiquement."
+  - site: candidats-presidentielle-2027.fr
+    raison: "Agrégateur sans sources ni auteur identifiable."
+  - site: parlons-politique.fr
+    raison: "Contenus non sourcés."
+  - site: ecostylia
+    raison: "Site de contenus génériques, sans sources."
+  - site: elyseescope.com
+    raison: "Articles faiblement sourcés et formulations génériques ; chiffres non retrouvés dans les documents des partis."
+  - site: europe-infos.fr
+    raison: "Contenus non sourcés."

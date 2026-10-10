@@ -1,0 +1,261 @@
+# Contradictions relevées dans les documents des deux partis.
+# Règles : citations exactes avec document et page ; une « contradiction » oppose deux engagements
+# qui ne peuvent pas être tenus ensemble (ou deux chiffrages d'une même mesure) ; une simple
+# évolution assumée n'en est pas une. Gravité : majeure (cœur du programme ou de sa crédibilité),
+# importante (mesure significative), mineure (détail ou incohérence de forme).
+# Le corpus RN couvre 25 documents publiés entre 2022 et 2025 ; le corpus LFI repose sur un texte
+# unique (édition 2025) et trois documents annexes : la comparaison du nombre d'entrées n'a pas de sens.
+
+- id: rn-cedh
+  parti: rn
+  titre: "Rester dans la Convention européenne des droits de l'homme tout en interdisant de l'invoquer"
+  gravite: majeure
+  type: "Contradiction juridique interne"
+  a:
+    libelle: "Livret « Contrôle de l'immigration » (présidentielle 2022)"
+    doc: rn-livret-immigration
+    page: 22
+    citation: "Il permet d'éviter la dénonciation pure et simple de la Convention européenne […] alors qu'il suffit de rendre inapplicables les stipulations qui concernent l'immigration."
+  b:
+    libelle: "Même livret, projet de loi annexé"
+    doc: rn-livret-immigration
+    page: 43
+    citation: "aucune stipulation des engagements internationaux mentionnés ci-après ne peut être invoquée devant une juridiction française pour contester un acte réglementaire ou une décision individuelle pris sur le fondement du présent code […] : 1° La convention européenne de sauvegarde des droits de l'Homme"
+  explication: |
+    Un État partie à la Convention reste tenu de la respecter et d'exécuter les arrêts de la Cour
+    de Strasbourg (article 46), quel que soit son droit interne, et doit offrir un recours effectif
+    devant ses juges (article 13). Interdire aux juges français d'appliquer la Convention en matière
+    d'immigration ne supprime donc pas l'obligation : cela déplace le contentieux à Strasbourg, où
+    la France serait condamnée. Le livret écarte la dénonciation de la Convention, seule voie
+    juridiquement cohérente avec son objectif, sans résoudre ce conflit. Voir aussi [[RNIMM-30]] :
+    tout juge devrait « laisser inappliquées » les règles internationales contraires à la Constitution.
+
+- id: rn-russie
+  parti: rn
+  titre: "Une alliance avec la Russie toujours en ligne, contredite par le programme européen de 2024"
+  gravite: majeure
+  type: "Position abandonnée sans retrait du document"
+  a:
+    libelle: "Livret « La défense » (présidentielle 2022, rédigé avant l'invasion de l'Ukraine)"
+    doc: rn-livret-defense
+    page: 6
+    citation: "Parallèlement et sans crainte des sanctions américaines, il sera recherché une alliance avec la Russie sur certains sujets de fond : la sécurité européenne qui ne peut exister sans elle, la lutte contre le terrorisme"
+  b:
+    libelle: "Programme des élections européennes 2024"
+    doc: rn-europeennes-2024
+    page: 8
+    citation: "Aux portes orientales de l'Europe, la Russie viole le droit international et provoque une révision de l'ordre international."
+  explication: |
+    Le RN a changé de discours après février 2022, mais le livret de défense qui prône une
+    « alliance avec la Russie » et le retrait du commandement intégré de l'OTAN « dès 2022 »
+    ([[RNDEF-01]]) est toujours servi par le site du parti au 10 octobre 2026, sans mise à jour ni
+    mention d'abandon (il n'apparaît plus dans la liste des livrets). Le lecteur ne peut pas savoir
+    quelle doctrine s'appliquerait : ni le programme de 2024 ni les contre-budgets ne précisent le
+    sort de la sortie du commandement intégré.
+
+- id: rn-retraites
+  parti: rn
+  titre: "Abroger la réforme des retraites, mais pour 1,5 milliard d'euros"
+  gravite: majeure
+  type: "Promesse et chiffrage incompatibles"
+  a:
+    libelle: "Programme des législatives de juin 2024"
+    doc: rn-programme-2024
+    page: 8
+    citation: "Abroger la réforme des retraites de Macron et mettre en place un système de retraites progressif, qui incite les jeunes à entrer de manière précoce sur le marché du travail"
+  b:
+    libelle: "Contre-budget 2026 du groupe RN (octobre 2025)"
+    doc: rn-contre-budget-2026
+    page: 7
+    citation: "Lancement de la réforme des retraites MLP — 1,5 Md€"
+  explication: |
+    Le contre-budget ne finance que le « lancement » d'une réforme dont le livret entreprises décrit
+    la cible : un âge et une durée indexés sur l'âge du premier emploi stable, jusqu'à « 62 ans et
+    168 trimestres » pour une entrée à 25 ans ([[RNENT-16]]), soit 42 années de cotisation. Ce n'est
+    ni le statu quo d'avant 2023 promis en 2022 (« Refuser tout allongement de l'âge de départ »,
+    [[RN22-23]]), ni une abrogation pure et simple : le calendrier et le coût complet de la réforme
+    ne figurent dans aucun document.
+
+- id: rn-donnees
+  parti: rn
+  titre: "Défendre la minimisation des données en 2022, la juger « excessive » en 2025"
+  gravite: importante
+  type: "Revirement non expliqué"
+  a:
+    libelle: "Livret « Le numérique » (présidentielle 2022)"
+    doc: rn-livret-numerique
+    page: 11
+    citation: "je souhaite que le principe de minimisation des données soit appliqué […] Les principes régissant la collecte de ces données personnelles seront renforcés en facilitant l'intelligibilité et le paramétrage du consentement"
+  b:
+    libelle: "Livret intelligence artificielle du groupe RN (février 2025)"
+    doc: rn-livret-ia
+    page: 14
+    citation: "Le RGPD, dans sa version actuelle, impose des contraintes excessives […] telles que l'obligation de consentement explicite pour l'utilisation des données personnelles ou encore le principe de minimisation des données."
+  explication: |
+    Les deux textes se rejoignent sur un point : favoriser les prestataires européens. Mais le
+    second propose d'autoriser l'entraînement des modèles « sans obligation de recueillir un
+    consentement individuel » ([[RNIA-06]]), à rebours du renforcement du consentement promis en 2022.
+
+- id: rn-abattage
+  parti: rn
+  titre: "Abattage rituel : interdiction ou généralisation progressive de l'étourdissement réversible ?"
+  gravite: importante
+  type: "Contradiction entre deux livrets de la même campagne"
+  a:
+    libelle: "Livret « La cause animale » (présidentielle 2022)"
+    doc: rn-livret-animaux
+    page: 8
+    citation: "L'abattage rituel sans étourdissement préalable sera interdit."
+  b:
+    libelle: "Livret « L'agriculture » (présidentielle 2022)"
+    doc: rn-livret-agriculture
+    page: 16
+    citation: "Concernant l'abattage rituel, l'État mettra en place un nouveau cadre juridique en généralisant progressivement l'étourdissement réversible."
+  explication: |
+    Le premier livret annonce une interdiction, le second une transition progressive vers une
+    technique (l'étourdissement réversible) que certaines autorités religieuses acceptent. Les deux
+    sont toujours en ligne ; aucun document ultérieur ne tranche.
+
+- id: rn-pesticides
+  parti: rn
+  titre: "Pesticides : autorisations conditionnées à la biodiversité, ou aucune interdiction sans alternative ?"
+  gravite: importante
+  type: "Contradiction entre deux livrets de la même campagne"
+  a:
+    libelle: "Livret « L'écologie » (présidentielle 2022)"
+    doc: rn-livret-ecologie
+    page: 9
+    citation: "Les autorisations d'emploi par produit et par quantité des engrais, pesticides, herbicides, etc. seront subordonnées à cette évolution annuelle des espèces témoin (abeilles, oiseaux insectivores, chauve-souris, etc.)"
+  b:
+    libelle: "Livret « L'agriculture » (présidentielle 2022)"
+    doc: rn-livret-agriculture
+    page: 14
+    citation: "Il n'y aura désormais plus d'interdiction de substances actives sans solution équivalente et économiquement soutenable."
+  explication: |
+    Si les populations d'espèces témoin déclinent, le premier livret impose de restreindre les
+    autorisations ; le second exclut toute interdiction tant qu'il n'existe pas d'alternative
+    « économiquement soutenable ». Les deux règles ne peuvent pas s'appliquer ensemble.
+
+- id: rn-tva-100-produits
+  parti: rn
+  titre: "TVA sur 100 produits : conditionnelle en 2024, 6 puis 3,5 milliards dans les contre-budgets"
+  gravite: importante
+  type: "Chiffrage instable d'une même mesure"
+  a:
+    libelle: "Contre-budget 2025 (octobre 2024)"
+    doc: rn-contre-budget-2025
+    page: 3
+    citation: "Baisser la TVA sur les produits de premières nécessités (7 Mds€ auquel se déduit 1 Md€ de retour TVA)"
+  b:
+    libelle: "Contre-budget 2026 (octobre 2025)"
+    doc: rn-contre-budget-2026
+    page: 7
+    citation: "Suppression TVA 100 produits premières nécessité — 3,5 Md€"
+  explication: |
+    Le programme de juin 2024 ne prévoyait cette suspension qu'« en cas de forte inflation »
+    ([[RN24-059]]). Un an plus tard, la mesure devient permanente et son coût net passe de 6 à
+    3,5 milliards d'euros sans que la liste des produits ni la méthode de calcul soient publiées.
+
+- id: rn-exemple-salaire
+  parti: rn
+  titre: "Le même exemple chiffré, en salaire brut puis en salaire net"
+  gravite: mineure
+  type: "Incohérence de chiffrage"
+  a:
+    libelle: "Livret « Le tourisme » (présidentielle 2022)"
+    doc: rn-livret-tourisme
+    page: 20
+    citation: "pour un salarié touchant aujourd'hui 24 000 € bruts annuels, dans le système actuel, l'entreprise devrait payer 2 100 € de cotisations patronales supplémentaires par an"
+  b:
+    libelle: "Livret « La France entreprend » (septembre 2024)"
+    doc: rn-livret-entreprise
+    page: 21
+    citation: "pour un salarié à 24 000 € nets annuels, l'entreprise réalisera une économie de 2 100 € de cotisations patronales"
+  explication: |
+    24 000 € nets correspondent à environ 31 000 € bruts : les cotisations en jeu ne peuvent pas être
+    identiques dans les deux cas. Le détail est mineur, mais il illustre l'absence de méthode de
+    chiffrage publiée pour la mesure phare sur les salaires ([[RNENT-11]]).
+
+- id: rn-prisons
+  parti: rn
+  titre: "85 000 places de prison : en 2027 ou en 2028 ?"
+  gravite: mineure
+  type: "Incohérence de calendrier"
+  a:
+    libelle: "Les 22 mesures (présidentielle 2022)"
+    doc: rn-22-mesures
+    page: 1
+    citation: "Atteindre 85 000 places de prison en 2027."
+  b:
+    libelle: "Livret « La sécurité » (présidentielle 2022)"
+    doc: rn-livret-securite
+    page: 9
+    citation: "La loi de programmation prévoira que 85.000 places de prison seront disponibles à l'horizon de 2028."
+  explication: |
+    Deux échéances pour le même objectif dans deux documents de la même campagne.
+
+- id: lfi-gaz
+  parti: lfi
+  titre: "Sortir du chauffage au gaz tout en annulant les hausses du prix du gaz"
+  gravite: importante
+  type: "Tension entre objectifs écologique et social"
+  a:
+    libelle: "L'Avenir en commun, édition 2025"
+    doc: lfi-aec-2025
+    page: 67
+    citation: "Annuler les hausses du tarif du gaz depuis 2017"
+  b:
+    libelle: "Plan d'investissement BTP/logement (septembre 2026)"
+    doc: lfi-plan-btp-logement
+    page: 13
+    citation: "Nous viserons le remplacement de 400 000 chaudières au fioul par an […] et de 350 000 chaudières à gaz par an"
+  explication: |
+    Le plan de 2026 reproche lui-même aux gouvernements d'avoir rendu l'électricité trop chère
+    par rapport au gaz : « La fiscalité sur l'électricité a en particulier été augmentée à un niveau
+    deux fois supérieur à celle sur le gaz » (p. 6), ce qui freine les pompes à chaleur. Annuler
+    toutes les hausses du gaz depuis 2017 creuserait cet écart de prix. Le programme NFP de 2024
+    allait dans le même sens (annuler la hausse « programmée » du gaz, [[NFP-40]]). Le plan ne dit
+    pas comment concilier les deux.
+
+- id: lfi-differenciation
+  parti: lfi
+  titre: "Interdire la « différenciation » territoriale au nom de l'égalité, sauf pour la Corse"
+  gravite: mineure
+  type: "Exception non justifiée"
+  a:
+    libelle: "L'Avenir en commun, édition 2025"
+    doc: lfi-aec-2025
+    page: 62
+    citation: "Interdire le « droit à la différenciation » – qui permettrait que des règles différentes s'appliquent selon les territoires – afin de garantir l'égalité entre les citoyens"
+  b:
+    libelle: "L'Avenir en commun, édition 2025"
+    doc: lfi-aec-2025
+    page: 8
+    citation: "Donner à la Corse le statut garanti par l'article 74 de la Constitution"
+  explication: |
+    L'article 74 est le statut d'autonomie des collectivités d'outre-mer : il permet précisément des
+    règles propres au territoire. L'exception insulaire peut se défendre (le programme réserve aussi
+    le statut de collectivité unique aux îles et aux outre-mer, [[LFI-12.02-05]]), mais elle n'est
+    pas argumentée face au principe d'égalité invoqué deux chapitres plus loin.
+
+- id: lfi-dette
+  parti: lfi
+  titre: "« Annuler la dette publique » : un titre que les mesures ne suivent pas"
+  gravite: mineure
+  type: "Écart entre l'affichage et le contenu"
+  a:
+    libelle: "L'Avenir en commun, édition 2025 (titre de section)"
+    doc: lfi-aec-2025
+    page: 34
+    citation: "Refuser le chantage : annuler la dette publique"
+  b:
+    libelle: "Même section"
+    doc: lfi-aec-2025
+    page: 34
+    citation: "Réaliser un audit citoyen de la dette publique pour déterminer la part illégitime et préparer un réaménagement négocié de la dette publique"
+  explication: |
+    Aucune mesure de la section n'annule la dette : elles proposent de transformer la dette détenue
+    par la BCE en dette perpétuelle à taux nul ([[LFI-06.04-01]]), de faire racheter la dette par
+    la BCE et de « réaménager » le reste après audit. Le lecteur qui s'arrête au titre comprend
+    autre chose que ce que le programme propose ; la faisabilité de ces mesures au regard des
+    traités européens est discutée dans la grille de solidité.
